@@ -8,6 +8,12 @@ The [Spacegray](https://github.com/zetavg/spacegray) theme with the [Input](http
 
 ## Installation
 
+### Set Icon Themes
+
+After the installation, click the "Set File Icon Theme" and "Set Product Icon Theme" buttons on the extension page to set icon themes to "Spacegray" and "Carbon Icons (Spacegray)" respectively.
+
+![](https://raw.githubusercontent.com/zetavg/spacegray-input-vscode/main/screenshots/Set-Icon-Themes.png)
+
 ### Install the Input Font
 
 The font used in this theme is the [Input](https://input.djr.com) font. To install it, download the font files from its [website](https://input.djr.com) and install them on your system.
