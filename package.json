@@ -39,6 +39,7 @@
   "devDependencies": {
     "postcss": "^8.4.32",
     "postcss-cli": "^11.0.0",
+    "postcss-import": "^15.1.0",
     "postcss-mixins": "^9.0.4",
     "postcss-nested": "^6.0.1",
     "postcss-prettify": "^0.3.4"
