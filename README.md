@@ -24,8 +24,8 @@ Once the extension is installed, you need to configure it to load the custom CSS
 ```
 
 <details>
-<summary>Or, you can also load the CSS files individually</summary>
-```json
+<summary>Or, you can also load the CSS files individually...</summary>
+<pre>
 {
     "vscode_custom_css.imports": [
         "https://raw.githubusercontent.com/zetavg/spacegray-input-vscode/main/themes/css/font.css",
@@ -38,7 +38,7 @@ Once the extension is installed, you need to configure it to load the custom CSS
         "https://raw.githubusercontent.com/zetavg/spacegray-input-vscode/main/themes/css/no-pointers.css"
     ]
 }
-```
+</pre>
 </details>
 
 Finally, run the **Custom CSS and JS: Reload Custom CSS and JS** command from the Command Palette (`Ctrl+Shift+P` or `⇧⌘P`) to load the custom CSS styles and reload VSCode.
