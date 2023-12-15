@@ -1,73 +1,88 @@
 .mac {
-    font-family: InputSansCondensed-Light, -apple-system, BlinkMacSystemFont, sans-serif;
+    font-family: "Input Sans Condensed", -apple-system, BlinkMacSystemFont, sans-serif;
+    font-weight: 300;
 }
 
 .mac:lang(zh-Hans) {
-    font-family: InputSansCondensed-Light, -apple-system, BlinkMacSystemFont, PingFang SC, Hiragino Sans GB, sans-serif;
+    font-family: "Input Sans Condensed", -apple-system, BlinkMacSystemFont, PingFang SC, Hiragino Sans GB, sans-serif;
+    font-weight: 300;
 }
 
 .mac:lang(zh-Hant) {
-    font-family: InputSansCondensed-Light, -apple-system, BlinkMacSystemFont, PingFang TC, sans-serif;
+    font-family: "Input Sans Condensed", -apple-system, BlinkMacSystemFont, PingFang TC, sans-serif;
+    font-weight: 300;
 }
 
 .mac:lang(ja) {
-    font-family: InputSansCondensed-Light, -apple-system, BlinkMacSystemFont, Hiragino Kaku Gothic Pro, sans-serif;
+    font-family: "Input Sans Condensed", -apple-system, BlinkMacSystemFont, Hiragino Kaku Gothic Pro, sans-serif;
+    font-weight: 300;
 }
 
 .mac:lang(ko) {
-    font-family: InputSansCondensed-Light, -apple-system, BlinkMacSystemFont, Nanum Gothic, Apple SD Gothic Neo, AppleGothic, sans-serif;
+    font-family: "Input Sans Condensed", -apple-system, BlinkMacSystemFont, Nanum Gothic, Apple SD Gothic Neo, AppleGothic, sans-serif;
+    font-weight: 300;
 }
 
 .windows {
-    font-family: InputSansCondensed-Light, Segoe WPC, Segoe UI, sans-serif;
+    font-family: "Input Sans Condensed", Segoe WPC, Segoe UI, sans-serif;
+    font-weight: 300;
 }
 
 .windows:lang(zh-Hans) {
-    font-family: InputSansCondensed-Light, Segoe WPC, Segoe UI, Microsoft YaHei, sans-serif;
+    font-family: "Input Sans Condensed", Segoe WPC, Segoe UI, Microsoft YaHei, sans-serif;
+    font-weight: 300;
 }
 
 .windows:lang(zh-Hant) {
-    font-family: InputSansCondensed-Light, Segoe WPC, Segoe UI, Microsoft Jhenghei, sans-serif;
+    font-family: "Input Sans Condensed", Segoe WPC, Segoe UI, Microsoft Jhenghei, sans-serif;
+    font-weight: 300;
 }
 
 .windows:lang(ja) {
-    font-family: InputSansCondensed-Light, Segoe WPC, Segoe UI, Yu Gothic UI, Meiryo UI, sans-serif;
+    font-family: "Input Sans Condensed", Segoe WPC, Segoe UI, Yu Gothic UI, Meiryo UI, sans-serif;
+    font-weight: 300;
 }
 
 .windows:lang(ko) {
-    font-family: InputSansCondensed-Light, Segoe WPC, Segoe UI, Malgun Gothic, Dotom, sans-serif;
+    font-family: "Input Sans Condensed", Segoe WPC, Segoe UI, Malgun Gothic, Dotom, sans-serif;
+    font-weight: 300;
 }
 
 .linux {
-    font-family: InputSansCondensed-Light, system-ui, Ubuntu, Droid Sans, sans-serif;
+    font-family: "Input Sans Condensed", system-ui, Ubuntu, Droid Sans, sans-serif;
+    font-weight: 300;
 }
 
 .linux:lang(zh-Hans) {
-    font-family: InputSansCondensed-Light, system-ui, Ubuntu, Droid Sans, Source Han Sans SC, Source Han Sans CN, Source Han Sans, sans-serif;
+    font-family: "Input Sans Condensed", system-ui, Ubuntu, Droid Sans, Source Han Sans SC, Source Han Sans CN, Source Han Sans, sans-serif;
+    font-weight: 300;
 }
 
 .linux:lang(zh-Hant) {
-    font-family: InputSansCondensed-Light, system-ui, Ubuntu, Droid Sans, Source Han Sans TC, Source Han Sans TW, Source Han Sans, sans-serif;
+    font-family: "Input Sans Condensed", system-ui, Ubuntu, Droid Sans, Source Han Sans TC, Source Han Sans TW, Source Han Sans, sans-serif;
+    font-weight: 300;
 }
 
 .linux:lang(ja) {
-    font-family: InputSansCondensed-Light, system-ui, Ubuntu, Droid Sans, Source Han Sans J, Source Han Sans JP, Source Han Sans, sans-serif;
+    font-family: "Input Sans Condensed", system-ui, Ubuntu, Droid Sans, Source Han Sans J, Source Han Sans JP, Source Han Sans, sans-serif;
+    font-weight: 300;
 }
 
 .linux:lang(ko) {
-    font-family: InputSansCondensed-Light, system-ui, Ubuntu, Droid Sans, Source Han Sans K, Source Han Sans JR, Source Han Sans, UnDotum, FBaekmuk Gulim, sans-serif;
+    font-family: "Input Sans Condensed", system-ui, Ubuntu, Droid Sans, Source Han Sans K, Source Han Sans JR, Source Han Sans, UnDotum, FBaekmuk Gulim, sans-serif;
+    font-weight: 300;
 }
 
 .mac {
-    --monaco-monospace-font: InputMono-ExtraLight, "SF Mono", Monaco, Menlo, Courier, monospace
+    --monaco-monospace-font: InputMono-ExtraLight, "Input Mono", "SF Mono", Monaco, Menlo, Courier, monospace;
 }
 
 .windows {
-    --monaco-monospace-font: InputMono-ExtraLight, Consolas, "Courier New", monospace
+    --monaco-monospace-font: InputMono-ExtraLight, "Input Mono", Consolas, "Courier New", monospace;
 }
 
 .linux {
-    --monaco-monospace-font: InputMono-ExtraLight, "Ubuntu Mono", "Liberation Mono", "DejaVu Sans Mono", "Courier New", monospace
+    --monaco-monospace-font: InputMono-ExtraLight, "Input Mono", "Ubuntu Mono", "Liberation Mono", "DejaVu Sans Mono", "Courier New", monospace;
 }
 
 @define-mixin font $font-family {
@@ -146,7 +161,8 @@
 */
 
 .monaco-button:not(.codicon) {
-    @mixin font InputSansNarrow-Medium;
+    @mixin font "Input Sans Narrow";
+    font-weight: 500;
 }
 
 .monaco-text-button {
@@ -154,7 +170,8 @@
 }
 
 .action-label:not(.codicon) {
-    @mixin font InputSansNarrow-Medium;
+    @mixin font "Input Sans Narrow";
+    font-weight: 500;
 }
 
 /**
@@ -162,12 +179,14 @@
 */
 
 .monaco-hover-content {
-    @mixin font InputMonoNarrow-Light;
+    @mixin font "Input Mono Narrow";
+    font-weight: 300;
     /* @mixin font InputMonoNarrow-Light; */
 }
 
 .monaco-workbench .part.statusbar {
-    @mixin font InputSansCondensed-ExtraLight;
+    @mixin font "Input Sans Condensed";
+    font-weight: 200;
     font-size: 11px;
 }
 
@@ -176,20 +195,24 @@
 }
 
 .monaco-list-row .label-description {
-    @mixin font InputSansCondensed-ExtraLight;
+    @mixin font "Input Sans Condensed";
+    font-weight: 200;
 }
 
 .setting-item-title .setting-item-cat-label-container {
-    font-family: InputSansNarrow-Regular;
+    @mixin font "Input Sans Narrow";
+    font-weight: 400;
 }
 
 .action-widget .monaco-list-row.group-header {
-    font-family: InputSansNarrow-Medium;
+    @mixin font "Input Sans Narrow";
+    font-weight: 500;
     font-weight: initial;
 }
 
 .extension-list-item .footer .action-label {
-    @mixin font InputSansCondensed-Medium;
+    @mixin font "Input Sans Condensed";
+    font-weight: 500;
 }
 
 .extension-list-item .footer .publisher-name {
@@ -201,7 +224,8 @@
 */
 
 .tabs .tab {
-    @mixin font InputSansCondensed-ExtraLight;
+    @mixin font "Input Sans Condensed";
+    font-weight: 200;
 }
 
 /**
@@ -209,12 +233,14 @@
 */
 
 .sidebar .title {
-    @mixin font InputSansCondensed-Medium;
+    @mixin font "Input Sans Condensed";
+    font-weight: 500;
 }
 
 .sidebar .pane-body,
 .sidebar .monaco-scrollable-element .monaco-list-row {
-    @mixin font InputSansCondensed-ExtraLight;
+    @mixin font "Input Sans Condensed";
+    font-weight: 200;
 }
 
 /**
@@ -223,7 +249,8 @@
 
 .gettingStartedCategoriesContainer {
     h1, h2, h3, h4, .subtitle {
-        font-family: InputSansNarrow-Medium;
+        font-family: "Input Sans Narrow";
+        font-weight: 500;
     }
 }
 
@@ -232,12 +259,14 @@
 */
 
 .dialog-message-text {
-    font-family: InputSansNarrow-Regular;
+    font-family: "Input Sans Narrow";
+    font-weight: 400;
 }
 
 .dialog-message-detail,
 .dialog-message-body {
-    font-family: InputSansNarrow-Light;
+    font-family: "Input Sans Narrow";
+    font-weight: 300;
 }
 
 /**
@@ -245,12 +274,14 @@
 */
 
 .notification-list-item-source {
-    @mixin font InputSansCondensed-ExtraLight;
+    @mixin font "Input Sans Condensed";
+    font-weight: 200;
     opacity: 0.5;
 }
 
 .notification-list-item-message {
-    @mixin font InputSansNarrow-Light;
+    @mixin font "Input Sans Narrow";
+    font-weight: 300;
 }
 
 /**
@@ -258,11 +289,13 @@
 */
 
 .monaco-list[aria-label="Chat"] .interactive-item-container .header {
-    @mixin font InputSansNarrow-Medium;
+    @mixin font "Input Sans Narrow";
+    font-weight: 500;
     color: var(--vscode-search-resultsInfoForeground);
 }
 
 .monaco-list[aria-label="Chat"] .interactive-item-container .value {
-    @mixin font InputSansCondensed-Light;
+    @mixin font "Input Sans Condensed";
+    font-weight: 300;
     color: var(--vscode-search-resultsInfoForeground);
 }
