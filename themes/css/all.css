@@ -88,128 +88,128 @@
 */
 
 .mac .monaco-button:not(.codicon) {
-    font-family: InputSansNarrow-Medium, -apple-system, BlinkMacSystemFont, sans-serif;
-  }
+  font-family: InputSansNarrow-Medium, -apple-system, BlinkMacSystemFont, sans-serif;
+}
 
 .mac:lang(zh-Hans) .monaco-button:not(.codicon) {
-    font-family: InputSansNarrow-Medium, -apple-system, BlinkMacSystemFont, PingFang SC, Hiragino Sans GB, sans-serif;
-  }
+  font-family: InputSansNarrow-Medium, -apple-system, BlinkMacSystemFont, PingFang SC, Hiragino Sans GB, sans-serif;
+}
 
 .mac:lang(zh-Hant) .monaco-button:not(.codicon) {
-    font-family: InputSansNarrow-Medium, -apple-system, BlinkMacSystemFont, PingFang TC, sans-serif;
-  }
+  font-family: InputSansNarrow-Medium, -apple-system, BlinkMacSystemFont, PingFang TC, sans-serif;
+}
 
 .mac:lang(ja) .monaco-button:not(.codicon) {
-    font-family: InputSansNarrow-Medium, -apple-system, BlinkMacSystemFont, Hiragino Kaku Gothic Pro, sans-serif;
-  }
+  font-family: InputSansNarrow-Medium, -apple-system, BlinkMacSystemFont, Hiragino Kaku Gothic Pro, sans-serif;
+}
 
 .mac:lang(ko) .monaco-button:not(.codicon) {
-    font-family: InputSansNarrow-Medium, -apple-system, BlinkMacSystemFont, Nanum Gothic, Apple SD Gothic Neo, AppleGothic, sans-serif;
-  }
+  font-family: InputSansNarrow-Medium, -apple-system, BlinkMacSystemFont, Nanum Gothic, Apple SD Gothic Neo, AppleGothic, sans-serif;
+}
 
 .windows .monaco-button:not(.codicon) {
-    font-family: InputSansNarrow-Medium, Segoe WPC, Segoe UI, sans-serif;
-  }
+  font-family: InputSansNarrow-Medium, Segoe WPC, Segoe UI, sans-serif;
+}
 
 .windows:lang(zh-Hans) .monaco-button:not(.codicon) {
-    font-family: InputSansNarrow-Medium, Segoe WPC, Segoe UI, Microsoft YaHei, sans-serif;
-  }
+  font-family: InputSansNarrow-Medium, Segoe WPC, Segoe UI, Microsoft YaHei, sans-serif;
+}
 
 .windows:lang(zh-Hant) .monaco-button:not(.codicon) {
-    font-family: InputSansNarrow-Medium, Segoe WPC, Segoe UI, Microsoft Jhenghei, sans-serif;
-  }
+  font-family: InputSansNarrow-Medium, Segoe WPC, Segoe UI, Microsoft Jhenghei, sans-serif;
+}
 
 .windows:lang(ja) .monaco-button:not(.codicon) {
-    font-family: InputSansNarrow-Medium, Segoe WPC, Segoe UI, Yu Gothic UI, Meiryo UI, sans-serif;
-  }
+  font-family: InputSansNarrow-Medium, Segoe WPC, Segoe UI, Yu Gothic UI, Meiryo UI, sans-serif;
+}
 
 .windows:lang(ko) .monaco-button:not(.codicon) {
-    font-family: InputSansNarrow-Medium, Segoe WPC, Segoe UI, Malgun Gothic, Dotom, sans-serif;
-  }
+  font-family: InputSansNarrow-Medium, Segoe WPC, Segoe UI, Malgun Gothic, Dotom, sans-serif;
+}
 
 .linux .monaco-button:not(.codicon) {
-    font-family: InputSansNarrow-Medium, system-ui, Ubuntu, Droid Sans, sans-serif;
-  }
+  font-family: InputSansNarrow-Medium, system-ui, Ubuntu, Droid Sans, sans-serif;
+}
 
 .linux:lang(zh-Hans) .monaco-button:not(.codicon) {
-    font-family: InputSansNarrow-Medium, system-ui, Ubuntu, Droid Sans, Source Han Sans SC, Source Han Sans CN, Source Han Sans, sans-serif;
-  }
+  font-family: InputSansNarrow-Medium, system-ui, Ubuntu, Droid Sans, Source Han Sans SC, Source Han Sans CN, Source Han Sans, sans-serif;
+}
 
 .linux:lang(zh-Hant) .monaco-button:not(.codicon) {
-    font-family: InputSansNarrow-Medium, system-ui, Ubuntu, Droid Sans, Source Han Sans TC, Source Han Sans TW, Source Han Sans, sans-serif;
-  }
+  font-family: InputSansNarrow-Medium, system-ui, Ubuntu, Droid Sans, Source Han Sans TC, Source Han Sans TW, Source Han Sans, sans-serif;
+}
 
 .linux:lang(ja) .monaco-button:not(.codicon) {
-    font-family: InputSansNarrow-Medium, system-ui, Ubuntu, Droid Sans, Source Han Sans J, Source Han Sans JP, Source Han Sans, sans-serif;
-  }
+  font-family: InputSansNarrow-Medium, system-ui, Ubuntu, Droid Sans, Source Han Sans J, Source Han Sans JP, Source Han Sans, sans-serif;
+}
 
 .linux:lang(ko) .monaco-button:not(.codicon) {
-    font-family: InputSansNarrow-Medium, system-ui, Ubuntu, Droid Sans, Source Han Sans K, Source Han Sans JR, Source Han Sans, UnDotum, FBaekmuk Gulim, sans-serif;
-  }
+  font-family: InputSansNarrow-Medium, system-ui, Ubuntu, Droid Sans, Source Han Sans K, Source Han Sans JR, Source Han Sans, UnDotum, FBaekmuk Gulim, sans-serif;
+}
 
 .monaco-text-button {
   padding: 4px 14px 2px !important;
 }
 
 .mac .action-label:not(.codicon) {
-    font-family: InputSansNarrow-Medium, -apple-system, BlinkMacSystemFont, sans-serif;
-  }
+  font-family: InputSansNarrow-Medium, -apple-system, BlinkMacSystemFont, sans-serif;
+}
 
 .mac:lang(zh-Hans) .action-label:not(.codicon) {
-    font-family: InputSansNarrow-Medium, -apple-system, BlinkMacSystemFont, PingFang SC, Hiragino Sans GB, sans-serif;
-  }
+  font-family: InputSansNarrow-Medium, -apple-system, BlinkMacSystemFont, PingFang SC, Hiragino Sans GB, sans-serif;
+}
 
 .mac:lang(zh-Hant) .action-label:not(.codicon) {
-    font-family: InputSansNarrow-Medium, -apple-system, BlinkMacSystemFont, PingFang TC, sans-serif;
-  }
+  font-family: InputSansNarrow-Medium, -apple-system, BlinkMacSystemFont, PingFang TC, sans-serif;
+}
 
 .mac:lang(ja) .action-label:not(.codicon) {
-    font-family: InputSansNarrow-Medium, -apple-system, BlinkMacSystemFont, Hiragino Kaku Gothic Pro, sans-serif;
-  }
+  font-family: InputSansNarrow-Medium, -apple-system, BlinkMacSystemFont, Hiragino Kaku Gothic Pro, sans-serif;
+}
 
 .mac:lang(ko) .action-label:not(.codicon) {
-    font-family: InputSansNarrow-Medium, -apple-system, BlinkMacSystemFont, Nanum Gothic, Apple SD Gothic Neo, AppleGothic, sans-serif;
-  }
+  font-family: InputSansNarrow-Medium, -apple-system, BlinkMacSystemFont, Nanum Gothic, Apple SD Gothic Neo, AppleGothic, sans-serif;
+}
 
 .windows .action-label:not(.codicon) {
-    font-family: InputSansNarrow-Medium, Segoe WPC, Segoe UI, sans-serif;
-  }
+  font-family: InputSansNarrow-Medium, Segoe WPC, Segoe UI, sans-serif;
+}
 
 .windows:lang(zh-Hans) .action-label:not(.codicon) {
-    font-family: InputSansNarrow-Medium, Segoe WPC, Segoe UI, Microsoft YaHei, sans-serif;
-  }
+  font-family: InputSansNarrow-Medium, Segoe WPC, Segoe UI, Microsoft YaHei, sans-serif;
+}
 
 .windows:lang(zh-Hant) .action-label:not(.codicon) {
-    font-family: InputSansNarrow-Medium, Segoe WPC, Segoe UI, Microsoft Jhenghei, sans-serif;
-  }
+  font-family: InputSansNarrow-Medium, Segoe WPC, Segoe UI, Microsoft Jhenghei, sans-serif;
+}
 
 .windows:lang(ja) .action-label:not(.codicon) {
-    font-family: InputSansNarrow-Medium, Segoe WPC, Segoe UI, Yu Gothic UI, Meiryo UI, sans-serif;
-  }
+  font-family: InputSansNarrow-Medium, Segoe WPC, Segoe UI, Yu Gothic UI, Meiryo UI, sans-serif;
+}
 
 .windows:lang(ko) .action-label:not(.codicon) {
-    font-family: InputSansNarrow-Medium, Segoe WPC, Segoe UI, Malgun Gothic, Dotom, sans-serif;
-  }
+  font-family: InputSansNarrow-Medium, Segoe WPC, Segoe UI, Malgun Gothic, Dotom, sans-serif;
+}
 
 .linux .action-label:not(.codicon) {
-    font-family: InputSansNarrow-Medium, system-ui, Ubuntu, Droid Sans, sans-serif;
-  }
+  font-family: InputSansNarrow-Medium, system-ui, Ubuntu, Droid Sans, sans-serif;
+}
 
 .linux:lang(zh-Hans) .action-label:not(.codicon) {
-    font-family: InputSansNarrow-Medium, system-ui, Ubuntu, Droid Sans, Source Han Sans SC, Source Han Sans CN, Source Han Sans, sans-serif;
-  }
+  font-family: InputSansNarrow-Medium, system-ui, Ubuntu, Droid Sans, Source Han Sans SC, Source Han Sans CN, Source Han Sans, sans-serif;
+}
 
 .linux:lang(zh-Hant) .action-label:not(.codicon) {
-    font-family: InputSansNarrow-Medium, system-ui, Ubuntu, Droid Sans, Source Han Sans TC, Source Han Sans TW, Source Han Sans, sans-serif;
-  }
+  font-family: InputSansNarrow-Medium, system-ui, Ubuntu, Droid Sans, Source Han Sans TC, Source Han Sans TW, Source Han Sans, sans-serif;
+}
 
 .linux:lang(ja) .action-label:not(.codicon) {
-    font-family: InputSansNarrow-Medium, system-ui, Ubuntu, Droid Sans, Source Han Sans J, Source Han Sans JP, Source Han Sans, sans-serif;
-  }
+  font-family: InputSansNarrow-Medium, system-ui, Ubuntu, Droid Sans, Source Han Sans J, Source Han Sans JP, Source Han Sans, sans-serif;
+}
 
 .linux:lang(ko) .action-label:not(.codicon) {
-    font-family: InputSansNarrow-Medium, system-ui, Ubuntu, Droid Sans, Source Han Sans K, Source Han Sans JR, Source Han Sans, UnDotum, FBaekmuk Gulim, sans-serif;
-  }
+  font-family: InputSansNarrow-Medium, system-ui, Ubuntu, Droid Sans, Source Han Sans K, Source Han Sans JR, Source Han Sans, UnDotum, FBaekmuk Gulim, sans-serif;
+}
 
 
 /**
@@ -221,124 +221,124 @@
 }
 
 .mac .monaco-hover-content {
-    font-family: InputMonoNarrow-Light, -apple-system, BlinkMacSystemFont, sans-serif;
-  }
+  font-family: InputMonoNarrow-Light, -apple-system, BlinkMacSystemFont, sans-serif;
+}
 
 .mac:lang(zh-Hans) .monaco-hover-content {
-    font-family: InputMonoNarrow-Light, -apple-system, BlinkMacSystemFont, PingFang SC, Hiragino Sans GB, sans-serif;
-  }
+  font-family: InputMonoNarrow-Light, -apple-system, BlinkMacSystemFont, PingFang SC, Hiragino Sans GB, sans-serif;
+}
 
 .mac:lang(zh-Hant) .monaco-hover-content {
-    font-family: InputMonoNarrow-Light, -apple-system, BlinkMacSystemFont, PingFang TC, sans-serif;
-  }
+  font-family: InputMonoNarrow-Light, -apple-system, BlinkMacSystemFont, PingFang TC, sans-serif;
+}
 
 .mac:lang(ja) .monaco-hover-content {
-    font-family: InputMonoNarrow-Light, -apple-system, BlinkMacSystemFont, Hiragino Kaku Gothic Pro, sans-serif;
-  }
+  font-family: InputMonoNarrow-Light, -apple-system, BlinkMacSystemFont, Hiragino Kaku Gothic Pro, sans-serif;
+}
 
 .mac:lang(ko) .monaco-hover-content {
-    font-family: InputMonoNarrow-Light, -apple-system, BlinkMacSystemFont, Nanum Gothic, Apple SD Gothic Neo, AppleGothic, sans-serif;
-  }
+  font-family: InputMonoNarrow-Light, -apple-system, BlinkMacSystemFont, Nanum Gothic, Apple SD Gothic Neo, AppleGothic, sans-serif;
+}
 
 .windows .monaco-hover-content {
-    font-family: InputMonoNarrow-Light, Segoe WPC, Segoe UI, sans-serif;
-  }
+  font-family: InputMonoNarrow-Light, Segoe WPC, Segoe UI, sans-serif;
+}
 
 .windows:lang(zh-Hans) .monaco-hover-content {
-    font-family: InputMonoNarrow-Light, Segoe WPC, Segoe UI, Microsoft YaHei, sans-serif;
-  }
+  font-family: InputMonoNarrow-Light, Segoe WPC, Segoe UI, Microsoft YaHei, sans-serif;
+}
 
 .windows:lang(zh-Hant) .monaco-hover-content {
-    font-family: InputMonoNarrow-Light, Segoe WPC, Segoe UI, Microsoft Jhenghei, sans-serif;
-  }
+  font-family: InputMonoNarrow-Light, Segoe WPC, Segoe UI, Microsoft Jhenghei, sans-serif;
+}
 
 .windows:lang(ja) .monaco-hover-content {
-    font-family: InputMonoNarrow-Light, Segoe WPC, Segoe UI, Yu Gothic UI, Meiryo UI, sans-serif;
-  }
+  font-family: InputMonoNarrow-Light, Segoe WPC, Segoe UI, Yu Gothic UI, Meiryo UI, sans-serif;
+}
 
 .windows:lang(ko) .monaco-hover-content {
-    font-family: InputMonoNarrow-Light, Segoe WPC, Segoe UI, Malgun Gothic, Dotom, sans-serif;
-  }
+  font-family: InputMonoNarrow-Light, Segoe WPC, Segoe UI, Malgun Gothic, Dotom, sans-serif;
+}
 
 .linux .monaco-hover-content {
-    font-family: InputMonoNarrow-Light, system-ui, Ubuntu, Droid Sans, sans-serif;
-  }
+  font-family: InputMonoNarrow-Light, system-ui, Ubuntu, Droid Sans, sans-serif;
+}
 
 .linux:lang(zh-Hans) .monaco-hover-content {
-    font-family: InputMonoNarrow-Light, system-ui, Ubuntu, Droid Sans, Source Han Sans SC, Source Han Sans CN, Source Han Sans, sans-serif;
-  }
+  font-family: InputMonoNarrow-Light, system-ui, Ubuntu, Droid Sans, Source Han Sans SC, Source Han Sans CN, Source Han Sans, sans-serif;
+}
 
 .linux:lang(zh-Hant) .monaco-hover-content {
-    font-family: InputMonoNarrow-Light, system-ui, Ubuntu, Droid Sans, Source Han Sans TC, Source Han Sans TW, Source Han Sans, sans-serif;
-  }
+  font-family: InputMonoNarrow-Light, system-ui, Ubuntu, Droid Sans, Source Han Sans TC, Source Han Sans TW, Source Han Sans, sans-serif;
+}
 
 .linux:lang(ja) .monaco-hover-content {
-    font-family: InputMonoNarrow-Light, system-ui, Ubuntu, Droid Sans, Source Han Sans J, Source Han Sans JP, Source Han Sans, sans-serif;
-  }
+  font-family: InputMonoNarrow-Light, system-ui, Ubuntu, Droid Sans, Source Han Sans J, Source Han Sans JP, Source Han Sans, sans-serif;
+}
 
 .linux:lang(ko) .monaco-hover-content {
-    font-family: InputMonoNarrow-Light, system-ui, Ubuntu, Droid Sans, Source Han Sans K, Source Han Sans JR, Source Han Sans, UnDotum, FBaekmuk Gulim, sans-serif;
-  }
+  font-family: InputMonoNarrow-Light, system-ui, Ubuntu, Droid Sans, Source Han Sans K, Source Han Sans JR, Source Han Sans, UnDotum, FBaekmuk Gulim, sans-serif;
+}
 
 .mac .monaco-workbench .part.statusbar {
-    font-family: InputSansCondensed-ExtraLight, -apple-system, BlinkMacSystemFont, sans-serif;
-  }
+  font-family: InputSansCondensed-ExtraLight, -apple-system, BlinkMacSystemFont, sans-serif;
+}
 
 .mac:lang(zh-Hans) .monaco-workbench .part.statusbar {
-    font-family: InputSansCondensed-ExtraLight, -apple-system, BlinkMacSystemFont, PingFang SC, Hiragino Sans GB, sans-serif;
-  }
+  font-family: InputSansCondensed-ExtraLight, -apple-system, BlinkMacSystemFont, PingFang SC, Hiragino Sans GB, sans-serif;
+}
 
 .mac:lang(zh-Hant) .monaco-workbench .part.statusbar {
-    font-family: InputSansCondensed-ExtraLight, -apple-system, BlinkMacSystemFont, PingFang TC, sans-serif;
-  }
+  font-family: InputSansCondensed-ExtraLight, -apple-system, BlinkMacSystemFont, PingFang TC, sans-serif;
+}
 
 .mac:lang(ja) .monaco-workbench .part.statusbar {
-    font-family: InputSansCondensed-ExtraLight, -apple-system, BlinkMacSystemFont, Hiragino Kaku Gothic Pro, sans-serif;
-  }
+  font-family: InputSansCondensed-ExtraLight, -apple-system, BlinkMacSystemFont, Hiragino Kaku Gothic Pro, sans-serif;
+}
 
 .mac:lang(ko) .monaco-workbench .part.statusbar {
-    font-family: InputSansCondensed-ExtraLight, -apple-system, BlinkMacSystemFont, Nanum Gothic, Apple SD Gothic Neo, AppleGothic, sans-serif;
-  }
+  font-family: InputSansCondensed-ExtraLight, -apple-system, BlinkMacSystemFont, Nanum Gothic, Apple SD Gothic Neo, AppleGothic, sans-serif;
+}
 
 .windows .monaco-workbench .part.statusbar {
-    font-family: InputSansCondensed-ExtraLight, Segoe WPC, Segoe UI, sans-serif;
-  }
+  font-family: InputSansCondensed-ExtraLight, Segoe WPC, Segoe UI, sans-serif;
+}
 
 .windows:lang(zh-Hans) .monaco-workbench .part.statusbar {
-    font-family: InputSansCondensed-ExtraLight, Segoe WPC, Segoe UI, Microsoft YaHei, sans-serif;
-  }
+  font-family: InputSansCondensed-ExtraLight, Segoe WPC, Segoe UI, Microsoft YaHei, sans-serif;
+}
 
 .windows:lang(zh-Hant) .monaco-workbench .part.statusbar {
-    font-family: InputSansCondensed-ExtraLight, Segoe WPC, Segoe UI, Microsoft Jhenghei, sans-serif;
-  }
+  font-family: InputSansCondensed-ExtraLight, Segoe WPC, Segoe UI, Microsoft Jhenghei, sans-serif;
+}
 
 .windows:lang(ja) .monaco-workbench .part.statusbar {
-    font-family: InputSansCondensed-ExtraLight, Segoe WPC, Segoe UI, Yu Gothic UI, Meiryo UI, sans-serif;
-  }
+  font-family: InputSansCondensed-ExtraLight, Segoe WPC, Segoe UI, Yu Gothic UI, Meiryo UI, sans-serif;
+}
 
 .windows:lang(ko) .monaco-workbench .part.statusbar {
-    font-family: InputSansCondensed-ExtraLight, Segoe WPC, Segoe UI, Malgun Gothic, Dotom, sans-serif;
-  }
+  font-family: InputSansCondensed-ExtraLight, Segoe WPC, Segoe UI, Malgun Gothic, Dotom, sans-serif;
+}
 
 .linux .monaco-workbench .part.statusbar {
-    font-family: InputSansCondensed-ExtraLight, system-ui, Ubuntu, Droid Sans, sans-serif;
-  }
+  font-family: InputSansCondensed-ExtraLight, system-ui, Ubuntu, Droid Sans, sans-serif;
+}
 
 .linux:lang(zh-Hans) .monaco-workbench .part.statusbar {
-    font-family: InputSansCondensed-ExtraLight, system-ui, Ubuntu, Droid Sans, Source Han Sans SC, Source Han Sans CN, Source Han Sans, sans-serif;
-  }
+  font-family: InputSansCondensed-ExtraLight, system-ui, Ubuntu, Droid Sans, Source Han Sans SC, Source Han Sans CN, Source Han Sans, sans-serif;
+}
 
 .linux:lang(zh-Hant) .monaco-workbench .part.statusbar {
-    font-family: InputSansCondensed-ExtraLight, system-ui, Ubuntu, Droid Sans, Source Han Sans TC, Source Han Sans TW, Source Han Sans, sans-serif;
-  }
+  font-family: InputSansCondensed-ExtraLight, system-ui, Ubuntu, Droid Sans, Source Han Sans TC, Source Han Sans TW, Source Han Sans, sans-serif;
+}
 
 .linux:lang(ja) .monaco-workbench .part.statusbar {
-    font-family: InputSansCondensed-ExtraLight, system-ui, Ubuntu, Droid Sans, Source Han Sans J, Source Han Sans JP, Source Han Sans, sans-serif;
-  }
+  font-family: InputSansCondensed-ExtraLight, system-ui, Ubuntu, Droid Sans, Source Han Sans J, Source Han Sans JP, Source Han Sans, sans-serif;
+}
 
 .linux:lang(ko) .monaco-workbench .part.statusbar {
-    font-family: InputSansCondensed-ExtraLight, system-ui, Ubuntu, Droid Sans, Source Han Sans K, Source Han Sans JR, Source Han Sans, UnDotum, FBaekmuk Gulim, sans-serif;
-  }
+  font-family: InputSansCondensed-ExtraLight, system-ui, Ubuntu, Droid Sans, Source Han Sans K, Source Han Sans JR, Source Han Sans, UnDotum, FBaekmuk Gulim, sans-serif;
+}
 
 .monaco-workbench .part.statusbar {
   font-size: 11px;
@@ -349,124 +349,124 @@
 }
 
 .mac .monaco-list-row .label-description {
-    font-family: InputSansCondensed-ExtraLight, -apple-system, BlinkMacSystemFont, sans-serif;
-  }
+  font-family: InputSansCondensed-ExtraLight, -apple-system, BlinkMacSystemFont, sans-serif;
+}
 
 .mac:lang(zh-Hans) .monaco-list-row .label-description {
-    font-family: InputSansCondensed-ExtraLight, -apple-system, BlinkMacSystemFont, PingFang SC, Hiragino Sans GB, sans-serif;
-  }
+  font-family: InputSansCondensed-ExtraLight, -apple-system, BlinkMacSystemFont, PingFang SC, Hiragino Sans GB, sans-serif;
+}
 
 .mac:lang(zh-Hant) .monaco-list-row .label-description {
-    font-family: InputSansCondensed-ExtraLight, -apple-system, BlinkMacSystemFont, PingFang TC, sans-serif;
-  }
+  font-family: InputSansCondensed-ExtraLight, -apple-system, BlinkMacSystemFont, PingFang TC, sans-serif;
+}
 
 .mac:lang(ja) .monaco-list-row .label-description {
-    font-family: InputSansCondensed-ExtraLight, -apple-system, BlinkMacSystemFont, Hiragino Kaku Gothic Pro, sans-serif;
-  }
+  font-family: InputSansCondensed-ExtraLight, -apple-system, BlinkMacSystemFont, Hiragino Kaku Gothic Pro, sans-serif;
+}
 
 .mac:lang(ko) .monaco-list-row .label-description {
-    font-family: InputSansCondensed-ExtraLight, -apple-system, BlinkMacSystemFont, Nanum Gothic, Apple SD Gothic Neo, AppleGothic, sans-serif;
-  }
+  font-family: InputSansCondensed-ExtraLight, -apple-system, BlinkMacSystemFont, Nanum Gothic, Apple SD Gothic Neo, AppleGothic, sans-serif;
+}
 
 .windows .monaco-list-row .label-description {
-    font-family: InputSansCondensed-ExtraLight, Segoe WPC, Segoe UI, sans-serif;
-  }
+  font-family: InputSansCondensed-ExtraLight, Segoe WPC, Segoe UI, sans-serif;
+}
 
 .windows:lang(zh-Hans) .monaco-list-row .label-description {
-    font-family: InputSansCondensed-ExtraLight, Segoe WPC, Segoe UI, Microsoft YaHei, sans-serif;
-  }
+  font-family: InputSansCondensed-ExtraLight, Segoe WPC, Segoe UI, Microsoft YaHei, sans-serif;
+}
 
 .windows:lang(zh-Hant) .monaco-list-row .label-description {
-    font-family: InputSansCondensed-ExtraLight, Segoe WPC, Segoe UI, Microsoft Jhenghei, sans-serif;
-  }
+  font-family: InputSansCondensed-ExtraLight, Segoe WPC, Segoe UI, Microsoft Jhenghei, sans-serif;
+}
 
 .windows:lang(ja) .monaco-list-row .label-description {
-    font-family: InputSansCondensed-ExtraLight, Segoe WPC, Segoe UI, Yu Gothic UI, Meiryo UI, sans-serif;
-  }
+  font-family: InputSansCondensed-ExtraLight, Segoe WPC, Segoe UI, Yu Gothic UI, Meiryo UI, sans-serif;
+}
 
 .windows:lang(ko) .monaco-list-row .label-description {
-    font-family: InputSansCondensed-ExtraLight, Segoe WPC, Segoe UI, Malgun Gothic, Dotom, sans-serif;
-  }
+  font-family: InputSansCondensed-ExtraLight, Segoe WPC, Segoe UI, Malgun Gothic, Dotom, sans-serif;
+}
 
 .linux .monaco-list-row .label-description {
-    font-family: InputSansCondensed-ExtraLight, system-ui, Ubuntu, Droid Sans, sans-serif;
-  }
+  font-family: InputSansCondensed-ExtraLight, system-ui, Ubuntu, Droid Sans, sans-serif;
+}
 
 .linux:lang(zh-Hans) .monaco-list-row .label-description {
-    font-family: InputSansCondensed-ExtraLight, system-ui, Ubuntu, Droid Sans, Source Han Sans SC, Source Han Sans CN, Source Han Sans, sans-serif;
-  }
+  font-family: InputSansCondensed-ExtraLight, system-ui, Ubuntu, Droid Sans, Source Han Sans SC, Source Han Sans CN, Source Han Sans, sans-serif;
+}
 
 .linux:lang(zh-Hant) .monaco-list-row .label-description {
-    font-family: InputSansCondensed-ExtraLight, system-ui, Ubuntu, Droid Sans, Source Han Sans TC, Source Han Sans TW, Source Han Sans, sans-serif;
-  }
+  font-family: InputSansCondensed-ExtraLight, system-ui, Ubuntu, Droid Sans, Source Han Sans TC, Source Han Sans TW, Source Han Sans, sans-serif;
+}
 
 .linux:lang(ja) .monaco-list-row .label-description {
-    font-family: InputSansCondensed-ExtraLight, system-ui, Ubuntu, Droid Sans, Source Han Sans J, Source Han Sans JP, Source Han Sans, sans-serif;
-  }
+  font-family: InputSansCondensed-ExtraLight, system-ui, Ubuntu, Droid Sans, Source Han Sans J, Source Han Sans JP, Source Han Sans, sans-serif;
+}
 
 .linux:lang(ko) .monaco-list-row .label-description {
-    font-family: InputSansCondensed-ExtraLight, system-ui, Ubuntu, Droid Sans, Source Han Sans K, Source Han Sans JR, Source Han Sans, UnDotum, FBaekmuk Gulim, sans-serif;
-  }
+  font-family: InputSansCondensed-ExtraLight, system-ui, Ubuntu, Droid Sans, Source Han Sans K, Source Han Sans JR, Source Han Sans, UnDotum, FBaekmuk Gulim, sans-serif;
+}
 
 .mac .extension-list-item .footer .action-label {
-    font-family: InputSansCondensed-Medium, -apple-system, BlinkMacSystemFont, sans-serif;
-  }
+  font-family: InputSansCondensed-Medium, -apple-system, BlinkMacSystemFont, sans-serif;
+}
 
 .mac:lang(zh-Hans) .extension-list-item .footer .action-label {
-    font-family: InputSansCondensed-Medium, -apple-system, BlinkMacSystemFont, PingFang SC, Hiragino Sans GB, sans-serif;
-  }
+  font-family: InputSansCondensed-Medium, -apple-system, BlinkMacSystemFont, PingFang SC, Hiragino Sans GB, sans-serif;
+}
 
 .mac:lang(zh-Hant) .extension-list-item .footer .action-label {
-    font-family: InputSansCondensed-Medium, -apple-system, BlinkMacSystemFont, PingFang TC, sans-serif;
-  }
+  font-family: InputSansCondensed-Medium, -apple-system, BlinkMacSystemFont, PingFang TC, sans-serif;
+}
 
 .mac:lang(ja) .extension-list-item .footer .action-label {
-    font-family: InputSansCondensed-Medium, -apple-system, BlinkMacSystemFont, Hiragino Kaku Gothic Pro, sans-serif;
-  }
+  font-family: InputSansCondensed-Medium, -apple-system, BlinkMacSystemFont, Hiragino Kaku Gothic Pro, sans-serif;
+}
 
 .mac:lang(ko) .extension-list-item .footer .action-label {
-    font-family: InputSansCondensed-Medium, -apple-system, BlinkMacSystemFont, Nanum Gothic, Apple SD Gothic Neo, AppleGothic, sans-serif;
-  }
+  font-family: InputSansCondensed-Medium, -apple-system, BlinkMacSystemFont, Nanum Gothic, Apple SD Gothic Neo, AppleGothic, sans-serif;
+}
 
 .windows .extension-list-item .footer .action-label {
-    font-family: InputSansCondensed-Medium, Segoe WPC, Segoe UI, sans-serif;
-  }
+  font-family: InputSansCondensed-Medium, Segoe WPC, Segoe UI, sans-serif;
+}
 
 .windows:lang(zh-Hans) .extension-list-item .footer .action-label {
-    font-family: InputSansCondensed-Medium, Segoe WPC, Segoe UI, Microsoft YaHei, sans-serif;
-  }
+  font-family: InputSansCondensed-Medium, Segoe WPC, Segoe UI, Microsoft YaHei, sans-serif;
+}
 
 .windows:lang(zh-Hant) .extension-list-item .footer .action-label {
-    font-family: InputSansCondensed-Medium, Segoe WPC, Segoe UI, Microsoft Jhenghei, sans-serif;
-  }
+  font-family: InputSansCondensed-Medium, Segoe WPC, Segoe UI, Microsoft Jhenghei, sans-serif;
+}
 
 .windows:lang(ja) .extension-list-item .footer .action-label {
-    font-family: InputSansCondensed-Medium, Segoe WPC, Segoe UI, Yu Gothic UI, Meiryo UI, sans-serif;
-  }
+  font-family: InputSansCondensed-Medium, Segoe WPC, Segoe UI, Yu Gothic UI, Meiryo UI, sans-serif;
+}
 
 .windows:lang(ko) .extension-list-item .footer .action-label {
-    font-family: InputSansCondensed-Medium, Segoe WPC, Segoe UI, Malgun Gothic, Dotom, sans-serif;
-  }
+  font-family: InputSansCondensed-Medium, Segoe WPC, Segoe UI, Malgun Gothic, Dotom, sans-serif;
+}
 
 .linux .extension-list-item .footer .action-label {
-    font-family: InputSansCondensed-Medium, system-ui, Ubuntu, Droid Sans, sans-serif;
-  }
+  font-family: InputSansCondensed-Medium, system-ui, Ubuntu, Droid Sans, sans-serif;
+}
 
 .linux:lang(zh-Hans) .extension-list-item .footer .action-label {
-    font-family: InputSansCondensed-Medium, system-ui, Ubuntu, Droid Sans, Source Han Sans SC, Source Han Sans CN, Source Han Sans, sans-serif;
-  }
+  font-family: InputSansCondensed-Medium, system-ui, Ubuntu, Droid Sans, Source Han Sans SC, Source Han Sans CN, Source Han Sans, sans-serif;
+}
 
 .linux:lang(zh-Hant) .extension-list-item .footer .action-label {
-    font-family: InputSansCondensed-Medium, system-ui, Ubuntu, Droid Sans, Source Han Sans TC, Source Han Sans TW, Source Han Sans, sans-serif;
-  }
+  font-family: InputSansCondensed-Medium, system-ui, Ubuntu, Droid Sans, Source Han Sans TC, Source Han Sans TW, Source Han Sans, sans-serif;
+}
 
 .linux:lang(ja) .extension-list-item .footer .action-label {
-    font-family: InputSansCondensed-Medium, system-ui, Ubuntu, Droid Sans, Source Han Sans J, Source Han Sans JP, Source Han Sans, sans-serif;
-  }
+  font-family: InputSansCondensed-Medium, system-ui, Ubuntu, Droid Sans, Source Han Sans J, Source Han Sans JP, Source Han Sans, sans-serif;
+}
 
 .linux:lang(ko) .extension-list-item .footer .action-label {
-    font-family: InputSansCondensed-Medium, system-ui, Ubuntu, Droid Sans, Source Han Sans K, Source Han Sans JR, Source Han Sans, UnDotum, FBaekmuk Gulim, sans-serif;
-  }
+  font-family: InputSansCondensed-Medium, system-ui, Ubuntu, Droid Sans, Source Han Sans K, Source Han Sans JR, Source Han Sans, UnDotum, FBaekmuk Gulim, sans-serif;
+}
 
 .extension-list-item .footer .publisher-name {
   line-height: 12px;
@@ -478,64 +478,64 @@
 */
 
 .mac .tabs .tab {
-    font-family: InputSansCondensed-ExtraLight, -apple-system, BlinkMacSystemFont, sans-serif;
-  }
+  font-family: InputSansCondensed-ExtraLight, -apple-system, BlinkMacSystemFont, sans-serif;
+}
 
 .mac:lang(zh-Hans) .tabs .tab {
-    font-family: InputSansCondensed-ExtraLight, -apple-system, BlinkMacSystemFont, PingFang SC, Hiragino Sans GB, sans-serif;
-  }
+  font-family: InputSansCondensed-ExtraLight, -apple-system, BlinkMacSystemFont, PingFang SC, Hiragino Sans GB, sans-serif;
+}
 
 .mac:lang(zh-Hant) .tabs .tab {
-    font-family: InputSansCondensed-ExtraLight, -apple-system, BlinkMacSystemFont, PingFang TC, sans-serif;
-  }
+  font-family: InputSansCondensed-ExtraLight, -apple-system, BlinkMacSystemFont, PingFang TC, sans-serif;
+}
 
 .mac:lang(ja) .tabs .tab {
-    font-family: InputSansCondensed-ExtraLight, -apple-system, BlinkMacSystemFont, Hiragino Kaku Gothic Pro, sans-serif;
-  }
+  font-family: InputSansCondensed-ExtraLight, -apple-system, BlinkMacSystemFont, Hiragino Kaku Gothic Pro, sans-serif;
+}
 
 .mac:lang(ko) .tabs .tab {
-    font-family: InputSansCondensed-ExtraLight, -apple-system, BlinkMacSystemFont, Nanum Gothic, Apple SD Gothic Neo, AppleGothic, sans-serif;
-  }
+  font-family: InputSansCondensed-ExtraLight, -apple-system, BlinkMacSystemFont, Nanum Gothic, Apple SD Gothic Neo, AppleGothic, sans-serif;
+}
 
 .windows .tabs .tab {
-    font-family: InputSansCondensed-ExtraLight, Segoe WPC, Segoe UI, sans-serif;
-  }
+  font-family: InputSansCondensed-ExtraLight, Segoe WPC, Segoe UI, sans-serif;
+}
 
 .windows:lang(zh-Hans) .tabs .tab {
-    font-family: InputSansCondensed-ExtraLight, Segoe WPC, Segoe UI, Microsoft YaHei, sans-serif;
-  }
+  font-family: InputSansCondensed-ExtraLight, Segoe WPC, Segoe UI, Microsoft YaHei, sans-serif;
+}
 
 .windows:lang(zh-Hant) .tabs .tab {
-    font-family: InputSansCondensed-ExtraLight, Segoe WPC, Segoe UI, Microsoft Jhenghei, sans-serif;
-  }
+  font-family: InputSansCondensed-ExtraLight, Segoe WPC, Segoe UI, Microsoft Jhenghei, sans-serif;
+}
 
 .windows:lang(ja) .tabs .tab {
-    font-family: InputSansCondensed-ExtraLight, Segoe WPC, Segoe UI, Yu Gothic UI, Meiryo UI, sans-serif;
-  }
+  font-family: InputSansCondensed-ExtraLight, Segoe WPC, Segoe UI, Yu Gothic UI, Meiryo UI, sans-serif;
+}
 
 .windows:lang(ko) .tabs .tab {
-    font-family: InputSansCondensed-ExtraLight, Segoe WPC, Segoe UI, Malgun Gothic, Dotom, sans-serif;
-  }
+  font-family: InputSansCondensed-ExtraLight, Segoe WPC, Segoe UI, Malgun Gothic, Dotom, sans-serif;
+}
 
 .linux .tabs .tab {
-    font-family: InputSansCondensed-ExtraLight, system-ui, Ubuntu, Droid Sans, sans-serif;
-  }
+  font-family: InputSansCondensed-ExtraLight, system-ui, Ubuntu, Droid Sans, sans-serif;
+}
 
 .linux:lang(zh-Hans) .tabs .tab {
-    font-family: InputSansCondensed-ExtraLight, system-ui, Ubuntu, Droid Sans, Source Han Sans SC, Source Han Sans CN, Source Han Sans, sans-serif;
-  }
+  font-family: InputSansCondensed-ExtraLight, system-ui, Ubuntu, Droid Sans, Source Han Sans SC, Source Han Sans CN, Source Han Sans, sans-serif;
+}
 
 .linux:lang(zh-Hant) .tabs .tab {
-    font-family: InputSansCondensed-ExtraLight, system-ui, Ubuntu, Droid Sans, Source Han Sans TC, Source Han Sans TW, Source Han Sans, sans-serif;
-  }
+  font-family: InputSansCondensed-ExtraLight, system-ui, Ubuntu, Droid Sans, Source Han Sans TC, Source Han Sans TW, Source Han Sans, sans-serif;
+}
 
 .linux:lang(ja) .tabs .tab {
-    font-family: InputSansCondensed-ExtraLight, system-ui, Ubuntu, Droid Sans, Source Han Sans J, Source Han Sans JP, Source Han Sans, sans-serif;
-  }
+  font-family: InputSansCondensed-ExtraLight, system-ui, Ubuntu, Droid Sans, Source Han Sans J, Source Han Sans JP, Source Han Sans, sans-serif;
+}
 
 .linux:lang(ko) .tabs .tab {
-    font-family: InputSansCondensed-ExtraLight, system-ui, Ubuntu, Droid Sans, Source Han Sans K, Source Han Sans JR, Source Han Sans, UnDotum, FBaekmuk Gulim, sans-serif;
-  }
+  font-family: InputSansCondensed-ExtraLight, system-ui, Ubuntu, Droid Sans, Source Han Sans K, Source Han Sans JR, Source Han Sans, UnDotum, FBaekmuk Gulim, sans-serif;
+}
 
 
 /**
@@ -543,124 +543,139 @@
 */
 
 .mac .sidebar .title {
-    font-family: InputSansCondensed-Medium, -apple-system, BlinkMacSystemFont, sans-serif;
-  }
+  font-family: InputSansCondensed-Medium, -apple-system, BlinkMacSystemFont, sans-serif;
+}
 
 .mac:lang(zh-Hans) .sidebar .title {
-    font-family: InputSansCondensed-Medium, -apple-system, BlinkMacSystemFont, PingFang SC, Hiragino Sans GB, sans-serif;
-  }
+  font-family: InputSansCondensed-Medium, -apple-system, BlinkMacSystemFont, PingFang SC, Hiragino Sans GB, sans-serif;
+}
 
 .mac:lang(zh-Hant) .sidebar .title {
-    font-family: InputSansCondensed-Medium, -apple-system, BlinkMacSystemFont, PingFang TC, sans-serif;
-  }
+  font-family: InputSansCondensed-Medium, -apple-system, BlinkMacSystemFont, PingFang TC, sans-serif;
+}
 
 .mac:lang(ja) .sidebar .title {
-    font-family: InputSansCondensed-Medium, -apple-system, BlinkMacSystemFont, Hiragino Kaku Gothic Pro, sans-serif;
-  }
+  font-family: InputSansCondensed-Medium, -apple-system, BlinkMacSystemFont, Hiragino Kaku Gothic Pro, sans-serif;
+}
 
 .mac:lang(ko) .sidebar .title {
-    font-family: InputSansCondensed-Medium, -apple-system, BlinkMacSystemFont, Nanum Gothic, Apple SD Gothic Neo, AppleGothic, sans-serif;
-  }
+  font-family: InputSansCondensed-Medium, -apple-system, BlinkMacSystemFont, Nanum Gothic, Apple SD Gothic Neo, AppleGothic, sans-serif;
+}
 
 .windows .sidebar .title {
-    font-family: InputSansCondensed-Medium, Segoe WPC, Segoe UI, sans-serif;
-  }
+  font-family: InputSansCondensed-Medium, Segoe WPC, Segoe UI, sans-serif;
+}
 
 .windows:lang(zh-Hans) .sidebar .title {
-    font-family: InputSansCondensed-Medium, Segoe WPC, Segoe UI, Microsoft YaHei, sans-serif;
-  }
+  font-family: InputSansCondensed-Medium, Segoe WPC, Segoe UI, Microsoft YaHei, sans-serif;
+}
 
 .windows:lang(zh-Hant) .sidebar .title {
-    font-family: InputSansCondensed-Medium, Segoe WPC, Segoe UI, Microsoft Jhenghei, sans-serif;
-  }
+  font-family: InputSansCondensed-Medium, Segoe WPC, Segoe UI, Microsoft Jhenghei, sans-serif;
+}
 
 .windows:lang(ja) .sidebar .title {
-    font-family: InputSansCondensed-Medium, Segoe WPC, Segoe UI, Yu Gothic UI, Meiryo UI, sans-serif;
-  }
+  font-family: InputSansCondensed-Medium, Segoe WPC, Segoe UI, Yu Gothic UI, Meiryo UI, sans-serif;
+}
 
 .windows:lang(ko) .sidebar .title {
-    font-family: InputSansCondensed-Medium, Segoe WPC, Segoe UI, Malgun Gothic, Dotom, sans-serif;
-  }
+  font-family: InputSansCondensed-Medium, Segoe WPC, Segoe UI, Malgun Gothic, Dotom, sans-serif;
+}
 
 .linux .sidebar .title {
-    font-family: InputSansCondensed-Medium, system-ui, Ubuntu, Droid Sans, sans-serif;
-  }
+  font-family: InputSansCondensed-Medium, system-ui, Ubuntu, Droid Sans, sans-serif;
+}
 
 .linux:lang(zh-Hans) .sidebar .title {
-    font-family: InputSansCondensed-Medium, system-ui, Ubuntu, Droid Sans, Source Han Sans SC, Source Han Sans CN, Source Han Sans, sans-serif;
-  }
+  font-family: InputSansCondensed-Medium, system-ui, Ubuntu, Droid Sans, Source Han Sans SC, Source Han Sans CN, Source Han Sans, sans-serif;
+}
 
 .linux:lang(zh-Hant) .sidebar .title {
-    font-family: InputSansCondensed-Medium, system-ui, Ubuntu, Droid Sans, Source Han Sans TC, Source Han Sans TW, Source Han Sans, sans-serif;
-  }
+  font-family: InputSansCondensed-Medium, system-ui, Ubuntu, Droid Sans, Source Han Sans TC, Source Han Sans TW, Source Han Sans, sans-serif;
+}
 
 .linux:lang(ja) .sidebar .title {
-    font-family: InputSansCondensed-Medium, system-ui, Ubuntu, Droid Sans, Source Han Sans J, Source Han Sans JP, Source Han Sans, sans-serif;
-  }
+  font-family: InputSansCondensed-Medium, system-ui, Ubuntu, Droid Sans, Source Han Sans J, Source Han Sans JP, Source Han Sans, sans-serif;
+}
 
 .linux:lang(ko) .sidebar .title {
-    font-family: InputSansCondensed-Medium, system-ui, Ubuntu, Droid Sans, Source Han Sans K, Source Han Sans JR, Source Han Sans, UnDotum, FBaekmuk Gulim, sans-serif;
-  }
+  font-family: InputSansCondensed-Medium, system-ui, Ubuntu, Droid Sans, Source Han Sans K, Source Han Sans JR, Source Han Sans, UnDotum, FBaekmuk Gulim, sans-serif;
+}
 
-.mac .sidebar .pane-body, .mac .sidebar .monaco-scrollable-element .monaco-list-row {
-    font-family: InputSansCondensed-ExtraLight, -apple-system, BlinkMacSystemFont, sans-serif;
-  }
+.mac .sidebar .pane-body,
+.mac .sidebar .monaco-scrollable-element .monaco-list-row {
+  font-family: InputSansCondensed-ExtraLight, -apple-system, BlinkMacSystemFont, sans-serif;
+}
 
-.mac:lang(zh-Hans) .sidebar .pane-body, .mac:lang(zh-Hans) .sidebar .monaco-scrollable-element .monaco-list-row {
-    font-family: InputSansCondensed-ExtraLight, -apple-system, BlinkMacSystemFont, PingFang SC, Hiragino Sans GB, sans-serif;
-  }
+.mac:lang(zh-Hans) .sidebar .pane-body,
+.mac:lang(zh-Hans) .sidebar .monaco-scrollable-element .monaco-list-row {
+  font-family: InputSansCondensed-ExtraLight, -apple-system, BlinkMacSystemFont, PingFang SC, Hiragino Sans GB, sans-serif;
+}
 
-.mac:lang(zh-Hant) .sidebar .pane-body, .mac:lang(zh-Hant) .sidebar .monaco-scrollable-element .monaco-list-row {
-    font-family: InputSansCondensed-ExtraLight, -apple-system, BlinkMacSystemFont, PingFang TC, sans-serif;
-  }
+.mac:lang(zh-Hant) .sidebar .pane-body,
+.mac:lang(zh-Hant) .sidebar .monaco-scrollable-element .monaco-list-row {
+  font-family: InputSansCondensed-ExtraLight, -apple-system, BlinkMacSystemFont, PingFang TC, sans-serif;
+}
 
-.mac:lang(ja) .sidebar .pane-body, .mac:lang(ja) .sidebar .monaco-scrollable-element .monaco-list-row {
-    font-family: InputSansCondensed-ExtraLight, -apple-system, BlinkMacSystemFont, Hiragino Kaku Gothic Pro, sans-serif;
-  }
+.mac:lang(ja) .sidebar .pane-body,
+.mac:lang(ja) .sidebar .monaco-scrollable-element .monaco-list-row {
+  font-family: InputSansCondensed-ExtraLight, -apple-system, BlinkMacSystemFont, Hiragino Kaku Gothic Pro, sans-serif;
+}
 
-.mac:lang(ko) .sidebar .pane-body, .mac:lang(ko) .sidebar .monaco-scrollable-element .monaco-list-row {
-    font-family: InputSansCondensed-ExtraLight, -apple-system, BlinkMacSystemFont, Nanum Gothic, Apple SD Gothic Neo, AppleGothic, sans-serif;
-  }
+.mac:lang(ko) .sidebar .pane-body,
+.mac:lang(ko) .sidebar .monaco-scrollable-element .monaco-list-row {
+  font-family: InputSansCondensed-ExtraLight, -apple-system, BlinkMacSystemFont, Nanum Gothic, Apple SD Gothic Neo, AppleGothic, sans-serif;
+}
 
-.windows .sidebar .pane-body, .windows .sidebar .monaco-scrollable-element .monaco-list-row {
-    font-family: InputSansCondensed-ExtraLight, Segoe WPC, Segoe UI, sans-serif;
-  }
+.windows .sidebar .pane-body,
+.windows .sidebar .monaco-scrollable-element .monaco-list-row {
+  font-family: InputSansCondensed-ExtraLight, Segoe WPC, Segoe UI, sans-serif;
+}
 
-.windows:lang(zh-Hans) .sidebar .pane-body, .windows:lang(zh-Hans) .sidebar .monaco-scrollable-element .monaco-list-row {
-    font-family: InputSansCondensed-ExtraLight, Segoe WPC, Segoe UI, Microsoft YaHei, sans-serif;
-  }
+.windows:lang(zh-Hans) .sidebar .pane-body,
+.windows:lang(zh-Hans) .sidebar .monaco-scrollable-element .monaco-list-row {
+  font-family: InputSansCondensed-ExtraLight, Segoe WPC, Segoe UI, Microsoft YaHei, sans-serif;
+}
 
-.windows:lang(zh-Hant) .sidebar .pane-body, .windows:lang(zh-Hant) .sidebar .monaco-scrollable-element .monaco-list-row {
-    font-family: InputSansCondensed-ExtraLight, Segoe WPC, Segoe UI, Microsoft Jhenghei, sans-serif;
-  }
+.windows:lang(zh-Hant) .sidebar .pane-body,
+.windows:lang(zh-Hant) .sidebar .monaco-scrollable-element .monaco-list-row {
+  font-family: InputSansCondensed-ExtraLight, Segoe WPC, Segoe UI, Microsoft Jhenghei, sans-serif;
+}
 
-.windows:lang(ja) .sidebar .pane-body, .windows:lang(ja) .sidebar .monaco-scrollable-element .monaco-list-row {
-    font-family: InputSansCondensed-ExtraLight, Segoe WPC, Segoe UI, Yu Gothic UI, Meiryo UI, sans-serif;
-  }
+.windows:lang(ja) .sidebar .pane-body,
+.windows:lang(ja) .sidebar .monaco-scrollable-element .monaco-list-row {
+  font-family: InputSansCondensed-ExtraLight, Segoe WPC, Segoe UI, Yu Gothic UI, Meiryo UI, sans-serif;
+}
 
-.windows:lang(ko) .sidebar .pane-body, .windows:lang(ko) .sidebar .monaco-scrollable-element .monaco-list-row {
-    font-family: InputSansCondensed-ExtraLight, Segoe WPC, Segoe UI, Malgun Gothic, Dotom, sans-serif;
-  }
+.windows:lang(ko) .sidebar .pane-body,
+.windows:lang(ko) .sidebar .monaco-scrollable-element .monaco-list-row {
+  font-family: InputSansCondensed-ExtraLight, Segoe WPC, Segoe UI, Malgun Gothic, Dotom, sans-serif;
+}
 
-.linux .sidebar .pane-body, .linux .sidebar .monaco-scrollable-element .monaco-list-row {
-    font-family: InputSansCondensed-ExtraLight, system-ui, Ubuntu, Droid Sans, sans-serif;
-  }
+.linux .sidebar .pane-body,
+.linux .sidebar .monaco-scrollable-element .monaco-list-row {
+  font-family: InputSansCondensed-ExtraLight, system-ui, Ubuntu, Droid Sans, sans-serif;
+}
 
-.linux:lang(zh-Hans) .sidebar .pane-body, .linux:lang(zh-Hans) .sidebar .monaco-scrollable-element .monaco-list-row {
-    font-family: InputSansCondensed-ExtraLight, system-ui, Ubuntu, Droid Sans, Source Han Sans SC, Source Han Sans CN, Source Han Sans, sans-serif;
-  }
+.linux:lang(zh-Hans) .sidebar .pane-body,
+.linux:lang(zh-Hans) .sidebar .monaco-scrollable-element .monaco-list-row {
+  font-family: InputSansCondensed-ExtraLight, system-ui, Ubuntu, Droid Sans, Source Han Sans SC, Source Han Sans CN, Source Han Sans, sans-serif;
+}
 
-.linux:lang(zh-Hant) .sidebar .pane-body, .linux:lang(zh-Hant) .sidebar .monaco-scrollable-element .monaco-list-row {
-    font-family: InputSansCondensed-ExtraLight, system-ui, Ubuntu, Droid Sans, Source Han Sans TC, Source Han Sans TW, Source Han Sans, sans-serif;
-  }
+.linux:lang(zh-Hant) .sidebar .pane-body,
+.linux:lang(zh-Hant) .sidebar .monaco-scrollable-element .monaco-list-row {
+  font-family: InputSansCondensed-ExtraLight, system-ui, Ubuntu, Droid Sans, Source Han Sans TC, Source Han Sans TW, Source Han Sans, sans-serif;
+}
 
-.linux:lang(ja) .sidebar .pane-body, .linux:lang(ja) .sidebar .monaco-scrollable-element .monaco-list-row {
-    font-family: InputSansCondensed-ExtraLight, system-ui, Ubuntu, Droid Sans, Source Han Sans J, Source Han Sans JP, Source Han Sans, sans-serif;
-  }
+.linux:lang(ja) .sidebar .pane-body,
+.linux:lang(ja) .sidebar .monaco-scrollable-element .monaco-list-row {
+  font-family: InputSansCondensed-ExtraLight, system-ui, Ubuntu, Droid Sans, Source Han Sans J, Source Han Sans JP, Source Han Sans, sans-serif;
+}
 
-.linux:lang(ko) .sidebar .pane-body, .linux:lang(ko) .sidebar .monaco-scrollable-element .monaco-list-row {
-    font-family: InputSansCondensed-ExtraLight, system-ui, Ubuntu, Droid Sans, Source Han Sans K, Source Han Sans JR, Source Han Sans, UnDotum, FBaekmuk Gulim, sans-serif;
-  }
+.linux:lang(ko) .sidebar .pane-body,
+.linux:lang(ko) .sidebar .monaco-scrollable-element .monaco-list-row {
+  font-family: InputSansCondensed-ExtraLight, system-ui, Ubuntu, Droid Sans, Source Han Sans K, Source Han Sans JR, Source Han Sans, UnDotum, FBaekmuk Gulim, sans-serif;
+}
 
 
 /**
@@ -668,128 +683,128 @@
 */
 
 .mac .notification-list-item-source {
-    font-family: InputSansCondensed-ExtraLight, -apple-system, BlinkMacSystemFont, sans-serif;
-  }
+  font-family: InputSansCondensed-ExtraLight, -apple-system, BlinkMacSystemFont, sans-serif;
+}
 
 .mac:lang(zh-Hans) .notification-list-item-source {
-    font-family: InputSansCondensed-ExtraLight, -apple-system, BlinkMacSystemFont, PingFang SC, Hiragino Sans GB, sans-serif;
-  }
+  font-family: InputSansCondensed-ExtraLight, -apple-system, BlinkMacSystemFont, PingFang SC, Hiragino Sans GB, sans-serif;
+}
 
 .mac:lang(zh-Hant) .notification-list-item-source {
-    font-family: InputSansCondensed-ExtraLight, -apple-system, BlinkMacSystemFont, PingFang TC, sans-serif;
-  }
+  font-family: InputSansCondensed-ExtraLight, -apple-system, BlinkMacSystemFont, PingFang TC, sans-serif;
+}
 
 .mac:lang(ja) .notification-list-item-source {
-    font-family: InputSansCondensed-ExtraLight, -apple-system, BlinkMacSystemFont, Hiragino Kaku Gothic Pro, sans-serif;
-  }
+  font-family: InputSansCondensed-ExtraLight, -apple-system, BlinkMacSystemFont, Hiragino Kaku Gothic Pro, sans-serif;
+}
 
 .mac:lang(ko) .notification-list-item-source {
-    font-family: InputSansCondensed-ExtraLight, -apple-system, BlinkMacSystemFont, Nanum Gothic, Apple SD Gothic Neo, AppleGothic, sans-serif;
-  }
+  font-family: InputSansCondensed-ExtraLight, -apple-system, BlinkMacSystemFont, Nanum Gothic, Apple SD Gothic Neo, AppleGothic, sans-serif;
+}
 
 .windows .notification-list-item-source {
-    font-family: InputSansCondensed-ExtraLight, Segoe WPC, Segoe UI, sans-serif;
-  }
+  font-family: InputSansCondensed-ExtraLight, Segoe WPC, Segoe UI, sans-serif;
+}
 
 .windows:lang(zh-Hans) .notification-list-item-source {
-    font-family: InputSansCondensed-ExtraLight, Segoe WPC, Segoe UI, Microsoft YaHei, sans-serif;
-  }
+  font-family: InputSansCondensed-ExtraLight, Segoe WPC, Segoe UI, Microsoft YaHei, sans-serif;
+}
 
 .windows:lang(zh-Hant) .notification-list-item-source {
-    font-family: InputSansCondensed-ExtraLight, Segoe WPC, Segoe UI, Microsoft Jhenghei, sans-serif;
-  }
+  font-family: InputSansCondensed-ExtraLight, Segoe WPC, Segoe UI, Microsoft Jhenghei, sans-serif;
+}
 
 .windows:lang(ja) .notification-list-item-source {
-    font-family: InputSansCondensed-ExtraLight, Segoe WPC, Segoe UI, Yu Gothic UI, Meiryo UI, sans-serif;
-  }
+  font-family: InputSansCondensed-ExtraLight, Segoe WPC, Segoe UI, Yu Gothic UI, Meiryo UI, sans-serif;
+}
 
 .windows:lang(ko) .notification-list-item-source {
-    font-family: InputSansCondensed-ExtraLight, Segoe WPC, Segoe UI, Malgun Gothic, Dotom, sans-serif;
-  }
+  font-family: InputSansCondensed-ExtraLight, Segoe WPC, Segoe UI, Malgun Gothic, Dotom, sans-serif;
+}
 
 .linux .notification-list-item-source {
-    font-family: InputSansCondensed-ExtraLight, system-ui, Ubuntu, Droid Sans, sans-serif;
-  }
+  font-family: InputSansCondensed-ExtraLight, system-ui, Ubuntu, Droid Sans, sans-serif;
+}
 
 .linux:lang(zh-Hans) .notification-list-item-source {
-    font-family: InputSansCondensed-ExtraLight, system-ui, Ubuntu, Droid Sans, Source Han Sans SC, Source Han Sans CN, Source Han Sans, sans-serif;
-  }
+  font-family: InputSansCondensed-ExtraLight, system-ui, Ubuntu, Droid Sans, Source Han Sans SC, Source Han Sans CN, Source Han Sans, sans-serif;
+}
 
 .linux:lang(zh-Hant) .notification-list-item-source {
-    font-family: InputSansCondensed-ExtraLight, system-ui, Ubuntu, Droid Sans, Source Han Sans TC, Source Han Sans TW, Source Han Sans, sans-serif;
-  }
+  font-family: InputSansCondensed-ExtraLight, system-ui, Ubuntu, Droid Sans, Source Han Sans TC, Source Han Sans TW, Source Han Sans, sans-serif;
+}
 
 .linux:lang(ja) .notification-list-item-source {
-    font-family: InputSansCondensed-ExtraLight, system-ui, Ubuntu, Droid Sans, Source Han Sans J, Source Han Sans JP, Source Han Sans, sans-serif;
-  }
+  font-family: InputSansCondensed-ExtraLight, system-ui, Ubuntu, Droid Sans, Source Han Sans J, Source Han Sans JP, Source Han Sans, sans-serif;
+}
 
 .linux:lang(ko) .notification-list-item-source {
-    font-family: InputSansCondensed-ExtraLight, system-ui, Ubuntu, Droid Sans, Source Han Sans K, Source Han Sans JR, Source Han Sans, UnDotum, FBaekmuk Gulim, sans-serif;
-  }
+  font-family: InputSansCondensed-ExtraLight, system-ui, Ubuntu, Droid Sans, Source Han Sans K, Source Han Sans JR, Source Han Sans, UnDotum, FBaekmuk Gulim, sans-serif;
+}
 
 .notification-list-item-source {
   opacity: 0.5;
 }
 
 .mac .notification-list-item-message {
-    font-family: InputSansNarrow-Light, -apple-system, BlinkMacSystemFont, sans-serif;
-  }
+  font-family: InputSansNarrow-Light, -apple-system, BlinkMacSystemFont, sans-serif;
+}
 
 .mac:lang(zh-Hans) .notification-list-item-message {
-    font-family: InputSansNarrow-Light, -apple-system, BlinkMacSystemFont, PingFang SC, Hiragino Sans GB, sans-serif;
-  }
+  font-family: InputSansNarrow-Light, -apple-system, BlinkMacSystemFont, PingFang SC, Hiragino Sans GB, sans-serif;
+}
 
 .mac:lang(zh-Hant) .notification-list-item-message {
-    font-family: InputSansNarrow-Light, -apple-system, BlinkMacSystemFont, PingFang TC, sans-serif;
-  }
+  font-family: InputSansNarrow-Light, -apple-system, BlinkMacSystemFont, PingFang TC, sans-serif;
+}
 
 .mac:lang(ja) .notification-list-item-message {
-    font-family: InputSansNarrow-Light, -apple-system, BlinkMacSystemFont, Hiragino Kaku Gothic Pro, sans-serif;
-  }
+  font-family: InputSansNarrow-Light, -apple-system, BlinkMacSystemFont, Hiragino Kaku Gothic Pro, sans-serif;
+}
 
 .mac:lang(ko) .notification-list-item-message {
-    font-family: InputSansNarrow-Light, -apple-system, BlinkMacSystemFont, Nanum Gothic, Apple SD Gothic Neo, AppleGothic, sans-serif;
-  }
+  font-family: InputSansNarrow-Light, -apple-system, BlinkMacSystemFont, Nanum Gothic, Apple SD Gothic Neo, AppleGothic, sans-serif;
+}
 
 .windows .notification-list-item-message {
-    font-family: InputSansNarrow-Light, Segoe WPC, Segoe UI, sans-serif;
-  }
+  font-family: InputSansNarrow-Light, Segoe WPC, Segoe UI, sans-serif;
+}
 
 .windows:lang(zh-Hans) .notification-list-item-message {
-    font-family: InputSansNarrow-Light, Segoe WPC, Segoe UI, Microsoft YaHei, sans-serif;
-  }
+  font-family: InputSansNarrow-Light, Segoe WPC, Segoe UI, Microsoft YaHei, sans-serif;
+}
 
 .windows:lang(zh-Hant) .notification-list-item-message {
-    font-family: InputSansNarrow-Light, Segoe WPC, Segoe UI, Microsoft Jhenghei, sans-serif;
-  }
+  font-family: InputSansNarrow-Light, Segoe WPC, Segoe UI, Microsoft Jhenghei, sans-serif;
+}
 
 .windows:lang(ja) .notification-list-item-message {
-    font-family: InputSansNarrow-Light, Segoe WPC, Segoe UI, Yu Gothic UI, Meiryo UI, sans-serif;
-  }
+  font-family: InputSansNarrow-Light, Segoe WPC, Segoe UI, Yu Gothic UI, Meiryo UI, sans-serif;
+}
 
 .windows:lang(ko) .notification-list-item-message {
-    font-family: InputSansNarrow-Light, Segoe WPC, Segoe UI, Malgun Gothic, Dotom, sans-serif;
-  }
+  font-family: InputSansNarrow-Light, Segoe WPC, Segoe UI, Malgun Gothic, Dotom, sans-serif;
+}
 
 .linux .notification-list-item-message {
-    font-family: InputSansNarrow-Light, system-ui, Ubuntu, Droid Sans, sans-serif;
-  }
+  font-family: InputSansNarrow-Light, system-ui, Ubuntu, Droid Sans, sans-serif;
+}
 
 .linux:lang(zh-Hans) .notification-list-item-message {
-    font-family: InputSansNarrow-Light, system-ui, Ubuntu, Droid Sans, Source Han Sans SC, Source Han Sans CN, Source Han Sans, sans-serif;
-  }
+  font-family: InputSansNarrow-Light, system-ui, Ubuntu, Droid Sans, Source Han Sans SC, Source Han Sans CN, Source Han Sans, sans-serif;
+}
 
 .linux:lang(zh-Hant) .notification-list-item-message {
-    font-family: InputSansNarrow-Light, system-ui, Ubuntu, Droid Sans, Source Han Sans TC, Source Han Sans TW, Source Han Sans, sans-serif;
-  }
+  font-family: InputSansNarrow-Light, system-ui, Ubuntu, Droid Sans, Source Han Sans TC, Source Han Sans TW, Source Han Sans, sans-serif;
+}
 
 .linux:lang(ja) .notification-list-item-message {
-    font-family: InputSansNarrow-Light, system-ui, Ubuntu, Droid Sans, Source Han Sans J, Source Han Sans JP, Source Han Sans, sans-serif;
-  }
+  font-family: InputSansNarrow-Light, system-ui, Ubuntu, Droid Sans, Source Han Sans J, Source Han Sans JP, Source Han Sans, sans-serif;
+}
 
 .linux:lang(ko) .notification-list-item-message {
-    font-family: InputSansNarrow-Light, system-ui, Ubuntu, Droid Sans, Source Han Sans K, Source Han Sans JR, Source Han Sans, UnDotum, FBaekmuk Gulim, sans-serif;
-  }
+  font-family: InputSansNarrow-Light, system-ui, Ubuntu, Droid Sans, Source Han Sans K, Source Han Sans JR, Source Han Sans, UnDotum, FBaekmuk Gulim, sans-serif;
+}
 
 
 /**
@@ -797,129 +812,336 @@
 */
 
 .mac .monaco-list[aria-label="Chat"] .interactive-item-container .header {
-    font-family: InputSansNarrow-Medium, -apple-system, BlinkMacSystemFont, sans-serif;
-  }
+  font-family: InputSansNarrow-Medium, -apple-system, BlinkMacSystemFont, sans-serif;
+}
 
 .mac:lang(zh-Hans) .monaco-list[aria-label="Chat"] .interactive-item-container .header {
-    font-family: InputSansNarrow-Medium, -apple-system, BlinkMacSystemFont, PingFang SC, Hiragino Sans GB, sans-serif;
-  }
+  font-family: InputSansNarrow-Medium, -apple-system, BlinkMacSystemFont, PingFang SC, Hiragino Sans GB, sans-serif;
+}
 
 .mac:lang(zh-Hant) .monaco-list[aria-label="Chat"] .interactive-item-container .header {
-    font-family: InputSansNarrow-Medium, -apple-system, BlinkMacSystemFont, PingFang TC, sans-serif;
-  }
+  font-family: InputSansNarrow-Medium, -apple-system, BlinkMacSystemFont, PingFang TC, sans-serif;
+}
 
 .mac:lang(ja) .monaco-list[aria-label="Chat"] .interactive-item-container .header {
-    font-family: InputSansNarrow-Medium, -apple-system, BlinkMacSystemFont, Hiragino Kaku Gothic Pro, sans-serif;
-  }
+  font-family: InputSansNarrow-Medium, -apple-system, BlinkMacSystemFont, Hiragino Kaku Gothic Pro, sans-serif;
+}
 
 .mac:lang(ko) .monaco-list[aria-label="Chat"] .interactive-item-container .header {
-    font-family: InputSansNarrow-Medium, -apple-system, BlinkMacSystemFont, Nanum Gothic, Apple SD Gothic Neo, AppleGothic, sans-serif;
-  }
+  font-family: InputSansNarrow-Medium, -apple-system, BlinkMacSystemFont, Nanum Gothic, Apple SD Gothic Neo, AppleGothic, sans-serif;
+}
 
 .windows .monaco-list[aria-label="Chat"] .interactive-item-container .header {
-    font-family: InputSansNarrow-Medium, Segoe WPC, Segoe UI, sans-serif;
-  }
+  font-family: InputSansNarrow-Medium, Segoe WPC, Segoe UI, sans-serif;
+}
 
 .windows:lang(zh-Hans) .monaco-list[aria-label="Chat"] .interactive-item-container .header {
-    font-family: InputSansNarrow-Medium, Segoe WPC, Segoe UI, Microsoft YaHei, sans-serif;
-  }
+  font-family: InputSansNarrow-Medium, Segoe WPC, Segoe UI, Microsoft YaHei, sans-serif;
+}
 
 .windows:lang(zh-Hant) .monaco-list[aria-label="Chat"] .interactive-item-container .header {
-    font-family: InputSansNarrow-Medium, Segoe WPC, Segoe UI, Microsoft Jhenghei, sans-serif;
-  }
+  font-family: InputSansNarrow-Medium, Segoe WPC, Segoe UI, Microsoft Jhenghei, sans-serif;
+}
 
 .windows:lang(ja) .monaco-list[aria-label="Chat"] .interactive-item-container .header {
-    font-family: InputSansNarrow-Medium, Segoe WPC, Segoe UI, Yu Gothic UI, Meiryo UI, sans-serif;
-  }
+  font-family: InputSansNarrow-Medium, Segoe WPC, Segoe UI, Yu Gothic UI, Meiryo UI, sans-serif;
+}
 
 .windows:lang(ko) .monaco-list[aria-label="Chat"] .interactive-item-container .header {
-    font-family: InputSansNarrow-Medium, Segoe WPC, Segoe UI, Malgun Gothic, Dotom, sans-serif;
-  }
+  font-family: InputSansNarrow-Medium, Segoe WPC, Segoe UI, Malgun Gothic, Dotom, sans-serif;
+}
 
 .linux .monaco-list[aria-label="Chat"] .interactive-item-container .header {
-    font-family: InputSansNarrow-Medium, system-ui, Ubuntu, Droid Sans, sans-serif;
-  }
+  font-family: InputSansNarrow-Medium, system-ui, Ubuntu, Droid Sans, sans-serif;
+}
 
 .linux:lang(zh-Hans) .monaco-list[aria-label="Chat"] .interactive-item-container .header {
-    font-family: InputSansNarrow-Medium, system-ui, Ubuntu, Droid Sans, Source Han Sans SC, Source Han Sans CN, Source Han Sans, sans-serif;
-  }
+  font-family: InputSansNarrow-Medium, system-ui, Ubuntu, Droid Sans, Source Han Sans SC, Source Han Sans CN, Source Han Sans, sans-serif;
+}
 
 .linux:lang(zh-Hant) .monaco-list[aria-label="Chat"] .interactive-item-container .header {
-    font-family: InputSansNarrow-Medium, system-ui, Ubuntu, Droid Sans, Source Han Sans TC, Source Han Sans TW, Source Han Sans, sans-serif;
-  }
+  font-family: InputSansNarrow-Medium, system-ui, Ubuntu, Droid Sans, Source Han Sans TC, Source Han Sans TW, Source Han Sans, sans-serif;
+}
 
 .linux:lang(ja) .monaco-list[aria-label="Chat"] .interactive-item-container .header {
-    font-family: InputSansNarrow-Medium, system-ui, Ubuntu, Droid Sans, Source Han Sans J, Source Han Sans JP, Source Han Sans, sans-serif;
-  }
+  font-family: InputSansNarrow-Medium, system-ui, Ubuntu, Droid Sans, Source Han Sans J, Source Han Sans JP, Source Han Sans, sans-serif;
+}
 
 .linux:lang(ko) .monaco-list[aria-label="Chat"] .interactive-item-container .header {
-    font-family: InputSansNarrow-Medium, system-ui, Ubuntu, Droid Sans, Source Han Sans K, Source Han Sans JR, Source Han Sans, UnDotum, FBaekmuk Gulim, sans-serif;
-  }
+  font-family: InputSansNarrow-Medium, system-ui, Ubuntu, Droid Sans, Source Han Sans K, Source Han Sans JR, Source Han Sans, UnDotum, FBaekmuk Gulim, sans-serif;
+}
 
 .monaco-list[aria-label="Chat"] .interactive-item-container .header {
   color: var(--vscode-search-resultsInfoForeground);
 }
 
 .mac .monaco-list[aria-label="Chat"] .interactive-item-container .value {
-    font-family: InputSansCondensed-Light, -apple-system, BlinkMacSystemFont, sans-serif;
-  }
+  font-family: InputSansCondensed-Light, -apple-system, BlinkMacSystemFont, sans-serif;
+}
 
 .mac:lang(zh-Hans) .monaco-list[aria-label="Chat"] .interactive-item-container .value {
-    font-family: InputSansCondensed-Light, -apple-system, BlinkMacSystemFont, PingFang SC, Hiragino Sans GB, sans-serif;
-  }
+  font-family: InputSansCondensed-Light, -apple-system, BlinkMacSystemFont, PingFang SC, Hiragino Sans GB, sans-serif;
+}
 
 .mac:lang(zh-Hant) .monaco-list[aria-label="Chat"] .interactive-item-container .value {
-    font-family: InputSansCondensed-Light, -apple-system, BlinkMacSystemFont, PingFang TC, sans-serif;
-  }
+  font-family: InputSansCondensed-Light, -apple-system, BlinkMacSystemFont, PingFang TC, sans-serif;
+}
 
 .mac:lang(ja) .monaco-list[aria-label="Chat"] .interactive-item-container .value {
-    font-family: InputSansCondensed-Light, -apple-system, BlinkMacSystemFont, Hiragino Kaku Gothic Pro, sans-serif;
-  }
+  font-family: InputSansCondensed-Light, -apple-system, BlinkMacSystemFont, Hiragino Kaku Gothic Pro, sans-serif;
+}
 
 .mac:lang(ko) .monaco-list[aria-label="Chat"] .interactive-item-container .value {
-    font-family: InputSansCondensed-Light, -apple-system, BlinkMacSystemFont, Nanum Gothic, Apple SD Gothic Neo, AppleGothic, sans-serif;
-  }
+  font-family: InputSansCondensed-Light, -apple-system, BlinkMacSystemFont, Nanum Gothic, Apple SD Gothic Neo, AppleGothic, sans-serif;
+}
 
 .windows .monaco-list[aria-label="Chat"] .interactive-item-container .value {
-    font-family: InputSansCondensed-Light, Segoe WPC, Segoe UI, sans-serif;
-  }
+  font-family: InputSansCondensed-Light, Segoe WPC, Segoe UI, sans-serif;
+}
 
 .windows:lang(zh-Hans) .monaco-list[aria-label="Chat"] .interactive-item-container .value {
-    font-family: InputSansCondensed-Light, Segoe WPC, Segoe UI, Microsoft YaHei, sans-serif;
-  }
+  font-family: InputSansCondensed-Light, Segoe WPC, Segoe UI, Microsoft YaHei, sans-serif;
+}
 
 .windows:lang(zh-Hant) .monaco-list[aria-label="Chat"] .interactive-item-container .value {
-    font-family: InputSansCondensed-Light, Segoe WPC, Segoe UI, Microsoft Jhenghei, sans-serif;
-  }
+  font-family: InputSansCondensed-Light, Segoe WPC, Segoe UI, Microsoft Jhenghei, sans-serif;
+}
 
 .windows:lang(ja) .monaco-list[aria-label="Chat"] .interactive-item-container .value {
-    font-family: InputSansCondensed-Light, Segoe WPC, Segoe UI, Yu Gothic UI, Meiryo UI, sans-serif;
-  }
+  font-family: InputSansCondensed-Light, Segoe WPC, Segoe UI, Yu Gothic UI, Meiryo UI, sans-serif;
+}
 
 .windows:lang(ko) .monaco-list[aria-label="Chat"] .interactive-item-container .value {
-    font-family: InputSansCondensed-Light, Segoe WPC, Segoe UI, Malgun Gothic, Dotom, sans-serif;
-  }
+  font-family: InputSansCondensed-Light, Segoe WPC, Segoe UI, Malgun Gothic, Dotom, sans-serif;
+}
 
 .linux .monaco-list[aria-label="Chat"] .interactive-item-container .value {
-    font-family: InputSansCondensed-Light, system-ui, Ubuntu, Droid Sans, sans-serif;
-  }
+  font-family: InputSansCondensed-Light, system-ui, Ubuntu, Droid Sans, sans-serif;
+}
 
 .linux:lang(zh-Hans) .monaco-list[aria-label="Chat"] .interactive-item-container .value {
-    font-family: InputSansCondensed-Light, system-ui, Ubuntu, Droid Sans, Source Han Sans SC, Source Han Sans CN, Source Han Sans, sans-serif;
-  }
+  font-family: InputSansCondensed-Light, system-ui, Ubuntu, Droid Sans, Source Han Sans SC, Source Han Sans CN, Source Han Sans, sans-serif;
+}
 
 .linux:lang(zh-Hant) .monaco-list[aria-label="Chat"] .interactive-item-container .value {
-    font-family: InputSansCondensed-Light, system-ui, Ubuntu, Droid Sans, Source Han Sans TC, Source Han Sans TW, Source Han Sans, sans-serif;
-  }
+  font-family: InputSansCondensed-Light, system-ui, Ubuntu, Droid Sans, Source Han Sans TC, Source Han Sans TW, Source Han Sans, sans-serif;
+}
 
 .linux:lang(ja) .monaco-list[aria-label="Chat"] .interactive-item-container .value {
-    font-family: InputSansCondensed-Light, system-ui, Ubuntu, Droid Sans, Source Han Sans J, Source Han Sans JP, Source Han Sans, sans-serif;
-  }
+  font-family: InputSansCondensed-Light, system-ui, Ubuntu, Droid Sans, Source Han Sans J, Source Han Sans JP, Source Han Sans, sans-serif;
+}
 
 .linux:lang(ko) .monaco-list[aria-label="Chat"] .interactive-item-container .value {
-    font-family: InputSansCondensed-Light, system-ui, Ubuntu, Droid Sans, Source Han Sans K, Source Han Sans JR, Source Han Sans, UnDotum, FBaekmuk Gulim, sans-serif;
-  }
+  font-family: InputSansCondensed-Light, system-ui, Ubuntu, Droid Sans, Source Han Sans K, Source Han Sans JR, Source Han Sans, UnDotum, FBaekmuk Gulim, sans-serif;
+}
 
 .monaco-list[aria-label="Chat"] .interactive-item-container .value {
   color: var(--vscode-search-resultsInfoForeground);
+}
+
+.monaco-list-row .label-description {
+  opacity: 0.6 !important;
+}
+
+.statusbar-item-label,
+.statusbar-item-label:active {
+  background: transparent !important;
+}
+
+.open-editors .monaco-list-row .action-label:not(:hover) {
+  color: var(--vscode-icon-foreground) !important;
+}
+
+.explorer-folders-view .monaco-list-row.selected .label-name {
+  color: var(--vscode-titleBar-activeForeground);
+}
+
+.explorer-folders-view .monaco-list-row:hover .label-name {
+  color: var(--vscode-titleBar-activeForeground);
+}
+
+.monaco-breadcrumb-item .outline-element-icon::before,
+.monaco-breadcrumb-item .monaco-icon-label::before {
+  opacity: 0.7;
+}
+
+.sidebar .monaco-list .monaco-list-row.dirty:not(:hover) > .monaco-action-bar .codicon-close:before {
+  opacity: 0.6;
+}
+
+.sidebar .monaco-list-row .monaco-icon-label::before,
+.sidebar .monaco-list-row .outline-element-icon::before,
+.sidebar .monaco-list-row .codicon::before {
+  opacity: 0.8;
+}
+
+.sidebar .monaco-list-row:hover .monaco-icon-label::before,
+.sidebar .monaco-list-row.selected .monaco-icon-label::before,
+.sidebar .monaco-list-row:hover .outline-element-icon::before,
+.sidebar .monaco-list-row.selected .outline-element-icon::before,
+.sidebar .monaco-list-row:hover .codicon::before ,
+.sidebar .monaco-list-row.selected .codicon::before {
+  opacity: 1;
+}
+
+.ionutvmi-spacegray-vscode-themes-base16-ocean-dark-json .sidebar .monaco-list-row .monaco-icon-label::before,
+    .ionutvmi-spacegray-vscode-themes-base16-ocean-dark-json .sidebar .monaco-list-row .outline-element-icon::before,
+    .ionutvmi-spacegray-vscode-themes-base16-ocean-dark-json .sidebar .monaco-list-row .codicon::before {
+  opacity: 0.6;
+}
+
+.ionutvmi-spacegray-vscode-themes-base16-ocean-dark-json .sidebar .monaco-list-row:hover .monaco-icon-label::before,
+    .ionutvmi-spacegray-vscode-themes-base16-ocean-dark-json .sidebar .monaco-list-row.selected .monaco-icon-label::before,
+    .ionutvmi-spacegray-vscode-themes-base16-ocean-dark-json .sidebar .monaco-list-row:hover .outline-element-icon::before,
+    .ionutvmi-spacegray-vscode-themes-base16-ocean-dark-json .sidebar .monaco-list-row.selected .outline-element-icon::before,
+    .ionutvmi-spacegray-vscode-themes-base16-ocean-dark-json .sidebar .monaco-list-row:hover .codicon::before,
+    .ionutvmi-spacegray-vscode-themes-base16-ocean-dark-json .sidebar .monaco-list-row.selected .codicon::before {
+  opacity: 0.9;
+}
+
+.monaco-workbench .part>.title,
+.monaco-workbench .part>.title>.title-actions,
+.monaco-workbench .activitybar .menubar,
+.monaco-workbench .activitybar .menubar.compact .toolbar-toggle-more,
+.monaco-workbench .part.editor>.content .editor-group-container>.editor-group-container-toolbar,
+.monaco-workbench .part.editor>.content .editor-group-container>.title>.label-container,
+.monaco-workbench .part.editor>.content .editor-group-container>.title>.title-actions,
+.monaco-workbench .part.editor>.content .editor-group-container>.title .tabs-container,
+.monaco-workbench .part.editor>.content .editor-group-container>.title .tabs-container>.tab,
+.monaco-workbench .part.editor>.content .editor-group-container>.title .editor-actions,
+.monaco-workbench .part.editor>.content .editor-group-container>.title .monaco-icon-label:before,
+.monaco-workbench>.notifications-center>.notifications-center-header,
+.monaco-workbench .part.basepanel>.composite.title>.panel-switcher-container>.monaco-action-bar,
+.monaco-workbench .pane-composite-part>.title>.composite-bar-container>.composite-bar>.monaco-action-bar {
+  height: 28px;
+}
+
+.monaco-workbench .part>.title>.title-label,
+.monaco-workbench .part.editor>.content .editor-group-container>.title>.label-container>.title-label,
+.monaco-workbench .part.editor>.content .editor-group-container>.title .tabs-container>.tab .tab-label {
+  line-height: 28px;
+}
+
+.monaco-workbench .pane-composite-part>.title>.composite-bar-container>.composite-bar>.monaco-action-bar {
+  line-height: 32px;
+}
+
+footer.statusbar {
+  position: relative;
+  top: -7px;
+  height: 29px !important;
+}
+
+.monaco-findInput .monaco-custom-toggle:not(.checked) {
+  color: var(--vscode-icon-foreground) !important;
+}
+
+.monaco-editor .find-widget {
+  border-radius: 4px;
+  top: 2px !important;
+}
+
+.monaco-editor .wordHighlight,
+.monaco-editor .wordHighlightText,
+.monaco-editor .hoverHighlight,
+.monaco-editor .selectionHighlight,
+.monaco-editor .findMatch,
+.monaco-editor .currentFindMatch,
+.monaco-editor .squiggly-error,
+.monaco-editor .squiggly-error::before,
+.monaco-editor .squiggly-warning,
+.monaco-editor .squiggly-warning::before,
+.monaco-editor .squiggly-info,
+.monaco-editor .squiggly-info::before,
+.monaco-editor .squiggly-hint,
+.monaco-editor .squiggly-hint::before {
+  border-radius: 3px;
+}
+
+.monaco-editor .bracket-match {
+  border: 1px solid var(--vscode-editorBracketMatch-border);
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+}
+
+.monaco-hover-content .hover-contents {
+  opacity: 0.9;
+}
+
+.monaco-editor .lines-content .view-overlays > div:nth-child(n) .core-guide-indent {
+  box-shadow: none;
+}
+
+.monaco-editor .lines-content .view-overlays > div:nth-child(n) .core-guide-indent::after {
+  content: '';
+  position: absolute;
+  width: 2px;
+  top: 0;
+  bottom: 0;
+  border-left: 1px dotted var(--indent-color);
+}
+
+.monaco-editor .lines-content .view-overlays > div:nth-child(2n) .core-guide-indent::after {
+  top: 1px;
+  bottom: 1px;
+}
+
+.ionutvmi-spacegray-vscode-themes-base16-ocean-dark-json.monaco-workbench .part.editor>.content .editor-group-container.active>.title .tabs-container>.tab>.tab-actions .action-label.codicon {
+  color: var(--vscode-icon-foreground);
+}
+
+.ionutvmi-spacegray-vscode-themes-base16-ocean-dark-json.monaco-workbench .part.editor>.content .editor-group-container.active>.title .tabs-container>.tab.dirty>.tab-actions .action-label:not(:hover):before,
+.ionutvmi-spacegray-vscode-themes-base16-ocean-dark-json.monaco-workbench .part.editor>.content .editor-group-container>.title .tabs-container>.tab.dirty>.tab-actions .action-label:not(:hover):before {
+  content: " ";
+  display: block;
+  border: 1px solid #EBCB8B;
+  width: 6px;
+  height: 6px;
+  border-radius: 100%;
+  margin-left: 3px;
+}
+
+.tabs .tab .label-name {
+  color: var(--vscode-tab-inactiveForeground) !important;
+}
+
+.tabs .tab:hover .label-name {
+  color: var(--vscode-tab-hoverForeground) !important;
+}
+
+.tabs .tab.active .label-name {
+  color: var(--vscode-tab-activeForeground) !important;
+}
+
+.tabs .tab .file-icon::before {
+  width: 0;
+  opacity: 0;
+}
+
+.__CUSTOM_CSS_JS_INDICATOR_CLS {
+  display: none !important;
+}
+
+.monaco-dropdown>.dropdown-label,
+.monaco-action-bar .action-item,
+.monaco-list.mouse-support .monaco-list-row,
+.monaco-pane-view .pane>.pane-header,
+.monaco-workbench .part.editor>.content .editor-group-container>.title.monaco-workbench .part.editor>.content .editor-group-container>.title,
+.monaco-workbench .part.editor>.content .editor-group-container>.title .tabs-container>.tab,
+.monaco-breadcrumbs .monaco-breadcrumb-item.monaco-breadcrumbs .monaco-breadcrumb-item,
+.monaco-breadcrumbs .monaco-breadcrumb-item,
+.monaco-workbench .part.statusbar>.items-container>.statusbar-item>.statusbar-item-label {
+  cursor: auto;
+}
+
+.monaco-text-button,
+.monaco-custom-toggle,
+.monaco-workbench .part.editor>.content .editor-group-container>.title .monaco-icon-label:before,
+.monaco-workbench .part.editor>.content .editor-group-container>.title .tabs-container>.tab .monaco-icon-label:before,
+.monaco-workbench .part.editor>.content .editor-group-container>.title .tabs-container>.tab .tab-label a,
+.monaco-workbench .part.editor>.content .editor-group-container>.title .tabs-container>.tab .tab-label span,
+.monaco-workbench .part.editor>.content .editor-group-container>.title .title-label a,
+.monaco-workbench .part.editor>.content .editor-group-container>.title .title-label h2 {
+  cursor: inherit;
 }
