@@ -986,7 +986,13 @@
 
 .ionutvmi-spacegray-vscode-themes-base16-ocean-dark-json .sidebar .monaco-list-row .monaco-icon-label::before,
     .ionutvmi-spacegray-vscode-themes-base16-ocean-dark-json .sidebar .monaco-list-row .outline-element-icon::before,
-    .ionutvmi-spacegray-vscode-themes-base16-ocean-dark-json .sidebar .monaco-list-row .codicon::before {
+    .ionutvmi-spacegray-vscode-themes-base16-ocean-dark-json .sidebar .monaco-list-row .codicon::before,
+    .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-json .sidebar .monaco-list-row .monaco-icon-label::before,
+    .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-json .sidebar .monaco-list-row .outline-element-icon::before,
+    .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-json .sidebar .monaco-list-row .codicon::before,
+    .zetavg-spacegray-input-vscode-themes-spacegray-input-light-json .sidebar .monaco-list-row .monaco-icon-label::before,
+    .zetavg-spacegray-input-vscode-themes-spacegray-input-light-json .sidebar .monaco-list-row .outline-element-icon::before,
+    .zetavg-spacegray-input-vscode-themes-spacegray-input-light-json .sidebar .monaco-list-row .codicon::before {
   opacity: 0.6;
 }
 
@@ -995,7 +1001,19 @@
     .ionutvmi-spacegray-vscode-themes-base16-ocean-dark-json .sidebar .monaco-list-row:hover .outline-element-icon::before,
     .ionutvmi-spacegray-vscode-themes-base16-ocean-dark-json .sidebar .monaco-list-row.selected .outline-element-icon::before,
     .ionutvmi-spacegray-vscode-themes-base16-ocean-dark-json .sidebar .monaco-list-row:hover .codicon::before,
-    .ionutvmi-spacegray-vscode-themes-base16-ocean-dark-json .sidebar .monaco-list-row.selected .codicon::before {
+    .ionutvmi-spacegray-vscode-themes-base16-ocean-dark-json .sidebar .monaco-list-row.selected .codicon::before,
+    .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-json .sidebar .monaco-list-row:hover .monaco-icon-label::before,
+    .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-json .sidebar .monaco-list-row.selected .monaco-icon-label::before,
+    .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-json .sidebar .monaco-list-row:hover .outline-element-icon::before,
+    .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-json .sidebar .monaco-list-row.selected .outline-element-icon::before,
+    .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-json .sidebar .monaco-list-row:hover .codicon::before,
+    .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-json .sidebar .monaco-list-row.selected .codicon::before,
+    .zetavg-spacegray-input-vscode-themes-spacegray-input-light-json .sidebar .monaco-list-row:hover .monaco-icon-label::before,
+    .zetavg-spacegray-input-vscode-themes-spacegray-input-light-json .sidebar .monaco-list-row.selected .monaco-icon-label::before,
+    .zetavg-spacegray-input-vscode-themes-spacegray-input-light-json .sidebar .monaco-list-row:hover .outline-element-icon::before,
+    .zetavg-spacegray-input-vscode-themes-spacegray-input-light-json .sidebar .monaco-list-row.selected .outline-element-icon::before,
+    .zetavg-spacegray-input-vscode-themes-spacegray-input-light-json .sidebar .monaco-list-row:hover .codicon::before,
+    .zetavg-spacegray-input-vscode-themes-spacegray-input-light-json .sidebar .monaco-list-row.selected .codicon::before {
   opacity: 0.9;
 }
 
@@ -1087,12 +1105,18 @@ footer.statusbar {
   bottom: 1px;
 }
 
-.ionutvmi-spacegray-vscode-themes-base16-ocean-dark-json.monaco-workbench .part.editor>.content .editor-group-container.active>.title .tabs-container>.tab>.tab-actions .action-label.codicon {
+.ionutvmi-spacegray-vscode-themes-base16-ocean-dark-json.monaco-workbench .part.editor>.content .editor-group-container.active>.title .tabs-container>.tab>.tab-actions .action-label.codicon,
+.zetavg-spacegray-input-vscode-themes-spacegray-input-dark-json.monaco-workbench .part.editor>.content .editor-group-container.active>.title .tabs-container>.tab>.tab-actions .action-label.codicon,
+.zetavg-spacegray-input-vscode-themes-spacegray-input-light-json.monaco-workbench .part.editor>.content .editor-group-container.active>.title .tabs-container>.tab>.tab-actions .action-label.codicon {
   color: var(--vscode-icon-foreground);
 }
 
 .ionutvmi-spacegray-vscode-themes-base16-ocean-dark-json.monaco-workbench .part.editor>.content .editor-group-container.active>.title .tabs-container>.tab.dirty>.tab-actions .action-label:not(:hover):before,
-.ionutvmi-spacegray-vscode-themes-base16-ocean-dark-json.monaco-workbench .part.editor>.content .editor-group-container>.title .tabs-container>.tab.dirty>.tab-actions .action-label:not(:hover):before {
+.ionutvmi-spacegray-vscode-themes-base16-ocean-dark-json.monaco-workbench .part.editor>.content .editor-group-container>.title .tabs-container>.tab.dirty>.tab-actions .action-label:not(:hover):before,
+.zetavg-spacegray-input-vscode-themes-spacegray-input-dark-json.monaco-workbench .part.editor>.content .editor-group-container.active>.title .tabs-container>.tab.dirty>.tab-actions .action-label:not(:hover):before,
+.zetavg-spacegray-input-vscode-themes-spacegray-input-dark-json.monaco-workbench .part.editor>.content .editor-group-container>.title .tabs-container>.tab.dirty>.tab-actions .action-label:not(:hover):before,
+.zetavg-spacegray-input-vscode-themes-spacegray-input-light-json.monaco-workbench .part.editor>.content .editor-group-container.active>.title .tabs-container>.tab.dirty>.tab-actions .action-label:not(:hover):before,
+.zetavg-spacegray-input-vscode-themes-spacegray-input-light-json.monaco-workbench .part.editor>.content .editor-group-container>.title .tabs-container>.tab.dirty>.tab-actions .action-label:not(:hover):before {
   content: " ";
   display: block;
   border: 1px solid #EBCB8B;
