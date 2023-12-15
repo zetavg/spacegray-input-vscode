@@ -24,10 +24,8 @@ Once the extension is installed, you need to configure it to load the custom CSS
 
 Finally, run the **Custom CSS and JS: Reload Custom CSS and JS** command from the Command Palette (`Ctrl+Shift+P` or `⇧⌘P`) to load the custom CSS styles and reload VSCode.
 
-> **Note**
->
-> * If Visual Studio Code complains about that it is corrupted, simply click "Don't show again".
->
+> [!NOTE]
+> * If Visual Studio Code notifies you that its installation is corrupted, simply click "Don't show again."
 > * Every time after Visual Studio Code is updated, please re-run the **Custom CSS and JS: Reload Custom CSS and JS** command.
 
 ## Customizing the Theme
