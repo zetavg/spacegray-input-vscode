@@ -2,6 +2,8 @@
 
 The [Spacegray](https://github.com/zetavg/spacegray) theme with the [Input](https://input.djr.com/) font for VSCode.
 
+> Note: This theme requires additional installation steps to get the full experience. See the [Installation](https://github.com/zetavg/spacegray-input-vscode?tab=readme-ov-file#installation) documentation for more details.
+
 ## Installation
 
 ### Install the Input Font
