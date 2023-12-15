@@ -1,6 +1,8 @@
 {
   "name": "spacegray-input-vscode",
-  "displayName": "Spacegray Input",
+  "displayName": "Spacegray Input Theme",
+  "publisher": "zetavg",
+  "icon": "screenshots/spacegray-v2.png",
   "description": "The Spacegray theme with the Input font for VSCode.",
   "repository": "https://github.com/zetavg/spacegray-input-vscode",
   "version": "0.0.1",
