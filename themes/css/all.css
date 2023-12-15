@@ -708,67 +708,83 @@
 * Sidebar
 */
 
-.mac .sidebar .title {
+.mac .sidebar .title,
+.mac .monaco-workbench .part>.title>.title-label h2 {
   font-family: "Input Sans Condensed", -apple-system, BlinkMacSystemFont, sans-serif;
 }
 
-.mac:lang(zh-Hans) .sidebar .title {
+.mac:lang(zh-Hans) .sidebar .title,
+.mac:lang(zh-Hans) .monaco-workbench .part>.title>.title-label h2 {
   font-family: "Input Sans Condensed", -apple-system, BlinkMacSystemFont, PingFang SC, Hiragino Sans GB, sans-serif;
 }
 
-.mac:lang(zh-Hant) .sidebar .title {
+.mac:lang(zh-Hant) .sidebar .title,
+.mac:lang(zh-Hant) .monaco-workbench .part>.title>.title-label h2 {
   font-family: "Input Sans Condensed", -apple-system, BlinkMacSystemFont, PingFang TC, sans-serif;
 }
 
-.mac:lang(ja) .sidebar .title {
+.mac:lang(ja) .sidebar .title,
+.mac:lang(ja) .monaco-workbench .part>.title>.title-label h2 {
   font-family: "Input Sans Condensed", -apple-system, BlinkMacSystemFont, Hiragino Kaku Gothic Pro, sans-serif;
 }
 
-.mac:lang(ko) .sidebar .title {
+.mac:lang(ko) .sidebar .title,
+.mac:lang(ko) .monaco-workbench .part>.title>.title-label h2 {
   font-family: "Input Sans Condensed", -apple-system, BlinkMacSystemFont, Nanum Gothic, Apple SD Gothic Neo, AppleGothic, sans-serif;
 }
 
-.windows .sidebar .title {
+.windows .sidebar .title,
+.windows .monaco-workbench .part>.title>.title-label h2 {
   font-family: "Input Sans Condensed", Segoe WPC, Segoe UI, sans-serif;
 }
 
-.windows:lang(zh-Hans) .sidebar .title {
+.windows:lang(zh-Hans) .sidebar .title,
+.windows:lang(zh-Hans) .monaco-workbench .part>.title>.title-label h2 {
   font-family: "Input Sans Condensed", Segoe WPC, Segoe UI, Microsoft YaHei, sans-serif;
 }
 
-.windows:lang(zh-Hant) .sidebar .title {
+.windows:lang(zh-Hant) .sidebar .title,
+.windows:lang(zh-Hant) .monaco-workbench .part>.title>.title-label h2 {
   font-family: "Input Sans Condensed", Segoe WPC, Segoe UI, Microsoft Jhenghei, sans-serif;
 }
 
-.windows:lang(ja) .sidebar .title {
+.windows:lang(ja) .sidebar .title,
+.windows:lang(ja) .monaco-workbench .part>.title>.title-label h2 {
   font-family: "Input Sans Condensed", Segoe WPC, Segoe UI, Yu Gothic UI, Meiryo UI, sans-serif;
 }
 
-.windows:lang(ko) .sidebar .title {
+.windows:lang(ko) .sidebar .title,
+.windows:lang(ko) .monaco-workbench .part>.title>.title-label h2 {
   font-family: "Input Sans Condensed", Segoe WPC, Segoe UI, Malgun Gothic, Dotom, sans-serif;
 }
 
-.linux .sidebar .title {
+.linux .sidebar .title,
+.linux .monaco-workbench .part>.title>.title-label h2 {
   font-family: "Input Sans Condensed", system-ui, Ubuntu, Droid Sans, sans-serif;
 }
 
-.linux:lang(zh-Hans) .sidebar .title {
+.linux:lang(zh-Hans) .sidebar .title,
+.linux:lang(zh-Hans) .monaco-workbench .part>.title>.title-label h2 {
   font-family: "Input Sans Condensed", system-ui, Ubuntu, Droid Sans, Source Han Sans SC, Source Han Sans CN, Source Han Sans, sans-serif;
 }
 
-.linux:lang(zh-Hant) .sidebar .title {
+.linux:lang(zh-Hant) .sidebar .title,
+.linux:lang(zh-Hant) .monaco-workbench .part>.title>.title-label h2 {
   font-family: "Input Sans Condensed", system-ui, Ubuntu, Droid Sans, Source Han Sans TC, Source Han Sans TW, Source Han Sans, sans-serif;
 }
 
-.linux:lang(ja) .sidebar .title {
+.linux:lang(ja) .sidebar .title,
+.linux:lang(ja) .monaco-workbench .part>.title>.title-label h2 {
   font-family: "Input Sans Condensed", system-ui, Ubuntu, Droid Sans, Source Han Sans J, Source Han Sans JP, Source Han Sans, sans-serif;
 }
 
-.linux:lang(ko) .sidebar .title {
+.linux:lang(ko) .sidebar .title,
+.linux:lang(ko) .monaco-workbench .part>.title>.title-label h2 {
   font-family: "Input Sans Condensed", system-ui, Ubuntu, Droid Sans, Source Han Sans K, Source Han Sans JR, Source Han Sans, UnDotum, FBaekmuk Gulim, sans-serif;
 }
 
-.sidebar .title {
+.sidebar .title,
+.monaco-workbench .part>.title>.title-label h2 {
   font-weight: 500;
 }
 
