@@ -4,6 +4,8 @@ The [Spacegray](https://github.com/zetavg/spacegray) theme with the [Input](http
 
 > Note: This theme requires additional installation steps to get the full experience. See the [Installation](https://github.com/zetavg/spacegray-input-vscode?tab=readme-ov-file#installation) documentation for more details.
 
+![](https://raw.githubusercontent.com/zetavg/spacegray-input-vscode/main/screenshots/Screenshot.png)
+
 ## Installation
 
 ### Install the Input Font
