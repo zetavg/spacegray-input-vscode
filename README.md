@@ -2,6 +2,34 @@
 
 The [Spacegray](https://github.com/zetavg/spacegray) theme with the [Input](https://input.djr.com/) font for VSCode.
 
+## Installation
+
+### Install the Input Font
+
+The font used in this theme is the [Input](https://input.djr.com) font. To install it, download the font files from its [website](https://input.djr.com) and install them on your system.
+
+### Applying CSS Styles
+
+The font and spacing adjustments of this theme rely on loading custom CSS styles into VSCode. This can be achieved by the [Custom CSS and JS Loader](https://marketplace.visualstudio.com/items?itemName=be5invis.vscode-custom-css) extension. To install it, open the Command Palette (`Ctrl+Shift+P` or `⇧⌘P`) and run the **Extensions: Install Extensions** command. Then, search for "Custom CSS and JS Loader" and install it.
+
+Once the extension is installed, you need to configure it to load the custom CSS styles. To do this, open the Command Palette (`Ctrl+Shift+P` or `⇧⌘P`) and run the **Preferences: Open Settings (JSON)** command. Then, add the following settings to your `settings.json` file:
+
+```json
+{
+    "vscode_custom_css.imports": [
+        "https://raw.githubusercontent.com/zetavg/spacegray-input-vscode/main/themes/css/font.css"
+    ]
+}
+```
+
+Finally, run the **Custom CSS and JS: Reload Custom CSS and JS** command from the Command Palette (`Ctrl+Shift+P` or `⇧⌘P`) to load the custom CSS styles and reload VSCode.
+
+> **Note**
+>
+> * If Visual Studio Code complains about that it is corrupted, simply click "Don't show again".
+>
+> * Every time after Visual Studio Code is updated, please re-run the **Custom CSS and JS: Reload Custom CSS and JS** command.
+
 ## Customizing the Theme
 
 You can customize the Spacegray Input theme to your preferences by overriding it in your User Settings:
