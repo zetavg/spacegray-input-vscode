@@ -18,11 +18,21 @@ After the installation, click the "Set File Icon Theme" and "Set Product Icon Th
 
 The font used in this theme is the [Input](https://input.djr.com) font. To install it, download the font files from its [website](https://input.djr.com) and install them on your system.
 
+You may also want to configure VSCode to use the Input font. To do this, open the Command Palette (`Ctrl+Shift+P` or `⇧⌘P`) and run the **Preferences: Open User Settings (JSON)** command. Then, add the following settings to your `settings.json` file:
+
+```json
+{
+    "editor.fontFamily": "Input Mono",
+    "editor.fontWeight": "300",
+    "editor.fontSize": 16.5,
+}
+```
+
 ### Applying CSS Styles
 
 The font and spacing adjustments of this theme rely on loading custom CSS styles into VSCode. This can be achieved by the [Custom CSS and JS Loader](https://marketplace.visualstudio.com/items?itemName=be5invis.vscode-custom-css) extension. To install it, open the Command Palette (`Ctrl+Shift+P` or `⇧⌘P`) and run the **Extensions: Install Extensions** command. Then, search for "Custom CSS and JS Loader" and install it.
 
-Once the extension is installed, you need to configure it to load the custom CSS styles. To do this, open the Command Palette (`Ctrl+Shift+P` or `⇧⌘P`) and run the **Preferences: Open Settings (JSON)** command. Then, add the following settings to your `settings.json` file:
+Once the extension is installed, you need to configure it to load the custom CSS styles. To do this, open the Command Palette (`Ctrl+Shift+P` or `⇧⌘P`) and run the **Preferences: Open User Settings (JSON)** command. Then, add the following settings to your `settings.json` file:
 
 
 ```json
@@ -52,6 +62,13 @@ Once the extension is installed, you need to configure it to load the custom CSS
 </details>
 
 Finally, run the **Custom CSS and JS: Reload Custom CSS and JS** command from the Command Palette (`Ctrl+Shift+P` or `⇧⌘P`) to load the custom CSS styles and reload VSCode.
+
+> If you encounter permission errors when running the **Custom CSS and JS: Reload Custom CSS and JS** command on Linux or Mac, you may need to change the owner of the VSCode executable and its installation directory to your user account. To do this, run the following commands in the terminal:
+>
+> ```bash
+> sudo chown -R $(whoami) "$(which code)"
+> sudo chown -R $(whoami) /usr/share/code
+> ```
 
 > [!NOTE]
 > * If Visual Studio Code notifies you that its installation is corrupted, simply click "Don't show again."
