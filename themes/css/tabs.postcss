@@ -1,0 +1,32 @@
+.ionutvmi-spacegray-vscode-themes-base16-ocean-dark-json.monaco-workbench {
+    .part.editor>.content .editor-group-container.active>.title .tabs-container>.tab>.tab-actions .action-label.codicon {
+        color: var(--vscode-icon-foreground);
+    }
+
+    .part.editor>.content .editor-group-container.active>.title .tabs-container>.tab.dirty>.tab-actions .action-label:not(:hover):before, .part.editor>.content .editor-group-container>.title .tabs-container>.tab.dirty>.tab-actions .action-label:not(:hover):before {
+        content: " ";
+        display: block;
+        border: 1px solid #EBCB8B;
+        width: 6px;
+        height: 6px;
+        border-radius: 100%;
+        margin-left: 3px;
+    }
+}
+
+.tabs .tab .label-name {
+    color: var(--vscode-tab-inactiveForeground) !important;
+}
+
+.tabs .tab:hover .label-name {
+    color: var(--vscode-tab-hoverForeground) !important;
+}
+
+.tabs .tab.active .label-name {
+    color: var(--vscode-tab-activeForeground) !important;
+}
+
+.tabs .tab .file-icon::before {
+    width: 0;
+    opacity: 0;
+}

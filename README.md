@@ -17,7 +17,14 @@ Once the extension is installed, you need to configure it to load the custom CSS
 ```json
 {
     "vscode_custom_css.imports": [
-        "https://raw.githubusercontent.com/zetavg/spacegray-input-vscode/main/themes/css/font.css"
+        "https://raw.githubusercontent.com/zetavg/spacegray-input-vscode/main/themes/css/font.css",
+        "https://raw.githubusercontent.com/zetavg/spacegray-input-vscode/main/themes/css/color.css",
+        "https://raw.githubusercontent.com/zetavg/spacegray-input-vscode/main/themes/css/icon-opacit",
+        "https://raw.githubusercontent.com/zetavg/spacegray-input-vscode/main/themes/css/spacing.css",
+        "https://raw.githubusercontent.com/zetavg/spacegray-input-vscode/main/themes/css/editor-style",
+        "https://raw.githubusercontent.com/zetavg/spacegray-input-vscode/main/themes/css/tabs.css",
+        "https://raw.githubusercontent.com/zetavg/spacegray-input-vscode/main/themes/css/hide-stuff.css",
+        "https://raw.githubusercontent.com/zetavg/spacegray-input-vscode/main/themes/css/no-pointers.css"
     ]
 }
 ```
@@ -53,6 +60,12 @@ You can customize the Spacegray Input theme to your preferences by overriding it
 ```
 
 See the [Theme Color Reference](https://code.visualstudio.com/api/references/theme-color) for more details.
+
+
+## Development
+
+Run `npm run compile-css` to compile CSS files after changing any `.postcss` files.
+
 
 ## Credits
 

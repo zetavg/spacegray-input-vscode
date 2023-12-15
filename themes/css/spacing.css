@@ -1,0 +1,32 @@
+.monaco-workbench .part>.title,
+.monaco-workbench .part>.title>.title-actions,
+.monaco-workbench .activitybar .menubar,
+.monaco-workbench .activitybar .menubar.compact .toolbar-toggle-more,
+.monaco-workbench .part.editor>.content .editor-group-container>.editor-group-container-toolbar,
+.monaco-workbench .part.editor>.content .editor-group-container>.title>.label-container,
+.monaco-workbench .part.editor>.content .editor-group-container>.title>.title-actions,
+.monaco-workbench .part.editor>.content .editor-group-container>.title .tabs-container,
+.monaco-workbench .part.editor>.content .editor-group-container>.title .tabs-container>.tab,
+.monaco-workbench .part.editor>.content .editor-group-container>.title .editor-actions,
+.monaco-workbench .part.editor>.content .editor-group-container>.title .monaco-icon-label:before,
+.monaco-workbench>.notifications-center>.notifications-center-header,
+.monaco-workbench .part.basepanel>.composite.title>.panel-switcher-container>.monaco-action-bar,
+.monaco-workbench .pane-composite-part>.title>.composite-bar-container>.composite-bar>.monaco-action-bar {
+  height: 28px;
+}
+
+.monaco-workbench .part>.title>.title-label,
+.monaco-workbench .part.editor>.content .editor-group-container>.title>.label-container>.title-label,
+.monaco-workbench .part.editor>.content .editor-group-container>.title .tabs-container>.tab .tab-label {
+  line-height: 28px;
+}
+
+.monaco-workbench .pane-composite-part>.title>.composite-bar-container>.composite-bar>.monaco-action-bar {
+  line-height: 32px;
+}
+
+footer.statusbar {
+  position: relative;
+  top: -7px;
+  height: 29px !important;
+}
