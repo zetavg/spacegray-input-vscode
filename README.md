@@ -87,3 +87,12 @@ Run `npm run compile-css` to compile CSS files after changing any `.postcss` fil
 ## Credits
 
 This theme is based on the [Spacegray](https://github.com/SublimeText/Spacegray) theme for sublime text and the [Spacegray VSCode](https://github.com/mihai-vlc/spacegray-vscode/tree/master?tab=readme-ov-file) theme by Mihai Ionut Vilcu (mihai-vlc).
+
+The included product icon theme is a modified version of the [Carbon Icons](https://github.com/antfu/vscode-icons-carbon) made by Anthony Fu (antfu).
+
+
+## License
+
+[Carbon Icons](https://github.com/carbon-design-system/carbon/tree/main/packages/icons) by IBM are licensed under [Apache License 2.0](https://github.com/carbon-design-system/carbon/blob/main/LICENSE).
+
+Other files are licensed under MIT.

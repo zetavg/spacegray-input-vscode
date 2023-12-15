@@ -408,6 +408,15 @@
     font-family: InputSansCondensed-ExtraLight, system-ui, Ubuntu, Droid Sans, Source Han Sans K, Source Han Sans JR, Source Han Sans, UnDotum, FBaekmuk Gulim, sans-serif;
   }
 
+.setting-item-title .setting-item-cat-label-container {
+  font-family: InputSansNarrow-Regular;
+}
+
+.action-widget .monaco-list-row.group-header {
+  font-family: InputSansNarrow-Medium;
+  font-weight: initial;
+}
+
 .mac .extension-list-item .footer .action-label {
     font-family: InputSansCondensed-Medium, -apple-system, BlinkMacSystemFont, sans-serif;
   }
@@ -661,6 +670,33 @@
 .linux:lang(ko) .sidebar .pane-body, .linux:lang(ko) .sidebar .monaco-scrollable-element .monaco-list-row {
     font-family: InputSansCondensed-ExtraLight, system-ui, Ubuntu, Droid Sans, Source Han Sans K, Source Han Sans JR, Source Han Sans, UnDotum, FBaekmuk Gulim, sans-serif;
   }
+
+
+/**
+* Welcome Screen
+*/
+
+.gettingStartedCategoriesContainer h1,
+.gettingStartedCategoriesContainer h2,
+.gettingStartedCategoriesContainer h3,
+.gettingStartedCategoriesContainer h4,
+.gettingStartedCategoriesContainer .subtitle {
+    font-family: InputSansNarrow-Medium;
+  }
+
+
+/**
+* Dialog
+*/
+
+.dialog-message-text {
+  font-family: InputSansNarrow-Regular;
+}
+
+.dialog-message-detail,
+.dialog-message-body {
+  font-family: InputSansNarrow-Light;
+}
 
 
 /**

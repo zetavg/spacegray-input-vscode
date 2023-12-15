@@ -179,6 +179,15 @@
     @mixin font InputSansCondensed-ExtraLight;
 }
 
+.setting-item-title .setting-item-cat-label-container {
+    font-family: InputSansNarrow-Regular;
+}
+
+.action-widget .monaco-list-row.group-header {
+    font-family: InputSansNarrow-Medium;
+    font-weight: initial;
+}
+
 .extension-list-item .footer .action-label {
     @mixin font InputSansCondensed-Medium;
 }
@@ -206,6 +215,29 @@
 .sidebar .pane-body,
 .sidebar .monaco-scrollable-element .monaco-list-row {
     @mixin font InputSansCondensed-ExtraLight;
+}
+
+/**
+* Welcome Screen
+*/
+
+.gettingStartedCategoriesContainer {
+    h1, h2, h3, h4, .subtitle {
+        font-family: InputSansNarrow-Medium;
+    }
+}
+
+/**
+* Dialog
+*/
+
+.dialog-message-text {
+    font-family: InputSansNarrow-Regular;
+}
+
+.dialog-message-detail,
+.dialog-message-body {
+    font-family: InputSansNarrow-Light;
 }
 
 /**

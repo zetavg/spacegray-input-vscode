@@ -29,7 +29,14 @@
       {
         "id": "spacegray",
         "label": "Spacegray",
-        "path": "./fileicons/spacegray.json"
+        "path": "./file-icons/spacegray.json"
+      }
+    ],
+    "productIconThemes": [
+      {
+        "id": "spacegray-icons-carbon",
+        "label": "Carbon Icons (Spacegray)",
+        "path": "./product-icons/icons-carbon.json"
       }
     ]
   },

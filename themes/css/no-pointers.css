@@ -7,7 +7,7 @@
 .monaco-breadcrumbs .monaco-breadcrumb-item.monaco-breadcrumbs .monaco-breadcrumb-item,
 .monaco-breadcrumbs .monaco-breadcrumb-item,
 .monaco-workbench .part.statusbar>.items-container>.statusbar-item>.statusbar-item-label {
-  cursor: auto;
+  cursor: default;
 }
 
 .monaco-text-button,
@@ -18,5 +18,5 @@
 .monaco-workbench .part.editor>.content .editor-group-container>.title .tabs-container>.tab .tab-label span,
 .monaco-workbench .part.editor>.content .editor-group-container>.title .title-label a,
 .monaco-workbench .part.editor>.content .editor-group-container>.title .title-label h2 {
-  cursor: inherit;
+  cursor: default;
 }
