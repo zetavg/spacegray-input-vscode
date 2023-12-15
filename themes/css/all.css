@@ -163,7 +163,7 @@
   font-weight: 500;
 }
 
-.monaco-text-button {
+.monaco-text-button:not(.monaco-text-button-with-short-label) {
   padding: 4px 14px 2px !important;
 }
 
