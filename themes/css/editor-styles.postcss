@@ -1,7 +1,17 @@
 .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-json,
 .zetavg-spacegray-input-vscode-themes-spacegray-input-light-json {
-    .monaco-findInput .monaco-custom-toggle:not(.checked) {
-        color: var(--vscode-icon-foreground) !important;
+    .editor-widget.find-widget {
+        .monaco-custom-toggle:not(.checked) {
+            color: var(--vscode-icon-foreground) !important;
+        }
+
+        .controls {
+            background: transparent !important;
+        }
+    }
+
+    .findOptionsWidget {
+        color: var(--vscode-icon-foreground);
     }
 
     .monaco-editor .find-widget {
@@ -11,6 +21,7 @@
 
     .monaco-editor .wordHighlight,
     .monaco-editor .wordHighlightText,
+    .monaco-editor .wordHighlightStrong,
     .monaco-editor .hoverHighlight,
     .monaco-editor .selectionHighlight,
     .monaco-editor .findMatch,

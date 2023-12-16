@@ -1,5 +1,11 @@
-.zetavg-spacegray-input-vscode-themes-spacegray-input-dark-json .monaco-findInput .monaco-custom-toggle:not(.checked), .zetavg-spacegray-input-vscode-themes-spacegray-input-light-json .monaco-findInput .monaco-custom-toggle:not(.checked) {
-    color: var(--vscode-icon-foreground) !important;
+.zetavg-spacegray-input-vscode-themes-spacegray-input-dark-json .editor-widget.find-widget .monaco-custom-toggle:not(.checked), .zetavg-spacegray-input-vscode-themes-spacegray-input-light-json .editor-widget.find-widget .monaco-custom-toggle:not(.checked) {
+      color: var(--vscode-icon-foreground) !important;
+    }
+    .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-json .editor-widget.find-widget .controls, .zetavg-spacegray-input-vscode-themes-spacegray-input-light-json .editor-widget.find-widget .controls {
+      background: transparent !important;
+    }
+  .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-json .findOptionsWidget, .zetavg-spacegray-input-vscode-themes-spacegray-input-light-json .findOptionsWidget {
+    color: var(--vscode-icon-foreground);
   }
   .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-json .monaco-editor .find-widget, .zetavg-spacegray-input-vscode-themes-spacegray-input-light-json .monaco-editor .find-widget {
     border-radius: 4px;
@@ -7,6 +13,7 @@
   }
   .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-json .monaco-editor .wordHighlight,
     .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-json .monaco-editor .wordHighlightText,
+    .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-json .monaco-editor .wordHighlightStrong,
     .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-json .monaco-editor .hoverHighlight,
     .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-json .monaco-editor .selectionHighlight,
     .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-json .monaco-editor .findMatch,
@@ -21,6 +28,7 @@
     .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-json .monaco-editor .squiggly-hint::before,
     .zetavg-spacegray-input-vscode-themes-spacegray-input-light-json .monaco-editor .wordHighlight,
     .zetavg-spacegray-input-vscode-themes-spacegray-input-light-json .monaco-editor .wordHighlightText,
+    .zetavg-spacegray-input-vscode-themes-spacegray-input-light-json .monaco-editor .wordHighlightStrong,
     .zetavg-spacegray-input-vscode-themes-spacegray-input-light-json .monaco-editor .hoverHighlight,
     .zetavg-spacegray-input-vscode-themes-spacegray-input-light-json .monaco-editor .selectionHighlight,
     .zetavg-spacegray-input-vscode-themes-spacegray-input-light-json .monaco-editor .findMatch,
