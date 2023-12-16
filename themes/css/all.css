@@ -556,6 +556,81 @@
   font-weight: 200;
 }
 
+.mac .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-json .settings-group-title-label,
+.mac .zetavg-spacegray-input-vscode-themes-spacegray-input-light-json .settings-group-title-label {
+  font-family: "Input Sans Narrow", -apple-system, BlinkMacSystemFont, sans-serif ;
+}
+
+.mac:lang(zh-Hans) .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-json .settings-group-title-label,
+.mac:lang(zh-Hans) .zetavg-spacegray-input-vscode-themes-spacegray-input-light-json .settings-group-title-label {
+  font-family: "Input Sans Narrow", -apple-system, BlinkMacSystemFont, PingFang SC, Hiragino Sans GB, sans-serif ;
+}
+
+.mac:lang(zh-Hant) .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-json .settings-group-title-label,
+.mac:lang(zh-Hant) .zetavg-spacegray-input-vscode-themes-spacegray-input-light-json .settings-group-title-label {
+  font-family: "Input Sans Narrow", -apple-system, BlinkMacSystemFont, PingFang TC, sans-serif ;
+}
+
+.mac:lang(ja) .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-json .settings-group-title-label,
+.mac:lang(ja) .zetavg-spacegray-input-vscode-themes-spacegray-input-light-json .settings-group-title-label {
+  font-family: "Input Sans Narrow", -apple-system, BlinkMacSystemFont, Hiragino Kaku Gothic Pro, sans-serif ;
+}
+
+.mac:lang(ko) .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-json .settings-group-title-label,
+.mac:lang(ko) .zetavg-spacegray-input-vscode-themes-spacegray-input-light-json .settings-group-title-label {
+  font-family: "Input Sans Narrow", -apple-system, BlinkMacSystemFont, Nanum Gothic, Apple SD Gothic Neo, AppleGothic, sans-serif ;
+}
+
+.windows .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-json .settings-group-title-label,
+.windows .zetavg-spacegray-input-vscode-themes-spacegray-input-light-json .settings-group-title-label {
+  font-family: "Input Sans Narrow", Segoe WPC, Segoe UI, sans-serif ;
+}
+
+.windows:lang(zh-Hans) .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-json .settings-group-title-label,
+.windows:lang(zh-Hans) .zetavg-spacegray-input-vscode-themes-spacegray-input-light-json .settings-group-title-label {
+  font-family: "Input Sans Narrow", Segoe WPC, Segoe UI, Microsoft YaHei, sans-serif ;
+}
+
+.windows:lang(zh-Hant) .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-json .settings-group-title-label,
+.windows:lang(zh-Hant) .zetavg-spacegray-input-vscode-themes-spacegray-input-light-json .settings-group-title-label {
+  font-family: "Input Sans Narrow", Segoe WPC, Segoe UI, Microsoft Jhenghei, sans-serif ;
+}
+
+.windows:lang(ja) .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-json .settings-group-title-label,
+.windows:lang(ja) .zetavg-spacegray-input-vscode-themes-spacegray-input-light-json .settings-group-title-label {
+  font-family: "Input Sans Narrow", Segoe WPC, Segoe UI, Yu Gothic UI, Meiryo UI, sans-serif ;
+}
+
+.windows:lang(ko) .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-json .settings-group-title-label,
+.windows:lang(ko) .zetavg-spacegray-input-vscode-themes-spacegray-input-light-json .settings-group-title-label {
+  font-family: "Input Sans Narrow", Segoe WPC, Segoe UI, Malgun Gothic, Dotom, sans-serif ;
+}
+
+.linux .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-json .settings-group-title-label,
+.linux .zetavg-spacegray-input-vscode-themes-spacegray-input-light-json .settings-group-title-label {
+  font-family: "Input Sans Narrow", system-ui, Ubuntu, Droid Sans, sans-serif ;
+}
+
+.linux:lang(zh-Hans) .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-json .settings-group-title-label,
+.linux:lang(zh-Hans) .zetavg-spacegray-input-vscode-themes-spacegray-input-light-json .settings-group-title-label {
+  font-family: "Input Sans Narrow", system-ui, Ubuntu, Droid Sans, Source Han Sans SC, Source Han Sans CN, Source Han Sans, sans-serif ;
+}
+
+.linux:lang(zh-Hant) .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-json .settings-group-title-label,
+.linux:lang(zh-Hant) .zetavg-spacegray-input-vscode-themes-spacegray-input-light-json .settings-group-title-label {
+  font-family: "Input Sans Narrow", system-ui, Ubuntu, Droid Sans, Source Han Sans TC, Source Han Sans TW, Source Han Sans, sans-serif ;
+}
+
+.linux:lang(ja) .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-json .settings-group-title-label,
+.linux:lang(ja) .zetavg-spacegray-input-vscode-themes-spacegray-input-light-json .settings-group-title-label {
+  font-family: "Input Sans Narrow", system-ui, Ubuntu, Droid Sans, Source Han Sans J, Source Han Sans JP, Source Han Sans, sans-serif ;
+}
+
+.linux:lang(ko) .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-json .settings-group-title-label,
+.linux:lang(ko) .zetavg-spacegray-input-vscode-themes-spacegray-input-light-json .settings-group-title-label {
+  font-family: "Input Sans Narrow", system-ui, Ubuntu, Droid Sans, Source Han Sans K, Source Han Sans JR, Source Han Sans, UnDotum, FBaekmuk Gulim, sans-serif ;
+}
+
 .mac .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-json .setting-item-title .setting-item-cat-label-container,
 .mac .zetavg-spacegray-input-vscode-themes-spacegray-input-light-json .setting-item-title .setting-item-cat-label-container {
   font-family: "Input Sans Narrow", -apple-system, BlinkMacSystemFont, sans-serif ;
