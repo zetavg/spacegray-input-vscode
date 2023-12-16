@@ -1,5 +1,9 @@
 # Spacegray Input for VSCode
 
+[![Visual Studio Marketplace](https://badgen.net/vs-marketplace/v/zetavg.spacegray-input-vscode)][1]
+
+[1]: https://marketplace.visualstudio.com/items?itemName=zetavg.spacegray-input-vscode
+
 The [Spacegray](https://github.com/zetavg/spacegray) theme with the [Input](https://input.djr.com/) font for VSCode.
 
 > Note: This theme requires additional installation steps to get the full experience. See the [Installation](https://github.com/zetavg/spacegray-input-vscode?tab=readme-ov-file#installation) documentation for more details.
