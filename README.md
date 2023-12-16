@@ -25,6 +25,20 @@ You may also want to configure VSCode to use the Input font. To do this, open th
     "editor.fontFamily": "Input Mono",
     "editor.fontWeight": "300",
     "editor.fontSize": 16.5,
+    "editor.lineHeight": 1.6,
+    "editor.lineNumbers": "on",
+    "editor.renderLineHighlight": "gutter",
+    "editor.cursorBlinking": "smooth",
+    "editor.cursorWidth": 2,
+    "editor.minimap.showSlider": "always",
+    "editor.lightbulb.enabled": false,
+    "editor.scrollbar.verticalScrollbarSize": 4,
+    "editor.scrollbar.horizontalScrollbarSize": 4,
+    "terminal.integrated.fontSize": 14,
+    "terminal.integrated.fontFamily": "Input Mono",
+    "terminal.integrated.fontWeight": "300",
+    "terminal.integrated.fontWeightBold": "500",
+    "terminal.integrated.letterSpacing": 1,
 }
 ```
 
