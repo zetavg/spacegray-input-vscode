@@ -52,6 +52,11 @@
   .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-json .monaco-hover-content .hover-contents, .zetavg-spacegray-input-vscode-themes-spacegray-input-light-json .monaco-hover-content .hover-contents {
     opacity: 0.9;
   }
+  .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-json .monaco-editor .dirty-diff-glyph, .zetavg-spacegray-input-vscode-themes-spacegray-input-light-json .monaco-editor .dirty-diff-glyph {
+    left: 0 !important;
+    margin: 0 !important;
+    border-left-width: 2px !important;
+  }
   .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-json .monaco-editor .lines-content .view-overlays > div:nth-child(n) .core-guide-indent, .zetavg-spacegray-input-vscode-themes-spacegray-input-light-json .monaco-editor .lines-content .view-overlays > div:nth-child(n) .core-guide-indent {
       box-shadow: none;
     }
