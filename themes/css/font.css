@@ -169,6 +169,10 @@
     padding: 4px 14px 2px !important;
   }
 
+.zetavg-spacegray-input-vscode-themes-spacegray-input-dark-json .monaco-editor-pane-placeholder .monaco-text-button:not(.monaco-text-button-with-short-label), .zetavg-spacegray-input-vscode-themes-spacegray-input-light-json .monaco-editor-pane-placeholder .monaco-text-button:not(.monaco-text-button-with-short-label) {
+    padding: 4px 14px 4px !important;
+  }
+
 .mac .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-json .action-label:not(.codicon), .mac .zetavg-spacegray-input-vscode-themes-spacegray-input-light-json .action-label:not(.codicon) {
     font-family: "Input Sans Narrow", -apple-system, BlinkMacSystemFont, sans-serif ;
   }
@@ -377,6 +381,10 @@
 
 .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-json .part.statusbar > .items-container > .statusbar-item span.codicon, .zetavg-spacegray-input-vscode-themes-spacegray-input-light-json .part.statusbar > .items-container > .statusbar-item span.codicon {
     font-size: 11px;
+  }
+
+.zetavg-spacegray-input-vscode-themes-spacegray-input-dark-json .part.statusbar > .items-container > .statusbar-item span.codicon-remote, .zetavg-spacegray-input-vscode-themes-spacegray-input-light-json .part.statusbar > .items-container > .statusbar-item span.codicon-remote {
+    font-size: 12px;
   }
 
 .mac .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-json .monaco-list-row .label-description, .mac .zetavg-spacegray-input-vscode-themes-spacegray-input-light-json .monaco-list-row .label-description {
