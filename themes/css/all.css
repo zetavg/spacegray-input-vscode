@@ -117,7 +117,7 @@
 
 .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-json .part > .content,
 .zetavg-spacegray-input-vscode-themes-spacegray-input-light-json .part > .content {
-  font-size: 12px;
+  font-size: 11px;
 }
 
 .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-json .part.editor > .content .editor-group-container > .title .tabs-container > .tab .tab-label a,
@@ -1186,7 +1186,7 @@
     .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-json .sidebar .monaco-scrollable-element .monaco-list-row,
     .zetavg-spacegray-input-vscode-themes-spacegray-input-light-json .sidebar .pane-body,
     .zetavg-spacegray-input-vscode-themes-spacegray-input-light-json .sidebar .monaco-scrollable-element .monaco-list-row {
-  font-weight: 200;
+  font-weight: 300;
 }
   
 /**
