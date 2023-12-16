@@ -247,7 +247,7 @@
         "license": "_file_type_text",
         "changelog": "_file_type_text",
         ".gitattributes": "_file_type_text",
-        ".gitignoref": "_file_type_text",
+        ".gitignore": "_file_type_text",
         ".npmignore": "_file_type_text",
         ".vscodeignore": "_file_type_text"
     },

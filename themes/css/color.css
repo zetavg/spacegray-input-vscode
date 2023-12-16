@@ -7,12 +7,13 @@
     .zetavg-spacegray-input-vscode-themes-spacegray-input-light-json .statusbar-item-label:active {
     background: transparent !important;
   }
-  .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-json .open-editors .monaco-list-row .action-label:not(:hover), .zetavg-spacegray-input-vscode-themes-spacegray-input-light-json .open-editors .monaco-list-row .action-label:not(:hover) {
-    color: var(--vscode-icon-foreground) !important;
+  .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-json .pane-body.integrated-terminal .split-view-view:not(:first-child),
+    .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-json .pane-body.integrated-terminal .tabs-container,
+    .zetavg-spacegray-input-vscode-themes-spacegray-input-light-json .pane-body.integrated-terminal .split-view-view:not(:first-child),
+    .zetavg-spacegray-input-vscode-themes-spacegray-input-light-json .pane-body.integrated-terminal .tabs-container {
+    border-color: var(--vscode-tab-border);
   }
-  .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-json .explorer-folders-view .monaco-list-row.selected .label-name, .zetavg-spacegray-input-vscode-themes-spacegray-input-light-json .explorer-folders-view .monaco-list-row.selected .label-name {
-    color: var(--vscode-titleBar-activeForeground);
-  }
-  .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-json .explorer-folders-view .monaco-list-row:hover .label-name, .zetavg-spacegray-input-vscode-themes-spacegray-input-light-json .explorer-folders-view .monaco-list-row:hover .label-name {
-    color: var(--vscode-titleBar-activeForeground);
+  .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-json .pane-body .test-explorer .result-summary, .zetavg-spacegray-input-vscode-themes-spacegray-input-light-json .pane-body .test-explorer .result-summary {
+    color: var(--vscode-list-inactiveSelectionForeground);
+    opacity: 0.8;
   }

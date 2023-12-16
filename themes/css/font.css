@@ -86,9 +86,13 @@
     --monaco-monospace-font: InputMono-ExtraLight, "Input Mono", "Ubuntu Mono", "Liberation Mono", "DejaVu Sans Mono", "Courier New", monospace;
   }
 
-.zetavg-spacegray-input-vscode-themes-spacegray-input-dark-json .part > .content, .zetavg-spacegray-input-vscode-themes-spacegray-input-light-json .part > .content {
-    font-size: 11px;
-  }
+.zetavg-spacegray-input-vscode-themes-spacegray-input-dark-json .explorer-folders-view .monaco-list-row, .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-json .pane-body.open-editors .monaco-list-row, .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-json .pane-body.outline-pane .monaco-list-row, .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-json .pane-body.timeline-tree-view .monaco-list-row, .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-json .pane-body .scm-view .monaco-list-row, .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-json .tree-explorer-viewlet-tree-view .monaco-list-row, .zetavg-spacegray-input-vscode-themes-spacegray-input-light-json .explorer-folders-view .monaco-list-row, .zetavg-spacegray-input-vscode-themes-spacegray-input-light-json .pane-body.open-editors .monaco-list-row, .zetavg-spacegray-input-vscode-themes-spacegray-input-light-json .pane-body.outline-pane .monaco-list-row, .zetavg-spacegray-input-vscode-themes-spacegray-input-light-json .pane-body.timeline-tree-view .monaco-list-row, .zetavg-spacegray-input-vscode-themes-spacegray-input-light-json .pane-body .scm-view .monaco-list-row, .zetavg-spacegray-input-vscode-themes-spacegray-input-light-json .tree-explorer-viewlet-tree-view .monaco-list-row {
+      font-size: 11px;
+    }
+
+.zetavg-spacegray-input-vscode-themes-spacegray-input-dark-json .pane-body .search-view .monaco-list-row, .zetavg-spacegray-input-vscode-themes-spacegray-input-light-json .pane-body .search-view .monaco-list-row {
+      font-size: 12px;
+    }
 
 .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-json .part.editor > .content .editor-group-container > .title .tabs-container > .tab .tab-label a,
     .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-json .part.editor > .content .editor-group-container > .title .title-label a,
@@ -170,7 +174,11 @@
   }
 
 .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-json .monaco-editor-pane-placeholder .monaco-text-button:not(.monaco-text-button-with-short-label), .zetavg-spacegray-input-vscode-themes-spacegray-input-light-json .monaco-editor-pane-placeholder .monaco-text-button:not(.monaco-text-button-with-short-label) {
-    padding: 4px 14px 4px !important;
+    padding-bottom: 4px !important;
+  }
+
+.zetavg-spacegray-input-vscode-themes-spacegray-input-dark-json .pane:has(.view-bookmarksExplorer) .welcome-view .monaco-button, .zetavg-spacegray-input-vscode-themes-spacegray-input-light-json .pane:has(.view-bookmarksExplorer) .welcome-view .monaco-button {
+    padding-bottom: 4px !important;
   }
 
 .mac .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-json .action-label:not(.codicon), .mac .zetavg-spacegray-input-vscode-themes-spacegray-input-light-json .action-label:not(.codicon) {
@@ -385,6 +393,9 @@
 
 .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-json .part.statusbar > .items-container > .statusbar-item span.codicon-remote, .zetavg-spacegray-input-vscode-themes-spacegray-input-light-json .part.statusbar > .items-container > .statusbar-item span.codicon-remote {
     font-size: 12px;
+    font-weight: 600;
+    margin-left: 4px;
+    margin-bottom: 1px;
   }
 
 .mac .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-json .monaco-list-row .label-description, .mac .zetavg-spacegray-input-vscode-themes-spacegray-input-light-json .monaco-list-row .label-description {
@@ -913,6 +924,11 @@
     .zetavg-spacegray-input-vscode-themes-spacegray-input-light-json .sidebar .monaco-scrollable-element .monaco-list-row {
     font-weight: 300;
 }
+
+.zetavg-spacegray-input-vscode-themes-spacegray-input-dark-json .pane-body .test-explorer .result-summary, .zetavg-spacegray-input-vscode-themes-spacegray-input-light-json .pane-body .test-explorer .result-summary {
+    font-family: "Input Sans Narrow";
+    font-weight: 400;
+  }
 
 /**
     * Welcome Screen

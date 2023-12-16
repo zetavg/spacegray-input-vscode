@@ -152,8 +152,22 @@
 
 .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-json,
 .zetavg-spacegray-input-vscode-themes-spacegray-input-light-json {
-    .part > .content {
-        font-size: 11px;
+
+    .explorer-folders-view,
+    .pane-body.open-editors,
+    .pane-body.outline-pane,
+    .pane-body.timeline-tree-view,
+    .pane-body .scm-view,
+    .tree-explorer-viewlet-tree-view {
+        .monaco-list-row {
+            font-size: 11px;
+        }
+    }
+
+    .pane-body .search-view {
+        .monaco-list-row {
+            font-size: 12px;
+        }
     }
 
     .part.editor > .content .editor-group-container > .title .tabs-container > .tab .tab-label a,
@@ -175,7 +189,11 @@
     }
 
     .monaco-editor-pane-placeholder .monaco-text-button:not(.monaco-text-button-with-short-label) {
-        padding: 4px 14px 4px !important;
+        padding-bottom: 4px !important;
+    }
+
+    .pane:has(.view-bookmarksExplorer) .welcome-view .monaco-button {
+        padding-bottom: 4px !important;
     }
 
     .action-label:not(.codicon) {
@@ -210,6 +228,9 @@
 
     .part.statusbar > .items-container > .statusbar-item span.codicon-remote {
         font-size: 12px;
+        font-weight: 600;
+        margin-left: 4px;
+        margin-bottom: 1px;
     }
 
     .monaco-list-row .label-description {
@@ -264,6 +285,11 @@
     .sidebar .monaco-scrollable-element .monaco-list-row {
         @mixin font "Input Sans Condensed";
         font-weight: 300;
+    }
+
+    .pane-body .test-explorer .result-summary {
+        font-family: "Input Sans Narrow";
+        font-weight: 400;
     }
 
     /**

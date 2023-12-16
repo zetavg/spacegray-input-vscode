@@ -1,0 +1,34 @@
+.zetavg-spacegray-input-vscode-themes-spacegray-input-dark-json,
+.zetavg-spacegray-input-vscode-themes-spacegray-input-light-json {
+
+    /* Hide the title label to make space for dropdowns on the title bar, for panels such as "Run and Debug" */
+    /* .sidebar .title-label:has(~ .title-actions .monaco-select-box:first-child) {
+        width: 0;
+        padding: 0;
+        opacity: 0;
+    } */
+}
+  .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-json .explorer-folders-view .monaco-list-row .label-name, .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-json .pane-body.open-editors .monaco-list-row .label-name, .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-json .pane-body.outline-pane .monaco-list-row .label-name, .zetavg-spacegray-input-vscode-themes-spacegray-input-light-json .explorer-folders-view .monaco-list-row .label-name, .zetavg-spacegray-input-vscode-themes-spacegray-input-light-json .pane-body.open-editors .monaco-list-row .label-name, .zetavg-spacegray-input-vscode-themes-spacegray-input-light-json .pane-body.outline-pane .monaco-list-row .label-name {
+        color: var(--vscode-sideBar-foreground);
+      }
+  .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-json .explorer-folders-view .monaco-list-row .label-description, .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-json .pane-body.open-editors .monaco-list-row .label-description, .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-json .pane-body.outline-pane .monaco-list-row .label-description, .zetavg-spacegray-input-vscode-themes-spacegray-input-light-json .explorer-folders-view .monaco-list-row .label-description, .zetavg-spacegray-input-vscode-themes-spacegray-input-light-json .pane-body.open-editors .monaco-list-row .label-description, .zetavg-spacegray-input-vscode-themes-spacegray-input-light-json .pane-body.outline-pane .monaco-list-row .label-description {
+        color: var(--vscode-sideBar-foreground);
+        opacity: 0.6;
+      }
+  .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-json .explorer-folders-view .monaco-list-row:hover .label-name, .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-json .explorer-folders-view .monaco-list-row.selected .label-name, .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-json .pane-body.open-editors .monaco-list-row:hover .label-name, .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-json .pane-body.open-editors .monaco-list-row.selected .label-name, .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-json .pane-body.outline-pane .monaco-list-row:hover .label-name, .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-json .pane-body.outline-pane .monaco-list-row.selected .label-name, .zetavg-spacegray-input-vscode-themes-spacegray-input-light-json .explorer-folders-view .monaco-list-row:hover .label-name, .zetavg-spacegray-input-vscode-themes-spacegray-input-light-json .explorer-folders-view .monaco-list-row.selected .label-name, .zetavg-spacegray-input-vscode-themes-spacegray-input-light-json .pane-body.open-editors .monaco-list-row:hover .label-name, .zetavg-spacegray-input-vscode-themes-spacegray-input-light-json .pane-body.open-editors .monaco-list-row.selected .label-name, .zetavg-spacegray-input-vscode-themes-spacegray-input-light-json .pane-body.outline-pane .monaco-list-row:hover .label-name, .zetavg-spacegray-input-vscode-themes-spacegray-input-light-json .pane-body.outline-pane .monaco-list-row.selected .label-name {
+        color: var(--vscode-titleBar-activeForeground);
+      }
+  .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-json .explorer-folders-view .monaco-list-row:hover .label-description, .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-json .explorer-folders-view .monaco-list-row.selected .label-description, .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-json .pane-body.open-editors .monaco-list-row:hover .label-description, .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-json .pane-body.open-editors .monaco-list-row.selected .label-description, .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-json .pane-body.outline-pane .monaco-list-row:hover .label-description, .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-json .pane-body.outline-pane .monaco-list-row.selected .label-description, .zetavg-spacegray-input-vscode-themes-spacegray-input-light-json .explorer-folders-view .monaco-list-row:hover .label-description, .zetavg-spacegray-input-vscode-themes-spacegray-input-light-json .explorer-folders-view .monaco-list-row.selected .label-description, .zetavg-spacegray-input-vscode-themes-spacegray-input-light-json .pane-body.open-editors .monaco-list-row:hover .label-description, .zetavg-spacegray-input-vscode-themes-spacegray-input-light-json .pane-body.open-editors .monaco-list-row.selected .label-description, .zetavg-spacegray-input-vscode-themes-spacegray-input-light-json .pane-body.outline-pane .monaco-list-row:hover .label-description, .zetavg-spacegray-input-vscode-themes-spacegray-input-light-json .pane-body.outline-pane .monaco-list-row.selected .label-description {
+        color: var(--vscode-list-inactiveSelectionForeground);
+      }
+  .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-json .title-actions select.monaco-select-box, .zetavg-spacegray-input-vscode-themes-spacegray-input-light-json .title-actions select.monaco-select-box {
+      font-family: "Input Sans Compressed";
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+  /* If the first pane header is visible, make the title bar background the same as the pane header background to reduce visual clutter */
+  .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-json .sidebar .composite.title:has(~ * .split-view-container .split-view-view.visible:first-child .pane-header:not(.hidden)), .zetavg-spacegray-input-vscode-themes-spacegray-input-light-json .sidebar .composite.title:has(~ * .split-view-container .split-view-view.visible:first-child .pane-header:not(.hidden)) {
+    background-color: var(--vscode-sideBarSectionHeader-background);
+        /* border-bottom: 1px solid var(--vscode-tab-border); */
+  }

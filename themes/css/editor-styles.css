@@ -1,7 +1,7 @@
-.zetavg-spacegray-input-vscode-themes-spacegray-input-dark-json .editor-widget.find-widget .monaco-custom-toggle:not(.checked), .zetavg-spacegray-input-vscode-themes-spacegray-input-light-json .editor-widget.find-widget .monaco-custom-toggle:not(.checked) {
+.zetavg-spacegray-input-vscode-themes-spacegray-input-dark-json .editor-widget.find-widget .monaco-custom-toggle:not(.checked), .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-json .monaco-findInput .monaco-custom-toggle:not(.checked), .zetavg-spacegray-input-vscode-themes-spacegray-input-light-json .editor-widget.find-widget .monaco-custom-toggle:not(.checked), .zetavg-spacegray-input-vscode-themes-spacegray-input-light-json .monaco-findInput .monaco-custom-toggle:not(.checked) {
       color: var(--vscode-icon-foreground) !important;
     }
-    .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-json .editor-widget.find-widget .controls, .zetavg-spacegray-input-vscode-themes-spacegray-input-light-json .editor-widget.find-widget .controls {
+    .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-json .editor-widget.find-widget .controls, .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-json .monaco-findInput .controls, .zetavg-spacegray-input-vscode-themes-spacegray-input-light-json .editor-widget.find-widget .controls, .zetavg-spacegray-input-vscode-themes-spacegray-input-light-json .monaco-findInput .controls {
       background: transparent !important;
     }
   .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-json .findOptionsWidget, .zetavg-spacegray-input-vscode-themes-spacegray-input-light-json .findOptionsWidget {
@@ -11,6 +11,7 @@
     border-radius: 4px;
     top: 2px !important;
   }
+  /* Rounded Corners for Highlighted Text Background */
   .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-json .monaco-editor .wordHighlight,
     .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-json .monaco-editor .wordHighlightText,
     .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-json .monaco-editor .wordHighlightStrong,
@@ -26,6 +27,7 @@
     .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-json .monaco-editor .squiggly-info::before,
     .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-json .monaco-editor .squiggly-hint,
     .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-json .monaco-editor .squiggly-hint::before,
+    .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-json .monaco-editor .reference-decoration,
     .zetavg-spacegray-input-vscode-themes-spacegray-input-light-json .monaco-editor .wordHighlight,
     .zetavg-spacegray-input-vscode-themes-spacegray-input-light-json .monaco-editor .wordHighlightText,
     .zetavg-spacegray-input-vscode-themes-spacegray-input-light-json .monaco-editor .wordHighlightStrong,
@@ -40,23 +42,43 @@
     .zetavg-spacegray-input-vscode-themes-spacegray-input-light-json .monaco-editor .squiggly-info,
     .zetavg-spacegray-input-vscode-themes-spacegray-input-light-json .monaco-editor .squiggly-info::before,
     .zetavg-spacegray-input-vscode-themes-spacegray-input-light-json .monaco-editor .squiggly-hint,
-    .zetavg-spacegray-input-vscode-themes-spacegray-input-light-json .monaco-editor .squiggly-hint::before {
+    .zetavg-spacegray-input-vscode-themes-spacegray-input-light-json .monaco-editor .squiggly-hint::before,
+    .zetavg-spacegray-input-vscode-themes-spacegray-input-light-json .monaco-editor .reference-decoration {
     border-radius: 3px;
   }
+  /* Remove Squiggly Underline (~~~~~~~~) for Errors, Warnings, etc. */
+  .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-json .monaco-editor .squiggly-error,
+    .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-json .monaco-editor .squiggly-warning,
+    .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-json .monaco-editor .squiggly-info,
+    .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-json .monaco-editor .squiggly-hint,
+    .zetavg-spacegray-input-vscode-themes-spacegray-input-light-json .monaco-editor .squiggly-error,
+    .zetavg-spacegray-input-vscode-themes-spacegray-input-light-json .monaco-editor .squiggly-warning,
+    .zetavg-spacegray-input-vscode-themes-spacegray-input-light-json .monaco-editor .squiggly-info,
+    .zetavg-spacegray-input-vscode-themes-spacegray-input-light-json .monaco-editor .squiggly-hint {
+    background: transparent;
+  }
+  /* Barket Match - Underline Style */
   .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-json .monaco-editor .bracket-match, .zetavg-spacegray-input-vscode-themes-spacegray-input-light-json .monaco-editor .bracket-match {
     border: 1px solid var(--vscode-editorBracketMatch-border);
     border-top: 0;
     border-left: 0;
     border-right: 0;
   }
+  /* Make Content in Hover Popup Dimmer */
   .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-json .monaco-hover-content .hover-contents, .zetavg-spacegray-input-vscode-themes-spacegray-input-light-json .monaco-hover-content .hover-contents {
     opacity: 0.9;
   }
+  /* ? */
   .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-json .monaco-editor .dirty-diff-glyph, .zetavg-spacegray-input-vscode-themes-spacegray-input-light-json .monaco-editor .dirty-diff-glyph {
     left: 0 !important;
     margin: 0 !important;
     border-left-width: 2px !important;
   }
+  /* Bookmark Icon */
+  .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-json .monaco-editor .ced-1-TextEditorDecorationType928-2, .zetavg-spacegray-input-vscode-themes-spacegray-input-light-json .monaco-editor .ced-1-TextEditorDecorationType928-2 {
+    mix-blend-mode: luminosity;
+  }
+  /* Dotted Indent Guides */
   .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-json .monaco-editor .lines-content .view-overlays > div:nth-child(n) .core-guide-indent, .zetavg-spacegray-input-vscode-themes-spacegray-input-light-json .monaco-editor .lines-content .view-overlays > div:nth-child(n) .core-guide-indent {
       box-shadow: none;
     }

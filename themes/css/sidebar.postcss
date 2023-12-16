@@ -1,0 +1,48 @@
+.zetavg-spacegray-input-vscode-themes-spacegray-input-dark-json,
+.zetavg-spacegray-input-vscode-themes-spacegray-input-light-json {
+    .explorer-folders-view,
+    .pane-body.open-editors,
+    .pane-body.outline-pane {
+        .monaco-list-row {
+            .label-name {
+                color: var(--vscode-sideBar-foreground);
+            }
+            .label-description {
+                color: var(--vscode-sideBar-foreground);
+                opacity: 0.6;
+            }
+        }
+
+        .monaco-list-row:hover,
+        .monaco-list-row.selected {
+            .label-name {
+                color: var(--vscode-titleBar-activeForeground);
+            }
+            .label-description {
+                color: var(--vscode-list-inactiveSelectionForeground)
+            }
+        }
+    }
+
+    .title-actions {
+        select.monaco-select-box {
+            font-family: "Input Sans Compressed";
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+    }
+
+    /* If the first pane header is visible, make the title bar background the same as the pane header background to reduce visual clutter */
+    .sidebar .composite.title:has(~ * .split-view-container .split-view-view.visible:first-child .pane-header:not(.hidden)) {
+        background-color: var(--vscode-sideBarSectionHeader-background);
+        /* border-bottom: 1px solid var(--vscode-tab-border); */
+    }
+
+    /* Hide the title label to make space for dropdowns on the title bar, for panels such as "Run and Debug" */
+    /* .sidebar .title-label:has(~ .title-actions .monaco-select-box:first-child) {
+        width: 0;
+        padding: 0;
+        opacity: 0;
+    } */
+}

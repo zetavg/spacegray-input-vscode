@@ -1,0 +1,63 @@
+.ionutvmi-spacegray-vscode-themes-base16-ocean-dark-json,
+.zetavg-spacegray-input-vscode-themes-spacegray-input-dark-json,
+.zetavg-spacegray-input-vscode-themes-spacegray-input-light-json {
+    input[type="checkbox"] {
+        width: 13px;
+        height: 13px;
+        appearance: none;
+        position: relative;
+
+         &::after {
+            content: '';
+            display: block;
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: var(--vscode-input-background);
+            border-radius: 0;
+            border: 1px solid var(--vscode-icon-foreground);
+            text-align: center;
+            line-height: 10px;
+            font-size: 10px;
+            color: var(--vscode-inputOption-activeForeground);
+        }
+
+        &:checked {
+            &::after {
+                content: '✔';
+            }
+        }
+    }
+
+    .monaco-list-row  input[type="checkbox"] {
+        margin: 0 6px 0 0;
+    }
+
+    /*
+    input[type="checkbox"] {
+        width: 13px;
+        height: 13px;
+        accent-color: var(--vscode-input-background);
+        mix-blend-mode: exclusion;
+
+        &:not(:checked) {
+            appearance: none;
+            position: relative;
+
+            &::after {
+                content: '';
+                display: block;
+                position: absolute;
+                top: 0;
+                left: 0;
+                right: 0;
+                bottom: 0;
+                background: var(--vscode-input-background);
+                border-radius: 3px;
+            }
+        }
+    }
+     */
+}

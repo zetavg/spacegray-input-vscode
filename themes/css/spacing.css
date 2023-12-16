@@ -36,6 +36,12 @@
   .zetavg-spacegray-input-vscode-themes-spacegray-input-light-json .part.editor>.content .editor-group-container>.title .tabs-container>.tab .tab-label {
     line-height: 28px;
   }
+  .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-json .part.editor>.content .editor-group-container>.monaco-progress-container,
+  .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-json .part>.content>.monaco-progress-container,
+  .zetavg-spacegray-input-vscode-themes-spacegray-input-light-json .part.editor>.content .editor-group-container>.monaco-progress-container,
+  .zetavg-spacegray-input-vscode-themes-spacegray-input-light-json .part>.content>.monaco-progress-container {
+    top: 28px !important;
+  }
   .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-json .pane-composite-part>.title>.composite-bar-container>.composite-bar>.monaco-action-bar, .zetavg-spacegray-input-vscode-themes-spacegray-input-light-json .pane-composite-part>.title>.composite-bar-container>.composite-bar>.monaco-action-bar {
     line-height: 32px;
   }
@@ -43,4 +49,12 @@
     position: relative;
     top: -7px;
     height: 29px !important;
+  }
+  .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-json .pane-body .scm-view .monaco-tl-twistie.force-no-twistie, .zetavg-spacegray-input-vscode-themes-spacegray-input-light-json .pane-body .scm-view .monaco-tl-twistie.force-no-twistie {
+      display: none !important;
+    }
+  .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-json .pane-body .test-explorer .result-summary-container, .zetavg-spacegray-input-vscode-themes-spacegray-input-light-json .pane-body .test-explorer .result-summary-container {
+    padding-bottom: 2px;
+    height: 22px;
+    padding-left: 16px;
   }

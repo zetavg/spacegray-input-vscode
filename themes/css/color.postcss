@@ -9,15 +9,13 @@
         background: transparent !important;
     }
 
-    .open-editors .monaco-list-row .action-label:not(:hover) {
-        color: var(--vscode-icon-foreground) !important;
+    .pane-body.integrated-terminal .split-view-view:not(:first-child),
+    .pane-body.integrated-terminal .tabs-container {
+        border-color: var(--vscode-tab-border);
     }
 
-    .explorer-folders-view .monaco-list-row.selected .label-name {
-        color: var(--vscode-titleBar-activeForeground);
-    }
-
-    .explorer-folders-view .monaco-list-row:hover .label-name {
-        color: var(--vscode-titleBar-activeForeground);
+    .pane-body .test-explorer .result-summary {
+        color: var(--vscode-list-inactiveSelectionForeground);
+        opacity: 0.8;
     }
 }
