@@ -1,22 +1,38 @@
-.monaco-dropdown>.dropdown-label,
-.monaco-action-bar .action-item,
-.monaco-list.mouse-support .monaco-list-row,
-.monaco-pane-view .pane>.pane-header,
-.monaco-workbench .part.editor>.content .editor-group-container>.title.monaco-workbench .part.editor>.content .editor-group-container>.title,
-.monaco-workbench .part.editor>.content .editor-group-container>.title .tabs-container>.tab,
-.monaco-breadcrumbs .monaco-breadcrumb-item.monaco-breadcrumbs .monaco-breadcrumb-item,
-.monaco-breadcrumbs .monaco-breadcrumb-item,
-.monaco-workbench .part.statusbar>.items-container>.statusbar-item>.statusbar-item-label {
-  cursor: default;
-}
-
-.monaco-text-button,
-.monaco-custom-toggle,
-.monaco-workbench .part.editor>.content .editor-group-container>.title .monaco-icon-label:before,
-.monaco-workbench .part.editor>.content .editor-group-container>.title .tabs-container>.tab .monaco-icon-label:before,
-.monaco-workbench .part.editor>.content .editor-group-container>.title .tabs-container>.tab .tab-label a,
-.monaco-workbench .part.editor>.content .editor-group-container>.title .tabs-container>.tab .tab-label span,
-.monaco-workbench .part.editor>.content .editor-group-container>.title .title-label a,
-.monaco-workbench .part.editor>.content .editor-group-container>.title .title-label h2 {
-  cursor: default;
-}
+.zetavg-spacegray-input-vscode-themes-spacegray-input-dark-json .monaco-dropdown>.dropdown-label,
+	.zetavg-spacegray-input-vscode-themes-spacegray-input-dark-json .monaco-action-bar .action-item,
+	.zetavg-spacegray-input-vscode-themes-spacegray-input-dark-json .monaco-list.mouse-support .monaco-list-row,
+	.zetavg-spacegray-input-vscode-themes-spacegray-input-dark-json .monaco-pane-view .pane>.pane-header,
+	.zetavg-spacegray-input-vscode-themes-spacegray-input-dark-json .part.editor>.content .editor-group-container>.title.part.editor>.content .editor-group-container>.title,
+	.zetavg-spacegray-input-vscode-themes-spacegray-input-dark-json .part.editor>.content .editor-group-container>.title .tabs-container>.tab,
+	.zetavg-spacegray-input-vscode-themes-spacegray-input-dark-json .monaco-breadcrumbs .monaco-breadcrumb-item.monaco-breadcrumbs .monaco-breadcrumb-item,
+	.zetavg-spacegray-input-vscode-themes-spacegray-input-dark-json .monaco-breadcrumbs .monaco-breadcrumb-item,
+	.zetavg-spacegray-input-vscode-themes-spacegray-input-dark-json .part.statusbar>.items-container>.statusbar-item>.statusbar-item-label,
+	.zetavg-spacegray-input-vscode-themes-spacegray-input-light-json .monaco-dropdown>.dropdown-label,
+	.zetavg-spacegray-input-vscode-themes-spacegray-input-light-json .monaco-action-bar .action-item,
+	.zetavg-spacegray-input-vscode-themes-spacegray-input-light-json .monaco-list.mouse-support .monaco-list-row,
+	.zetavg-spacegray-input-vscode-themes-spacegray-input-light-json .monaco-pane-view .pane>.pane-header,
+	.zetavg-spacegray-input-vscode-themes-spacegray-input-light-json .part.editor>.content .editor-group-container>.title.part.editor>.content .editor-group-container>.title,
+	.zetavg-spacegray-input-vscode-themes-spacegray-input-light-json .part.editor>.content .editor-group-container>.title .tabs-container>.tab,
+	.zetavg-spacegray-input-vscode-themes-spacegray-input-light-json .monaco-breadcrumbs .monaco-breadcrumb-item.monaco-breadcrumbs .monaco-breadcrumb-item,
+	.zetavg-spacegray-input-vscode-themes-spacegray-input-light-json .monaco-breadcrumbs .monaco-breadcrumb-item,
+	.zetavg-spacegray-input-vscode-themes-spacegray-input-light-json .part.statusbar>.items-container>.statusbar-item>.statusbar-item-label {
+    cursor: default;
+  }
+  .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-json .monaco-text-button,
+	.zetavg-spacegray-input-vscode-themes-spacegray-input-dark-json .monaco-custom-toggle,
+	.zetavg-spacegray-input-vscode-themes-spacegray-input-dark-json .part.editor>.content .editor-group-container>.title .monaco-icon-label:before,
+	.zetavg-spacegray-input-vscode-themes-spacegray-input-dark-json .part.editor>.content .editor-group-container>.title .tabs-container>.tab .monaco-icon-label:before,
+	.zetavg-spacegray-input-vscode-themes-spacegray-input-dark-json .part.editor>.content .editor-group-container>.title .tabs-container>.tab .tab-label a,
+	.zetavg-spacegray-input-vscode-themes-spacegray-input-dark-json .part.editor>.content .editor-group-container>.title .tabs-container>.tab .tab-label span,
+	.zetavg-spacegray-input-vscode-themes-spacegray-input-dark-json .part.editor>.content .editor-group-container>.title .title-label a,
+	.zetavg-spacegray-input-vscode-themes-spacegray-input-dark-json .part.editor>.content .editor-group-container>.title .title-label h2,
+	.zetavg-spacegray-input-vscode-themes-spacegray-input-light-json .monaco-text-button,
+	.zetavg-spacegray-input-vscode-themes-spacegray-input-light-json .monaco-custom-toggle,
+	.zetavg-spacegray-input-vscode-themes-spacegray-input-light-json .part.editor>.content .editor-group-container>.title .monaco-icon-label:before,
+	.zetavg-spacegray-input-vscode-themes-spacegray-input-light-json .part.editor>.content .editor-group-container>.title .tabs-container>.tab .monaco-icon-label:before,
+	.zetavg-spacegray-input-vscode-themes-spacegray-input-light-json .part.editor>.content .editor-group-container>.title .tabs-container>.tab .tab-label a,
+	.zetavg-spacegray-input-vscode-themes-spacegray-input-light-json .part.editor>.content .editor-group-container>.title .tabs-container>.tab .tab-label span,
+	.zetavg-spacegray-input-vscode-themes-spacegray-input-light-json .part.editor>.content .editor-group-container>.title .title-label a,
+	.zetavg-spacegray-input-vscode-themes-spacegray-input-light-json .part.editor>.content .editor-group-container>.title .title-label h2 {
+    cursor: default;
+  }

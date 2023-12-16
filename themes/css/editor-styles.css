@@ -1,54 +1,61 @@
-.monaco-findInput .monaco-custom-toggle:not(.checked) {
-  color: var(--vscode-icon-foreground) !important;
-}
-
-.monaco-editor .find-widget {
-  border-radius: 4px;
-  top: 2px !important;
-}
-
-.monaco-editor .wordHighlight,
-.monaco-editor .wordHighlightText,
-.monaco-editor .hoverHighlight,
-.monaco-editor .selectionHighlight,
-.monaco-editor .findMatch,
-.monaco-editor .currentFindMatch,
-.monaco-editor .squiggly-error,
-.monaco-editor .squiggly-error::before,
-.monaco-editor .squiggly-warning,
-.monaco-editor .squiggly-warning::before,
-.monaco-editor .squiggly-info,
-.monaco-editor .squiggly-info::before,
-.monaco-editor .squiggly-hint,
-.monaco-editor .squiggly-hint::before {
-  border-radius: 3px;
-}
-
-.monaco-editor .bracket-match {
-  border: 1px solid var(--vscode-editorBracketMatch-border);
-  border-top: 0;
-  border-left: 0;
-  border-right: 0;
-}
-
-.monaco-hover-content .hover-contents {
-  opacity: 0.9;
-}
-
-.monaco-editor .lines-content .view-overlays > div:nth-child(n) .core-guide-indent {
-    box-shadow: none;
+.zetavg-spacegray-input-vscode-themes-spacegray-input-dark-json .monaco-findInput .monaco-custom-toggle:not(.checked), .zetavg-spacegray-input-vscode-themes-spacegray-input-light-json .monaco-findInput .monaco-custom-toggle:not(.checked) {
+    color: var(--vscode-icon-foreground) !important;
   }
-
-.monaco-editor .lines-content .view-overlays > div:nth-child(n) .core-guide-indent::after {
-      content: '';
-      position: absolute;
-      width: 2px;
-      top: 0;
-      bottom: 0;
-      border-left: 1px dotted var(--indent-color);
+  .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-json .monaco-editor .find-widget, .zetavg-spacegray-input-vscode-themes-spacegray-input-light-json .monaco-editor .find-widget {
+    border-radius: 4px;
+    top: 2px !important;
+  }
+  .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-json .monaco-editor .wordHighlight,
+    .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-json .monaco-editor .wordHighlightText,
+    .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-json .monaco-editor .hoverHighlight,
+    .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-json .monaco-editor .selectionHighlight,
+    .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-json .monaco-editor .findMatch,
+    .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-json .monaco-editor .currentFindMatch,
+    .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-json .monaco-editor .squiggly-error,
+    .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-json .monaco-editor .squiggly-error::before,
+    .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-json .monaco-editor .squiggly-warning,
+    .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-json .monaco-editor .squiggly-warning::before,
+    .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-json .monaco-editor .squiggly-info,
+    .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-json .monaco-editor .squiggly-info::before,
+    .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-json .monaco-editor .squiggly-hint,
+    .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-json .monaco-editor .squiggly-hint::before,
+    .zetavg-spacegray-input-vscode-themes-spacegray-input-light-json .monaco-editor .wordHighlight,
+    .zetavg-spacegray-input-vscode-themes-spacegray-input-light-json .monaco-editor .wordHighlightText,
+    .zetavg-spacegray-input-vscode-themes-spacegray-input-light-json .monaco-editor .hoverHighlight,
+    .zetavg-spacegray-input-vscode-themes-spacegray-input-light-json .monaco-editor .selectionHighlight,
+    .zetavg-spacegray-input-vscode-themes-spacegray-input-light-json .monaco-editor .findMatch,
+    .zetavg-spacegray-input-vscode-themes-spacegray-input-light-json .monaco-editor .currentFindMatch,
+    .zetavg-spacegray-input-vscode-themes-spacegray-input-light-json .monaco-editor .squiggly-error,
+    .zetavg-spacegray-input-vscode-themes-spacegray-input-light-json .monaco-editor .squiggly-error::before,
+    .zetavg-spacegray-input-vscode-themes-spacegray-input-light-json .monaco-editor .squiggly-warning,
+    .zetavg-spacegray-input-vscode-themes-spacegray-input-light-json .monaco-editor .squiggly-warning::before,
+    .zetavg-spacegray-input-vscode-themes-spacegray-input-light-json .monaco-editor .squiggly-info,
+    .zetavg-spacegray-input-vscode-themes-spacegray-input-light-json .monaco-editor .squiggly-info::before,
+    .zetavg-spacegray-input-vscode-themes-spacegray-input-light-json .monaco-editor .squiggly-hint,
+    .zetavg-spacegray-input-vscode-themes-spacegray-input-light-json .monaco-editor .squiggly-hint::before {
+    border-radius: 3px;
+  }
+  .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-json .monaco-editor .bracket-match, .zetavg-spacegray-input-vscode-themes-spacegray-input-light-json .monaco-editor .bracket-match {
+    border: 1px solid var(--vscode-editorBracketMatch-border);
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+  }
+  .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-json .monaco-hover-content .hover-contents, .zetavg-spacegray-input-vscode-themes-spacegray-input-light-json .monaco-hover-content .hover-contents {
+    opacity: 0.9;
+  }
+  .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-json .monaco-editor .lines-content .view-overlays > div:nth-child(n) .core-guide-indent, .zetavg-spacegray-input-vscode-themes-spacegray-input-light-json .monaco-editor .lines-content .view-overlays > div:nth-child(n) .core-guide-indent {
+      box-shadow: none;
     }
-
-.monaco-editor .lines-content .view-overlays > div:nth-child(2n) .core-guide-indent::after {
-      top: 1px;
-      bottom: 1px;
-    }
+  .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-json .monaco-editor .lines-content .view-overlays > div:nth-child(n) .core-guide-indent::after, .zetavg-spacegray-input-vscode-themes-spacegray-input-light-json .monaco-editor .lines-content .view-overlays > div:nth-child(n) .core-guide-indent::after {
+        content: '';
+        position: absolute;
+        width: 2px;
+        top: 0;
+        bottom: 0;
+        border-left: 1px dotted var(--indent-color);
+      }
+  .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-json .monaco-editor .lines-content .view-overlays > div:nth-child(2n) .core-guide-indent::after, .zetavg-spacegray-input-vscode-themes-spacegray-input-light-json .monaco-editor .lines-content .view-overlays > div:nth-child(2n) .core-guide-indent::after {
+        top: 1px;
+        bottom: 1px;
+      }

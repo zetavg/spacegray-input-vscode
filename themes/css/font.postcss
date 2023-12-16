@@ -1,302 +1,313 @@
-.mac {
-    font-family: "Input Sans Condensed", -apple-system, BlinkMacSystemFont, sans-serif;
-    font-weight: 300;
-}
-
-.mac:lang(zh-Hans) {
-    font-family: "Input Sans Condensed", -apple-system, BlinkMacSystemFont, PingFang SC, Hiragino Sans GB, sans-serif;
-    font-weight: 300;
-}
-
-.mac:lang(zh-Hant) {
-    font-family: "Input Sans Condensed", -apple-system, BlinkMacSystemFont, PingFang TC, sans-serif;
-    font-weight: 300;
-}
-
-.mac:lang(ja) {
-    font-family: "Input Sans Condensed", -apple-system, BlinkMacSystemFont, Hiragino Kaku Gothic Pro, sans-serif;
-    font-weight: 300;
-}
-
-.mac:lang(ko) {
-    font-family: "Input Sans Condensed", -apple-system, BlinkMacSystemFont, Nanum Gothic, Apple SD Gothic Neo, AppleGothic, sans-serif;
-    font-weight: 300;
-}
-
-.windows {
-    font-family: "Input Sans Condensed", Segoe WPC, Segoe UI, sans-serif;
-    font-weight: 300;
-}
-
-.windows:lang(zh-Hans) {
-    font-family: "Input Sans Condensed", Segoe WPC, Segoe UI, Microsoft YaHei, sans-serif;
-    font-weight: 300;
-}
-
-.windows:lang(zh-Hant) {
-    font-family: "Input Sans Condensed", Segoe WPC, Segoe UI, Microsoft Jhenghei, sans-serif;
-    font-weight: 300;
-}
-
-.windows:lang(ja) {
-    font-family: "Input Sans Condensed", Segoe WPC, Segoe UI, Yu Gothic UI, Meiryo UI, sans-serif;
-    font-weight: 300;
-}
-
-.windows:lang(ko) {
-    font-family: "Input Sans Condensed", Segoe WPC, Segoe UI, Malgun Gothic, Dotom, sans-serif;
-    font-weight: 300;
-}
-
-.linux {
-    font-family: "Input Sans Condensed", system-ui, Ubuntu, Droid Sans, sans-serif;
-    font-weight: 300;
-}
-
-.linux:lang(zh-Hans) {
-    font-family: "Input Sans Condensed", system-ui, Ubuntu, Droid Sans, Source Han Sans SC, Source Han Sans CN, Source Han Sans, sans-serif;
-    font-weight: 300;
-}
-
-.linux:lang(zh-Hant) {
-    font-family: "Input Sans Condensed", system-ui, Ubuntu, Droid Sans, Source Han Sans TC, Source Han Sans TW, Source Han Sans, sans-serif;
-    font-weight: 300;
-}
-
-.linux:lang(ja) {
-    font-family: "Input Sans Condensed", system-ui, Ubuntu, Droid Sans, Source Han Sans J, Source Han Sans JP, Source Han Sans, sans-serif;
-    font-weight: 300;
-}
-
-.linux:lang(ko) {
-    font-family: "Input Sans Condensed", system-ui, Ubuntu, Droid Sans, Source Han Sans K, Source Han Sans JR, Source Han Sans, UnDotum, FBaekmuk Gulim, sans-serif;
-    font-weight: 300;
-}
-
-.mac {
-    --monaco-monospace-font: InputMono-ExtraLight, "Input Mono", "SF Mono", Monaco, Menlo, Courier, monospace;
-}
-
-.windows {
-    --monaco-monospace-font: InputMono-ExtraLight, "Input Mono", Consolas, "Courier New", monospace;
-}
-
-.linux {
-    --monaco-monospace-font: InputMono-ExtraLight, "Input Mono", "Ubuntu Mono", "Liberation Mono", "DejaVu Sans Mono", "Courier New", monospace;
-}
-
-@define-mixin font $font-family {
-    .mac & {
-        font-family: $font-family, -apple-system, BlinkMacSystemFont, sans-serif;
+.zetavg-spacegray-input-vscode-themes-spacegray-input-dark-json,
+.zetavg-spacegray-input-vscode-themes-spacegray-input-light-json {
+    .mac &, & .mac {
+        font-family: "Input Sans Condensed", -apple-system, BlinkMacSystemFont, sans-serif;
+        font-weight: 300;
     }
 
     .mac:lang(zh-Hans) & {
-        font-family: $font-family, -apple-system, BlinkMacSystemFont, PingFang SC, Hiragino Sans GB, sans-serif;
+        font-family: "Input Sans Condensed", -apple-system, BlinkMacSystemFont, PingFang SC, Hiragino Sans GB, sans-serif;
+        font-weight: 300;
     }
 
     .mac:lang(zh-Hant) & {
-        font-family: $font-family, -apple-system, BlinkMacSystemFont, PingFang TC, sans-serif;
+        font-family: "Input Sans Condensed", -apple-system, BlinkMacSystemFont, PingFang TC, sans-serif;
+        font-weight: 300;
     }
 
     .mac:lang(ja) & {
-        font-family: $font-family, -apple-system, BlinkMacSystemFont, Hiragino Kaku Gothic Pro, sans-serif;
+        font-family: "Input Sans Condensed", -apple-system, BlinkMacSystemFont, Hiragino Kaku Gothic Pro, sans-serif;
+        font-weight: 300;
     }
 
     .mac:lang(ko) & {
-        font-family: $font-family, -apple-system, BlinkMacSystemFont, Nanum Gothic, Apple SD Gothic Neo, AppleGothic, sans-serif;
+        font-family: "Input Sans Condensed", -apple-system, BlinkMacSystemFont, Nanum Gothic, Apple SD Gothic Neo, AppleGothic, sans-serif;
+        font-weight: 300;
     }
 
-    .windows & {
-        font-family: $font-family, Segoe WPC, Segoe UI, sans-serif;
+    .windows &, & .windows {
+        font-family: "Input Sans Condensed", Segoe WPC, Segoe UI, sans-serif;
+        font-weight: 300;
     }
 
     .windows:lang(zh-Hans) & {
-        font-family: $font-family, Segoe WPC, Segoe UI, Microsoft YaHei, sans-serif;
+        font-family: "Input Sans Condensed", Segoe WPC, Segoe UI, Microsoft YaHei, sans-serif;
+        font-weight: 300;
     }
 
     .windows:lang(zh-Hant) & {
-        font-family: $font-family, Segoe WPC, Segoe UI, Microsoft Jhenghei, sans-serif;
+        font-family: "Input Sans Condensed", Segoe WPC, Segoe UI, Microsoft Jhenghei, sans-serif;
+        font-weight: 300;
     }
 
     .windows:lang(ja) & {
-        font-family: $font-family, Segoe WPC, Segoe UI, Yu Gothic UI, Meiryo UI, sans-serif;
+        font-family: "Input Sans Condensed", Segoe WPC, Segoe UI, Yu Gothic UI, Meiryo UI, sans-serif;
+        font-weight: 300;
     }
 
     .windows:lang(ko) & {
-        font-family: $font-family, Segoe WPC, Segoe UI, Malgun Gothic, Dotom, sans-serif;
+        font-family: "Input Sans Condensed", Segoe WPC, Segoe UI, Malgun Gothic, Dotom, sans-serif;
+        font-weight: 300;
     }
 
-    .linux & {
-        font-family: $font-family, system-ui, Ubuntu, Droid Sans, sans-serif;
+    .linux &, & .linux {
+        font-family: "Input Sans Condensed", system-ui, Ubuntu, Droid Sans, sans-serif;
+        font-weight: 300;
     }
 
     .linux:lang(zh-Hans) & {
-        font-family: $font-family, system-ui, Ubuntu, Droid Sans, Source Han Sans SC, Source Han Sans CN, Source Han Sans, sans-serif;
+        font-family: "Input Sans Condensed", system-ui, Ubuntu, Droid Sans, Source Han Sans SC, Source Han Sans CN, Source Han Sans, sans-serif;
+        font-weight: 300;
     }
 
     .linux:lang(zh-Hant) & {
-        font-family: $font-family, system-ui, Ubuntu, Droid Sans, Source Han Sans TC, Source Han Sans TW, Source Han Sans, sans-serif;
+        font-family: "Input Sans Condensed", system-ui, Ubuntu, Droid Sans, Source Han Sans TC, Source Han Sans TW, Source Han Sans, sans-serif;
+        font-weight: 300;
     }
 
     .linux:lang(ja) & {
-        font-family: $font-family, system-ui, Ubuntu, Droid Sans, Source Han Sans J, Source Han Sans JP, Source Han Sans, sans-serif;
+        font-family: "Input Sans Condensed", system-ui, Ubuntu, Droid Sans, Source Han Sans J, Source Han Sans JP, Source Han Sans, sans-serif;
+        font-weight: 300;
     }
 
     .linux:lang(ko) & {
-        font-family: $font-family, system-ui, Ubuntu, Droid Sans, Source Han Sans K, Source Han Sans JR, Source Han Sans, UnDotum, FBaekmuk Gulim, sans-serif;
+        font-family: "Input Sans Condensed", system-ui, Ubuntu, Droid Sans, Source Han Sans K, Source Han Sans JR, Source Han Sans, UnDotum, FBaekmuk Gulim, sans-serif;
+        font-weight: 300;
+    }
+
+    .mac &, & .mac {
+        --monaco-monospace-font: InputMono-ExtraLight, "Input Mono", "SF Mono", Monaco, Menlo, Courier, monospace;
+    }
+
+    .windows &, & .windows {
+        --monaco-monospace-font: InputMono-ExtraLight, "Input Mono", Consolas, "Courier New", monospace;
+    }
+
+    .linux &, & .linux {
+        --monaco-monospace-font: InputMono-ExtraLight, "Input Mono", "Ubuntu Mono", "Liberation Mono", "DejaVu Sans Mono", "Courier New", monospace;
     }
 }
 
-.monaco-workbench .part > .content {
-    font-size: 12px;
+@define-mixin font $font-family, $suffix {
+    .mac & {
+        font-family: $font-family, -apple-system, BlinkMacSystemFont, sans-serif $suffix;
+    }
+
+    .mac:lang(zh-Hans) & {
+        font-family: $font-family, -apple-system, BlinkMacSystemFont, PingFang SC, Hiragino Sans GB, sans-serif $suffix;
+    }
+
+    .mac:lang(zh-Hant) & {
+        font-family: $font-family, -apple-system, BlinkMacSystemFont, PingFang TC, sans-serif $suffix;
+    }
+
+    .mac:lang(ja) & {
+        font-family: $font-family, -apple-system, BlinkMacSystemFont, Hiragino Kaku Gothic Pro, sans-serif $suffix;
+    }
+
+    .mac:lang(ko) & {
+        font-family: $font-family, -apple-system, BlinkMacSystemFont, Nanum Gothic, Apple SD Gothic Neo, AppleGothic, sans-serif $suffix;
+    }
+
+    .windows & {
+        font-family: $font-family, Segoe WPC, Segoe UI, sans-serif $suffix;
+    }
+
+    .windows:lang(zh-Hans) & {
+        font-family: $font-family, Segoe WPC, Segoe UI, Microsoft YaHei, sans-serif $suffix;
+    }
+
+    .windows:lang(zh-Hant) & {
+        font-family: $font-family, Segoe WPC, Segoe UI, Microsoft Jhenghei, sans-serif $suffix;
+    }
+
+    .windows:lang(ja) & {
+        font-family: $font-family, Segoe WPC, Segoe UI, Yu Gothic UI, Meiryo UI, sans-serif $suffix;
+    }
+
+    .windows:lang(ko) & {
+        font-family: $font-family, Segoe WPC, Segoe UI, Malgun Gothic, Dotom, sans-serif $suffix;
+    }
+
+    .linux & {
+        font-family: $font-family, system-ui, Ubuntu, Droid Sans, sans-serif $suffix;
+    }
+
+    .linux:lang(zh-Hans) & {
+        font-family: $font-family, system-ui, Ubuntu, Droid Sans, Source Han Sans SC, Source Han Sans CN, Source Han Sans, sans-serif $suffix;
+    }
+
+    .linux:lang(zh-Hant) & {
+        font-family: $font-family, system-ui, Ubuntu, Droid Sans, Source Han Sans TC, Source Han Sans TW, Source Han Sans, sans-serif $suffix;
+    }
+
+    .linux:lang(ja) & {
+        font-family: $font-family, system-ui, Ubuntu, Droid Sans, Source Han Sans J, Source Han Sans JP, Source Han Sans, sans-serif $suffix;
+    }
+
+    .linux:lang(ko) & {
+        font-family: $font-family, system-ui, Ubuntu, Droid Sans, Source Han Sans K, Source Han Sans JR, Source Han Sans, UnDotum, FBaekmuk Gulim, sans-serif $suffix;
+    }
 }
 
-.monaco-workbench .part.editor > .content .editor-group-container > .title .tabs-container > .tab .tab-label a,
-.monaco-workbench .part.editor > .content .editor-group-container > .title .title-label a {
-    font-size: 12px;
-}
+.zetavg-spacegray-input-vscode-themes-spacegray-input-dark-json,
+.zetavg-spacegray-input-vscode-themes-spacegray-input-light-json {
+    .part > .content {
+        font-size: 12px;
+    }
 
-/**
-* Buttons
-*/
+    .part.editor > .content .editor-group-container > .title .tabs-container > .tab .tab-label a,
+    .part.editor > .content .editor-group-container > .title .title-label a {
+        font-size: 12px;
+    }
 
-.monaco-button:not(.codicon) {
-    @mixin font "Input Sans Narrow";
-    font-weight: 500;
-}
+    /**
+    * Buttons
+    */
 
-.monaco-text-button:not(.monaco-text-button-with-short-label) {
-    padding: 4px 14px 2px !important;
-}
-
-.action-label:not(.codicon) {
-    @mixin font "Input Sans Narrow";
-    font-weight: 500;
-}
-
-/**
-* General
-*/
-
-.monaco-hover-content {
-    @mixin font "Input Mono Narrow";
-    font-weight: 300;
-    /* @mixin font InputMonoNarrow-Light; */
-}
-
-.monaco-workbench .part.statusbar {
-    @mixin font "Input Sans Condensed";
-    font-weight: 200;
-    font-size: 11px;
-}
-
-.monaco-workbench .part.statusbar > .items-container > .statusbar-item span.codicon {
-    font-size: 11px;
-}
-
-.monaco-list-row .label-description {
-    @mixin font "Input Sans Condensed";
-    font-weight: 200;
-}
-
-.setting-item-title .setting-item-cat-label-container {
-    @mixin font "Input Sans Narrow";
-    font-weight: 400;
-}
-
-.action-widget .monaco-list-row.group-header {
-    @mixin font "Input Sans Narrow";
-    font-weight: 500;
-    font-weight: initial;
-}
-
-.extension-list-item .footer .action-label {
-    @mixin font "Input Sans Condensed";
-    font-weight: 500;
-}
-
-.extension-list-item .footer .publisher-name {
-    line-height: 12px;
-}
-
-/**
-* Tab
-*/
-
-.tabs .tab {
-    @mixin font "Input Sans Condensed";
-    font-weight: 200;
-}
-
-/**
-* Sidebar
-*/
-
-.sidebar .title,
-.monaco-workbench .part>.title>.title-label h2 {
-    @mixin font "Input Sans Condensed";
-    font-weight: 500;
-}
-
-.sidebar .pane-body,
-.sidebar .monaco-scrollable-element .monaco-list-row {
-    @mixin font "Input Sans Condensed";
-    font-weight: 200;
-}
-
-/**
-* Welcome Screen
-*/
-
-.gettingStartedCategoriesContainer {
-    h1, h2, h3, h4, .subtitle {
-        font-family: "Input Sans Narrow";
+    .monaco-button:not(.codicon) {
+        @mixin font "Input Sans Narrow";
         font-weight: 500;
     }
-}
 
-/**
-* Dialog
-*/
+    .monaco-text-button:not(.monaco-text-button-with-short-label) {
+        padding: 4px 14px 2px !important;
+    }
 
-.dialog-message-text {
-    font-family: "Input Sans Narrow";
-    font-weight: 400;
-}
+    .action-label:not(.codicon) {
+        @mixin font "Input Sans Narrow";
+        font-weight: 500;
+    }
 
-.dialog-message-detail,
-.dialog-message-body {
-    font-family: "Input Sans Narrow";
-    font-weight: 300;
-}
+    /**
+    * General
+    */
 
-/**
-* Notification
-*/
+    /* .scm-editor-placeholder {
+        @mixin font "Input Sans Compressed", !important;
+        font-weight: 200;
+    } */
 
-.notification-list-item-source {
-    @mixin font "Input Sans Condensed";
-    font-weight: 200;
-    opacity: 0.5;
-}
+    .monaco-hover-content {
+        @mixin font "Input Mono Narrow";
+        font-weight: 300;
+        /* @mixin font InputMonoNarrow-Light; */
+    }
 
-.notification-list-item-message {
-    @mixin font "Input Sans Narrow";
-    font-weight: 300;
-}
+    .part.statusbar {
+        @mixin font "Input Sans Condensed";
+        font-weight: 200;
+        font-size: 11px;
+    }
 
-/**
-* Copilot Chat
-*/
+    .part.statusbar > .items-container > .statusbar-item span.codicon {
+        font-size: 11px;
+    }
 
-.monaco-list[aria-label="Chat"] .interactive-item-container .header {
-    @mixin font "Input Sans Narrow";
-    font-weight: 500;
-    color: var(--vscode-search-resultsInfoForeground);
-}
+    .monaco-list-row .label-description {
+        @mixin font "Input Sans Condensed";
+        font-weight: 200;
+    }
 
-.monaco-list[aria-label="Chat"] .interactive-item-container .value {
-    @mixin font "Input Sans Condensed";
-    font-weight: 300;
-    color: var(--vscode-search-resultsInfoForeground);
+    .setting-item-title .setting-item-cat-label-container {
+        @mixin font "Input Sans Narrow";
+        font-weight: 400;
+    }
+
+    .action-widget .monaco-list-row.group-header {
+        @mixin font "Input Sans Narrow";
+        font-weight: 500;
+        font-weight: initial;
+    }
+
+    .extension-list-item .footer .action-label {
+        @mixin font "Input Sans Condensed";
+        font-weight: 500;
+    }
+
+    .extension-list-item .footer .publisher-name {
+        line-height: 12px;
+    }
+
+    /**
+    * Tab
+    */
+
+    .tabs .tab {
+        @mixin font "Input Sans Condensed";
+        font-weight: 200;
+    }
+
+    /**
+    * Sidebar
+    */
+
+    .sidebar .title,
+    .part>.title>.title-label h2 {
+        @mixin font "Input Sans Condensed";
+        font-weight: 500;
+    }
+
+    .sidebar .pane-body,
+    .sidebar .monaco-scrollable-element .monaco-list-row {
+        @mixin font "Input Sans Condensed";
+        font-weight: 200;
+    }
+
+    /**
+    * Welcome Screen
+    */
+
+    .gettingStartedCategoriesContainer {
+        h1, h2, h3, h4, .subtitle {
+            font-family: "Input Sans Narrow";
+            font-weight: 500;
+        }
+    }
+
+    /**
+    * Dialog
+    */
+
+    .dialog-message-text {
+        font-family: "Input Sans Narrow";
+        font-weight: 400;
+    }
+
+    .dialog-message-detail,
+    .dialog-message-body {
+        font-family: "Input Sans Narrow";
+        font-weight: 300;
+    }
+
+    /**
+    * Notification
+    */
+
+    .notification-list-item-source {
+        @mixin font "Input Sans Condensed";
+        font-weight: 200;
+        opacity: 0.5;
+    }
+
+    .notification-list-item-message {
+        @mixin font "Input Sans Narrow";
+        font-weight: 300;
+    }
+
+    /**
+    * Copilot Chat
+    */
+
+    .monaco-list[aria-label="Chat"] .interactive-item-container .header {
+        @mixin font "Input Sans Narrow";
+        font-weight: 500;
+        color: var(--vscode-search-resultsInfoForeground);
+    }
+
+    .monaco-list[aria-label="Chat"] .interactive-item-container .value {
+        @mixin font "Input Sans Condensed";
+        font-weight: 300;
+        color: var(--vscode-search-resultsInfoForeground);
+    }
 }
