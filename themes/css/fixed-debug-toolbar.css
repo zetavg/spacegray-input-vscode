@@ -1,0 +1,10 @@
+.mac > .debug-toolbar {
+    top: 5px !important;
+    left: 54px !important;
+    background: transparent !important;
+    box-shadow: none !important;
+  }
+    .mac > .debug-toolbar .drag-area {
+      opacity: 0;
+      pointer-events: none;
+    }

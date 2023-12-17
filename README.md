@@ -56,7 +56,10 @@ Once the extension is installed, you need to configure it to load the custom CSS
 ```json
 {
     "vscode_custom_css.imports": [
-        "https://raw.githubusercontent.com/zetavg/spacegray-input-vscode/main/themes/css/all.css"
+        "https://raw.githubusercontent.com/zetavg/spacegray-input-vscode/main/themes/css/main.css",
+        // Optional
+        "https://raw.githubusercontent.com/zetavg/spacegray-input-vscode/main/themes/css/font-input.css",
+        "https://raw.githubusercontent.com/zetavg/spacegray-input-vscode/main/themes/css/fixed-debug-toolbar.css",
     ]
 }
 ```
@@ -73,7 +76,8 @@ Once the extension is installed, you need to configure it to load the custom CSS
         "https://raw.githubusercontent.com/zetavg/spacegray-input-vscode/main/themes/css/editor-style",
         "https://raw.githubusercontent.com/zetavg/spacegray-input-vscode/main/themes/css/tabs.css",
         "https://raw.githubusercontent.com/zetavg/spacegray-input-vscode/main/themes/css/hide-stuff.css",
-        "https://raw.githubusercontent.com/zetavg/spacegray-input-vscode/main/themes/css/no-pointers.css"
+        "https://raw.githubusercontent.com/zetavg/spacegray-input-vscode/main/themes/css/no-pointers.css",
+        // ... see https://github.com/zetavg/spacegray-input-vscode/tree/main/themes/css for all available CSS files
     ]
 }
 </pre>

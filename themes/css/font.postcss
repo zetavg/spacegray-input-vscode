@@ -1,4 +1,5 @@
 @import "_in-specific-themes.postcss";
+@import "_font-mixin.postcss";
 
 @mixin in-specific-themes {
     .mac &, & .mac {
@@ -86,68 +87,6 @@
 
     .linux &, & .linux {
         --monaco-monospace-font: InputMono-ExtraLight, "Input Mono", "Ubuntu Mono", "Liberation Mono", "DejaVu Sans Mono", "Courier New", monospace;
-    }
-}
-
-@define-mixin font $font-family, $suffix {
-    .mac & {
-        font-family: $font-family, -apple-system, BlinkMacSystemFont, sans-serif $suffix;
-    }
-
-    .mac:lang(zh-Hans) & {
-        font-family: $font-family, -apple-system, BlinkMacSystemFont, PingFang SC, Hiragino Sans GB, sans-serif $suffix;
-    }
-
-    .mac:lang(zh-Hant) & {
-        font-family: $font-family, -apple-system, BlinkMacSystemFont, PingFang TC, sans-serif $suffix;
-    }
-
-    .mac:lang(ja) & {
-        font-family: $font-family, -apple-system, BlinkMacSystemFont, Hiragino Kaku Gothic Pro, sans-serif $suffix;
-    }
-
-    .mac:lang(ko) & {
-        font-family: $font-family, -apple-system, BlinkMacSystemFont, Nanum Gothic, Apple SD Gothic Neo, AppleGothic, sans-serif $suffix;
-    }
-
-    .windows & {
-        font-family: $font-family, Segoe WPC, Segoe UI, sans-serif $suffix;
-    }
-
-    .windows:lang(zh-Hans) & {
-        font-family: $font-family, Segoe WPC, Segoe UI, Microsoft YaHei, sans-serif $suffix;
-    }
-
-    .windows:lang(zh-Hant) & {
-        font-family: $font-family, Segoe WPC, Segoe UI, Microsoft Jhenghei, sans-serif $suffix;
-    }
-
-    .windows:lang(ja) & {
-        font-family: $font-family, Segoe WPC, Segoe UI, Yu Gothic UI, Meiryo UI, sans-serif $suffix;
-    }
-
-    .windows:lang(ko) & {
-        font-family: $font-family, Segoe WPC, Segoe UI, Malgun Gothic, Dotom, sans-serif $suffix;
-    }
-
-    .linux & {
-        font-family: $font-family, system-ui, Ubuntu, Droid Sans, sans-serif $suffix;
-    }
-
-    .linux:lang(zh-Hans) & {
-        font-family: $font-family, system-ui, Ubuntu, Droid Sans, Source Han Sans SC, Source Han Sans CN, Source Han Sans, sans-serif $suffix;
-    }
-
-    .linux:lang(zh-Hant) & {
-        font-family: $font-family, system-ui, Ubuntu, Droid Sans, Source Han Sans TC, Source Han Sans TW, Source Han Sans, sans-serif $suffix;
-    }
-
-    .linux:lang(ja) & {
-        font-family: $font-family, system-ui, Ubuntu, Droid Sans, Source Han Sans J, Source Han Sans JP, Source Han Sans, sans-serif $suffix;
-    }
-
-    .linux:lang(ko) & {
-        font-family: $font-family, system-ui, Ubuntu, Droid Sans, Source Han Sans K, Source Han Sans JR, Source Han Sans, UnDotum, FBaekmuk Gulim, sans-serif $suffix;
     }
 }
 

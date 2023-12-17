@@ -6,6 +6,9 @@
     .pane-body.outline-pane,
     .search-view .results {
         .monaco-list-row {
+            .monaco-icon-label-container {
+                color: var(--vscode-sideBar-foreground);
+            }
             .label-name {
                 color: var(--vscode-sideBar-foreground);
             }
@@ -17,6 +20,9 @@
 
         .monaco-list-row:hover,
         .monaco-list-row.selected {
+            .monaco-icon-label-container {
+                color: var(--vscode-titleBar-activeForeground);
+            }
             .label-name {
                 color: var(--vscode-titleBar-activeForeground);
             }

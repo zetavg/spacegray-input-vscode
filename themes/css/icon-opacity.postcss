@@ -12,7 +12,7 @@
 
     .sidebar .monaco-list-row .monaco-icon-label::before,
     .sidebar .monaco-list-row .outline-element-icon::before,
-    .sidebar .monaco-list-row .codicon::before {
+    .sidebar .monaco-list-row .codicon:not(.codicon-copilot)::before {
         opacity: 0.8;
     }
 
@@ -20,14 +20,14 @@
     .sidebar .monaco-list-row.selected .monaco-icon-label::before,
     .sidebar .monaco-list-row:hover .outline-element-icon::before,
     .sidebar .monaco-list-row.selected .outline-element-icon::before,
-    .sidebar .monaco-list-row:hover .codicon::before ,
-    .sidebar .monaco-list-row.selected .codicon::before {
+    .sidebar .monaco-list-row:hover .codicon:not(.codicon-copilot)::before ,
+    .sidebar .monaco-list-row.selected .codicon:not(.codicon-copilot)::before {
         opacity: 1;
     }
 
     .sidebar .monaco-list-row .monaco-icon-label::before,
     .sidebar .monaco-list-row .outline-element-icon::before,
-    .sidebar .monaco-list-row .codicon::before {
+    .sidebar .monaco-list-row .codicon:not(.codicon-copilot)::before {
         opacity: 0.6;
     }
 
@@ -35,8 +35,8 @@
     .sidebar .monaco-list-row.selected .monaco-icon-label::before,
     .sidebar .monaco-list-row:hover .outline-element-icon::before,
     .sidebar .monaco-list-row.selected .outline-element-icon::before,
-    .sidebar .monaco-list-row:hover .codicon::before ,
-    .sidebar .monaco-list-row.selected .codicon::before {
+    .sidebar .monaco-list-row:hover .codicon:not(.codicon-copilot)::before ,
+    .sidebar .monaco-list-row.selected .codicon:not(.codicon-copilot)::before {
         opacity: 0.9;
     }
 }
