@@ -1,0 +1,35 @@
+@import "_in-specific-themes.postcss";
+
+@mixin in-specific-themes {
+    .part.auxiliarybar {
+        .composite.title.has-composite-bar {
+            background-color: var(--vscode-sideBarSectionHeader-background);
+
+            .codicon-panel-close {
+                opacity: 0;
+            }
+
+            &:hover .codicon-panel-close {
+                opacity: 1;
+            }
+
+            .composite-bar .actions-container .action-item:only-child {
+                > * {
+                    display: none !important;
+                }
+
+                &::after {
+                    content: 'Explorer' !important;
+                    display: block;
+                    background: transparent;
+                    opacity: 1;
+                    margin: -7px;
+                    line-height: 24px;
+                    font-family: "Input Sans Condensed", -apple-system, BlinkMacSystemFont, sans-serif;
+                    font-weight: 700;
+                    color: var(--vscode-sideBarSectionHeader-foreground);
+                }
+            }
+        }
+    }
+}

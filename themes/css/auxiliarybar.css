@@ -1,0 +1,23 @@
+.zetavg-spacegray-input-vscode-themes-spacegray-input-dark-json .part.auxiliarybar .composite.title.has-composite-bar, .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-lt-json .part.auxiliarybar .composite.title.has-composite-bar, .zetavg-spacegray-input-vscode-themes-spacegray-input-light-json .part.auxiliarybar .composite.title.has-composite-bar, .zetavg-spacegray-input-vscode-themes-spacegray-input-light-lt-json .part.auxiliarybar .composite.title.has-composite-bar, .zetavg-spacegray-input-vscode-themes-spacegray-input .part.auxiliarybar .composite.title.has-composite-bar {
+      background-color: var(--vscode-sideBarSectionHeader-background);
+    }
+      .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-json .part.auxiliarybar .composite.title.has-composite-bar .codicon-panel-close, .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-lt-json .part.auxiliarybar .composite.title.has-composite-bar .codicon-panel-close, .zetavg-spacegray-input-vscode-themes-spacegray-input-light-json .part.auxiliarybar .composite.title.has-composite-bar .codicon-panel-close, .zetavg-spacegray-input-vscode-themes-spacegray-input-light-lt-json .part.auxiliarybar .composite.title.has-composite-bar .codicon-panel-close, .zetavg-spacegray-input-vscode-themes-spacegray-input .part.auxiliarybar .composite.title.has-composite-bar .codicon-panel-close {
+        opacity: 0;
+      }
+      .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-json .part.auxiliarybar .composite.title.has-composite-bar:hover .codicon-panel-close, .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-lt-json .part.auxiliarybar .composite.title.has-composite-bar:hover .codicon-panel-close, .zetavg-spacegray-input-vscode-themes-spacegray-input-light-json .part.auxiliarybar .composite.title.has-composite-bar:hover .codicon-panel-close, .zetavg-spacegray-input-vscode-themes-spacegray-input-light-lt-json .part.auxiliarybar .composite.title.has-composite-bar:hover .codicon-panel-close, .zetavg-spacegray-input-vscode-themes-spacegray-input .part.auxiliarybar .composite.title.has-composite-bar:hover .codicon-panel-close {
+        opacity: 1;
+      }
+      .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-json .part.auxiliarybar .composite.title.has-composite-bar .composite-bar .actions-container .action-item:only-child > *, .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-lt-json .part.auxiliarybar .composite.title.has-composite-bar .composite-bar .actions-container .action-item:only-child > *, .zetavg-spacegray-input-vscode-themes-spacegray-input-light-json .part.auxiliarybar .composite.title.has-composite-bar .composite-bar .actions-container .action-item:only-child > *, .zetavg-spacegray-input-vscode-themes-spacegray-input-light-lt-json .part.auxiliarybar .composite.title.has-composite-bar .composite-bar .actions-container .action-item:only-child > *, .zetavg-spacegray-input-vscode-themes-spacegray-input .part.auxiliarybar .composite.title.has-composite-bar .composite-bar .actions-container .action-item:only-child > * {
+          display: none !important;
+        }
+      .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-json .part.auxiliarybar .composite.title.has-composite-bar .composite-bar .actions-container .action-item:only-child::after, .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-lt-json .part.auxiliarybar .composite.title.has-composite-bar .composite-bar .actions-container .action-item:only-child::after, .zetavg-spacegray-input-vscode-themes-spacegray-input-light-json .part.auxiliarybar .composite.title.has-composite-bar .composite-bar .actions-container .action-item:only-child::after, .zetavg-spacegray-input-vscode-themes-spacegray-input-light-lt-json .part.auxiliarybar .composite.title.has-composite-bar .composite-bar .actions-container .action-item:only-child::after, .zetavg-spacegray-input-vscode-themes-spacegray-input .part.auxiliarybar .composite.title.has-composite-bar .composite-bar .actions-container .action-item:only-child::after {
+          content: 'Explorer' !important;
+          display: block;
+          background: transparent;
+          opacity: 1;
+          margin: -7px;
+          line-height: 24px;
+          font-family: "Input Sans Condensed", -apple-system, BlinkMacSystemFont, sans-serif;
+          font-weight: 700;
+          color: var(--vscode-sideBarSectionHeader-foreground);
+        }

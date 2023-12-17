@@ -29,3 +29,43 @@
     color: var(--vscode-list-inactiveSelectionForeground);
     opacity: 0.8;
   }
+
+
+/*
+macOS Vibrancy
+
+@mixin in-dark-themes {
+    &,
+    .part.titlebar {
+      background: transparent !important;
+    }
+}
+
+And inject the script into /Applications/Visual Studio Code.app/Contents/Resources/app/out/main.js
+
+;(function(){
+  try {
+    const electron = require("electron");
+    electron.app.on('browser-window-created', (_, window) => {
+      window.webContents.once('dom-ready', () => {
+        const currentURL = window.webContents.getURL();
+        if (!currentURL.includes('workbench.html')) return;
+        const originalWindowSetBackgroundColor = window.setBackgroundColor.bind(window);
+        window.setBackgroundColor = () => originalWindowSetBackgroundColor('#00000000');
+        window.setBackgroundColor('#00000000');
+        window.setVibrancy('dark');
+
+        const width = window.getBounds().width;
+        window.setBounds({
+          width: width + 1,
+        });
+        window.setBounds({
+          width,
+        });
+      });
+    });
+  } catch (err) {
+    throw err;
+  }
+})()
+*/

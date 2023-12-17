@@ -286,6 +286,25 @@
         font-weight: 300;
         color: var(--vscode-search-resultsInfoForeground);
     }
+
+
+    /**
+    * Compress Terminal Tabs and Test Explorer Items
+    */
+
+    .tabs-list .terminal-tabs-entry,
+    .test-coverage-list-item-label,
+    .test-explorer .test-item .label,
+    .test-output-peek-tree .test-peek-item .name {
+        margin-bottom: -1px;
+        @mixin font "Input Sans Compressed";
+        word-spacing: -0.8px;
+        /* letter-spacing: -0.5px; */
+    }
+    .tabs-list .terminal-tabs-entry,
+    .test-output-peek-tree .test-peek-item .name {
+        word-spacing: -1.6px;
+    }
 }
 
 @mixin in-larger-text-themes {
