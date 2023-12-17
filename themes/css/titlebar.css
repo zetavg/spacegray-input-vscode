@@ -1,0 +1,6 @@
+.zetavg-spacegray-input-vscode-themes-spacegray-input-dark-json .titlebar-right .actions-container .action-item:not(:hover), .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-lt-json .titlebar-right .actions-container .action-item:not(:hover), .zetavg-spacegray-input-vscode-themes-spacegray-input-light-json .titlebar-right .actions-container .action-item:not(:hover), .zetavg-spacegray-input-vscode-themes-spacegray-input-light-lt-json .titlebar-right .actions-container .action-item:not(:hover), .zetavg-spacegray-input-vscode-themes-spacegray-input .titlebar-right .actions-container .action-item:not(:hover) {
+    opacity: 0.8;
+  }
+  .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-json .titlebar-right .actions-container .action-item:active, .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-lt-json .titlebar-right .actions-container .action-item:active, .zetavg-spacegray-input-vscode-themes-spacegray-input-light-json .titlebar-right .actions-container .action-item:active, .zetavg-spacegray-input-vscode-themes-spacegray-input-light-lt-json .titlebar-right .actions-container .action-item:active, .zetavg-spacegray-input-vscode-themes-spacegray-input .titlebar-right .actions-container .action-item:active {
+    opacity: 0.9;
+  }

@@ -1900,6 +1900,14 @@
     width: 4px !important;
   }
 
+.zetavg-spacegray-input-vscode-themes-spacegray-input-dark-json .titlebar-right .actions-container .action-item:not(:hover), .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-lt-json .titlebar-right .actions-container .action-item:not(:hover), .zetavg-spacegray-input-vscode-themes-spacegray-input-light-json .titlebar-right .actions-container .action-item:not(:hover), .zetavg-spacegray-input-vscode-themes-spacegray-input-light-lt-json .titlebar-right .actions-container .action-item:not(:hover), .zetavg-spacegray-input-vscode-themes-spacegray-input .titlebar-right .actions-container .action-item:not(:hover) {
+    opacity: 0.8;
+  }
+
+.zetavg-spacegray-input-vscode-themes-spacegray-input-dark-json .titlebar-right .actions-container .action-item:active, .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-lt-json .titlebar-right .actions-container .action-item:active, .zetavg-spacegray-input-vscode-themes-spacegray-input-light-json .titlebar-right .actions-container .action-item:active, .zetavg-spacegray-input-vscode-themes-spacegray-input-light-lt-json .titlebar-right .actions-container .action-item:active, .zetavg-spacegray-input-vscode-themes-spacegray-input .titlebar-right .actions-container .action-item:active {
+    opacity: 0.9;
+  }
+
 .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-json,
     .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-lt-json,
     .zetavg-spacegray-input-vscode-themes-spacegray-input-light-json,
@@ -1969,6 +1977,10 @@
 .__CUSTOM_CSS_JS_INDICATOR_CLS {
   display: none !important;
 }
+
+.zetavg-spacegray-input-vscode-themes-spacegray-input-dark-json .editor-group-watermark .letterpress, .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-lt-json .editor-group-watermark .letterpress, .zetavg-spacegray-input-vscode-themes-spacegray-input-light-json .editor-group-watermark .letterpress, .zetavg-spacegray-input-vscode-themes-spacegray-input-light-lt-json .editor-group-watermark .letterpress, .zetavg-spacegray-input-vscode-themes-spacegray-input .editor-group-watermark .letterpress {
+    display: none;
+  }
 
 .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-json .monaco-dropdown>.dropdown-label,
 	.zetavg-spacegray-input-vscode-themes-spacegray-input-dark-json .monaco-action-bar .action-item,

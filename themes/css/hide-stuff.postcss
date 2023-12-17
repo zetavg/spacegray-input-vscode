@@ -1,3 +1,11 @@
+@import "_in-specific-themes.postcss";
+
 .__CUSTOM_CSS_JS_INDICATOR_CLS {
     display: none !important;
+}
+
+@mixin in-specific-themes {
+    .editor-group-watermark .letterpress {
+        display: none;
+    }
 }
