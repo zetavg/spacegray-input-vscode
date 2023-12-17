@@ -14,11 +14,14 @@
                     color: var(--vscode-gitDecoration-ignoredResourceForeground);
                 }
             }
-
+            /* The icon */
+            .outline-element-icon,
+            .monaco-icon-label::before {
+                opacity: 0.6;
+            }
             .label-description {
                 opacity: 0.6;
             }
-
             /*
             .label-name {
                 color: var(--vscode-sideBar-foreground);
@@ -34,6 +37,11 @@
         .monaco-list-row.selected {
             .monaco-icon-label {
                 color: var(--vscode-titleBar-activeForeground);
+            }
+            /* The icon */
+            .outline-element-icon,
+            .monaco-icon-label::before {
+                opacity: 0.8;
             }
             .label-name {
                 color: var(--vscode-titleBar-activeForeground);
