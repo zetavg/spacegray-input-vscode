@@ -1,9 +1,12 @@
-.zetavg-spacegray-input-vscode-themes-spacegray-input-dark-json .part.editor .split-view-view .view-lines.monaco-mouse-cursor-text, .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-lt-json .part.editor .split-view-view .view-lines.monaco-mouse-cursor-text, .zetavg-spacegray-input-vscode-themes-spacegray-input-light-json .part.editor .split-view-view .view-lines.monaco-mouse-cursor-text, .zetavg-spacegray-input-vscode-themes-spacegray-input-light-lt-json .part.editor .split-view-view .view-lines.monaco-mouse-cursor-text, .zetavg-spacegray-input-vscode-themes-spacegray-input .part.editor .split-view-view .view-lines.monaco-mouse-cursor-text {
-      font-family: "Input Mono Narrow", "Input Mono", Menlo, Monaco, "Courier New", monospace !important;
-    }
-    .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-json .part.editor .split-view-view:only-child .view-lines.monaco-mouse-cursor-text, .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-lt-json .part.editor .split-view-view:only-child .view-lines.monaco-mouse-cursor-text, .zetavg-spacegray-input-vscode-themes-spacegray-input-light-json .part.editor .split-view-view:only-child .view-lines.monaco-mouse-cursor-text, .zetavg-spacegray-input-vscode-themes-spacegray-input-light-lt-json .part.editor .split-view-view:only-child .view-lines.monaco-mouse-cursor-text, .zetavg-spacegray-input-vscode-themes-spacegray-input .part.editor .split-view-view:only-child .view-lines.monaco-mouse-cursor-text {
-      font-family: "Input Mono", Menlo, Monaco, "Courier New", monospace !important;
-    }
+/* .part.editor {
+        .split-view-view .view-lines.monaco-mouse-cursor-text {
+            font-family: "Input Mono Narrow", "Input Mono", Menlo, Monaco, "Courier New", monospace !important;
+        }
+
+        .split-view-view:only-child .view-lines.monaco-mouse-cursor-text {
+            font-family: "Input Mono", Menlo, Monaco, "Courier New", monospace !important;
+        }
+    } */
   /* font-size: 12.8px !important; */
   .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-json .interactive-session .rendered-markdown .view-lines, .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-lt-json .interactive-session .rendered-markdown .view-lines, .zetavg-spacegray-input-vscode-themes-spacegray-input-light-json .interactive-session .rendered-markdown .view-lines, .zetavg-spacegray-input-vscode-themes-spacegray-input-light-lt-json .interactive-session .rendered-markdown .view-lines, .zetavg-spacegray-input-vscode-themes-spacegray-input .interactive-session .rendered-markdown .view-lines {
       font-family: "Input Mono Narrow", "Input Mono", Menlo, Monaco, "Courier New", monospace !important;

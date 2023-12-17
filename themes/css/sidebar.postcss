@@ -6,9 +6,20 @@
     .pane-body.outline-pane,
     .search-view .results {
         .monaco-list-row {
-            .monaco-icon-label-container {
+            .monaco-icon-label {
                 color: var(--vscode-sideBar-foreground);
+
+                /* May need to update this on VSCode updates */
+                &.monaco-decoration-itemBadge--9ieymw {
+                    color: var(--vscode-gitDecoration-ignoredResourceForeground);
+                }
             }
+
+            .label-description {
+                opacity: 0.6;
+            }
+
+            /*
             .label-name {
                 color: var(--vscode-sideBar-foreground);
             }
@@ -16,11 +27,12 @@
                 color: var(--vscode-sideBar-foreground);
                 opacity: 0.6;
             }
+            */
         }
 
         .monaco-list-row:hover,
         .monaco-list-row.selected {
-            .monaco-icon-label-container {
+            .monaco-icon-label {
                 color: var(--vscode-titleBar-activeForeground);
             }
             .label-name {
@@ -45,6 +57,17 @@
     .sidebar .composite.title:has(~ * .split-view-container .split-view-view.visible:first-child .pane-header:not(.hidden)) {
         background-color: var(--vscode-sideBarSectionHeader-background);
         /* border-bottom: 1px solid var(--vscode-tab-border); */
+    }
+
+    /* If the Activity Bar is on top, make the icons on the Activity Bar to spread evenly */
+    .part.sidebar .title.has-composite-bar {
+        .composite-bar {
+            flex-grow: 1;
+        }
+
+        .actions-container {
+            justify-content: space-between;
+        }
     }
 
     /* Hide the title label to make space for dropdowns on the title bar, for panels such as "Run and Debug" */

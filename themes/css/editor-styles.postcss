@@ -91,6 +91,12 @@
         mix-blend-mode: luminosity;
     }
 
+    /* Dotted Ruler */
+    .monaco-editor .view-ruler {
+        box-shadow: none;
+        border-left: 1px dotted var(--vscode-editorRuler-foreground);
+    }
+
     /* Dotted Indent Guides */
     .monaco-editor .lines-content .view-overlays {
         > div:nth-child(n) .core-guide-indent {

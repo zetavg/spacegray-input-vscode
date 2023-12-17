@@ -153,6 +153,11 @@
   .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-json .monaco-editor .ced-1-TextEditorDecorationType928-2, .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-lt-json .monaco-editor .ced-1-TextEditorDecorationType928-2, .zetavg-spacegray-input-vscode-themes-spacegray-input-light-json .monaco-editor .ced-1-TextEditorDecorationType928-2, .zetavg-spacegray-input-vscode-themes-spacegray-input-light-lt-json .monaco-editor .ced-1-TextEditorDecorationType928-2, .zetavg-spacegray-input-vscode-themes-spacegray-input .monaco-editor .ced-1-TextEditorDecorationType928-2 {
     mix-blend-mode: luminosity;
   }
+  /* Dotted Ruler */
+  .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-json .monaco-editor .view-ruler, .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-lt-json .monaco-editor .view-ruler, .zetavg-spacegray-input-vscode-themes-spacegray-input-light-json .monaco-editor .view-ruler, .zetavg-spacegray-input-vscode-themes-spacegray-input-light-lt-json .monaco-editor .view-ruler, .zetavg-spacegray-input-vscode-themes-spacegray-input .monaco-editor .view-ruler {
+    box-shadow: none;
+    border-left: 1px dotted var(--vscode-editorRuler-foreground);
+  }
   /* Dotted Indent Guides */
   .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-json .monaco-editor .lines-content .view-overlays > div:nth-child(n) .core-guide-indent, .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-lt-json .monaco-editor .lines-content .view-overlays > div:nth-child(n) .core-guide-indent, .zetavg-spacegray-input-vscode-themes-spacegray-input-light-json .monaco-editor .lines-content .view-overlays > div:nth-child(n) .core-guide-indent, .zetavg-spacegray-input-vscode-themes-spacegray-input-light-lt-json .monaco-editor .lines-content .view-overlays > div:nth-child(n) .core-guide-indent, .zetavg-spacegray-input-vscode-themes-spacegray-input .monaco-editor .lines-content .view-overlays > div:nth-child(n) .core-guide-indent {
       box-shadow: none;
