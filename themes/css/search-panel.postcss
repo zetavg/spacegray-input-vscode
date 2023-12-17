@@ -1,9 +1,20 @@
-.ionutvmi-spacegray-vscode-themes-base16-ocean-dark-json,
-.zetavg-spacegray-input-vscode-themes-spacegray-input-dark-json,
-.zetavg-spacegray-input-vscode-themes-spacegray-input-light-json {
+@import "_in-specific-themes.postcss";
+
+@mixin in-specific-themes {
     .pane-body .search-view {
         .findInFileMatch {
             border-radius: 3px;
+            opacity: 0.8;
+        }
+
+        /* Make a smooth transition between overflowed text and the × button */
+        .results .monaco-list-row:not(.selected):hover .actionBarContainer {
+            position: absolute;
+            top: 1px;
+            right: 0;
+            bottom: 1px;
+            padding-left: 16px;
+            background: linear-gradient(90deg, transparent 0%, var(--vscode-list-hoverBackground) 22px, var(--vscode-list-hoverBackground) 100%);
         }
     }
 }

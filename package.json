@@ -5,7 +5,7 @@
   "icon": "screenshots/Screenshot.png",
   "description": "The Spacegray theme with the Input font for VSCode.",
   "repository": "https://github.com/zetavg/spacegray-input-vscode",
-  "version": "0.0.9",
+  "version": "0.0.10",
   "engines": {
     "vscode": "^1.85.0"
   },
@@ -20,9 +20,19 @@
         "path": "./themes/spacegray-input.dark.json"
       },
       {
+        "label": "Spacegray Input Dark (Larger Text)",
+        "uiTheme": "vs-dark",
+        "path": "./themes/spacegray-input.dark.lt.json"
+      },
+      {
         "label": "Spacegray Input Light",
         "uiTheme": "vs",
         "path": "./themes/spacegray-input.light.json"
+      },
+      {
+        "label": "Spacegray Input Light (Larger Text)",
+        "uiTheme": "vs",
+        "path": "./themes/spacegray-input.light.lt.json"
       }
     ],
     "iconThemes": [
@@ -41,7 +51,8 @@
     ]
   },
   "scripts": {
-    "compile-css": "postcss themes/css/*.postcss --dir themes/css --ext .css"
+    "compile-css": "postcss themes/css/*.postcss --dir themes/css --ext .css",
+    "copy-themes": "bash scripts/copy-themes.sh"
   },
   "devDependencies": {
     "postcss": "^8.4.32",

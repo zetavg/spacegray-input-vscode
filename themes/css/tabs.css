@@ -1,12 +1,16 @@
-.ionutvmi-spacegray-vscode-themes-base16-ocean-dark-json.monaco-workbench .part.editor>.content .editor-group-container.active>.title .tabs-container>.tab>.tab-actions .action-label.codicon, .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-json.monaco-workbench .part.editor>.content .editor-group-container.active>.title .tabs-container>.tab>.tab-actions .action-label.codicon, .zetavg-spacegray-input-vscode-themes-spacegray-input-light-json.monaco-workbench .part.editor>.content .editor-group-container.active>.title .tabs-container>.tab>.tab-actions .action-label.codicon {
+.zetavg-spacegray-input-vscode-themes-spacegray-input-dark-json .part.editor>.content .editor-group-container.active>.title .tabs-container>.tab>.tab-actions .action-label.codicon, .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-lt-json .part.editor>.content .editor-group-container.active>.title .tabs-container>.tab>.tab-actions .action-label.codicon, .zetavg-spacegray-input-vscode-themes-spacegray-input-light-json .part.editor>.content .editor-group-container.active>.title .tabs-container>.tab>.tab-actions .action-label.codicon, .zetavg-spacegray-input-vscode-themes-spacegray-input-light-lt-json .part.editor>.content .editor-group-container.active>.title .tabs-container>.tab>.tab-actions .action-label.codicon, .zetavg-spacegray-input-vscode-themes-spacegray-input .part.editor>.content .editor-group-container.active>.title .tabs-container>.tab>.tab-actions .action-label.codicon {
     color: var(--vscode-icon-foreground);
   }
-  .ionutvmi-spacegray-vscode-themes-base16-ocean-dark-json.monaco-workbench .part.editor>.content .editor-group-container.active>.title .tabs-container>.tab.dirty>.tab-actions .action-label:not(:hover):before,
-.ionutvmi-spacegray-vscode-themes-base16-ocean-dark-json.monaco-workbench .part.editor>.content .editor-group-container>.title .tabs-container>.tab.dirty>.tab-actions .action-label:not(:hover):before,
-.zetavg-spacegray-input-vscode-themes-spacegray-input-dark-json.monaco-workbench .part.editor>.content .editor-group-container.active>.title .tabs-container>.tab.dirty>.tab-actions .action-label:not(:hover):before,
-.zetavg-spacegray-input-vscode-themes-spacegray-input-dark-json.monaco-workbench .part.editor>.content .editor-group-container>.title .tabs-container>.tab.dirty>.tab-actions .action-label:not(:hover):before,
-.zetavg-spacegray-input-vscode-themes-spacegray-input-light-json.monaco-workbench .part.editor>.content .editor-group-container.active>.title .tabs-container>.tab.dirty>.tab-actions .action-label:not(:hover):before,
-.zetavg-spacegray-input-vscode-themes-spacegray-input-light-json.monaco-workbench .part.editor>.content .editor-group-container>.title .tabs-container>.tab.dirty>.tab-actions .action-label:not(:hover):before {
+  .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-json .part.editor>.content .editor-group-container.active>.title .tabs-container>.tab.dirty>.tab-actions .action-label:not(:hover):before,
+.zetavg-spacegray-input-vscode-themes-spacegray-input-dark-json .part.editor>.content .editor-group-container>.title .tabs-container>.tab.dirty>.tab-actions .action-label:not(:hover):before,
+.zetavg-spacegray-input-vscode-themes-spacegray-input-dark-lt-json .part.editor>.content .editor-group-container.active>.title .tabs-container>.tab.dirty>.tab-actions .action-label:not(:hover):before,
+.zetavg-spacegray-input-vscode-themes-spacegray-input-dark-lt-json .part.editor>.content .editor-group-container>.title .tabs-container>.tab.dirty>.tab-actions .action-label:not(:hover):before,
+.zetavg-spacegray-input-vscode-themes-spacegray-input-light-json .part.editor>.content .editor-group-container.active>.title .tabs-container>.tab.dirty>.tab-actions .action-label:not(:hover):before,
+.zetavg-spacegray-input-vscode-themes-spacegray-input-light-json .part.editor>.content .editor-group-container>.title .tabs-container>.tab.dirty>.tab-actions .action-label:not(:hover):before,
+.zetavg-spacegray-input-vscode-themes-spacegray-input-light-lt-json .part.editor>.content .editor-group-container.active>.title .tabs-container>.tab.dirty>.tab-actions .action-label:not(:hover):before,
+.zetavg-spacegray-input-vscode-themes-spacegray-input-light-lt-json .part.editor>.content .editor-group-container>.title .tabs-container>.tab.dirty>.tab-actions .action-label:not(:hover):before,
+.zetavg-spacegray-input-vscode-themes-spacegray-input .part.editor>.content .editor-group-container.active>.title .tabs-container>.tab.dirty>.tab-actions .action-label:not(:hover):before,
+.zetavg-spacegray-input-vscode-themes-spacegray-input .part.editor>.content .editor-group-container>.title .tabs-container>.tab.dirty>.tab-actions .action-label:not(:hover):before {
     content: " ";
     display: block;
     border: 1px solid #EBCB8B;
@@ -16,19 +20,19 @@
     margin-left: 3px;
   }
 
-.zetavg-spacegray-input-vscode-themes-spacegray-input-dark-json .tabs .tab .label-name, .zetavg-spacegray-input-vscode-themes-spacegray-input-light-json .tabs .tab .label-name {
+.zetavg-spacegray-input-vscode-themes-spacegray-input-dark-json .tabs .tab .label-name, .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-lt-json .tabs .tab .label-name, .zetavg-spacegray-input-vscode-themes-spacegray-input-light-json .tabs .tab .label-name, .zetavg-spacegray-input-vscode-themes-spacegray-input-light-lt-json .tabs .tab .label-name, .zetavg-spacegray-input-vscode-themes-spacegray-input .tabs .tab .label-name {
     color: var(--vscode-tab-inactiveForeground) !important;
   }
 
-.zetavg-spacegray-input-vscode-themes-spacegray-input-dark-json .tabs .tab:hover .label-name, .zetavg-spacegray-input-vscode-themes-spacegray-input-light-json .tabs .tab:hover .label-name {
+.zetavg-spacegray-input-vscode-themes-spacegray-input-dark-json .tabs .tab:hover .label-name, .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-lt-json .tabs .tab:hover .label-name, .zetavg-spacegray-input-vscode-themes-spacegray-input-light-json .tabs .tab:hover .label-name, .zetavg-spacegray-input-vscode-themes-spacegray-input-light-lt-json .tabs .tab:hover .label-name, .zetavg-spacegray-input-vscode-themes-spacegray-input .tabs .tab:hover .label-name {
     color: var(--vscode-tab-hoverForeground) !important;
   }
 
-.zetavg-spacegray-input-vscode-themes-spacegray-input-dark-json .tabs .tab.active .label-name, .zetavg-spacegray-input-vscode-themes-spacegray-input-light-json .tabs .tab.active .label-name {
+.zetavg-spacegray-input-vscode-themes-spacegray-input-dark-json .tabs .tab.active .label-name, .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-lt-json .tabs .tab.active .label-name, .zetavg-spacegray-input-vscode-themes-spacegray-input-light-json .tabs .tab.active .label-name, .zetavg-spacegray-input-vscode-themes-spacegray-input-light-lt-json .tabs .tab.active .label-name, .zetavg-spacegray-input-vscode-themes-spacegray-input .tabs .tab.active .label-name {
     color: var(--vscode-tab-activeForeground) !important;
   }
 
-.zetavg-spacegray-input-vscode-themes-spacegray-input-dark-json .tabs .tab .file-icon::before, .zetavg-spacegray-input-vscode-themes-spacegray-input-light-json .tabs .tab .file-icon::before {
+.zetavg-spacegray-input-vscode-themes-spacegray-input-dark-json .tabs .tab .file-icon::before, .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-lt-json .tabs .tab .file-icon::before, .zetavg-spacegray-input-vscode-themes-spacegray-input-light-json .tabs .tab .file-icon::before, .zetavg-spacegray-input-vscode-themes-spacegray-input-light-lt-json .tabs .tab .file-icon::before, .zetavg-spacegray-input-vscode-themes-spacegray-input .tabs .tab .file-icon::before {
     width: 0;
     opacity: 0;
   }

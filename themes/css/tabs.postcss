@@ -1,6 +1,6 @@
-.ionutvmi-spacegray-vscode-themes-base16-ocean-dark-json.monaco-workbench,
-.zetavg-spacegray-input-vscode-themes-spacegray-input-dark-json.monaco-workbench,
-.zetavg-spacegray-input-vscode-themes-spacegray-input-light-json.monaco-workbench {
+@import "_in-specific-themes.postcss";
+
+@mixin in-specific-themes {
     .part.editor>.content .editor-group-container.active>.title .tabs-container>.tab>.tab-actions .action-label.codicon {
         color: var(--vscode-icon-foreground);
     }
@@ -16,8 +16,7 @@
     }
 }
 
-.zetavg-spacegray-input-vscode-themes-spacegray-input-dark-json,
-.zetavg-spacegray-input-vscode-themes-spacegray-input-light-json {
+@mixin in-specific-themes {
     .tabs .tab .label-name {
         color: var(--vscode-tab-inactiveForeground) !important;
     }

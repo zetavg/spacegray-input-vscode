@@ -1,5 +1,6 @@
-.zetavg-spacegray-input-vscode-themes-spacegray-input-dark-json,
-.zetavg-spacegray-input-vscode-themes-spacegray-input-light-json {
+@import "_in-specific-themes.postcss";
+
+@mixin in-specific-themes {
     .mac &, & .mac {
         font-family: "Input Sans Condensed", -apple-system, BlinkMacSystemFont, sans-serif;
         font-weight: 300;
@@ -150,9 +151,7 @@
     }
 }
 
-.zetavg-spacegray-input-vscode-themes-spacegray-input-dark-json,
-.zetavg-spacegray-input-vscode-themes-spacegray-input-light-json {
-
+@mixin in-specific-themes {
     .explorer-folders-view,
     .pane-body.open-editors,
     .pane-body.outline-pane,
@@ -347,5 +346,26 @@
         @mixin font "Input Sans Condensed";
         font-weight: 300;
         color: var(--vscode-search-resultsInfoForeground);
+    }
+}
+
+@mixin in-larger-text-themes {
+    .explorer-folders-view,
+    .pane-body.open-editors,
+    .pane-body.outline-pane,
+    .pane-body.timeline-tree-view,
+    .pane-body .scm-view,
+    .tree-explorer-viewlet-tree-view {
+        .monaco-list-row {
+            font-size: 12px;
+        }
+    }
+
+    .part.statusbar {
+        font-size: 12px;
+    }
+
+    .part.statusbar > .items-container > .statusbar-item span.codicon {
+        font-size: 12px;
     }
 }

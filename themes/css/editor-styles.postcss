@@ -1,5 +1,6 @@
-.zetavg-spacegray-input-vscode-themes-spacegray-input-dark-json,
-.zetavg-spacegray-input-vscode-themes-spacegray-input-light-json {
+@import "_in-specific-themes.postcss";
+
+@mixin in-specific-themes {
     .editor-widget.find-widget,
     .monaco-findInput {
         .monaco-custom-toggle:not(.checked) {
@@ -60,6 +61,23 @@
     .monaco-hover-content .hover-contents {
         opacity: 0.9;
     }
+
+    /* Color only the code folding icon, not the entire line */
+    .monaco-editor .folded-background {
+        background: transparent;
+    }
+    .monaco-editor .inline-folded::after {
+        background-color: var(--vscode-editor-foldBackground);
+        display: inline-block;
+        width: 20px;
+        height: 10px;
+        line-height: 10px;
+        text-align: center;
+        vertical-align: middle;
+        border-radius: 3px;
+        margin-bottom: 3px;
+    }
+
 
     /* ? */
     .monaco-editor .dirty-diff-glyph {

@@ -1,19 +1,31 @@
-.zetavg-spacegray-input-vscode-themes-spacegray-input-dark-json .monaco-list-row .label-description, .zetavg-spacegray-input-vscode-themes-spacegray-input-light-json .monaco-list-row .label-description {
+.zetavg-spacegray-input-vscode-themes-spacegray-input-dark-json .monaco-list-row .label-description, .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-lt-json .monaco-list-row .label-description, .zetavg-spacegray-input-vscode-themes-spacegray-input-light-json .monaco-list-row .label-description, .zetavg-spacegray-input-vscode-themes-spacegray-input-light-lt-json .monaco-list-row .label-description, .zetavg-spacegray-input-vscode-themes-spacegray-input .monaco-list-row .label-description {
     opacity: 0.6 !important;
   }
   .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-json .statusbar-item-label,
     .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-json .statusbar-item-label:active,
+    .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-lt-json .statusbar-item-label,
+    .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-lt-json .statusbar-item-label:active,
     .zetavg-spacegray-input-vscode-themes-spacegray-input-light-json .statusbar-item-label,
-    .zetavg-spacegray-input-vscode-themes-spacegray-input-light-json .statusbar-item-label:active {
+    .zetavg-spacegray-input-vscode-themes-spacegray-input-light-json .statusbar-item-label:active,
+    .zetavg-spacegray-input-vscode-themes-spacegray-input-light-lt-json .statusbar-item-label,
+    .zetavg-spacegray-input-vscode-themes-spacegray-input-light-lt-json .statusbar-item-label:active,
+    .zetavg-spacegray-input-vscode-themes-spacegray-input .statusbar-item-label,
+    .zetavg-spacegray-input-vscode-themes-spacegray-input .statusbar-item-label:active {
     background: transparent !important;
   }
   .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-json .pane-body.integrated-terminal .split-view-view:not(:first-child),
     .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-json .pane-body.integrated-terminal .tabs-container,
+    .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-lt-json .pane-body.integrated-terminal .split-view-view:not(:first-child),
+    .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-lt-json .pane-body.integrated-terminal .tabs-container,
     .zetavg-spacegray-input-vscode-themes-spacegray-input-light-json .pane-body.integrated-terminal .split-view-view:not(:first-child),
-    .zetavg-spacegray-input-vscode-themes-spacegray-input-light-json .pane-body.integrated-terminal .tabs-container {
+    .zetavg-spacegray-input-vscode-themes-spacegray-input-light-json .pane-body.integrated-terminal .tabs-container,
+    .zetavg-spacegray-input-vscode-themes-spacegray-input-light-lt-json .pane-body.integrated-terminal .split-view-view:not(:first-child),
+    .zetavg-spacegray-input-vscode-themes-spacegray-input-light-lt-json .pane-body.integrated-terminal .tabs-container,
+    .zetavg-spacegray-input-vscode-themes-spacegray-input .pane-body.integrated-terminal .split-view-view:not(:first-child),
+    .zetavg-spacegray-input-vscode-themes-spacegray-input .pane-body.integrated-terminal .tabs-container {
     border-color: var(--vscode-tab-border);
   }
-  .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-json .pane-body .test-explorer .result-summary, .zetavg-spacegray-input-vscode-themes-spacegray-input-light-json .pane-body .test-explorer .result-summary {
+  .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-json .pane-body .test-explorer .result-summary, .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-lt-json .pane-body .test-explorer .result-summary, .zetavg-spacegray-input-vscode-themes-spacegray-input-light-json .pane-body .test-explorer .result-summary, .zetavg-spacegray-input-vscode-themes-spacegray-input-light-lt-json .pane-body .test-explorer .result-summary, .zetavg-spacegray-input-vscode-themes-spacegray-input .pane-body .test-explorer .result-summary {
     color: var(--vscode-list-inactiveSelectionForeground);
     opacity: 0.8;
   }

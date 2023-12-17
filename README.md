@@ -122,8 +122,8 @@ See the [Theme Color Reference](https://code.visualstudio.com/api/references/the
 
 ## Development
 
-Run `npm run compile-css` to compile CSS files after changing any `.postcss` files.
-
+* Run `npm run compile-css` to compile CSS files after changing any `.postcss` files.
+* Run `npm run copy-themes` after modifying any theme files.
 
 ## Credits
 

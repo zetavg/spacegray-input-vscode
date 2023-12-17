@@ -1,8 +1,10 @@
-.zetavg-spacegray-input-vscode-themes-spacegray-input-dark-json,
-.zetavg-spacegray-input-vscode-themes-spacegray-input-light-json {
+@import "_in-specific-themes.postcss";
+
+@mixin in-specific-themes {
     .explorer-folders-view,
     .pane-body.open-editors,
-    .pane-body.outline-pane {
+    .pane-body.outline-pane,
+    .search-view .results {
         .monaco-list-row {
             .label-name {
                 color: var(--vscode-sideBar-foreground);

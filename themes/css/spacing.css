@@ -12,6 +12,20 @@
   .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-json .notifications-center>.notifications-center-header,
   .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-json .part.basepanel>.composite.title>.panel-switcher-container>.monaco-action-bar,
   .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-json .pane-composite-part>.title>.composite-bar-container>.composite-bar>.monaco-action-bar,
+  .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-lt-json .part>.title,
+  .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-lt-json .part>.title>.title-actions,
+  .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-lt-json .activitybar .menubar,
+  .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-lt-json .activitybar .menubar.compact .toolbar-toggle-more,
+  .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-lt-json .part.editor>.content .editor-group-container>.editor-group-container-toolbar,
+  .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-lt-json .part.editor>.content .editor-group-container>.title>.label-container,
+  .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-lt-json .part.editor>.content .editor-group-container>.title>.title-actions,
+  .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-lt-json .part.editor>.content .editor-group-container>.title .tabs-container,
+  .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-lt-json .part.editor>.content .editor-group-container>.title .tabs-container>.tab,
+  .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-lt-json .part.editor>.content .editor-group-container>.title .editor-actions,
+  .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-lt-json .part.editor>.content .editor-group-container>.title .monaco-icon-label:before,
+  .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-lt-json .notifications-center>.notifications-center-header,
+  .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-lt-json .part.basepanel>.composite.title>.panel-switcher-container>.monaco-action-bar,
+  .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-lt-json .pane-composite-part>.title>.composite-bar-container>.composite-bar>.monaco-action-bar,
   .zetavg-spacegray-input-vscode-themes-spacegray-input-light-json .part>.title,
   .zetavg-spacegray-input-vscode-themes-spacegray-input-light-json .part>.title>.title-actions,
   .zetavg-spacegray-input-vscode-themes-spacegray-input-light-json .activitybar .menubar,
@@ -25,35 +39,78 @@
   .zetavg-spacegray-input-vscode-themes-spacegray-input-light-json .part.editor>.content .editor-group-container>.title .monaco-icon-label:before,
   .zetavg-spacegray-input-vscode-themes-spacegray-input-light-json .notifications-center>.notifications-center-header,
   .zetavg-spacegray-input-vscode-themes-spacegray-input-light-json .part.basepanel>.composite.title>.panel-switcher-container>.monaco-action-bar,
-  .zetavg-spacegray-input-vscode-themes-spacegray-input-light-json .pane-composite-part>.title>.composite-bar-container>.composite-bar>.monaco-action-bar {
+  .zetavg-spacegray-input-vscode-themes-spacegray-input-light-json .pane-composite-part>.title>.composite-bar-container>.composite-bar>.monaco-action-bar,
+  .zetavg-spacegray-input-vscode-themes-spacegray-input-light-lt-json .part>.title,
+  .zetavg-spacegray-input-vscode-themes-spacegray-input-light-lt-json .part>.title>.title-actions,
+  .zetavg-spacegray-input-vscode-themes-spacegray-input-light-lt-json .activitybar .menubar,
+  .zetavg-spacegray-input-vscode-themes-spacegray-input-light-lt-json .activitybar .menubar.compact .toolbar-toggle-more,
+  .zetavg-spacegray-input-vscode-themes-spacegray-input-light-lt-json .part.editor>.content .editor-group-container>.editor-group-container-toolbar,
+  .zetavg-spacegray-input-vscode-themes-spacegray-input-light-lt-json .part.editor>.content .editor-group-container>.title>.label-container,
+  .zetavg-spacegray-input-vscode-themes-spacegray-input-light-lt-json .part.editor>.content .editor-group-container>.title>.title-actions,
+  .zetavg-spacegray-input-vscode-themes-spacegray-input-light-lt-json .part.editor>.content .editor-group-container>.title .tabs-container,
+  .zetavg-spacegray-input-vscode-themes-spacegray-input-light-lt-json .part.editor>.content .editor-group-container>.title .tabs-container>.tab,
+  .zetavg-spacegray-input-vscode-themes-spacegray-input-light-lt-json .part.editor>.content .editor-group-container>.title .editor-actions,
+  .zetavg-spacegray-input-vscode-themes-spacegray-input-light-lt-json .part.editor>.content .editor-group-container>.title .monaco-icon-label:before,
+  .zetavg-spacegray-input-vscode-themes-spacegray-input-light-lt-json .notifications-center>.notifications-center-header,
+  .zetavg-spacegray-input-vscode-themes-spacegray-input-light-lt-json .part.basepanel>.composite.title>.panel-switcher-container>.monaco-action-bar,
+  .zetavg-spacegray-input-vscode-themes-spacegray-input-light-lt-json .pane-composite-part>.title>.composite-bar-container>.composite-bar>.monaco-action-bar,
+  .zetavg-spacegray-input-vscode-themes-spacegray-input .part>.title,
+  .zetavg-spacegray-input-vscode-themes-spacegray-input .part>.title>.title-actions,
+  .zetavg-spacegray-input-vscode-themes-spacegray-input .activitybar .menubar,
+  .zetavg-spacegray-input-vscode-themes-spacegray-input .activitybar .menubar.compact .toolbar-toggle-more,
+  .zetavg-spacegray-input-vscode-themes-spacegray-input .part.editor>.content .editor-group-container>.editor-group-container-toolbar,
+  .zetavg-spacegray-input-vscode-themes-spacegray-input .part.editor>.content .editor-group-container>.title>.label-container,
+  .zetavg-spacegray-input-vscode-themes-spacegray-input .part.editor>.content .editor-group-container>.title>.title-actions,
+  .zetavg-spacegray-input-vscode-themes-spacegray-input .part.editor>.content .editor-group-container>.title .tabs-container,
+  .zetavg-spacegray-input-vscode-themes-spacegray-input .part.editor>.content .editor-group-container>.title .tabs-container>.tab,
+  .zetavg-spacegray-input-vscode-themes-spacegray-input .part.editor>.content .editor-group-container>.title .editor-actions,
+  .zetavg-spacegray-input-vscode-themes-spacegray-input .part.editor>.content .editor-group-container>.title .monaco-icon-label:before,
+  .zetavg-spacegray-input-vscode-themes-spacegray-input .notifications-center>.notifications-center-header,
+  .zetavg-spacegray-input-vscode-themes-spacegray-input .part.basepanel>.composite.title>.panel-switcher-container>.monaco-action-bar,
+  .zetavg-spacegray-input-vscode-themes-spacegray-input .pane-composite-part>.title>.composite-bar-container>.composite-bar>.monaco-action-bar {
     height: 28px;
   }
   .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-json .part>.title>.title-label,
   .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-json .part.editor>.content .editor-group-container>.title>.label-container>.title-label,
   .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-json .part.editor>.content .editor-group-container>.title .tabs-container>.tab .tab-label,
+  .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-lt-json .part>.title>.title-label,
+  .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-lt-json .part.editor>.content .editor-group-container>.title>.label-container>.title-label,
+  .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-lt-json .part.editor>.content .editor-group-container>.title .tabs-container>.tab .tab-label,
   .zetavg-spacegray-input-vscode-themes-spacegray-input-light-json .part>.title>.title-label,
   .zetavg-spacegray-input-vscode-themes-spacegray-input-light-json .part.editor>.content .editor-group-container>.title>.label-container>.title-label,
-  .zetavg-spacegray-input-vscode-themes-spacegray-input-light-json .part.editor>.content .editor-group-container>.title .tabs-container>.tab .tab-label {
+  .zetavg-spacegray-input-vscode-themes-spacegray-input-light-json .part.editor>.content .editor-group-container>.title .tabs-container>.tab .tab-label,
+  .zetavg-spacegray-input-vscode-themes-spacegray-input-light-lt-json .part>.title>.title-label,
+  .zetavg-spacegray-input-vscode-themes-spacegray-input-light-lt-json .part.editor>.content .editor-group-container>.title>.label-container>.title-label,
+  .zetavg-spacegray-input-vscode-themes-spacegray-input-light-lt-json .part.editor>.content .editor-group-container>.title .tabs-container>.tab .tab-label,
+  .zetavg-spacegray-input-vscode-themes-spacegray-input .part>.title>.title-label,
+  .zetavg-spacegray-input-vscode-themes-spacegray-input .part.editor>.content .editor-group-container>.title>.label-container>.title-label,
+  .zetavg-spacegray-input-vscode-themes-spacegray-input .part.editor>.content .editor-group-container>.title .tabs-container>.tab .tab-label {
     line-height: 28px;
   }
   .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-json .part.editor>.content .editor-group-container>.monaco-progress-container,
   .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-json .part>.content>.monaco-progress-container,
+  .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-lt-json .part.editor>.content .editor-group-container>.monaco-progress-container,
+  .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-lt-json .part>.content>.monaco-progress-container,
   .zetavg-spacegray-input-vscode-themes-spacegray-input-light-json .part.editor>.content .editor-group-container>.monaco-progress-container,
-  .zetavg-spacegray-input-vscode-themes-spacegray-input-light-json .part>.content>.monaco-progress-container {
+  .zetavg-spacegray-input-vscode-themes-spacegray-input-light-json .part>.content>.monaco-progress-container,
+  .zetavg-spacegray-input-vscode-themes-spacegray-input-light-lt-json .part.editor>.content .editor-group-container>.monaco-progress-container,
+  .zetavg-spacegray-input-vscode-themes-spacegray-input-light-lt-json .part>.content>.monaco-progress-container,
+  .zetavg-spacegray-input-vscode-themes-spacegray-input .part.editor>.content .editor-group-container>.monaco-progress-container,
+  .zetavg-spacegray-input-vscode-themes-spacegray-input .part>.content>.monaco-progress-container {
     top: 28px !important;
   }
-  .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-json .pane-composite-part>.title>.composite-bar-container>.composite-bar>.monaco-action-bar, .zetavg-spacegray-input-vscode-themes-spacegray-input-light-json .pane-composite-part>.title>.composite-bar-container>.composite-bar>.monaco-action-bar {
+  .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-json .pane-composite-part>.title>.composite-bar-container>.composite-bar>.monaco-action-bar, .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-lt-json .pane-composite-part>.title>.composite-bar-container>.composite-bar>.monaco-action-bar, .zetavg-spacegray-input-vscode-themes-spacegray-input-light-json .pane-composite-part>.title>.composite-bar-container>.composite-bar>.monaco-action-bar, .zetavg-spacegray-input-vscode-themes-spacegray-input-light-lt-json .pane-composite-part>.title>.composite-bar-container>.composite-bar>.monaco-action-bar, .zetavg-spacegray-input-vscode-themes-spacegray-input .pane-composite-part>.title>.composite-bar-container>.composite-bar>.monaco-action-bar {
     line-height: 32px;
   }
-  .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-json footer.statusbar, .zetavg-spacegray-input-vscode-themes-spacegray-input-light-json footer.statusbar {
+  .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-json footer.statusbar, .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-lt-json footer.statusbar, .zetavg-spacegray-input-vscode-themes-spacegray-input-light-json footer.statusbar, .zetavg-spacegray-input-vscode-themes-spacegray-input-light-lt-json footer.statusbar, .zetavg-spacegray-input-vscode-themes-spacegray-input footer.statusbar {
     position: relative;
     top: -7px;
     height: 29px !important;
   }
-  .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-json .pane-body .scm-view .monaco-tl-twistie.force-no-twistie, .zetavg-spacegray-input-vscode-themes-spacegray-input-light-json .pane-body .scm-view .monaco-tl-twistie.force-no-twistie {
+  .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-json .pane-body .scm-view .monaco-tl-twistie.force-no-twistie, .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-lt-json .pane-body .scm-view .monaco-tl-twistie.force-no-twistie, .zetavg-spacegray-input-vscode-themes-spacegray-input-light-json .pane-body .scm-view .monaco-tl-twistie.force-no-twistie, .zetavg-spacegray-input-vscode-themes-spacegray-input-light-lt-json .pane-body .scm-view .monaco-tl-twistie.force-no-twistie, .zetavg-spacegray-input-vscode-themes-spacegray-input .pane-body .scm-view .monaco-tl-twistie.force-no-twistie {
       display: none !important;
     }
-  .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-json .pane-body .test-explorer .result-summary-container, .zetavg-spacegray-input-vscode-themes-spacegray-input-light-json .pane-body .test-explorer .result-summary-container {
+  .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-json .pane-body .test-explorer .result-summary-container, .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-lt-json .pane-body .test-explorer .result-summary-container, .zetavg-spacegray-input-vscode-themes-spacegray-input-light-json .pane-body .test-explorer .result-summary-container, .zetavg-spacegray-input-vscode-themes-spacegray-input-light-lt-json .pane-body .test-explorer .result-summary-container, .zetavg-spacegray-input-vscode-themes-spacegray-input .pane-body .test-explorer .result-summary-container {
     padding-bottom: 2px;
     height: 22px;
     padding-left: 16px;

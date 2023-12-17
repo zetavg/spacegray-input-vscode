@@ -1,3 +1,13 @@
-.ionutvmi-spacegray-vscode-themes-base16-ocean-dark-json .pane-body .search-view .findInFileMatch, .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-json .pane-body .search-view .findInFileMatch, .zetavg-spacegray-input-vscode-themes-spacegray-input-light-json .pane-body .search-view .findInFileMatch {
+.zetavg-spacegray-input-vscode-themes-spacegray-input-dark-json .pane-body .search-view .findInFileMatch, .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-lt-json .pane-body .search-view .findInFileMatch, .zetavg-spacegray-input-vscode-themes-spacegray-input-light-json .pane-body .search-view .findInFileMatch, .zetavg-spacegray-input-vscode-themes-spacegray-input-light-lt-json .pane-body .search-view .findInFileMatch, .zetavg-spacegray-input-vscode-themes-spacegray-input .pane-body .search-view .findInFileMatch {
       border-radius: 3px;
+      opacity: 0.8;
+    }
+    /* Make a smooth transition between overflowed text and the × button */
+    .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-json .pane-body .search-view .results .monaco-list-row:not(.selected):hover .actionBarContainer, .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-lt-json .pane-body .search-view .results .monaco-list-row:not(.selected):hover .actionBarContainer, .zetavg-spacegray-input-vscode-themes-spacegray-input-light-json .pane-body .search-view .results .monaco-list-row:not(.selected):hover .actionBarContainer, .zetavg-spacegray-input-vscode-themes-spacegray-input-light-lt-json .pane-body .search-view .results .monaco-list-row:not(.selected):hover .actionBarContainer, .zetavg-spacegray-input-vscode-themes-spacegray-input .pane-body .search-view .results .monaco-list-row:not(.selected):hover .actionBarContainer {
+      position: absolute;
+      top: 1px;
+      right: 0;
+      bottom: 1px;
+      padding-left: 16px;
+      background: linear-gradient(90deg, transparent 0%, var(--vscode-list-hoverBackground) 22px, var(--vscode-list-hoverBackground) 100%);
     }

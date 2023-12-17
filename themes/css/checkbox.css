@@ -1,6 +1,8 @@
-.ionutvmi-spacegray-vscode-themes-base16-ocean-dark-json,
 .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-json,
-.zetavg-spacegray-input-vscode-themes-spacegray-input-light-json {
+    .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-lt-json,
+    .zetavg-spacegray-input-vscode-themes-spacegray-input-light-json,
+    .zetavg-spacegray-input-vscode-themes-spacegray-input-light-lt-json,
+    .zetavg-spacegray-input-vscode-themes-spacegray-input {
 
     /*
     input[type="checkbox"] {
@@ -27,14 +29,14 @@
         }
     }
      */
-}
-  .ionutvmi-spacegray-vscode-themes-base16-ocean-dark-json input[type="checkbox"], .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-json input[type="checkbox"], .zetavg-spacegray-input-vscode-themes-spacegray-input-light-json input[type="checkbox"] {
+  }
+  .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-json input[type="checkbox"], .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-lt-json input[type="checkbox"], .zetavg-spacegray-input-vscode-themes-spacegray-input-light-json input[type="checkbox"], .zetavg-spacegray-input-vscode-themes-spacegray-input-light-lt-json input[type="checkbox"], .zetavg-spacegray-input-vscode-themes-spacegray-input input[type="checkbox"] {
     width: 13px;
     height: 13px;
     appearance: none;
     position: relative;
   }
-  .ionutvmi-spacegray-vscode-themes-base16-ocean-dark-json input[type="checkbox"]::after, .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-json input[type="checkbox"]::after, .zetavg-spacegray-input-vscode-themes-spacegray-input-light-json input[type="checkbox"]::after {
+  .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-json input[type="checkbox"]::after, .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-lt-json input[type="checkbox"]::after, .zetavg-spacegray-input-vscode-themes-spacegray-input-light-json input[type="checkbox"]::after, .zetavg-spacegray-input-vscode-themes-spacegray-input-light-lt-json input[type="checkbox"]::after, .zetavg-spacegray-input-vscode-themes-spacegray-input input[type="checkbox"]::after {
       content: '';
       display: block;
       position: absolute;
@@ -50,9 +52,9 @@
       font-size: 10px;
       color: var(--vscode-inputOption-activeForeground);
     }
-  .ionutvmi-spacegray-vscode-themes-base16-ocean-dark-json input[type="checkbox"]:checked::after, .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-json input[type="checkbox"]:checked::after, .zetavg-spacegray-input-vscode-themes-spacegray-input-light-json input[type="checkbox"]:checked::after {
+  .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-json input[type="checkbox"]:checked::after, .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-lt-json input[type="checkbox"]:checked::after, .zetavg-spacegray-input-vscode-themes-spacegray-input-light-json input[type="checkbox"]:checked::after, .zetavg-spacegray-input-vscode-themes-spacegray-input-light-lt-json input[type="checkbox"]:checked::after, .zetavg-spacegray-input-vscode-themes-spacegray-input input[type="checkbox"]:checked::after {
         content: '✔';
       }
-  .ionutvmi-spacegray-vscode-themes-base16-ocean-dark-json .monaco-list-row  input[type="checkbox"], .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-json .monaco-list-row  input[type="checkbox"], .zetavg-spacegray-input-vscode-themes-spacegray-input-light-json .monaco-list-row  input[type="checkbox"] {
+  .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-json .monaco-list-row  input[type="checkbox"], .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-lt-json .monaco-list-row  input[type="checkbox"], .zetavg-spacegray-input-vscode-themes-spacegray-input-light-json .monaco-list-row  input[type="checkbox"], .zetavg-spacegray-input-vscode-themes-spacegray-input-light-lt-json .monaco-list-row  input[type="checkbox"], .zetavg-spacegray-input-vscode-themes-spacegray-input .monaco-list-row  input[type="checkbox"] {
     margin: 0 6px 0 0;
   }
