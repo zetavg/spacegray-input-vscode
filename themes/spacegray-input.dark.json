@@ -124,6 +124,7 @@
         "progressBar.background": "#4f5b67",
         "sash.hoverBorder": "#00000000",
         "scrollbar.shadow": "#00000000",
+        "searchEditor.findMatchBackground": "#1c1f2655",
         "settings.modifiedItemIndicator": "#b48ead",
         "sideBar.background": "#232830",
         "sideBar.foreground": "#65737f",

@@ -1,3 +1,6 @@
 .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-json .scrollbar.vertical, .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-lt-json .scrollbar.vertical, .zetavg-spacegray-input-vscode-themes-spacegray-input-light-json .scrollbar.vertical, .zetavg-spacegray-input-vscode-themes-spacegray-input-light-lt-json .scrollbar.vertical, .zetavg-spacegray-input-vscode-themes-spacegray-input .scrollbar.vertical {
     width: 4px !important;
   }
+  .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-json .scrollbar.horizontal, .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-lt-json .scrollbar.horizontal, .zetavg-spacegray-input-vscode-themes-spacegray-input-light-json .scrollbar.horizontal, .zetavg-spacegray-input-vscode-themes-spacegray-input-light-lt-json .scrollbar.horizontal, .zetavg-spacegray-input-vscode-themes-spacegray-input .scrollbar.horizontal {
+    height: 4px !important;
+  }

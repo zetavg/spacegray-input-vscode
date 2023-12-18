@@ -276,7 +276,7 @@
     }
 
     .pane-body .test-explorer .result-summary {
-        font-family: "Input Sans Narrow";
+        @mixin font "Input Sans Narrow";
         font-weight: 400;
     }
 
@@ -286,8 +286,20 @@
 
     .gettingStartedCategoriesContainer {
         h1, h2, h3, h4, .subtitle {
-            font-family: "Input Sans Narrow";
+            @mixin font "Input Sans Narrow";
             font-weight: 500;
+        }
+    }
+
+    /**
+    * Command Palette
+    */
+
+    .quick-input-list .quick-input-list-rows {
+        @mixin font "Input Sans Condensed";
+
+        .label-name {
+            @mixin font "Input Sans Narrow";
         }
     }
 
@@ -296,13 +308,13 @@
     */
 
     .dialog-message-text {
-        font-family: "Input Sans Narrow";
+        @mixin font "Input Sans Narrow";
         font-weight: 400;
     }
 
     .dialog-message-detail,
     .dialog-message-body {
-        font-family: "Input Sans Narrow";
+        @mixin font "Input Sans Narrow";
         font-weight: 300;
     }
 
@@ -339,6 +351,33 @@
 
     .inline-chat-widget .view-lines.monaco-mouse-cursor-text {
         @mixin font "Input Sans Narrow", !important;
+    }
+
+    .interactive-session .interactive-input-followups .interactive-followup-reply {
+        @mixin font "Input Sans Condensed", !important;
+        font-size: 12px !important;
+        line-height: 1.5;
+        font-weight: 400;
+    }
+
+    .interactive-session .interactive-input-followups .interactive-followup-reply .codicon {
+        font-size: 14px !important;
+    }
+
+    /**
+    * Search View
+    */
+
+    /**
+    * Smaller "The result set only contains a subset of all matches. Be more specific in your search to narrow down the results." warning text
+    */
+    .pane-body .search-view .message .providerMessage,
+    .pane-body .search-view .message .providerMessage .codicon {
+        font-size: 11px;
+        @mixin font "Input Sans Condensed";
+        font-weight: 300;
+        line-height: 1.5;
+        opacity: 0.9;
     }
 
     /**

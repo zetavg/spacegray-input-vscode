@@ -87,3 +87,6 @@
 	.zetavg-spacegray-input-vscode-themes-spacegray-input .part.editor>.content .editor-group-container>.title .title-label h2 {
     cursor: default;
   }
+  .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-json .interactive-session .interactive-input-followups .interactive-followup-reply, .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-lt-json .interactive-session .interactive-input-followups .interactive-followup-reply, .zetavg-spacegray-input-vscode-themes-spacegray-input-light-json .interactive-session .interactive-input-followups .interactive-followup-reply, .zetavg-spacegray-input-vscode-themes-spacegray-input-light-lt-json .interactive-session .interactive-input-followups .interactive-followup-reply, .zetavg-spacegray-input-vscode-themes-spacegray-input .interactive-session .interactive-input-followups .interactive-followup-reply {
+    cursor: pointer;
+  }
