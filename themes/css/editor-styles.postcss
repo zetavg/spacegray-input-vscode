@@ -57,6 +57,24 @@
         border-right: 0;
     }
 
+    /* For Ghost Text (autocomplete, etc.), use dotted underline */
+    .monaco-editor .ghost-text-decoration,
+    .monaco-editor .ghost-text-decoration-preview,
+    .monaco-editor .suggest-preview-text .ghost-text {
+        border: 0;
+        border-bottom: 1px dotted var(--vscode-editorGhostText-border);
+    }
+
+    .monaco-editor .unexpected-closing-bracket {
+        background-color: var(--vscode-editorGutter-deletedBackground);
+        color: var(--vscode-editor-background);
+    }
+
+    .monaco-editor.showDeprecated .squiggly-inline-deprecated {
+        text-decoration-color: var(--vscode-editorLineNumber-foreground);
+        text-decoration-thickness: from-font;
+    }
+
     /* Make Content in Hover Popup Dimmer */
     .monaco-hover-content .hover-contents {
         opacity: 0.9;

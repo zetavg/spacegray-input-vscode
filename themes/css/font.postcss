@@ -3,77 +3,77 @@
 
 @mixin in-specific-themes {
     .mac &, & .mac {
-        font-family: "Input Sans Condensed", -apple-system, BlinkMacSystemFont, sans-serif;
+        font-family: "Input Sans Narrow", -apple-system, BlinkMacSystemFont, sans-serif;
         font-weight: 300;
     }
 
     .mac:lang(zh-Hans) & {
-        font-family: "Input Sans Condensed", -apple-system, BlinkMacSystemFont, PingFang SC, Hiragino Sans GB, sans-serif;
+        font-family: "Input Sans Narrow", -apple-system, BlinkMacSystemFont, PingFang SC, Hiragino Sans GB, sans-serif;
         font-weight: 300;
     }
 
     .mac:lang(zh-Hant) & {
-        font-family: "Input Sans Condensed", -apple-system, BlinkMacSystemFont, PingFang TC, sans-serif;
+        font-family: "Input Sans Narrow", -apple-system, BlinkMacSystemFont, PingFang TC, sans-serif;
         font-weight: 300;
     }
 
     .mac:lang(ja) & {
-        font-family: "Input Sans Condensed", -apple-system, BlinkMacSystemFont, Hiragino Kaku Gothic Pro, sans-serif;
+        font-family: "Input Sans Narrow", -apple-system, BlinkMacSystemFont, Hiragino Kaku Gothic Pro, sans-serif;
         font-weight: 300;
     }
 
     .mac:lang(ko) & {
-        font-family: "Input Sans Condensed", -apple-system, BlinkMacSystemFont, Nanum Gothic, Apple SD Gothic Neo, AppleGothic, sans-serif;
+        font-family: "Input Sans Narrow", -apple-system, BlinkMacSystemFont, Nanum Gothic, Apple SD Gothic Neo, AppleGothic, sans-serif;
         font-weight: 300;
     }
 
     .windows &, & .windows {
-        font-family: "Input Sans Condensed", Segoe WPC, Segoe UI, sans-serif;
+        font-family: "Input Sans Narrow", Segoe WPC, Segoe UI, sans-serif;
         font-weight: 300;
     }
 
     .windows:lang(zh-Hans) & {
-        font-family: "Input Sans Condensed", Segoe WPC, Segoe UI, Microsoft YaHei, sans-serif;
+        font-family: "Input Sans Narrow", Segoe WPC, Segoe UI, Microsoft YaHei, sans-serif;
         font-weight: 300;
     }
 
     .windows:lang(zh-Hant) & {
-        font-family: "Input Sans Condensed", Segoe WPC, Segoe UI, Microsoft Jhenghei, sans-serif;
+        font-family: "Input Sans Narrow", Segoe WPC, Segoe UI, Microsoft Jhenghei, sans-serif;
         font-weight: 300;
     }
 
     .windows:lang(ja) & {
-        font-family: "Input Sans Condensed", Segoe WPC, Segoe UI, Yu Gothic UI, Meiryo UI, sans-serif;
+        font-family: "Input Sans Narrow", Segoe WPC, Segoe UI, Yu Gothic UI, Meiryo UI, sans-serif;
         font-weight: 300;
     }
 
     .windows:lang(ko) & {
-        font-family: "Input Sans Condensed", Segoe WPC, Segoe UI, Malgun Gothic, Dotom, sans-serif;
+        font-family: "Input Sans Narrow", Segoe WPC, Segoe UI, Malgun Gothic, Dotom, sans-serif;
         font-weight: 300;
     }
 
     .linux &, & .linux {
-        font-family: "Input Sans Condensed", system-ui, Ubuntu, Droid Sans, sans-serif;
+        font-family: "Input Sans Narrow", system-ui, Ubuntu, Droid Sans, sans-serif;
         font-weight: 300;
     }
 
     .linux:lang(zh-Hans) & {
-        font-family: "Input Sans Condensed", system-ui, Ubuntu, Droid Sans, Source Han Sans SC, Source Han Sans CN, Source Han Sans, sans-serif;
+        font-family: "Input Sans Narrow", system-ui, Ubuntu, Droid Sans, Source Han Sans SC, Source Han Sans CN, Source Han Sans, sans-serif;
         font-weight: 300;
     }
 
     .linux:lang(zh-Hant) & {
-        font-family: "Input Sans Condensed", system-ui, Ubuntu, Droid Sans, Source Han Sans TC, Source Han Sans TW, Source Han Sans, sans-serif;
+        font-family: "Input Sans Narrow", system-ui, Ubuntu, Droid Sans, Source Han Sans TC, Source Han Sans TW, Source Han Sans, sans-serif;
         font-weight: 300;
     }
 
     .linux:lang(ja) & {
-        font-family: "Input Sans Condensed", system-ui, Ubuntu, Droid Sans, Source Han Sans J, Source Han Sans JP, Source Han Sans, sans-serif;
+        font-family: "Input Sans Narrow", system-ui, Ubuntu, Droid Sans, Source Han Sans J, Source Han Sans JP, Source Han Sans, sans-serif;
         font-weight: 300;
     }
 
     .linux:lang(ko) & {
-        font-family: "Input Sans Condensed", system-ui, Ubuntu, Droid Sans, Source Han Sans K, Source Han Sans JR, Source Han Sans, UnDotum, FBaekmuk Gulim, sans-serif;
+        font-family: "Input Sans Narrow", system-ui, Ubuntu, Droid Sans, Source Han Sans K, Source Han Sans JR, Source Han Sans, UnDotum, FBaekmuk Gulim, sans-serif;
         font-weight: 300;
     }
 
@@ -210,6 +210,56 @@
     }
 
     /**
+    * Breadcrumb
+    */
+
+    .monaco-breadcrumbs {
+        @mixin font "Input Sans Condensed";
+    }
+
+    /**
+    * Pane
+    */
+
+    .pane-header {
+        @mixin font "Input Sans Condensed";
+
+        .title {
+            padding-top: 1px;
+        }
+    }
+
+    /**
+    * List
+    */
+
+    .pane-body .monaco-list-row {
+        @mixin font "Input Sans Condensed";
+
+        .label-name {
+            padding-top: 1px;
+        }
+
+        .monaco-icon-label-container {
+            padding-top: 0.5px;
+        }
+    }
+
+    /**
+    * Badge
+    */
+
+    .badge-content {
+        @mixin font "Input Sans Compressed";
+    }
+    .monaco-workbench .pane-composite-part>.title>.composite-bar-container>.composite-bar>.monaco-action-bar .badge .badge-content {
+        padding: 4px 5px 3px;
+    }
+    .monaco-workbench .pane-composite-part>.title>.composite-bar-container>.composite-bar>.monaco-action-bar .action-item.icon .badge.compact .badge-content {
+        padding: 0.4px 2px 0;
+    }
+
+    /**
     * Sidebar
     */
 
@@ -287,6 +337,9 @@
         color: var(--vscode-search-resultsInfoForeground);
     }
 
+    .inline-chat-widget .view-lines.monaco-mouse-cursor-text {
+        @mixin font "Input Sans Narrow", !important;
+    }
 
     /**
     * Compress Terminal Tabs and Test Explorer Items

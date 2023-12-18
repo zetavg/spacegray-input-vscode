@@ -5,7 +5,13 @@
 }
 
 @mixin in-specific-themes {
+    /* Hide the VSCode logo on the blank editor view */
     .editor-group-watermark .letterpress {
+        display: none;
+    }
+
+    /* Hide the "File Annotations" (Git, provided by GitLens) button on the right side of the editor tabs */
+    .editor-actions .action-label[title="File Annotations"] {
         display: none;
     }
 }

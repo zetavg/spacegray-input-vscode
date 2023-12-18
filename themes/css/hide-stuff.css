@@ -2,6 +2,14 @@
   display: none !important;
 }
 
+/* Hide the VSCode logo on the blank editor view */
+
 .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-json .editor-group-watermark .letterpress, .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-lt-json .editor-group-watermark .letterpress, .zetavg-spacegray-input-vscode-themes-spacegray-input-light-json .editor-group-watermark .letterpress, .zetavg-spacegray-input-vscode-themes-spacegray-input-light-lt-json .editor-group-watermark .letterpress, .zetavg-spacegray-input-vscode-themes-spacegray-input .editor-group-watermark .letterpress {
+    display: none;
+  }
+
+/* Hide the "File Annotations" (Git, provided by GitLens) button on the right side of the editor tabs */
+
+.zetavg-spacegray-input-vscode-themes-spacegray-input-dark-json .editor-actions .action-label[title="File Annotations"], .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-lt-json .editor-actions .action-label[title="File Annotations"], .zetavg-spacegray-input-vscode-themes-spacegray-input-light-json .editor-actions .action-label[title="File Annotations"], .zetavg-spacegray-input-vscode-themes-spacegray-input-light-lt-json .editor-actions .action-label[title="File Annotations"], .zetavg-spacegray-input-vscode-themes-spacegray-input .editor-actions .action-label[title="File Annotations"] {
     display: none;
   }

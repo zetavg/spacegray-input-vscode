@@ -8,23 +8,23 @@
 .zetavg-spacegray-input-vscode-themes-spacegray-input-light-lt-json .mac,
 .mac .zetavg-spacegray-input-vscode-themes-spacegray-input,
 .zetavg-spacegray-input-vscode-themes-spacegray-input .mac {
-    font-family: "Input Sans Condensed", -apple-system, BlinkMacSystemFont, sans-serif;
+    font-family: "Input Sans Narrow", -apple-system, BlinkMacSystemFont, sans-serif;
     font-weight: 300;
   }
   .mac:lang(zh-Hans) .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-json, .mac:lang(zh-Hans) .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-lt-json, .mac:lang(zh-Hans) .zetavg-spacegray-input-vscode-themes-spacegray-input-light-json, .mac:lang(zh-Hans) .zetavg-spacegray-input-vscode-themes-spacegray-input-light-lt-json, .mac:lang(zh-Hans) .zetavg-spacegray-input-vscode-themes-spacegray-input {
-    font-family: "Input Sans Condensed", -apple-system, BlinkMacSystemFont, PingFang SC, Hiragino Sans GB, sans-serif;
+    font-family: "Input Sans Narrow", -apple-system, BlinkMacSystemFont, PingFang SC, Hiragino Sans GB, sans-serif;
     font-weight: 300;
   }
   .mac:lang(zh-Hant) .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-json, .mac:lang(zh-Hant) .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-lt-json, .mac:lang(zh-Hant) .zetavg-spacegray-input-vscode-themes-spacegray-input-light-json, .mac:lang(zh-Hant) .zetavg-spacegray-input-vscode-themes-spacegray-input-light-lt-json, .mac:lang(zh-Hant) .zetavg-spacegray-input-vscode-themes-spacegray-input {
-    font-family: "Input Sans Condensed", -apple-system, BlinkMacSystemFont, PingFang TC, sans-serif;
+    font-family: "Input Sans Narrow", -apple-system, BlinkMacSystemFont, PingFang TC, sans-serif;
     font-weight: 300;
   }
   .mac:lang(ja) .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-json, .mac:lang(ja) .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-lt-json, .mac:lang(ja) .zetavg-spacegray-input-vscode-themes-spacegray-input-light-json, .mac:lang(ja) .zetavg-spacegray-input-vscode-themes-spacegray-input-light-lt-json, .mac:lang(ja) .zetavg-spacegray-input-vscode-themes-spacegray-input {
-    font-family: "Input Sans Condensed", -apple-system, BlinkMacSystemFont, Hiragino Kaku Gothic Pro, sans-serif;
+    font-family: "Input Sans Narrow", -apple-system, BlinkMacSystemFont, Hiragino Kaku Gothic Pro, sans-serif;
     font-weight: 300;
   }
   .mac:lang(ko) .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-json, .mac:lang(ko) .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-lt-json, .mac:lang(ko) .zetavg-spacegray-input-vscode-themes-spacegray-input-light-json, .mac:lang(ko) .zetavg-spacegray-input-vscode-themes-spacegray-input-light-lt-json, .mac:lang(ko) .zetavg-spacegray-input-vscode-themes-spacegray-input {
-    font-family: "Input Sans Condensed", -apple-system, BlinkMacSystemFont, Nanum Gothic, Apple SD Gothic Neo, AppleGothic, sans-serif;
+    font-family: "Input Sans Narrow", -apple-system, BlinkMacSystemFont, Nanum Gothic, Apple SD Gothic Neo, AppleGothic, sans-serif;
     font-weight: 300;
   }
   .windows .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-json,
@@ -37,23 +37,23 @@
 .zetavg-spacegray-input-vscode-themes-spacegray-input-light-lt-json .windows,
 .windows .zetavg-spacegray-input-vscode-themes-spacegray-input,
 .zetavg-spacegray-input-vscode-themes-spacegray-input .windows {
-    font-family: "Input Sans Condensed", Segoe WPC, Segoe UI, sans-serif;
+    font-family: "Input Sans Narrow", Segoe WPC, Segoe UI, sans-serif;
     font-weight: 300;
   }
   .windows:lang(zh-Hans) .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-json, .windows:lang(zh-Hans) .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-lt-json, .windows:lang(zh-Hans) .zetavg-spacegray-input-vscode-themes-spacegray-input-light-json, .windows:lang(zh-Hans) .zetavg-spacegray-input-vscode-themes-spacegray-input-light-lt-json, .windows:lang(zh-Hans) .zetavg-spacegray-input-vscode-themes-spacegray-input {
-    font-family: "Input Sans Condensed", Segoe WPC, Segoe UI, Microsoft YaHei, sans-serif;
+    font-family: "Input Sans Narrow", Segoe WPC, Segoe UI, Microsoft YaHei, sans-serif;
     font-weight: 300;
   }
   .windows:lang(zh-Hant) .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-json, .windows:lang(zh-Hant) .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-lt-json, .windows:lang(zh-Hant) .zetavg-spacegray-input-vscode-themes-spacegray-input-light-json, .windows:lang(zh-Hant) .zetavg-spacegray-input-vscode-themes-spacegray-input-light-lt-json, .windows:lang(zh-Hant) .zetavg-spacegray-input-vscode-themes-spacegray-input {
-    font-family: "Input Sans Condensed", Segoe WPC, Segoe UI, Microsoft Jhenghei, sans-serif;
+    font-family: "Input Sans Narrow", Segoe WPC, Segoe UI, Microsoft Jhenghei, sans-serif;
     font-weight: 300;
   }
   .windows:lang(ja) .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-json, .windows:lang(ja) .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-lt-json, .windows:lang(ja) .zetavg-spacegray-input-vscode-themes-spacegray-input-light-json, .windows:lang(ja) .zetavg-spacegray-input-vscode-themes-spacegray-input-light-lt-json, .windows:lang(ja) .zetavg-spacegray-input-vscode-themes-spacegray-input {
-    font-family: "Input Sans Condensed", Segoe WPC, Segoe UI, Yu Gothic UI, Meiryo UI, sans-serif;
+    font-family: "Input Sans Narrow", Segoe WPC, Segoe UI, Yu Gothic UI, Meiryo UI, sans-serif;
     font-weight: 300;
   }
   .windows:lang(ko) .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-json, .windows:lang(ko) .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-lt-json, .windows:lang(ko) .zetavg-spacegray-input-vscode-themes-spacegray-input-light-json, .windows:lang(ko) .zetavg-spacegray-input-vscode-themes-spacegray-input-light-lt-json, .windows:lang(ko) .zetavg-spacegray-input-vscode-themes-spacegray-input {
-    font-family: "Input Sans Condensed", Segoe WPC, Segoe UI, Malgun Gothic, Dotom, sans-serif;
+    font-family: "Input Sans Narrow", Segoe WPC, Segoe UI, Malgun Gothic, Dotom, sans-serif;
     font-weight: 300;
   }
   .linux .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-json,
@@ -66,23 +66,23 @@
 .zetavg-spacegray-input-vscode-themes-spacegray-input-light-lt-json .linux,
 .linux .zetavg-spacegray-input-vscode-themes-spacegray-input,
 .zetavg-spacegray-input-vscode-themes-spacegray-input .linux {
-    font-family: "Input Sans Condensed", system-ui, Ubuntu, Droid Sans, sans-serif;
+    font-family: "Input Sans Narrow", system-ui, Ubuntu, Droid Sans, sans-serif;
     font-weight: 300;
   }
   .linux:lang(zh-Hans) .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-json, .linux:lang(zh-Hans) .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-lt-json, .linux:lang(zh-Hans) .zetavg-spacegray-input-vscode-themes-spacegray-input-light-json, .linux:lang(zh-Hans) .zetavg-spacegray-input-vscode-themes-spacegray-input-light-lt-json, .linux:lang(zh-Hans) .zetavg-spacegray-input-vscode-themes-spacegray-input {
-    font-family: "Input Sans Condensed", system-ui, Ubuntu, Droid Sans, Source Han Sans SC, Source Han Sans CN, Source Han Sans, sans-serif;
+    font-family: "Input Sans Narrow", system-ui, Ubuntu, Droid Sans, Source Han Sans SC, Source Han Sans CN, Source Han Sans, sans-serif;
     font-weight: 300;
   }
   .linux:lang(zh-Hant) .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-json, .linux:lang(zh-Hant) .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-lt-json, .linux:lang(zh-Hant) .zetavg-spacegray-input-vscode-themes-spacegray-input-light-json, .linux:lang(zh-Hant) .zetavg-spacegray-input-vscode-themes-spacegray-input-light-lt-json, .linux:lang(zh-Hant) .zetavg-spacegray-input-vscode-themes-spacegray-input {
-    font-family: "Input Sans Condensed", system-ui, Ubuntu, Droid Sans, Source Han Sans TC, Source Han Sans TW, Source Han Sans, sans-serif;
+    font-family: "Input Sans Narrow", system-ui, Ubuntu, Droid Sans, Source Han Sans TC, Source Han Sans TW, Source Han Sans, sans-serif;
     font-weight: 300;
   }
   .linux:lang(ja) .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-json, .linux:lang(ja) .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-lt-json, .linux:lang(ja) .zetavg-spacegray-input-vscode-themes-spacegray-input-light-json, .linux:lang(ja) .zetavg-spacegray-input-vscode-themes-spacegray-input-light-lt-json, .linux:lang(ja) .zetavg-spacegray-input-vscode-themes-spacegray-input {
-    font-family: "Input Sans Condensed", system-ui, Ubuntu, Droid Sans, Source Han Sans J, Source Han Sans JP, Source Han Sans, sans-serif;
+    font-family: "Input Sans Narrow", system-ui, Ubuntu, Droid Sans, Source Han Sans J, Source Han Sans JP, Source Han Sans, sans-serif;
     font-weight: 300;
   }
   .linux:lang(ko) .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-json, .linux:lang(ko) .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-lt-json, .linux:lang(ko) .zetavg-spacegray-input-vscode-themes-spacegray-input-light-json, .linux:lang(ko) .zetavg-spacegray-input-vscode-themes-spacegray-input-light-lt-json, .linux:lang(ko) .zetavg-spacegray-input-vscode-themes-spacegray-input {
-    font-family: "Input Sans Condensed", system-ui, Ubuntu, Droid Sans, Source Han Sans K, Source Han Sans JR, Source Han Sans, UnDotum, FBaekmuk Gulim, sans-serif;
+    font-family: "Input Sans Narrow", system-ui, Ubuntu, Droid Sans, Source Han Sans K, Source Han Sans JR, Source Han Sans, UnDotum, FBaekmuk Gulim, sans-serif;
     font-weight: 300;
   }
   .mac .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-json,
@@ -830,6 +830,282 @@
 }
 
 /**
+    * Breadcrumb
+    */
+
+.mac .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-json .monaco-breadcrumbs, .mac .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-lt-json .monaco-breadcrumbs, .mac .zetavg-spacegray-input-vscode-themes-spacegray-input-light-json .monaco-breadcrumbs, .mac .zetavg-spacegray-input-vscode-themes-spacegray-input-light-lt-json .monaco-breadcrumbs, .mac .zetavg-spacegray-input-vscode-themes-spacegray-input .monaco-breadcrumbs {
+    font-family: "Input Sans Condensed", -apple-system, BlinkMacSystemFont, sans-serif ;
+  }
+
+.mac:lang(zh-Hans) .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-json .monaco-breadcrumbs, .mac:lang(zh-Hans) .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-lt-json .monaco-breadcrumbs, .mac:lang(zh-Hans) .zetavg-spacegray-input-vscode-themes-spacegray-input-light-json .monaco-breadcrumbs, .mac:lang(zh-Hans) .zetavg-spacegray-input-vscode-themes-spacegray-input-light-lt-json .monaco-breadcrumbs, .mac:lang(zh-Hans) .zetavg-spacegray-input-vscode-themes-spacegray-input .monaco-breadcrumbs {
+    font-family: "Input Sans Condensed", -apple-system, BlinkMacSystemFont, PingFang SC, Hiragino Sans GB, sans-serif ;
+  }
+
+.mac:lang(zh-Hant) .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-json .monaco-breadcrumbs, .mac:lang(zh-Hant) .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-lt-json .monaco-breadcrumbs, .mac:lang(zh-Hant) .zetavg-spacegray-input-vscode-themes-spacegray-input-light-json .monaco-breadcrumbs, .mac:lang(zh-Hant) .zetavg-spacegray-input-vscode-themes-spacegray-input-light-lt-json .monaco-breadcrumbs, .mac:lang(zh-Hant) .zetavg-spacegray-input-vscode-themes-spacegray-input .monaco-breadcrumbs {
+    font-family: "Input Sans Condensed", -apple-system, BlinkMacSystemFont, PingFang TC, sans-serif ;
+  }
+
+.mac:lang(ja) .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-json .monaco-breadcrumbs, .mac:lang(ja) .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-lt-json .monaco-breadcrumbs, .mac:lang(ja) .zetavg-spacegray-input-vscode-themes-spacegray-input-light-json .monaco-breadcrumbs, .mac:lang(ja) .zetavg-spacegray-input-vscode-themes-spacegray-input-light-lt-json .monaco-breadcrumbs, .mac:lang(ja) .zetavg-spacegray-input-vscode-themes-spacegray-input .monaco-breadcrumbs {
+    font-family: "Input Sans Condensed", -apple-system, BlinkMacSystemFont, Hiragino Kaku Gothic Pro, sans-serif ;
+  }
+
+.mac:lang(ko) .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-json .monaco-breadcrumbs, .mac:lang(ko) .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-lt-json .monaco-breadcrumbs, .mac:lang(ko) .zetavg-spacegray-input-vscode-themes-spacegray-input-light-json .monaco-breadcrumbs, .mac:lang(ko) .zetavg-spacegray-input-vscode-themes-spacegray-input-light-lt-json .monaco-breadcrumbs, .mac:lang(ko) .zetavg-spacegray-input-vscode-themes-spacegray-input .monaco-breadcrumbs {
+    font-family: "Input Sans Condensed", -apple-system, BlinkMacSystemFont, Nanum Gothic, Apple SD Gothic Neo, AppleGothic, sans-serif ;
+  }
+
+.windows .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-json .monaco-breadcrumbs, .windows .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-lt-json .monaco-breadcrumbs, .windows .zetavg-spacegray-input-vscode-themes-spacegray-input-light-json .monaco-breadcrumbs, .windows .zetavg-spacegray-input-vscode-themes-spacegray-input-light-lt-json .monaco-breadcrumbs, .windows .zetavg-spacegray-input-vscode-themes-spacegray-input .monaco-breadcrumbs {
+    font-family: "Input Sans Condensed", Segoe WPC, Segoe UI, sans-serif ;
+  }
+
+.windows:lang(zh-Hans) .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-json .monaco-breadcrumbs, .windows:lang(zh-Hans) .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-lt-json .monaco-breadcrumbs, .windows:lang(zh-Hans) .zetavg-spacegray-input-vscode-themes-spacegray-input-light-json .monaco-breadcrumbs, .windows:lang(zh-Hans) .zetavg-spacegray-input-vscode-themes-spacegray-input-light-lt-json .monaco-breadcrumbs, .windows:lang(zh-Hans) .zetavg-spacegray-input-vscode-themes-spacegray-input .monaco-breadcrumbs {
+    font-family: "Input Sans Condensed", Segoe WPC, Segoe UI, Microsoft YaHei, sans-serif ;
+  }
+
+.windows:lang(zh-Hant) .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-json .monaco-breadcrumbs, .windows:lang(zh-Hant) .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-lt-json .monaco-breadcrumbs, .windows:lang(zh-Hant) .zetavg-spacegray-input-vscode-themes-spacegray-input-light-json .monaco-breadcrumbs, .windows:lang(zh-Hant) .zetavg-spacegray-input-vscode-themes-spacegray-input-light-lt-json .monaco-breadcrumbs, .windows:lang(zh-Hant) .zetavg-spacegray-input-vscode-themes-spacegray-input .monaco-breadcrumbs {
+    font-family: "Input Sans Condensed", Segoe WPC, Segoe UI, Microsoft Jhenghei, sans-serif ;
+  }
+
+.windows:lang(ja) .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-json .monaco-breadcrumbs, .windows:lang(ja) .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-lt-json .monaco-breadcrumbs, .windows:lang(ja) .zetavg-spacegray-input-vscode-themes-spacegray-input-light-json .monaco-breadcrumbs, .windows:lang(ja) .zetavg-spacegray-input-vscode-themes-spacegray-input-light-lt-json .monaco-breadcrumbs, .windows:lang(ja) .zetavg-spacegray-input-vscode-themes-spacegray-input .monaco-breadcrumbs {
+    font-family: "Input Sans Condensed", Segoe WPC, Segoe UI, Yu Gothic UI, Meiryo UI, sans-serif ;
+  }
+
+.windows:lang(ko) .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-json .monaco-breadcrumbs, .windows:lang(ko) .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-lt-json .monaco-breadcrumbs, .windows:lang(ko) .zetavg-spacegray-input-vscode-themes-spacegray-input-light-json .monaco-breadcrumbs, .windows:lang(ko) .zetavg-spacegray-input-vscode-themes-spacegray-input-light-lt-json .monaco-breadcrumbs, .windows:lang(ko) .zetavg-spacegray-input-vscode-themes-spacegray-input .monaco-breadcrumbs {
+    font-family: "Input Sans Condensed", Segoe WPC, Segoe UI, Malgun Gothic, Dotom, sans-serif ;
+  }
+
+.linux .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-json .monaco-breadcrumbs, .linux .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-lt-json .monaco-breadcrumbs, .linux .zetavg-spacegray-input-vscode-themes-spacegray-input-light-json .monaco-breadcrumbs, .linux .zetavg-spacegray-input-vscode-themes-spacegray-input-light-lt-json .monaco-breadcrumbs, .linux .zetavg-spacegray-input-vscode-themes-spacegray-input .monaco-breadcrumbs {
+    font-family: "Input Sans Condensed", system-ui, Ubuntu, Droid Sans, sans-serif ;
+  }
+
+.linux:lang(zh-Hans) .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-json .monaco-breadcrumbs, .linux:lang(zh-Hans) .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-lt-json .monaco-breadcrumbs, .linux:lang(zh-Hans) .zetavg-spacegray-input-vscode-themes-spacegray-input-light-json .monaco-breadcrumbs, .linux:lang(zh-Hans) .zetavg-spacegray-input-vscode-themes-spacegray-input-light-lt-json .monaco-breadcrumbs, .linux:lang(zh-Hans) .zetavg-spacegray-input-vscode-themes-spacegray-input .monaco-breadcrumbs {
+    font-family: "Input Sans Condensed", system-ui, Ubuntu, Droid Sans, Source Han Sans SC, Source Han Sans CN, Source Han Sans, sans-serif ;
+  }
+
+.linux:lang(zh-Hant) .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-json .monaco-breadcrumbs, .linux:lang(zh-Hant) .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-lt-json .monaco-breadcrumbs, .linux:lang(zh-Hant) .zetavg-spacegray-input-vscode-themes-spacegray-input-light-json .monaco-breadcrumbs, .linux:lang(zh-Hant) .zetavg-spacegray-input-vscode-themes-spacegray-input-light-lt-json .monaco-breadcrumbs, .linux:lang(zh-Hant) .zetavg-spacegray-input-vscode-themes-spacegray-input .monaco-breadcrumbs {
+    font-family: "Input Sans Condensed", system-ui, Ubuntu, Droid Sans, Source Han Sans TC, Source Han Sans TW, Source Han Sans, sans-serif ;
+  }
+
+.linux:lang(ja) .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-json .monaco-breadcrumbs, .linux:lang(ja) .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-lt-json .monaco-breadcrumbs, .linux:lang(ja) .zetavg-spacegray-input-vscode-themes-spacegray-input-light-json .monaco-breadcrumbs, .linux:lang(ja) .zetavg-spacegray-input-vscode-themes-spacegray-input-light-lt-json .monaco-breadcrumbs, .linux:lang(ja) .zetavg-spacegray-input-vscode-themes-spacegray-input .monaco-breadcrumbs {
+    font-family: "Input Sans Condensed", system-ui, Ubuntu, Droid Sans, Source Han Sans J, Source Han Sans JP, Source Han Sans, sans-serif ;
+  }
+
+.linux:lang(ko) .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-json .monaco-breadcrumbs, .linux:lang(ko) .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-lt-json .monaco-breadcrumbs, .linux:lang(ko) .zetavg-spacegray-input-vscode-themes-spacegray-input-light-json .monaco-breadcrumbs, .linux:lang(ko) .zetavg-spacegray-input-vscode-themes-spacegray-input-light-lt-json .monaco-breadcrumbs, .linux:lang(ko) .zetavg-spacegray-input-vscode-themes-spacegray-input .monaco-breadcrumbs {
+    font-family: "Input Sans Condensed", system-ui, Ubuntu, Droid Sans, Source Han Sans K, Source Han Sans JR, Source Han Sans, UnDotum, FBaekmuk Gulim, sans-serif ;
+  }
+
+/**
+    * Pane
+    */
+
+.mac .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-json .pane-header, .mac .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-lt-json .pane-header, .mac .zetavg-spacegray-input-vscode-themes-spacegray-input-light-json .pane-header, .mac .zetavg-spacegray-input-vscode-themes-spacegray-input-light-lt-json .pane-header, .mac .zetavg-spacegray-input-vscode-themes-spacegray-input .pane-header {
+    font-family: "Input Sans Condensed", -apple-system, BlinkMacSystemFont, sans-serif ;
+  }
+
+.mac:lang(zh-Hans) .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-json .pane-header, .mac:lang(zh-Hans) .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-lt-json .pane-header, .mac:lang(zh-Hans) .zetavg-spacegray-input-vscode-themes-spacegray-input-light-json .pane-header, .mac:lang(zh-Hans) .zetavg-spacegray-input-vscode-themes-spacegray-input-light-lt-json .pane-header, .mac:lang(zh-Hans) .zetavg-spacegray-input-vscode-themes-spacegray-input .pane-header {
+    font-family: "Input Sans Condensed", -apple-system, BlinkMacSystemFont, PingFang SC, Hiragino Sans GB, sans-serif ;
+  }
+
+.mac:lang(zh-Hant) .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-json .pane-header, .mac:lang(zh-Hant) .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-lt-json .pane-header, .mac:lang(zh-Hant) .zetavg-spacegray-input-vscode-themes-spacegray-input-light-json .pane-header, .mac:lang(zh-Hant) .zetavg-spacegray-input-vscode-themes-spacegray-input-light-lt-json .pane-header, .mac:lang(zh-Hant) .zetavg-spacegray-input-vscode-themes-spacegray-input .pane-header {
+    font-family: "Input Sans Condensed", -apple-system, BlinkMacSystemFont, PingFang TC, sans-serif ;
+  }
+
+.mac:lang(ja) .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-json .pane-header, .mac:lang(ja) .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-lt-json .pane-header, .mac:lang(ja) .zetavg-spacegray-input-vscode-themes-spacegray-input-light-json .pane-header, .mac:lang(ja) .zetavg-spacegray-input-vscode-themes-spacegray-input-light-lt-json .pane-header, .mac:lang(ja) .zetavg-spacegray-input-vscode-themes-spacegray-input .pane-header {
+    font-family: "Input Sans Condensed", -apple-system, BlinkMacSystemFont, Hiragino Kaku Gothic Pro, sans-serif ;
+  }
+
+.mac:lang(ko) .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-json .pane-header, .mac:lang(ko) .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-lt-json .pane-header, .mac:lang(ko) .zetavg-spacegray-input-vscode-themes-spacegray-input-light-json .pane-header, .mac:lang(ko) .zetavg-spacegray-input-vscode-themes-spacegray-input-light-lt-json .pane-header, .mac:lang(ko) .zetavg-spacegray-input-vscode-themes-spacegray-input .pane-header {
+    font-family: "Input Sans Condensed", -apple-system, BlinkMacSystemFont, Nanum Gothic, Apple SD Gothic Neo, AppleGothic, sans-serif ;
+  }
+
+.windows .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-json .pane-header, .windows .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-lt-json .pane-header, .windows .zetavg-spacegray-input-vscode-themes-spacegray-input-light-json .pane-header, .windows .zetavg-spacegray-input-vscode-themes-spacegray-input-light-lt-json .pane-header, .windows .zetavg-spacegray-input-vscode-themes-spacegray-input .pane-header {
+    font-family: "Input Sans Condensed", Segoe WPC, Segoe UI, sans-serif ;
+  }
+
+.windows:lang(zh-Hans) .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-json .pane-header, .windows:lang(zh-Hans) .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-lt-json .pane-header, .windows:lang(zh-Hans) .zetavg-spacegray-input-vscode-themes-spacegray-input-light-json .pane-header, .windows:lang(zh-Hans) .zetavg-spacegray-input-vscode-themes-spacegray-input-light-lt-json .pane-header, .windows:lang(zh-Hans) .zetavg-spacegray-input-vscode-themes-spacegray-input .pane-header {
+    font-family: "Input Sans Condensed", Segoe WPC, Segoe UI, Microsoft YaHei, sans-serif ;
+  }
+
+.windows:lang(zh-Hant) .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-json .pane-header, .windows:lang(zh-Hant) .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-lt-json .pane-header, .windows:lang(zh-Hant) .zetavg-spacegray-input-vscode-themes-spacegray-input-light-json .pane-header, .windows:lang(zh-Hant) .zetavg-spacegray-input-vscode-themes-spacegray-input-light-lt-json .pane-header, .windows:lang(zh-Hant) .zetavg-spacegray-input-vscode-themes-spacegray-input .pane-header {
+    font-family: "Input Sans Condensed", Segoe WPC, Segoe UI, Microsoft Jhenghei, sans-serif ;
+  }
+
+.windows:lang(ja) .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-json .pane-header, .windows:lang(ja) .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-lt-json .pane-header, .windows:lang(ja) .zetavg-spacegray-input-vscode-themes-spacegray-input-light-json .pane-header, .windows:lang(ja) .zetavg-spacegray-input-vscode-themes-spacegray-input-light-lt-json .pane-header, .windows:lang(ja) .zetavg-spacegray-input-vscode-themes-spacegray-input .pane-header {
+    font-family: "Input Sans Condensed", Segoe WPC, Segoe UI, Yu Gothic UI, Meiryo UI, sans-serif ;
+  }
+
+.windows:lang(ko) .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-json .pane-header, .windows:lang(ko) .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-lt-json .pane-header, .windows:lang(ko) .zetavg-spacegray-input-vscode-themes-spacegray-input-light-json .pane-header, .windows:lang(ko) .zetavg-spacegray-input-vscode-themes-spacegray-input-light-lt-json .pane-header, .windows:lang(ko) .zetavg-spacegray-input-vscode-themes-spacegray-input .pane-header {
+    font-family: "Input Sans Condensed", Segoe WPC, Segoe UI, Malgun Gothic, Dotom, sans-serif ;
+  }
+
+.linux .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-json .pane-header, .linux .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-lt-json .pane-header, .linux .zetavg-spacegray-input-vscode-themes-spacegray-input-light-json .pane-header, .linux .zetavg-spacegray-input-vscode-themes-spacegray-input-light-lt-json .pane-header, .linux .zetavg-spacegray-input-vscode-themes-spacegray-input .pane-header {
+    font-family: "Input Sans Condensed", system-ui, Ubuntu, Droid Sans, sans-serif ;
+  }
+
+.linux:lang(zh-Hans) .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-json .pane-header, .linux:lang(zh-Hans) .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-lt-json .pane-header, .linux:lang(zh-Hans) .zetavg-spacegray-input-vscode-themes-spacegray-input-light-json .pane-header, .linux:lang(zh-Hans) .zetavg-spacegray-input-vscode-themes-spacegray-input-light-lt-json .pane-header, .linux:lang(zh-Hans) .zetavg-spacegray-input-vscode-themes-spacegray-input .pane-header {
+    font-family: "Input Sans Condensed", system-ui, Ubuntu, Droid Sans, Source Han Sans SC, Source Han Sans CN, Source Han Sans, sans-serif ;
+  }
+
+.linux:lang(zh-Hant) .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-json .pane-header, .linux:lang(zh-Hant) .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-lt-json .pane-header, .linux:lang(zh-Hant) .zetavg-spacegray-input-vscode-themes-spacegray-input-light-json .pane-header, .linux:lang(zh-Hant) .zetavg-spacegray-input-vscode-themes-spacegray-input-light-lt-json .pane-header, .linux:lang(zh-Hant) .zetavg-spacegray-input-vscode-themes-spacegray-input .pane-header {
+    font-family: "Input Sans Condensed", system-ui, Ubuntu, Droid Sans, Source Han Sans TC, Source Han Sans TW, Source Han Sans, sans-serif ;
+  }
+
+.linux:lang(ja) .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-json .pane-header, .linux:lang(ja) .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-lt-json .pane-header, .linux:lang(ja) .zetavg-spacegray-input-vscode-themes-spacegray-input-light-json .pane-header, .linux:lang(ja) .zetavg-spacegray-input-vscode-themes-spacegray-input-light-lt-json .pane-header, .linux:lang(ja) .zetavg-spacegray-input-vscode-themes-spacegray-input .pane-header {
+    font-family: "Input Sans Condensed", system-ui, Ubuntu, Droid Sans, Source Han Sans J, Source Han Sans JP, Source Han Sans, sans-serif ;
+  }
+
+.linux:lang(ko) .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-json .pane-header, .linux:lang(ko) .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-lt-json .pane-header, .linux:lang(ko) .zetavg-spacegray-input-vscode-themes-spacegray-input-light-json .pane-header, .linux:lang(ko) .zetavg-spacegray-input-vscode-themes-spacegray-input-light-lt-json .pane-header, .linux:lang(ko) .zetavg-spacegray-input-vscode-themes-spacegray-input .pane-header {
+    font-family: "Input Sans Condensed", system-ui, Ubuntu, Droid Sans, Source Han Sans K, Source Han Sans JR, Source Han Sans, UnDotum, FBaekmuk Gulim, sans-serif ;
+  }
+
+.zetavg-spacegray-input-vscode-themes-spacegray-input-dark-json .pane-header .title, .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-lt-json .pane-header .title, .zetavg-spacegray-input-vscode-themes-spacegray-input-light-json .pane-header .title, .zetavg-spacegray-input-vscode-themes-spacegray-input-light-lt-json .pane-header .title, .zetavg-spacegray-input-vscode-themes-spacegray-input .pane-header .title {
+      padding-top: 1px;
+    }
+
+/**
+    * List
+    */
+
+.mac .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-json .pane-body .monaco-list-row, .mac .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-lt-json .pane-body .monaco-list-row, .mac .zetavg-spacegray-input-vscode-themes-spacegray-input-light-json .pane-body .monaco-list-row, .mac .zetavg-spacegray-input-vscode-themes-spacegray-input-light-lt-json .pane-body .monaco-list-row, .mac .zetavg-spacegray-input-vscode-themes-spacegray-input .pane-body .monaco-list-row {
+    font-family: "Input Sans Condensed", -apple-system, BlinkMacSystemFont, sans-serif ;
+  }
+
+.mac:lang(zh-Hans) .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-json .pane-body .monaco-list-row, .mac:lang(zh-Hans) .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-lt-json .pane-body .monaco-list-row, .mac:lang(zh-Hans) .zetavg-spacegray-input-vscode-themes-spacegray-input-light-json .pane-body .monaco-list-row, .mac:lang(zh-Hans) .zetavg-spacegray-input-vscode-themes-spacegray-input-light-lt-json .pane-body .monaco-list-row, .mac:lang(zh-Hans) .zetavg-spacegray-input-vscode-themes-spacegray-input .pane-body .monaco-list-row {
+    font-family: "Input Sans Condensed", -apple-system, BlinkMacSystemFont, PingFang SC, Hiragino Sans GB, sans-serif ;
+  }
+
+.mac:lang(zh-Hant) .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-json .pane-body .monaco-list-row, .mac:lang(zh-Hant) .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-lt-json .pane-body .monaco-list-row, .mac:lang(zh-Hant) .zetavg-spacegray-input-vscode-themes-spacegray-input-light-json .pane-body .monaco-list-row, .mac:lang(zh-Hant) .zetavg-spacegray-input-vscode-themes-spacegray-input-light-lt-json .pane-body .monaco-list-row, .mac:lang(zh-Hant) .zetavg-spacegray-input-vscode-themes-spacegray-input .pane-body .monaco-list-row {
+    font-family: "Input Sans Condensed", -apple-system, BlinkMacSystemFont, PingFang TC, sans-serif ;
+  }
+
+.mac:lang(ja) .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-json .pane-body .monaco-list-row, .mac:lang(ja) .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-lt-json .pane-body .monaco-list-row, .mac:lang(ja) .zetavg-spacegray-input-vscode-themes-spacegray-input-light-json .pane-body .monaco-list-row, .mac:lang(ja) .zetavg-spacegray-input-vscode-themes-spacegray-input-light-lt-json .pane-body .monaco-list-row, .mac:lang(ja) .zetavg-spacegray-input-vscode-themes-spacegray-input .pane-body .monaco-list-row {
+    font-family: "Input Sans Condensed", -apple-system, BlinkMacSystemFont, Hiragino Kaku Gothic Pro, sans-serif ;
+  }
+
+.mac:lang(ko) .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-json .pane-body .monaco-list-row, .mac:lang(ko) .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-lt-json .pane-body .monaco-list-row, .mac:lang(ko) .zetavg-spacegray-input-vscode-themes-spacegray-input-light-json .pane-body .monaco-list-row, .mac:lang(ko) .zetavg-spacegray-input-vscode-themes-spacegray-input-light-lt-json .pane-body .monaco-list-row, .mac:lang(ko) .zetavg-spacegray-input-vscode-themes-spacegray-input .pane-body .monaco-list-row {
+    font-family: "Input Sans Condensed", -apple-system, BlinkMacSystemFont, Nanum Gothic, Apple SD Gothic Neo, AppleGothic, sans-serif ;
+  }
+
+.windows .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-json .pane-body .monaco-list-row, .windows .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-lt-json .pane-body .monaco-list-row, .windows .zetavg-spacegray-input-vscode-themes-spacegray-input-light-json .pane-body .monaco-list-row, .windows .zetavg-spacegray-input-vscode-themes-spacegray-input-light-lt-json .pane-body .monaco-list-row, .windows .zetavg-spacegray-input-vscode-themes-spacegray-input .pane-body .monaco-list-row {
+    font-family: "Input Sans Condensed", Segoe WPC, Segoe UI, sans-serif ;
+  }
+
+.windows:lang(zh-Hans) .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-json .pane-body .monaco-list-row, .windows:lang(zh-Hans) .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-lt-json .pane-body .monaco-list-row, .windows:lang(zh-Hans) .zetavg-spacegray-input-vscode-themes-spacegray-input-light-json .pane-body .monaco-list-row, .windows:lang(zh-Hans) .zetavg-spacegray-input-vscode-themes-spacegray-input-light-lt-json .pane-body .monaco-list-row, .windows:lang(zh-Hans) .zetavg-spacegray-input-vscode-themes-spacegray-input .pane-body .monaco-list-row {
+    font-family: "Input Sans Condensed", Segoe WPC, Segoe UI, Microsoft YaHei, sans-serif ;
+  }
+
+.windows:lang(zh-Hant) .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-json .pane-body .monaco-list-row, .windows:lang(zh-Hant) .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-lt-json .pane-body .monaco-list-row, .windows:lang(zh-Hant) .zetavg-spacegray-input-vscode-themes-spacegray-input-light-json .pane-body .monaco-list-row, .windows:lang(zh-Hant) .zetavg-spacegray-input-vscode-themes-spacegray-input-light-lt-json .pane-body .monaco-list-row, .windows:lang(zh-Hant) .zetavg-spacegray-input-vscode-themes-spacegray-input .pane-body .monaco-list-row {
+    font-family: "Input Sans Condensed", Segoe WPC, Segoe UI, Microsoft Jhenghei, sans-serif ;
+  }
+
+.windows:lang(ja) .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-json .pane-body .monaco-list-row, .windows:lang(ja) .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-lt-json .pane-body .monaco-list-row, .windows:lang(ja) .zetavg-spacegray-input-vscode-themes-spacegray-input-light-json .pane-body .monaco-list-row, .windows:lang(ja) .zetavg-spacegray-input-vscode-themes-spacegray-input-light-lt-json .pane-body .monaco-list-row, .windows:lang(ja) .zetavg-spacegray-input-vscode-themes-spacegray-input .pane-body .monaco-list-row {
+    font-family: "Input Sans Condensed", Segoe WPC, Segoe UI, Yu Gothic UI, Meiryo UI, sans-serif ;
+  }
+
+.windows:lang(ko) .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-json .pane-body .monaco-list-row, .windows:lang(ko) .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-lt-json .pane-body .monaco-list-row, .windows:lang(ko) .zetavg-spacegray-input-vscode-themes-spacegray-input-light-json .pane-body .monaco-list-row, .windows:lang(ko) .zetavg-spacegray-input-vscode-themes-spacegray-input-light-lt-json .pane-body .monaco-list-row, .windows:lang(ko) .zetavg-spacegray-input-vscode-themes-spacegray-input .pane-body .monaco-list-row {
+    font-family: "Input Sans Condensed", Segoe WPC, Segoe UI, Malgun Gothic, Dotom, sans-serif ;
+  }
+
+.linux .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-json .pane-body .monaco-list-row, .linux .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-lt-json .pane-body .monaco-list-row, .linux .zetavg-spacegray-input-vscode-themes-spacegray-input-light-json .pane-body .monaco-list-row, .linux .zetavg-spacegray-input-vscode-themes-spacegray-input-light-lt-json .pane-body .monaco-list-row, .linux .zetavg-spacegray-input-vscode-themes-spacegray-input .pane-body .monaco-list-row {
+    font-family: "Input Sans Condensed", system-ui, Ubuntu, Droid Sans, sans-serif ;
+  }
+
+.linux:lang(zh-Hans) .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-json .pane-body .monaco-list-row, .linux:lang(zh-Hans) .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-lt-json .pane-body .monaco-list-row, .linux:lang(zh-Hans) .zetavg-spacegray-input-vscode-themes-spacegray-input-light-json .pane-body .monaco-list-row, .linux:lang(zh-Hans) .zetavg-spacegray-input-vscode-themes-spacegray-input-light-lt-json .pane-body .monaco-list-row, .linux:lang(zh-Hans) .zetavg-spacegray-input-vscode-themes-spacegray-input .pane-body .monaco-list-row {
+    font-family: "Input Sans Condensed", system-ui, Ubuntu, Droid Sans, Source Han Sans SC, Source Han Sans CN, Source Han Sans, sans-serif ;
+  }
+
+.linux:lang(zh-Hant) .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-json .pane-body .monaco-list-row, .linux:lang(zh-Hant) .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-lt-json .pane-body .monaco-list-row, .linux:lang(zh-Hant) .zetavg-spacegray-input-vscode-themes-spacegray-input-light-json .pane-body .monaco-list-row, .linux:lang(zh-Hant) .zetavg-spacegray-input-vscode-themes-spacegray-input-light-lt-json .pane-body .monaco-list-row, .linux:lang(zh-Hant) .zetavg-spacegray-input-vscode-themes-spacegray-input .pane-body .monaco-list-row {
+    font-family: "Input Sans Condensed", system-ui, Ubuntu, Droid Sans, Source Han Sans TC, Source Han Sans TW, Source Han Sans, sans-serif ;
+  }
+
+.linux:lang(ja) .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-json .pane-body .monaco-list-row, .linux:lang(ja) .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-lt-json .pane-body .monaco-list-row, .linux:lang(ja) .zetavg-spacegray-input-vscode-themes-spacegray-input-light-json .pane-body .monaco-list-row, .linux:lang(ja) .zetavg-spacegray-input-vscode-themes-spacegray-input-light-lt-json .pane-body .monaco-list-row, .linux:lang(ja) .zetavg-spacegray-input-vscode-themes-spacegray-input .pane-body .monaco-list-row {
+    font-family: "Input Sans Condensed", system-ui, Ubuntu, Droid Sans, Source Han Sans J, Source Han Sans JP, Source Han Sans, sans-serif ;
+  }
+
+.linux:lang(ko) .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-json .pane-body .monaco-list-row, .linux:lang(ko) .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-lt-json .pane-body .monaco-list-row, .linux:lang(ko) .zetavg-spacegray-input-vscode-themes-spacegray-input-light-json .pane-body .monaco-list-row, .linux:lang(ko) .zetavg-spacegray-input-vscode-themes-spacegray-input-light-lt-json .pane-body .monaco-list-row, .linux:lang(ko) .zetavg-spacegray-input-vscode-themes-spacegray-input .pane-body .monaco-list-row {
+    font-family: "Input Sans Condensed", system-ui, Ubuntu, Droid Sans, Source Han Sans K, Source Han Sans JR, Source Han Sans, UnDotum, FBaekmuk Gulim, sans-serif ;
+  }
+
+.zetavg-spacegray-input-vscode-themes-spacegray-input-dark-json .pane-body .monaco-list-row .label-name, .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-lt-json .pane-body .monaco-list-row .label-name, .zetavg-spacegray-input-vscode-themes-spacegray-input-light-json .pane-body .monaco-list-row .label-name, .zetavg-spacegray-input-vscode-themes-spacegray-input-light-lt-json .pane-body .monaco-list-row .label-name, .zetavg-spacegray-input-vscode-themes-spacegray-input .pane-body .monaco-list-row .label-name {
+      padding-top: 1px;
+    }
+
+.zetavg-spacegray-input-vscode-themes-spacegray-input-dark-json .pane-body .monaco-list-row .monaco-icon-label-container, .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-lt-json .pane-body .monaco-list-row .monaco-icon-label-container, .zetavg-spacegray-input-vscode-themes-spacegray-input-light-json .pane-body .monaco-list-row .monaco-icon-label-container, .zetavg-spacegray-input-vscode-themes-spacegray-input-light-lt-json .pane-body .monaco-list-row .monaco-icon-label-container, .zetavg-spacegray-input-vscode-themes-spacegray-input .pane-body .monaco-list-row .monaco-icon-label-container {
+      padding-top: 0.5px;
+    }
+
+/**
+    * Badge
+    */
+
+.mac .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-json .badge-content, .mac .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-lt-json .badge-content, .mac .zetavg-spacegray-input-vscode-themes-spacegray-input-light-json .badge-content, .mac .zetavg-spacegray-input-vscode-themes-spacegray-input-light-lt-json .badge-content, .mac .zetavg-spacegray-input-vscode-themes-spacegray-input .badge-content {
+    font-family: "Input Sans Compressed", -apple-system, BlinkMacSystemFont, sans-serif ;
+  }
+
+.mac:lang(zh-Hans) .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-json .badge-content, .mac:lang(zh-Hans) .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-lt-json .badge-content, .mac:lang(zh-Hans) .zetavg-spacegray-input-vscode-themes-spacegray-input-light-json .badge-content, .mac:lang(zh-Hans) .zetavg-spacegray-input-vscode-themes-spacegray-input-light-lt-json .badge-content, .mac:lang(zh-Hans) .zetavg-spacegray-input-vscode-themes-spacegray-input .badge-content {
+    font-family: "Input Sans Compressed", -apple-system, BlinkMacSystemFont, PingFang SC, Hiragino Sans GB, sans-serif ;
+  }
+
+.mac:lang(zh-Hant) .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-json .badge-content, .mac:lang(zh-Hant) .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-lt-json .badge-content, .mac:lang(zh-Hant) .zetavg-spacegray-input-vscode-themes-spacegray-input-light-json .badge-content, .mac:lang(zh-Hant) .zetavg-spacegray-input-vscode-themes-spacegray-input-light-lt-json .badge-content, .mac:lang(zh-Hant) .zetavg-spacegray-input-vscode-themes-spacegray-input .badge-content {
+    font-family: "Input Sans Compressed", -apple-system, BlinkMacSystemFont, PingFang TC, sans-serif ;
+  }
+
+.mac:lang(ja) .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-json .badge-content, .mac:lang(ja) .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-lt-json .badge-content, .mac:lang(ja) .zetavg-spacegray-input-vscode-themes-spacegray-input-light-json .badge-content, .mac:lang(ja) .zetavg-spacegray-input-vscode-themes-spacegray-input-light-lt-json .badge-content, .mac:lang(ja) .zetavg-spacegray-input-vscode-themes-spacegray-input .badge-content {
+    font-family: "Input Sans Compressed", -apple-system, BlinkMacSystemFont, Hiragino Kaku Gothic Pro, sans-serif ;
+  }
+
+.mac:lang(ko) .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-json .badge-content, .mac:lang(ko) .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-lt-json .badge-content, .mac:lang(ko) .zetavg-spacegray-input-vscode-themes-spacegray-input-light-json .badge-content, .mac:lang(ko) .zetavg-spacegray-input-vscode-themes-spacegray-input-light-lt-json .badge-content, .mac:lang(ko) .zetavg-spacegray-input-vscode-themes-spacegray-input .badge-content {
+    font-family: "Input Sans Compressed", -apple-system, BlinkMacSystemFont, Nanum Gothic, Apple SD Gothic Neo, AppleGothic, sans-serif ;
+  }
+
+.windows .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-json .badge-content, .windows .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-lt-json .badge-content, .windows .zetavg-spacegray-input-vscode-themes-spacegray-input-light-json .badge-content, .windows .zetavg-spacegray-input-vscode-themes-spacegray-input-light-lt-json .badge-content, .windows .zetavg-spacegray-input-vscode-themes-spacegray-input .badge-content {
+    font-family: "Input Sans Compressed", Segoe WPC, Segoe UI, sans-serif ;
+  }
+
+.windows:lang(zh-Hans) .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-json .badge-content, .windows:lang(zh-Hans) .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-lt-json .badge-content, .windows:lang(zh-Hans) .zetavg-spacegray-input-vscode-themes-spacegray-input-light-json .badge-content, .windows:lang(zh-Hans) .zetavg-spacegray-input-vscode-themes-spacegray-input-light-lt-json .badge-content, .windows:lang(zh-Hans) .zetavg-spacegray-input-vscode-themes-spacegray-input .badge-content {
+    font-family: "Input Sans Compressed", Segoe WPC, Segoe UI, Microsoft YaHei, sans-serif ;
+  }
+
+.windows:lang(zh-Hant) .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-json .badge-content, .windows:lang(zh-Hant) .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-lt-json .badge-content, .windows:lang(zh-Hant) .zetavg-spacegray-input-vscode-themes-spacegray-input-light-json .badge-content, .windows:lang(zh-Hant) .zetavg-spacegray-input-vscode-themes-spacegray-input-light-lt-json .badge-content, .windows:lang(zh-Hant) .zetavg-spacegray-input-vscode-themes-spacegray-input .badge-content {
+    font-family: "Input Sans Compressed", Segoe WPC, Segoe UI, Microsoft Jhenghei, sans-serif ;
+  }
+
+.windows:lang(ja) .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-json .badge-content, .windows:lang(ja) .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-lt-json .badge-content, .windows:lang(ja) .zetavg-spacegray-input-vscode-themes-spacegray-input-light-json .badge-content, .windows:lang(ja) .zetavg-spacegray-input-vscode-themes-spacegray-input-light-lt-json .badge-content, .windows:lang(ja) .zetavg-spacegray-input-vscode-themes-spacegray-input .badge-content {
+    font-family: "Input Sans Compressed", Segoe WPC, Segoe UI, Yu Gothic UI, Meiryo UI, sans-serif ;
+  }
+
+.windows:lang(ko) .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-json .badge-content, .windows:lang(ko) .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-lt-json .badge-content, .windows:lang(ko) .zetavg-spacegray-input-vscode-themes-spacegray-input-light-json .badge-content, .windows:lang(ko) .zetavg-spacegray-input-vscode-themes-spacegray-input-light-lt-json .badge-content, .windows:lang(ko) .zetavg-spacegray-input-vscode-themes-spacegray-input .badge-content {
+    font-family: "Input Sans Compressed", Segoe WPC, Segoe UI, Malgun Gothic, Dotom, sans-serif ;
+  }
+
+.linux .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-json .badge-content, .linux .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-lt-json .badge-content, .linux .zetavg-spacegray-input-vscode-themes-spacegray-input-light-json .badge-content, .linux .zetavg-spacegray-input-vscode-themes-spacegray-input-light-lt-json .badge-content, .linux .zetavg-spacegray-input-vscode-themes-spacegray-input .badge-content {
+    font-family: "Input Sans Compressed", system-ui, Ubuntu, Droid Sans, sans-serif ;
+  }
+
+.linux:lang(zh-Hans) .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-json .badge-content, .linux:lang(zh-Hans) .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-lt-json .badge-content, .linux:lang(zh-Hans) .zetavg-spacegray-input-vscode-themes-spacegray-input-light-json .badge-content, .linux:lang(zh-Hans) .zetavg-spacegray-input-vscode-themes-spacegray-input-light-lt-json .badge-content, .linux:lang(zh-Hans) .zetavg-spacegray-input-vscode-themes-spacegray-input .badge-content {
+    font-family: "Input Sans Compressed", system-ui, Ubuntu, Droid Sans, Source Han Sans SC, Source Han Sans CN, Source Han Sans, sans-serif ;
+  }
+
+.linux:lang(zh-Hant) .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-json .badge-content, .linux:lang(zh-Hant) .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-lt-json .badge-content, .linux:lang(zh-Hant) .zetavg-spacegray-input-vscode-themes-spacegray-input-light-json .badge-content, .linux:lang(zh-Hant) .zetavg-spacegray-input-vscode-themes-spacegray-input-light-lt-json .badge-content, .linux:lang(zh-Hant) .zetavg-spacegray-input-vscode-themes-spacegray-input .badge-content {
+    font-family: "Input Sans Compressed", system-ui, Ubuntu, Droid Sans, Source Han Sans TC, Source Han Sans TW, Source Han Sans, sans-serif ;
+  }
+
+.linux:lang(ja) .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-json .badge-content, .linux:lang(ja) .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-lt-json .badge-content, .linux:lang(ja) .zetavg-spacegray-input-vscode-themes-spacegray-input-light-json .badge-content, .linux:lang(ja) .zetavg-spacegray-input-vscode-themes-spacegray-input-light-lt-json .badge-content, .linux:lang(ja) .zetavg-spacegray-input-vscode-themes-spacegray-input .badge-content {
+    font-family: "Input Sans Compressed", system-ui, Ubuntu, Droid Sans, Source Han Sans J, Source Han Sans JP, Source Han Sans, sans-serif ;
+  }
+
+.linux:lang(ko) .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-json .badge-content, .linux:lang(ko) .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-lt-json .badge-content, .linux:lang(ko) .zetavg-spacegray-input-vscode-themes-spacegray-input-light-json .badge-content, .linux:lang(ko) .zetavg-spacegray-input-vscode-themes-spacegray-input-light-lt-json .badge-content, .linux:lang(ko) .zetavg-spacegray-input-vscode-themes-spacegray-input .badge-content {
+    font-family: "Input Sans Compressed", system-ui, Ubuntu, Droid Sans, Source Han Sans K, Source Han Sans JR, Source Han Sans, UnDotum, FBaekmuk Gulim, sans-serif ;
+  }
+
+.zetavg-spacegray-input-vscode-themes-spacegray-input-dark-json .monaco-workbench .pane-composite-part>.title>.composite-bar-container>.composite-bar>.monaco-action-bar .badge .badge-content, .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-lt-json .monaco-workbench .pane-composite-part>.title>.composite-bar-container>.composite-bar>.monaco-action-bar .badge .badge-content, .zetavg-spacegray-input-vscode-themes-spacegray-input-light-json .monaco-workbench .pane-composite-part>.title>.composite-bar-container>.composite-bar>.monaco-action-bar .badge .badge-content, .zetavg-spacegray-input-vscode-themes-spacegray-input-light-lt-json .monaco-workbench .pane-composite-part>.title>.composite-bar-container>.composite-bar>.monaco-action-bar .badge .badge-content, .zetavg-spacegray-input-vscode-themes-spacegray-input .monaco-workbench .pane-composite-part>.title>.composite-bar-container>.composite-bar>.monaco-action-bar .badge .badge-content {
+    padding: 4px 5px 3px;
+  }
+
+.zetavg-spacegray-input-vscode-themes-spacegray-input-dark-json .monaco-workbench .pane-composite-part>.title>.composite-bar-container>.composite-bar>.monaco-action-bar .action-item.icon .badge.compact .badge-content, .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-lt-json .monaco-workbench .pane-composite-part>.title>.composite-bar-container>.composite-bar>.monaco-action-bar .action-item.icon .badge.compact .badge-content, .zetavg-spacegray-input-vscode-themes-spacegray-input-light-json .monaco-workbench .pane-composite-part>.title>.composite-bar-container>.composite-bar>.monaco-action-bar .action-item.icon .badge.compact .badge-content, .zetavg-spacegray-input-vscode-themes-spacegray-input-light-lt-json .monaco-workbench .pane-composite-part>.title>.composite-bar-container>.composite-bar>.monaco-action-bar .action-item.icon .badge.compact .badge-content, .zetavg-spacegray-input-vscode-themes-spacegray-input .monaco-workbench .pane-composite-part>.title>.composite-bar-container>.composite-bar>.monaco-action-bar .action-item.icon .badge.compact .badge-content {
+    padding: 0.4px 2px 0;
+  }
+
+/**
     * Sidebar
     */
 
@@ -1306,6 +1582,66 @@
     font-weight: 300;
     color: var(--vscode-search-resultsInfoForeground);
 }
+
+.mac .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-json .inline-chat-widget .view-lines.monaco-mouse-cursor-text, .mac .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-lt-json .inline-chat-widget .view-lines.monaco-mouse-cursor-text, .mac .zetavg-spacegray-input-vscode-themes-spacegray-input-light-json .inline-chat-widget .view-lines.monaco-mouse-cursor-text, .mac .zetavg-spacegray-input-vscode-themes-spacegray-input-light-lt-json .inline-chat-widget .view-lines.monaco-mouse-cursor-text, .mac .zetavg-spacegray-input-vscode-themes-spacegray-input .inline-chat-widget .view-lines.monaco-mouse-cursor-text {
+    font-family: "Input Sans Narrow", -apple-system, BlinkMacSystemFont, sans-serif !important;
+  }
+
+.mac:lang(zh-Hans) .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-json .inline-chat-widget .view-lines.monaco-mouse-cursor-text, .mac:lang(zh-Hans) .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-lt-json .inline-chat-widget .view-lines.monaco-mouse-cursor-text, .mac:lang(zh-Hans) .zetavg-spacegray-input-vscode-themes-spacegray-input-light-json .inline-chat-widget .view-lines.monaco-mouse-cursor-text, .mac:lang(zh-Hans) .zetavg-spacegray-input-vscode-themes-spacegray-input-light-lt-json .inline-chat-widget .view-lines.monaco-mouse-cursor-text, .mac:lang(zh-Hans) .zetavg-spacegray-input-vscode-themes-spacegray-input .inline-chat-widget .view-lines.monaco-mouse-cursor-text {
+    font-family: "Input Sans Narrow", -apple-system, BlinkMacSystemFont, PingFang SC, Hiragino Sans GB, sans-serif !important;
+  }
+
+.mac:lang(zh-Hant) .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-json .inline-chat-widget .view-lines.monaco-mouse-cursor-text, .mac:lang(zh-Hant) .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-lt-json .inline-chat-widget .view-lines.monaco-mouse-cursor-text, .mac:lang(zh-Hant) .zetavg-spacegray-input-vscode-themes-spacegray-input-light-json .inline-chat-widget .view-lines.monaco-mouse-cursor-text, .mac:lang(zh-Hant) .zetavg-spacegray-input-vscode-themes-spacegray-input-light-lt-json .inline-chat-widget .view-lines.monaco-mouse-cursor-text, .mac:lang(zh-Hant) .zetavg-spacegray-input-vscode-themes-spacegray-input .inline-chat-widget .view-lines.monaco-mouse-cursor-text {
+    font-family: "Input Sans Narrow", -apple-system, BlinkMacSystemFont, PingFang TC, sans-serif !important;
+  }
+
+.mac:lang(ja) .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-json .inline-chat-widget .view-lines.monaco-mouse-cursor-text, .mac:lang(ja) .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-lt-json .inline-chat-widget .view-lines.monaco-mouse-cursor-text, .mac:lang(ja) .zetavg-spacegray-input-vscode-themes-spacegray-input-light-json .inline-chat-widget .view-lines.monaco-mouse-cursor-text, .mac:lang(ja) .zetavg-spacegray-input-vscode-themes-spacegray-input-light-lt-json .inline-chat-widget .view-lines.monaco-mouse-cursor-text, .mac:lang(ja) .zetavg-spacegray-input-vscode-themes-spacegray-input .inline-chat-widget .view-lines.monaco-mouse-cursor-text {
+    font-family: "Input Sans Narrow", -apple-system, BlinkMacSystemFont, Hiragino Kaku Gothic Pro, sans-serif !important;
+  }
+
+.mac:lang(ko) .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-json .inline-chat-widget .view-lines.monaco-mouse-cursor-text, .mac:lang(ko) .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-lt-json .inline-chat-widget .view-lines.monaco-mouse-cursor-text, .mac:lang(ko) .zetavg-spacegray-input-vscode-themes-spacegray-input-light-json .inline-chat-widget .view-lines.monaco-mouse-cursor-text, .mac:lang(ko) .zetavg-spacegray-input-vscode-themes-spacegray-input-light-lt-json .inline-chat-widget .view-lines.monaco-mouse-cursor-text, .mac:lang(ko) .zetavg-spacegray-input-vscode-themes-spacegray-input .inline-chat-widget .view-lines.monaco-mouse-cursor-text {
+    font-family: "Input Sans Narrow", -apple-system, BlinkMacSystemFont, Nanum Gothic, Apple SD Gothic Neo, AppleGothic, sans-serif !important;
+  }
+
+.windows .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-json .inline-chat-widget .view-lines.monaco-mouse-cursor-text, .windows .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-lt-json .inline-chat-widget .view-lines.monaco-mouse-cursor-text, .windows .zetavg-spacegray-input-vscode-themes-spacegray-input-light-json .inline-chat-widget .view-lines.monaco-mouse-cursor-text, .windows .zetavg-spacegray-input-vscode-themes-spacegray-input-light-lt-json .inline-chat-widget .view-lines.monaco-mouse-cursor-text, .windows .zetavg-spacegray-input-vscode-themes-spacegray-input .inline-chat-widget .view-lines.monaco-mouse-cursor-text {
+    font-family: "Input Sans Narrow", Segoe WPC, Segoe UI, sans-serif !important;
+  }
+
+.windows:lang(zh-Hans) .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-json .inline-chat-widget .view-lines.monaco-mouse-cursor-text, .windows:lang(zh-Hans) .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-lt-json .inline-chat-widget .view-lines.monaco-mouse-cursor-text, .windows:lang(zh-Hans) .zetavg-spacegray-input-vscode-themes-spacegray-input-light-json .inline-chat-widget .view-lines.monaco-mouse-cursor-text, .windows:lang(zh-Hans) .zetavg-spacegray-input-vscode-themes-spacegray-input-light-lt-json .inline-chat-widget .view-lines.monaco-mouse-cursor-text, .windows:lang(zh-Hans) .zetavg-spacegray-input-vscode-themes-spacegray-input .inline-chat-widget .view-lines.monaco-mouse-cursor-text {
+    font-family: "Input Sans Narrow", Segoe WPC, Segoe UI, Microsoft YaHei, sans-serif !important;
+  }
+
+.windows:lang(zh-Hant) .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-json .inline-chat-widget .view-lines.monaco-mouse-cursor-text, .windows:lang(zh-Hant) .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-lt-json .inline-chat-widget .view-lines.monaco-mouse-cursor-text, .windows:lang(zh-Hant) .zetavg-spacegray-input-vscode-themes-spacegray-input-light-json .inline-chat-widget .view-lines.monaco-mouse-cursor-text, .windows:lang(zh-Hant) .zetavg-spacegray-input-vscode-themes-spacegray-input-light-lt-json .inline-chat-widget .view-lines.monaco-mouse-cursor-text, .windows:lang(zh-Hant) .zetavg-spacegray-input-vscode-themes-spacegray-input .inline-chat-widget .view-lines.monaco-mouse-cursor-text {
+    font-family: "Input Sans Narrow", Segoe WPC, Segoe UI, Microsoft Jhenghei, sans-serif !important;
+  }
+
+.windows:lang(ja) .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-json .inline-chat-widget .view-lines.monaco-mouse-cursor-text, .windows:lang(ja) .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-lt-json .inline-chat-widget .view-lines.monaco-mouse-cursor-text, .windows:lang(ja) .zetavg-spacegray-input-vscode-themes-spacegray-input-light-json .inline-chat-widget .view-lines.monaco-mouse-cursor-text, .windows:lang(ja) .zetavg-spacegray-input-vscode-themes-spacegray-input-light-lt-json .inline-chat-widget .view-lines.monaco-mouse-cursor-text, .windows:lang(ja) .zetavg-spacegray-input-vscode-themes-spacegray-input .inline-chat-widget .view-lines.monaco-mouse-cursor-text {
+    font-family: "Input Sans Narrow", Segoe WPC, Segoe UI, Yu Gothic UI, Meiryo UI, sans-serif !important;
+  }
+
+.windows:lang(ko) .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-json .inline-chat-widget .view-lines.monaco-mouse-cursor-text, .windows:lang(ko) .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-lt-json .inline-chat-widget .view-lines.monaco-mouse-cursor-text, .windows:lang(ko) .zetavg-spacegray-input-vscode-themes-spacegray-input-light-json .inline-chat-widget .view-lines.monaco-mouse-cursor-text, .windows:lang(ko) .zetavg-spacegray-input-vscode-themes-spacegray-input-light-lt-json .inline-chat-widget .view-lines.monaco-mouse-cursor-text, .windows:lang(ko) .zetavg-spacegray-input-vscode-themes-spacegray-input .inline-chat-widget .view-lines.monaco-mouse-cursor-text {
+    font-family: "Input Sans Narrow", Segoe WPC, Segoe UI, Malgun Gothic, Dotom, sans-serif !important;
+  }
+
+.linux .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-json .inline-chat-widget .view-lines.monaco-mouse-cursor-text, .linux .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-lt-json .inline-chat-widget .view-lines.monaco-mouse-cursor-text, .linux .zetavg-spacegray-input-vscode-themes-spacegray-input-light-json .inline-chat-widget .view-lines.monaco-mouse-cursor-text, .linux .zetavg-spacegray-input-vscode-themes-spacegray-input-light-lt-json .inline-chat-widget .view-lines.monaco-mouse-cursor-text, .linux .zetavg-spacegray-input-vscode-themes-spacegray-input .inline-chat-widget .view-lines.monaco-mouse-cursor-text {
+    font-family: "Input Sans Narrow", system-ui, Ubuntu, Droid Sans, sans-serif !important;
+  }
+
+.linux:lang(zh-Hans) .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-json .inline-chat-widget .view-lines.monaco-mouse-cursor-text, .linux:lang(zh-Hans) .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-lt-json .inline-chat-widget .view-lines.monaco-mouse-cursor-text, .linux:lang(zh-Hans) .zetavg-spacegray-input-vscode-themes-spacegray-input-light-json .inline-chat-widget .view-lines.monaco-mouse-cursor-text, .linux:lang(zh-Hans) .zetavg-spacegray-input-vscode-themes-spacegray-input-light-lt-json .inline-chat-widget .view-lines.monaco-mouse-cursor-text, .linux:lang(zh-Hans) .zetavg-spacegray-input-vscode-themes-spacegray-input .inline-chat-widget .view-lines.monaco-mouse-cursor-text {
+    font-family: "Input Sans Narrow", system-ui, Ubuntu, Droid Sans, Source Han Sans SC, Source Han Sans CN, Source Han Sans, sans-serif !important;
+  }
+
+.linux:lang(zh-Hant) .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-json .inline-chat-widget .view-lines.monaco-mouse-cursor-text, .linux:lang(zh-Hant) .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-lt-json .inline-chat-widget .view-lines.monaco-mouse-cursor-text, .linux:lang(zh-Hant) .zetavg-spacegray-input-vscode-themes-spacegray-input-light-json .inline-chat-widget .view-lines.monaco-mouse-cursor-text, .linux:lang(zh-Hant) .zetavg-spacegray-input-vscode-themes-spacegray-input-light-lt-json .inline-chat-widget .view-lines.monaco-mouse-cursor-text, .linux:lang(zh-Hant) .zetavg-spacegray-input-vscode-themes-spacegray-input .inline-chat-widget .view-lines.monaco-mouse-cursor-text {
+    font-family: "Input Sans Narrow", system-ui, Ubuntu, Droid Sans, Source Han Sans TC, Source Han Sans TW, Source Han Sans, sans-serif !important;
+  }
+
+.linux:lang(ja) .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-json .inline-chat-widget .view-lines.monaco-mouse-cursor-text, .linux:lang(ja) .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-lt-json .inline-chat-widget .view-lines.monaco-mouse-cursor-text, .linux:lang(ja) .zetavg-spacegray-input-vscode-themes-spacegray-input-light-json .inline-chat-widget .view-lines.monaco-mouse-cursor-text, .linux:lang(ja) .zetavg-spacegray-input-vscode-themes-spacegray-input-light-lt-json .inline-chat-widget .view-lines.monaco-mouse-cursor-text, .linux:lang(ja) .zetavg-spacegray-input-vscode-themes-spacegray-input .inline-chat-widget .view-lines.monaco-mouse-cursor-text {
+    font-family: "Input Sans Narrow", system-ui, Ubuntu, Droid Sans, Source Han Sans J, Source Han Sans JP, Source Han Sans, sans-serif !important;
+  }
+
+.linux:lang(ko) .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-json .inline-chat-widget .view-lines.monaco-mouse-cursor-text, .linux:lang(ko) .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-lt-json .inline-chat-widget .view-lines.monaco-mouse-cursor-text, .linux:lang(ko) .zetavg-spacegray-input-vscode-themes-spacegray-input-light-json .inline-chat-widget .view-lines.monaco-mouse-cursor-text, .linux:lang(ko) .zetavg-spacegray-input-vscode-themes-spacegray-input-light-lt-json .inline-chat-widget .view-lines.monaco-mouse-cursor-text, .linux:lang(ko) .zetavg-spacegray-input-vscode-themes-spacegray-input .inline-chat-widget .view-lines.monaco-mouse-cursor-text {
+    font-family: "Input Sans Narrow", system-ui, Ubuntu, Droid Sans, Source Han Sans K, Source Han Sans JR, Source Han Sans, UnDotum, FBaekmuk Gulim, sans-serif !important;
+  }
 
 /**
     * Compress Terminal Tabs and Test Explorer Items

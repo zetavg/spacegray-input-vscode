@@ -124,6 +124,33 @@
     border-left: 0;
     border-right: 0;
   }
+  /* For Ghost Text (autocomplete, etc.), use dotted underline */
+  .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-json .monaco-editor .ghost-text-decoration,
+    .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-json .monaco-editor .ghost-text-decoration-preview,
+    .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-json .monaco-editor .suggest-preview-text .ghost-text,
+    .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-lt-json .monaco-editor .ghost-text-decoration,
+    .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-lt-json .monaco-editor .ghost-text-decoration-preview,
+    .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-lt-json .monaco-editor .suggest-preview-text .ghost-text,
+    .zetavg-spacegray-input-vscode-themes-spacegray-input-light-json .monaco-editor .ghost-text-decoration,
+    .zetavg-spacegray-input-vscode-themes-spacegray-input-light-json .monaco-editor .ghost-text-decoration-preview,
+    .zetavg-spacegray-input-vscode-themes-spacegray-input-light-json .monaco-editor .suggest-preview-text .ghost-text,
+    .zetavg-spacegray-input-vscode-themes-spacegray-input-light-lt-json .monaco-editor .ghost-text-decoration,
+    .zetavg-spacegray-input-vscode-themes-spacegray-input-light-lt-json .monaco-editor .ghost-text-decoration-preview,
+    .zetavg-spacegray-input-vscode-themes-spacegray-input-light-lt-json .monaco-editor .suggest-preview-text .ghost-text,
+    .zetavg-spacegray-input-vscode-themes-spacegray-input .monaco-editor .ghost-text-decoration,
+    .zetavg-spacegray-input-vscode-themes-spacegray-input .monaco-editor .ghost-text-decoration-preview,
+    .zetavg-spacegray-input-vscode-themes-spacegray-input .monaco-editor .suggest-preview-text .ghost-text {
+    border: 0;
+    border-bottom: 1px dotted var(--vscode-editorGhostText-border);
+  }
+  .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-json .monaco-editor .unexpected-closing-bracket, .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-lt-json .monaco-editor .unexpected-closing-bracket, .zetavg-spacegray-input-vscode-themes-spacegray-input-light-json .monaco-editor .unexpected-closing-bracket, .zetavg-spacegray-input-vscode-themes-spacegray-input-light-lt-json .monaco-editor .unexpected-closing-bracket, .zetavg-spacegray-input-vscode-themes-spacegray-input .monaco-editor .unexpected-closing-bracket {
+    background-color: var(--vscode-editorGutter-deletedBackground);
+    color: var(--vscode-editor-background);
+  }
+  .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-json .monaco-editor.showDeprecated .squiggly-inline-deprecated, .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-lt-json .monaco-editor.showDeprecated .squiggly-inline-deprecated, .zetavg-spacegray-input-vscode-themes-spacegray-input-light-json .monaco-editor.showDeprecated .squiggly-inline-deprecated, .zetavg-spacegray-input-vscode-themes-spacegray-input-light-lt-json .monaco-editor.showDeprecated .squiggly-inline-deprecated, .zetavg-spacegray-input-vscode-themes-spacegray-input .monaco-editor.showDeprecated .squiggly-inline-deprecated {
+    text-decoration-color: var(--vscode-editorLineNumber-foreground);
+    text-decoration-thickness: from-font;
+  }
   /* Make Content in Hover Popup Dimmer */
   .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-json .monaco-hover-content .hover-contents, .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-lt-json .monaco-hover-content .hover-contents, .zetavg-spacegray-input-vscode-themes-spacegray-input-light-json .monaco-hover-content .hover-contents, .zetavg-spacegray-input-vscode-themes-spacegray-input-light-lt-json .monaco-hover-content .hover-contents, .zetavg-spacegray-input-vscode-themes-spacegray-input .monaco-hover-content .hover-contents {
     opacity: 0.9;
