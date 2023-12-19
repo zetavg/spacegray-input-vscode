@@ -17,18 +17,37 @@
 }
 
 @mixin in-specific-themes {
-    .tabs .tab .label-name {
-        color: var(--vscode-tab-inactiveForeground) !important;
+    .tabs .tab {
+        .label-name {
+            color: var(--vscode-tab-inactiveForeground) !important;
+        }
+        .label-description {
+            color: var(--vscode-tab-inactiveForeground) !important;
+            opacity: 0.6;
+        }
     }
 
-    .tabs .tab:hover .label-name {
-        color: var(--vscode-tab-hoverForeground) !important;
+    .tabs .tab:hover {
+        .label-name {
+            color: var(--vscode-tab-hoverForeground) !important;
+        }
+        .label-description {
+            color: var(--vscode-tab-hoverForeground) !important;
+            opacity: 0.4;
+        }
     }
 
-    .tabs .tab.active .label-name {
-        color: var(--vscode-tab-activeForeground) !important;
+    .tabs .tab.active {
+        .label-name {
+            color: var(--vscode-tab-activeForeground) !important;
+        }
+        .label-description {
+            color: var(--vscode-tab-activeForeground) !important;
+            opacity: 0.4;
+        }
     }
 
+    /* Hide the file icon on the tab bar */
     .tabs .tab .file-icon::before {
         width: 0;
         opacity: 0;

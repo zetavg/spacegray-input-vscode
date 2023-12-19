@@ -50,4 +50,46 @@
     height: 22px;
     padding-left: 16px;
   }
+
+  .part.panel.basepanel.bottom {
+    overflow: visible;
+
+    > .title {
+      transform: translateY(-4px);
+      height: 30px;
+      padding-top: 1px;
+      margin-bottom: -2px;
+      background: var(--vscode-panel-background);
+    }
+
+    > .content {
+      overflow: hidden;
+    }
+  }
+
+  /* Bacause we adjust the height of the tabbar and statusbar, we need to adjust position of the Jupiter Notebook editor so it doesn't overlap with the statusbar */
+  .notebookOverlay.notebook-editor {
+    background: transparent !important;
+    overflow: visible !important;
+    > *:first-child {
+      margin-top: -7px;
+    }
+    .notebook-sticky-scroll-container {
+      transform: translateY(-10px);
+    }
+    > .cell-list-container {
+      overflow: hidden;
+    }
+  }
+  /* The old method, it is too complex */
+  .notebookOverlay.notebook-editor {
+    /* transform: translateY(-7px); */
+
+    /* Don't know why but the auto suggest list is shifted with this theme (this might be caused by the transform applied on notebook-editor), so we shift it back */
+    .cell-editor-part .editor-widget,
+    .cell-editor-part .monaco-hover,
+    .cell-editor-part .inlineSuggestionsHints {
+        /* transform: translate(-245px, -86px); */
+    }
+  }
 }

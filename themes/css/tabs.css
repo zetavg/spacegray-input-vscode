@@ -21,16 +21,33 @@
   }
 
 .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-json .tabs .tab .label-name, .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-lt-json .tabs .tab .label-name, .zetavg-spacegray-input-vscode-themes-spacegray-input-light-json .tabs .tab .label-name, .zetavg-spacegray-input-vscode-themes-spacegray-input-light-lt-json .tabs .tab .label-name, .zetavg-spacegray-input-vscode-themes-spacegray-input .tabs .tab .label-name {
-    color: var(--vscode-tab-inactiveForeground) !important;
-  }
+      color: var(--vscode-tab-inactiveForeground) !important;
+    }
+
+.zetavg-spacegray-input-vscode-themes-spacegray-input-dark-json .tabs .tab .label-description, .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-lt-json .tabs .tab .label-description, .zetavg-spacegray-input-vscode-themes-spacegray-input-light-json .tabs .tab .label-description, .zetavg-spacegray-input-vscode-themes-spacegray-input-light-lt-json .tabs .tab .label-description, .zetavg-spacegray-input-vscode-themes-spacegray-input .tabs .tab .label-description {
+      color: var(--vscode-tab-inactiveForeground) !important;
+      opacity: 0.6;
+    }
 
 .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-json .tabs .tab:hover .label-name, .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-lt-json .tabs .tab:hover .label-name, .zetavg-spacegray-input-vscode-themes-spacegray-input-light-json .tabs .tab:hover .label-name, .zetavg-spacegray-input-vscode-themes-spacegray-input-light-lt-json .tabs .tab:hover .label-name, .zetavg-spacegray-input-vscode-themes-spacegray-input .tabs .tab:hover .label-name {
-    color: var(--vscode-tab-hoverForeground) !important;
-  }
+      color: var(--vscode-tab-hoverForeground) !important;
+    }
+
+.zetavg-spacegray-input-vscode-themes-spacegray-input-dark-json .tabs .tab:hover .label-description, .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-lt-json .tabs .tab:hover .label-description, .zetavg-spacegray-input-vscode-themes-spacegray-input-light-json .tabs .tab:hover .label-description, .zetavg-spacegray-input-vscode-themes-spacegray-input-light-lt-json .tabs .tab:hover .label-description, .zetavg-spacegray-input-vscode-themes-spacegray-input .tabs .tab:hover .label-description {
+      color: var(--vscode-tab-hoverForeground) !important;
+      opacity: 0.4;
+    }
 
 .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-json .tabs .tab.active .label-name, .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-lt-json .tabs .tab.active .label-name, .zetavg-spacegray-input-vscode-themes-spacegray-input-light-json .tabs .tab.active .label-name, .zetavg-spacegray-input-vscode-themes-spacegray-input-light-lt-json .tabs .tab.active .label-name, .zetavg-spacegray-input-vscode-themes-spacegray-input .tabs .tab.active .label-name {
-    color: var(--vscode-tab-activeForeground) !important;
-  }
+      color: var(--vscode-tab-activeForeground) !important;
+    }
+
+.zetavg-spacegray-input-vscode-themes-spacegray-input-dark-json .tabs .tab.active .label-description, .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-lt-json .tabs .tab.active .label-description, .zetavg-spacegray-input-vscode-themes-spacegray-input-light-json .tabs .tab.active .label-description, .zetavg-spacegray-input-vscode-themes-spacegray-input-light-lt-json .tabs .tab.active .label-description, .zetavg-spacegray-input-vscode-themes-spacegray-input .tabs .tab.active .label-description {
+      color: var(--vscode-tab-activeForeground) !important;
+      opacity: 0.4;
+    }
+
+/* Hide the file icon on the tab bar */
 
 .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-json .tabs .tab .file-icon::before, .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-lt-json .tabs .tab .file-icon::before, .zetavg-spacegray-input-vscode-themes-spacegray-input-light-json .tabs .tab .file-icon::before, .zetavg-spacegray-input-vscode-themes-spacegray-input-light-lt-json .tabs .tab .file-icon::before, .zetavg-spacegray-input-vscode-themes-spacegray-input .tabs .tab .file-icon::before {
     width: 0;

@@ -29,6 +29,9 @@
     color: var(--vscode-list-inactiveSelectionForeground);
     opacity: 0.8;
   }
+  .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-json .statusbar-item-label[aria-label="error"], .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-lt-json .statusbar-item-label[aria-label="error"], .zetavg-spacegray-input-vscode-themes-spacegray-input-light-json .statusbar-item-label[aria-label="error"], .zetavg-spacegray-input-vscode-themes-spacegray-input-light-lt-json .statusbar-item-label[aria-label="error"], .zetavg-spacegray-input-vscode-themes-spacegray-input .statusbar-item-label[aria-label="error"] {
+    color: var(--vscode-statusBarItem-errorForeground) !important;
+  }
 
 
 /*

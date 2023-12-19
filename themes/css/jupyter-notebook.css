@@ -1,0 +1,70 @@
+.notebook-editor {
+
+    /* Old version 3 */
+    /*
+    .run-button-container:has(~ * .codicon-notebook-state-success)::after,
+    .run-button-container:has(~ * .codicon-notebook-state-error)::after,
+    .run-button-container:has(~ * .codicon-notebook-state-executing)::after {
+        content: '';
+        display: block;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: -2px;
+        width: 2px;
+        margin: 2px 0px;
+        border-radius: 2px;
+    }
+
+    .run-button-container:has(~ * .codicon-notebook-state-success)::after {
+        background-color: var(--vscode-terminalCommandDecoration-successBackground);
+    }
+    .run-button-container:has(~ * .codicon-notebook-state-error)::after {
+        background-color: var(--vscode-terminalCommandDecoration-errorBackground);
+    }
+    .run-button-container:has(~ * .codicon-notebook-state-executing)::after {
+        background-color: var(--vscode-terminalCommandDecoration-defaultBackground);
+    }
+    */
+
+    /* Old version 2 */
+    /*
+    .run-button-container:has(~ * .codicon-notebook-state-error)::after {
+        display: block;
+        content: '';
+        height: 2px;
+        background-color: var(--vscode-errorForeground);
+        margin: 2px 4px;
+        border-radius: 2px;
+    }
+    */
+
+    /* Old version 1 */
+    /*
+    .run-button-container:has(~ * .codicon-notebook-state-error)::after {
+        display: block;
+        content: '\ea87';
+        padding: 4px 4px;
+        text-align: center;
+        font: normal normal normal 12px/1 codicon;
+        color: var(--vscode-errorForeground);
+    }
+    */
+}
+    /* Show a run status indecator on the left border of the code cell */
+  .notebook-editor .cell-editor-part:has(.codicon-notebook-state-success)::after,
+    .notebook-editor .cell-editor-part:has(.codicon-notebook-state-error)::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: 2px;
+    background-color: var(--vscode-terminalCommandDecoration-successBackground);
+  }
+  .notebook-editor .cell-editor-part:has(.codicon-notebook-state-success)::after {
+    background-color: var(--vscode-terminalCommandDecoration-successBackground);
+  }
+  .notebook-editor .cell-editor-part:has(.codicon-notebook-state-error)::after {
+    background-color: var(--vscode-terminalCommandDecoration-errorBackground);
+  }

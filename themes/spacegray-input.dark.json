@@ -136,6 +136,8 @@
         "statusBar.foreground": "#4f5b67",
         "statusBar.noFolderBackground": "#1c1f26",
         "statusBarItem.activeBackground": "#00000000",
+        "statusBarItem.errorBackground": "#1c1f26",
+        "statusBarItem.errorForeground": "#bf616a",
         "statusBarItem.hoverBackground": "#1c1f26",
         "statusBarItem.hoverForeground": "#4f5b67",
         "statusBarItem.prominentBackground": "#1c1f26",

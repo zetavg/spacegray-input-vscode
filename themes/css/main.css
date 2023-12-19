@@ -2343,6 +2343,10 @@
     opacity: 0.8;
   }
 
+.zetavg-spacegray-input-vscode-themes-spacegray-input-dark-json .statusbar-item-label[aria-label="error"], .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-lt-json .statusbar-item-label[aria-label="error"], .zetavg-spacegray-input-vscode-themes-spacegray-input-light-json .statusbar-item-label[aria-label="error"], .zetavg-spacegray-input-vscode-themes-spacegray-input-light-lt-json .statusbar-item-label[aria-label="error"], .zetavg-spacegray-input-vscode-themes-spacegray-input .statusbar-item-label[aria-label="error"] {
+    color: var(--vscode-statusBarItem-errorForeground) !important;
+  }
+
 
 /*
 macOS Vibrancy
@@ -2446,6 +2450,11 @@ And inject the script into /Applications/Visual Studio Code.app/Contents/Resourc
 
 .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-json .monaco-list-row  input[type="checkbox"], .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-lt-json .monaco-list-row  input[type="checkbox"], .zetavg-spacegray-input-vscode-themes-spacegray-input-light-json .monaco-list-row  input[type="checkbox"], .zetavg-spacegray-input-vscode-themes-spacegray-input-light-lt-json .monaco-list-row  input[type="checkbox"], .zetavg-spacegray-input-vscode-themes-spacegray-input .monaco-list-row  input[type="checkbox"] {
     margin: 0 6px 0 0;
+  }
+
+.zetavg-spacegray-input-vscode-themes-spacegray-input-dark-json .action-label.codicon-close:hover, .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-lt-json .action-label.codicon-close:hover, .zetavg-spacegray-input-vscode-themes-spacegray-input-light-json .action-label.codicon-close:hover, .zetavg-spacegray-input-vscode-themes-spacegray-input-light-lt-json .action-label.codicon-close:hover, .zetavg-spacegray-input-vscode-themes-spacegray-input .action-label.codicon-close:hover {
+    background: transparent !important;
+    color: var(--vscode-statusBarItem-errorForeground) !important;
   }
 
 .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-json .monaco-breadcrumb-item .outline-element-icon::before,
@@ -2690,6 +2699,65 @@ And inject the script into /Applications/Visual Studio Code.app/Contents/Resourc
     height: 22px;
     padding-left: 16px;
   }
+
+.zetavg-spacegray-input-vscode-themes-spacegray-input-dark-json .part.panel.basepanel.bottom, .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-lt-json .part.panel.basepanel.bottom, .zetavg-spacegray-input-vscode-themes-spacegray-input-light-json .part.panel.basepanel.bottom, .zetavg-spacegray-input-vscode-themes-spacegray-input-light-lt-json .part.panel.basepanel.bottom, .zetavg-spacegray-input-vscode-themes-spacegray-input .part.panel.basepanel.bottom {
+    overflow: visible;
+  }
+
+.zetavg-spacegray-input-vscode-themes-spacegray-input-dark-json .part.panel.basepanel.bottom > .title, .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-lt-json .part.panel.basepanel.bottom > .title, .zetavg-spacegray-input-vscode-themes-spacegray-input-light-json .part.panel.basepanel.bottom > .title, .zetavg-spacegray-input-vscode-themes-spacegray-input-light-lt-json .part.panel.basepanel.bottom > .title, .zetavg-spacegray-input-vscode-themes-spacegray-input .part.panel.basepanel.bottom > .title {
+      transform: translateY(-4px);
+      height: 30px;
+      padding-top: 1px;
+      margin-bottom: -2px;
+      background: var(--vscode-panel-background);
+    }
+
+.zetavg-spacegray-input-vscode-themes-spacegray-input-dark-json .part.panel.basepanel.bottom > .content, .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-lt-json .part.panel.basepanel.bottom > .content, .zetavg-spacegray-input-vscode-themes-spacegray-input-light-json .part.panel.basepanel.bottom > .content, .zetavg-spacegray-input-vscode-themes-spacegray-input-light-lt-json .part.panel.basepanel.bottom > .content, .zetavg-spacegray-input-vscode-themes-spacegray-input .part.panel.basepanel.bottom > .content {
+      overflow: hidden;
+    }
+
+/* Bacause we adjust the height of the tabbar and statusbar, we need to adjust position of the Jupiter Notebook editor so it doesn't overlap with the statusbar */
+
+.zetavg-spacegray-input-vscode-themes-spacegray-input-dark-json .notebookOverlay.notebook-editor, .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-lt-json .notebookOverlay.notebook-editor, .zetavg-spacegray-input-vscode-themes-spacegray-input-light-json .notebookOverlay.notebook-editor, .zetavg-spacegray-input-vscode-themes-spacegray-input-light-lt-json .notebookOverlay.notebook-editor, .zetavg-spacegray-input-vscode-themes-spacegray-input .notebookOverlay.notebook-editor {
+    background: transparent !important;
+    overflow: visible !important;
+  }
+
+.zetavg-spacegray-input-vscode-themes-spacegray-input-dark-json .notebookOverlay.notebook-editor > *:first-child, .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-lt-json .notebookOverlay.notebook-editor > *:first-child, .zetavg-spacegray-input-vscode-themes-spacegray-input-light-json .notebookOverlay.notebook-editor > *:first-child, .zetavg-spacegray-input-vscode-themes-spacegray-input-light-lt-json .notebookOverlay.notebook-editor > *:first-child, .zetavg-spacegray-input-vscode-themes-spacegray-input .notebookOverlay.notebook-editor > *:first-child {
+      margin-top: -7px;
+    }
+
+.zetavg-spacegray-input-vscode-themes-spacegray-input-dark-json .notebookOverlay.notebook-editor .notebook-sticky-scroll-container, .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-lt-json .notebookOverlay.notebook-editor .notebook-sticky-scroll-container, .zetavg-spacegray-input-vscode-themes-spacegray-input-light-json .notebookOverlay.notebook-editor .notebook-sticky-scroll-container, .zetavg-spacegray-input-vscode-themes-spacegray-input-light-lt-json .notebookOverlay.notebook-editor .notebook-sticky-scroll-container, .zetavg-spacegray-input-vscode-themes-spacegray-input .notebookOverlay.notebook-editor .notebook-sticky-scroll-container {
+      transform: translateY(-10px);
+    }
+
+.zetavg-spacegray-input-vscode-themes-spacegray-input-dark-json .notebookOverlay.notebook-editor > .cell-list-container, .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-lt-json .notebookOverlay.notebook-editor > .cell-list-container, .zetavg-spacegray-input-vscode-themes-spacegray-input-light-json .notebookOverlay.notebook-editor > .cell-list-container, .zetavg-spacegray-input-vscode-themes-spacegray-input-light-lt-json .notebookOverlay.notebook-editor > .cell-list-container, .zetavg-spacegray-input-vscode-themes-spacegray-input .notebookOverlay.notebook-editor > .cell-list-container {
+      overflow: hidden;
+    }
+
+/* The old method, it is too complex */
+
+/* transform: translateY(-7px); */
+
+/* Don't know why but the auto suggest list is shifted with this theme (this might be caused by the transform applied on notebook-editor), so we shift it back */
+
+.zetavg-spacegray-input-vscode-themes-spacegray-input-dark-json .notebookOverlay.notebook-editor .cell-editor-part .editor-widget,
+    .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-json .notebookOverlay.notebook-editor .cell-editor-part .monaco-hover,
+    .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-json .notebookOverlay.notebook-editor .cell-editor-part .inlineSuggestionsHints,
+    .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-lt-json .notebookOverlay.notebook-editor .cell-editor-part .editor-widget,
+    .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-lt-json .notebookOverlay.notebook-editor .cell-editor-part .monaco-hover,
+    .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-lt-json .notebookOverlay.notebook-editor .cell-editor-part .inlineSuggestionsHints,
+    .zetavg-spacegray-input-vscode-themes-spacegray-input-light-json .notebookOverlay.notebook-editor .cell-editor-part .editor-widget,
+    .zetavg-spacegray-input-vscode-themes-spacegray-input-light-json .notebookOverlay.notebook-editor .cell-editor-part .monaco-hover,
+    .zetavg-spacegray-input-vscode-themes-spacegray-input-light-json .notebookOverlay.notebook-editor .cell-editor-part .inlineSuggestionsHints,
+    .zetavg-spacegray-input-vscode-themes-spacegray-input-light-lt-json .notebookOverlay.notebook-editor .cell-editor-part .editor-widget,
+    .zetavg-spacegray-input-vscode-themes-spacegray-input-light-lt-json .notebookOverlay.notebook-editor .cell-editor-part .monaco-hover,
+    .zetavg-spacegray-input-vscode-themes-spacegray-input-light-lt-json .notebookOverlay.notebook-editor .cell-editor-part .inlineSuggestionsHints,
+    .zetavg-spacegray-input-vscode-themes-spacegray-input .notebookOverlay.notebook-editor .cell-editor-part .editor-widget,
+    .zetavg-spacegray-input-vscode-themes-spacegray-input .notebookOverlay.notebook-editor .cell-editor-part .monaco-hover,
+    .zetavg-spacegray-input-vscode-themes-spacegray-input .notebookOverlay.notebook-editor .cell-editor-part .inlineSuggestionsHints {
+        /* transform: translate(-245px, -86px); */
+    }
 
 .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-json .editor-widget.find-widget .monaco-custom-toggle:not(.checked), .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-json .monaco-findInput .monaco-custom-toggle:not(.checked), .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-lt-json .editor-widget.find-widget .monaco-custom-toggle:not(.checked), .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-lt-json .monaco-findInput .monaco-custom-toggle:not(.checked), .zetavg-spacegray-input-vscode-themes-spacegray-input-light-json .editor-widget.find-widget .monaco-custom-toggle:not(.checked), .zetavg-spacegray-input-vscode-themes-spacegray-input-light-json .monaco-findInput .monaco-custom-toggle:not(.checked), .zetavg-spacegray-input-vscode-themes-spacegray-input-light-lt-json .editor-widget.find-widget .monaco-custom-toggle:not(.checked), .zetavg-spacegray-input-vscode-themes-spacegray-input-light-lt-json .monaco-findInput .monaco-custom-toggle:not(.checked), .zetavg-spacegray-input-vscode-themes-spacegray-input .editor-widget.find-widget .monaco-custom-toggle:not(.checked), .zetavg-spacegray-input-vscode-themes-spacegray-input .monaco-findInput .monaco-custom-toggle:not(.checked) {
       color: var(--vscode-icon-foreground) !important;
@@ -2957,16 +3025,33 @@ And inject the script into /Applications/Visual Studio Code.app/Contents/Resourc
   }
 
 .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-json .tabs .tab .label-name, .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-lt-json .tabs .tab .label-name, .zetavg-spacegray-input-vscode-themes-spacegray-input-light-json .tabs .tab .label-name, .zetavg-spacegray-input-vscode-themes-spacegray-input-light-lt-json .tabs .tab .label-name, .zetavg-spacegray-input-vscode-themes-spacegray-input .tabs .tab .label-name {
-    color: var(--vscode-tab-inactiveForeground) !important;
-  }
+      color: var(--vscode-tab-inactiveForeground) !important;
+    }
+
+.zetavg-spacegray-input-vscode-themes-spacegray-input-dark-json .tabs .tab .label-description, .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-lt-json .tabs .tab .label-description, .zetavg-spacegray-input-vscode-themes-spacegray-input-light-json .tabs .tab .label-description, .zetavg-spacegray-input-vscode-themes-spacegray-input-light-lt-json .tabs .tab .label-description, .zetavg-spacegray-input-vscode-themes-spacegray-input .tabs .tab .label-description {
+      color: var(--vscode-tab-inactiveForeground) !important;
+      opacity: 0.6;
+    }
 
 .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-json .tabs .tab:hover .label-name, .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-lt-json .tabs .tab:hover .label-name, .zetavg-spacegray-input-vscode-themes-spacegray-input-light-json .tabs .tab:hover .label-name, .zetavg-spacegray-input-vscode-themes-spacegray-input-light-lt-json .tabs .tab:hover .label-name, .zetavg-spacegray-input-vscode-themes-spacegray-input .tabs .tab:hover .label-name {
-    color: var(--vscode-tab-hoverForeground) !important;
-  }
+      color: var(--vscode-tab-hoverForeground) !important;
+    }
+
+.zetavg-spacegray-input-vscode-themes-spacegray-input-dark-json .tabs .tab:hover .label-description, .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-lt-json .tabs .tab:hover .label-description, .zetavg-spacegray-input-vscode-themes-spacegray-input-light-json .tabs .tab:hover .label-description, .zetavg-spacegray-input-vscode-themes-spacegray-input-light-lt-json .tabs .tab:hover .label-description, .zetavg-spacegray-input-vscode-themes-spacegray-input .tabs .tab:hover .label-description {
+      color: var(--vscode-tab-hoverForeground) !important;
+      opacity: 0.4;
+    }
 
 .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-json .tabs .tab.active .label-name, .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-lt-json .tabs .tab.active .label-name, .zetavg-spacegray-input-vscode-themes-spacegray-input-light-json .tabs .tab.active .label-name, .zetavg-spacegray-input-vscode-themes-spacegray-input-light-lt-json .tabs .tab.active .label-name, .zetavg-spacegray-input-vscode-themes-spacegray-input .tabs .tab.active .label-name {
-    color: var(--vscode-tab-activeForeground) !important;
-  }
+      color: var(--vscode-tab-activeForeground) !important;
+    }
+
+.zetavg-spacegray-input-vscode-themes-spacegray-input-dark-json .tabs .tab.active .label-description, .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-lt-json .tabs .tab.active .label-description, .zetavg-spacegray-input-vscode-themes-spacegray-input-light-json .tabs .tab.active .label-description, .zetavg-spacegray-input-vscode-themes-spacegray-input-light-lt-json .tabs .tab.active .label-description, .zetavg-spacegray-input-vscode-themes-spacegray-input .tabs .tab.active .label-description {
+      color: var(--vscode-tab-activeForeground) !important;
+      opacity: 0.4;
+    }
+
+/* Hide the file icon on the tab bar */
 
 .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-json .tabs .tab .file-icon::before, .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-lt-json .tabs .tab .file-icon::before, .zetavg-spacegray-input-vscode-themes-spacegray-input-light-json .tabs .tab .file-icon::before, .zetavg-spacegray-input-vscode-themes-spacegray-input-light-lt-json .tabs .tab .file-icon::before, .zetavg-spacegray-input-vscode-themes-spacegray-input .tabs .tab .file-icon::before {
     width: 0;
@@ -3238,6 +3323,81 @@ And inject the script into /Applications/Visual Studio Code.app/Contents/Resourc
           font-weight: 700;
           color: var(--vscode-sideBarSectionHeader-foreground);
         }
+
+.notebook-editor {
+
+    /* Old version 3 */
+    /*
+    .run-button-container:has(~ * .codicon-notebook-state-success)::after,
+    .run-button-container:has(~ * .codicon-notebook-state-error)::after,
+    .run-button-container:has(~ * .codicon-notebook-state-executing)::after {
+        content: '';
+        display: block;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: -2px;
+        width: 2px;
+        margin: 2px 0px;
+        border-radius: 2px;
+    }
+
+    .run-button-container:has(~ * .codicon-notebook-state-success)::after {
+        background-color: var(--vscode-terminalCommandDecoration-successBackground);
+    }
+    .run-button-container:has(~ * .codicon-notebook-state-error)::after {
+        background-color: var(--vscode-terminalCommandDecoration-errorBackground);
+    }
+    .run-button-container:has(~ * .codicon-notebook-state-executing)::after {
+        background-color: var(--vscode-terminalCommandDecoration-defaultBackground);
+    }
+    */
+
+    /* Old version 2 */
+    /*
+    .run-button-container:has(~ * .codicon-notebook-state-error)::after {
+        display: block;
+        content: '';
+        height: 2px;
+        background-color: var(--vscode-errorForeground);
+        margin: 2px 4px;
+        border-radius: 2px;
+    }
+    */
+
+    /* Old version 1 */
+    /*
+    .run-button-container:has(~ * .codicon-notebook-state-error)::after {
+        display: block;
+        content: '\ea87';
+        padding: 4px 4px;
+        text-align: center;
+        font: normal normal normal 12px/1 codicon;
+        color: var(--vscode-errorForeground);
+    }
+    */
+}
+
+/* Show a run status indecator on the left border of the code cell */
+
+.notebook-editor .cell-editor-part:has(.codicon-notebook-state-success)::after,
+    .notebook-editor .cell-editor-part:has(.codicon-notebook-state-error)::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: 2px;
+    background-color: var(--vscode-terminalCommandDecoration-successBackground);
+  }
+
+.notebook-editor .cell-editor-part:has(.codicon-notebook-state-success)::after {
+    background-color: var(--vscode-terminalCommandDecoration-successBackground);
+  }
+
+.notebook-editor .cell-editor-part:has(.codicon-notebook-state-error)::after {
+    background-color: var(--vscode-terminalCommandDecoration-errorBackground);
+  }
 
 .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-json div#status\.host[aria-label="remote"], .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-lt-json div#status\.host[aria-label="remote"], .zetavg-spacegray-input-vscode-themes-spacegray-input-light-json div#status\.host[aria-label="remote"], .zetavg-spacegray-input-vscode-themes-spacegray-input-light-lt-json div#status\.host[aria-label="remote"], .zetavg-spacegray-input-vscode-themes-spacegray-input div#status\.host[aria-label="remote"] {
     opacity: 0;

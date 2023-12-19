@@ -1,0 +1,4 @@
+.zetavg-spacegray-input-vscode-themes-spacegray-input-dark-json .action-label.codicon-close:hover, .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-lt-json .action-label.codicon-close:hover, .zetavg-spacegray-input-vscode-themes-spacegray-input-light-json .action-label.codicon-close:hover, .zetavg-spacegray-input-vscode-themes-spacegray-input-light-lt-json .action-label.codicon-close:hover, .zetavg-spacegray-input-vscode-themes-spacegray-input .action-label.codicon-close:hover {
+    background: transparent !important;
+    color: var(--vscode-statusBarItem-errorForeground) !important;
+  }

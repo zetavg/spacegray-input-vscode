@@ -10,6 +10,7 @@ The [Spacegray](https://github.com/zetavg/spacegray) theme with the [Input](http
 
 ![](https://raw.githubusercontent.com/zetavg/spacegray-input-vscode/main/screenshots/Screenshot.png)
 
+
 ## Installation
 
 ### Set Icon Themes
@@ -52,7 +53,6 @@ The font and spacing adjustments of this theme rely on loading custom CSS styles
 
 Once the extension is installed, you need to configure it to load the custom CSS styles. To do this, open the Command Palette (`Ctrl+Shift+P` or `⇧⌘P`) and run the **Preferences: Open User Settings (JSON)** command. Then, add the following settings to your `settings.json` file:
 
-
 ```json
 {
     "vscode_custom_css.imports": [
@@ -93,6 +93,7 @@ Finally, run the **Custom CSS and JS: Reload Custom CSS and JS** command from th
 > ```
 
 > [!NOTE]
+>
 > * If Visual Studio Code notifies you that its installation is corrupted, simply click "Don't show again."
 > * Every time after Visual Studio Code is updated, please re-run the **Custom CSS and JS: Reload Custom CSS and JS** command.
 
@@ -128,6 +129,7 @@ See the [Theme Color Reference](https://code.visualstudio.com/api/references/the
 
 * Run `npm run compile-css` to compile CSS files after changing any `.postcss` files.
 * Run `npm run copy-themes` after modifying any theme files.
+
 
 ## Credits
 
