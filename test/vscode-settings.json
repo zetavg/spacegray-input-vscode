@@ -1,0 +1,17 @@
+{
+  // Disable alerts and notifications
+  "security.workspace.trust.startupPrompt": "never",
+  "security.workspace.trust.enabled": false,
+  "security.workspace.trust.banner": "never",
+  "security.workspace.trust.emptyWindow": false,
+  "git.openRepositoryInParentFolders": "never",
+  // Set theme
+  "workbench.colorTheme": "Spacegray Input Dark",
+  "workbench.iconTheme": "spacegray",
+  "workbench.productIconTheme": "spacegray-icons-carbon",
+  // Set font
+  "editor.fontFamily": "Input Mono Narrow",
+  "editor.fontWeight": "300",
+  "editor.fontSize": 16,
+  "editor.lineHeight": 1.5,
+}

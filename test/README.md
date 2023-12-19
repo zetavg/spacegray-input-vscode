@@ -20,9 +20,9 @@
             if (portablePath) {
 ```
 
-4. Run `yarn && yarn compile` in vscode and wait about 3-5 minutes.
+4. Run `yarn && yarn compile` in vscode and wait about 3-10 minutes.
 5. Run `./scripts/code.sh` in vscode to test that VSCode can open successfully.
-6. Run `./scripts/code-cli.sh --install-extension ../../spacegray-input-vscode.vsix` in vscode to install the theme (build the theme with `vsce package --out spacegray-input-vscode.vsix` in the project first).
+6. Run `./scripts/code-cli.sh --install-extension ../../spacegray-input-vscode.vsix` in vscode to install the theme (package the theme with `npx vsce package --out spacegray-input-vscode.vsix` in the project first).
 7. Open or create `~/Library/Application Support/code-oss-dev-test/User/settings.json` (or `~/Library/Application Support/code-oss-dev/User/settings.json` if you have not patch vscode in step 3) and add this:
 
 ```
