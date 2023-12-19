@@ -149,8 +149,12 @@
     } */
 
     .monaco-hover-content {
-        @mixin font "Input Mono Narrow";
-        font-weight: 300;
+        @mixin font "Input Sans Narrow";
+
+        .code-hover-contents {
+            @mixin font "Input Mono Narrow";
+            font-weight: 300;
+        }
         /* @mixin font InputMonoNarrow-Light; */
     }
 

@@ -301,67 +301,127 @@
   }
 
 .mac .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-json .monaco-hover-content, .mac .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-lt-json .monaco-hover-content, .mac .zetavg-spacegray-input-vscode-themes-spacegray-input-light-json .monaco-hover-content, .mac .zetavg-spacegray-input-vscode-themes-spacegray-input-light-lt-json .monaco-hover-content, .mac .zetavg-spacegray-input-vscode-themes-spacegray-input .monaco-hover-content {
-    font-family: "Input Mono Narrow", -apple-system, BlinkMacSystemFont, sans-serif ;
+    font-family: "Input Sans Narrow", -apple-system, BlinkMacSystemFont, sans-serif ;
   }
 
 .mac:lang(zh-Hans) .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-json .monaco-hover-content, .mac:lang(zh-Hans) .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-lt-json .monaco-hover-content, .mac:lang(zh-Hans) .zetavg-spacegray-input-vscode-themes-spacegray-input-light-json .monaco-hover-content, .mac:lang(zh-Hans) .zetavg-spacegray-input-vscode-themes-spacegray-input-light-lt-json .monaco-hover-content, .mac:lang(zh-Hans) .zetavg-spacegray-input-vscode-themes-spacegray-input .monaco-hover-content {
-    font-family: "Input Mono Narrow", -apple-system, BlinkMacSystemFont, PingFang SC, Hiragino Sans GB, sans-serif ;
+    font-family: "Input Sans Narrow", -apple-system, BlinkMacSystemFont, PingFang SC, Hiragino Sans GB, sans-serif ;
   }
 
 .mac:lang(zh-Hant) .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-json .monaco-hover-content, .mac:lang(zh-Hant) .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-lt-json .monaco-hover-content, .mac:lang(zh-Hant) .zetavg-spacegray-input-vscode-themes-spacegray-input-light-json .monaco-hover-content, .mac:lang(zh-Hant) .zetavg-spacegray-input-vscode-themes-spacegray-input-light-lt-json .monaco-hover-content, .mac:lang(zh-Hant) .zetavg-spacegray-input-vscode-themes-spacegray-input .monaco-hover-content {
-    font-family: "Input Mono Narrow", -apple-system, BlinkMacSystemFont, PingFang TC, sans-serif ;
+    font-family: "Input Sans Narrow", -apple-system, BlinkMacSystemFont, PingFang TC, sans-serif ;
   }
 
 .mac:lang(ja) .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-json .monaco-hover-content, .mac:lang(ja) .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-lt-json .monaco-hover-content, .mac:lang(ja) .zetavg-spacegray-input-vscode-themes-spacegray-input-light-json .monaco-hover-content, .mac:lang(ja) .zetavg-spacegray-input-vscode-themes-spacegray-input-light-lt-json .monaco-hover-content, .mac:lang(ja) .zetavg-spacegray-input-vscode-themes-spacegray-input .monaco-hover-content {
-    font-family: "Input Mono Narrow", -apple-system, BlinkMacSystemFont, Hiragino Kaku Gothic Pro, sans-serif ;
+    font-family: "Input Sans Narrow", -apple-system, BlinkMacSystemFont, Hiragino Kaku Gothic Pro, sans-serif ;
   }
 
 .mac:lang(ko) .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-json .monaco-hover-content, .mac:lang(ko) .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-lt-json .monaco-hover-content, .mac:lang(ko) .zetavg-spacegray-input-vscode-themes-spacegray-input-light-json .monaco-hover-content, .mac:lang(ko) .zetavg-spacegray-input-vscode-themes-spacegray-input-light-lt-json .monaco-hover-content, .mac:lang(ko) .zetavg-spacegray-input-vscode-themes-spacegray-input .monaco-hover-content {
-    font-family: "Input Mono Narrow", -apple-system, BlinkMacSystemFont, Nanum Gothic, Apple SD Gothic Neo, AppleGothic, sans-serif ;
+    font-family: "Input Sans Narrow", -apple-system, BlinkMacSystemFont, Nanum Gothic, Apple SD Gothic Neo, AppleGothic, sans-serif ;
   }
 
 .windows .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-json .monaco-hover-content, .windows .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-lt-json .monaco-hover-content, .windows .zetavg-spacegray-input-vscode-themes-spacegray-input-light-json .monaco-hover-content, .windows .zetavg-spacegray-input-vscode-themes-spacegray-input-light-lt-json .monaco-hover-content, .windows .zetavg-spacegray-input-vscode-themes-spacegray-input .monaco-hover-content {
-    font-family: "Input Mono Narrow", Segoe WPC, Segoe UI, sans-serif ;
+    font-family: "Input Sans Narrow", Segoe WPC, Segoe UI, sans-serif ;
   }
 
 .windows:lang(zh-Hans) .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-json .monaco-hover-content, .windows:lang(zh-Hans) .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-lt-json .monaco-hover-content, .windows:lang(zh-Hans) .zetavg-spacegray-input-vscode-themes-spacegray-input-light-json .monaco-hover-content, .windows:lang(zh-Hans) .zetavg-spacegray-input-vscode-themes-spacegray-input-light-lt-json .monaco-hover-content, .windows:lang(zh-Hans) .zetavg-spacegray-input-vscode-themes-spacegray-input .monaco-hover-content {
-    font-family: "Input Mono Narrow", Segoe WPC, Segoe UI, Microsoft YaHei, sans-serif ;
+    font-family: "Input Sans Narrow", Segoe WPC, Segoe UI, Microsoft YaHei, sans-serif ;
   }
 
 .windows:lang(zh-Hant) .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-json .monaco-hover-content, .windows:lang(zh-Hant) .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-lt-json .monaco-hover-content, .windows:lang(zh-Hant) .zetavg-spacegray-input-vscode-themes-spacegray-input-light-json .monaco-hover-content, .windows:lang(zh-Hant) .zetavg-spacegray-input-vscode-themes-spacegray-input-light-lt-json .monaco-hover-content, .windows:lang(zh-Hant) .zetavg-spacegray-input-vscode-themes-spacegray-input .monaco-hover-content {
-    font-family: "Input Mono Narrow", Segoe WPC, Segoe UI, Microsoft Jhenghei, sans-serif ;
+    font-family: "Input Sans Narrow", Segoe WPC, Segoe UI, Microsoft Jhenghei, sans-serif ;
   }
 
 .windows:lang(ja) .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-json .monaco-hover-content, .windows:lang(ja) .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-lt-json .monaco-hover-content, .windows:lang(ja) .zetavg-spacegray-input-vscode-themes-spacegray-input-light-json .monaco-hover-content, .windows:lang(ja) .zetavg-spacegray-input-vscode-themes-spacegray-input-light-lt-json .monaco-hover-content, .windows:lang(ja) .zetavg-spacegray-input-vscode-themes-spacegray-input .monaco-hover-content {
-    font-family: "Input Mono Narrow", Segoe WPC, Segoe UI, Yu Gothic UI, Meiryo UI, sans-serif ;
+    font-family: "Input Sans Narrow", Segoe WPC, Segoe UI, Yu Gothic UI, Meiryo UI, sans-serif ;
   }
 
 .windows:lang(ko) .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-json .monaco-hover-content, .windows:lang(ko) .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-lt-json .monaco-hover-content, .windows:lang(ko) .zetavg-spacegray-input-vscode-themes-spacegray-input-light-json .monaco-hover-content, .windows:lang(ko) .zetavg-spacegray-input-vscode-themes-spacegray-input-light-lt-json .monaco-hover-content, .windows:lang(ko) .zetavg-spacegray-input-vscode-themes-spacegray-input .monaco-hover-content {
-    font-family: "Input Mono Narrow", Segoe WPC, Segoe UI, Malgun Gothic, Dotom, sans-serif ;
+    font-family: "Input Sans Narrow", Segoe WPC, Segoe UI, Malgun Gothic, Dotom, sans-serif ;
   }
 
 .linux .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-json .monaco-hover-content, .linux .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-lt-json .monaco-hover-content, .linux .zetavg-spacegray-input-vscode-themes-spacegray-input-light-json .monaco-hover-content, .linux .zetavg-spacegray-input-vscode-themes-spacegray-input-light-lt-json .monaco-hover-content, .linux .zetavg-spacegray-input-vscode-themes-spacegray-input .monaco-hover-content {
-    font-family: "Input Mono Narrow", system-ui, Ubuntu, Droid Sans, sans-serif ;
+    font-family: "Input Sans Narrow", system-ui, Ubuntu, Droid Sans, sans-serif ;
   }
 
 .linux:lang(zh-Hans) .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-json .monaco-hover-content, .linux:lang(zh-Hans) .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-lt-json .monaco-hover-content, .linux:lang(zh-Hans) .zetavg-spacegray-input-vscode-themes-spacegray-input-light-json .monaco-hover-content, .linux:lang(zh-Hans) .zetavg-spacegray-input-vscode-themes-spacegray-input-light-lt-json .monaco-hover-content, .linux:lang(zh-Hans) .zetavg-spacegray-input-vscode-themes-spacegray-input .monaco-hover-content {
-    font-family: "Input Mono Narrow", system-ui, Ubuntu, Droid Sans, Source Han Sans SC, Source Han Sans CN, Source Han Sans, sans-serif ;
+    font-family: "Input Sans Narrow", system-ui, Ubuntu, Droid Sans, Source Han Sans SC, Source Han Sans CN, Source Han Sans, sans-serif ;
   }
 
 .linux:lang(zh-Hant) .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-json .monaco-hover-content, .linux:lang(zh-Hant) .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-lt-json .monaco-hover-content, .linux:lang(zh-Hant) .zetavg-spacegray-input-vscode-themes-spacegray-input-light-json .monaco-hover-content, .linux:lang(zh-Hant) .zetavg-spacegray-input-vscode-themes-spacegray-input-light-lt-json .monaco-hover-content, .linux:lang(zh-Hant) .zetavg-spacegray-input-vscode-themes-spacegray-input .monaco-hover-content {
-    font-family: "Input Mono Narrow", system-ui, Ubuntu, Droid Sans, Source Han Sans TC, Source Han Sans TW, Source Han Sans, sans-serif ;
+    font-family: "Input Sans Narrow", system-ui, Ubuntu, Droid Sans, Source Han Sans TC, Source Han Sans TW, Source Han Sans, sans-serif ;
   }
 
 .linux:lang(ja) .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-json .monaco-hover-content, .linux:lang(ja) .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-lt-json .monaco-hover-content, .linux:lang(ja) .zetavg-spacegray-input-vscode-themes-spacegray-input-light-json .monaco-hover-content, .linux:lang(ja) .zetavg-spacegray-input-vscode-themes-spacegray-input-light-lt-json .monaco-hover-content, .linux:lang(ja) .zetavg-spacegray-input-vscode-themes-spacegray-input .monaco-hover-content {
-    font-family: "Input Mono Narrow", system-ui, Ubuntu, Droid Sans, Source Han Sans J, Source Han Sans JP, Source Han Sans, sans-serif ;
+    font-family: "Input Sans Narrow", system-ui, Ubuntu, Droid Sans, Source Han Sans J, Source Han Sans JP, Source Han Sans, sans-serif ;
   }
 
 .linux:lang(ko) .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-json .monaco-hover-content, .linux:lang(ko) .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-lt-json .monaco-hover-content, .linux:lang(ko) .zetavg-spacegray-input-vscode-themes-spacegray-input-light-json .monaco-hover-content, .linux:lang(ko) .zetavg-spacegray-input-vscode-themes-spacegray-input-light-lt-json .monaco-hover-content, .linux:lang(ko) .zetavg-spacegray-input-vscode-themes-spacegray-input .monaco-hover-content {
+    font-family: "Input Sans Narrow", system-ui, Ubuntu, Droid Sans, Source Han Sans K, Source Han Sans JR, Source Han Sans, UnDotum, FBaekmuk Gulim, sans-serif ;
+  }
+
+.mac .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-json .monaco-hover-content .code-hover-contents, .mac .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-lt-json .monaco-hover-content .code-hover-contents, .mac .zetavg-spacegray-input-vscode-themes-spacegray-input-light-json .monaco-hover-content .code-hover-contents, .mac .zetavg-spacegray-input-vscode-themes-spacegray-input-light-lt-json .monaco-hover-content .code-hover-contents, .mac .zetavg-spacegray-input-vscode-themes-spacegray-input .monaco-hover-content .code-hover-contents {
+    font-family: "Input Mono Narrow", -apple-system, BlinkMacSystemFont, sans-serif ;
+  }
+
+.mac:lang(zh-Hans) .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-json .monaco-hover-content .code-hover-contents, .mac:lang(zh-Hans) .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-lt-json .monaco-hover-content .code-hover-contents, .mac:lang(zh-Hans) .zetavg-spacegray-input-vscode-themes-spacegray-input-light-json .monaco-hover-content .code-hover-contents, .mac:lang(zh-Hans) .zetavg-spacegray-input-vscode-themes-spacegray-input-light-lt-json .monaco-hover-content .code-hover-contents, .mac:lang(zh-Hans) .zetavg-spacegray-input-vscode-themes-spacegray-input .monaco-hover-content .code-hover-contents {
+    font-family: "Input Mono Narrow", -apple-system, BlinkMacSystemFont, PingFang SC, Hiragino Sans GB, sans-serif ;
+  }
+
+.mac:lang(zh-Hant) .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-json .monaco-hover-content .code-hover-contents, .mac:lang(zh-Hant) .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-lt-json .monaco-hover-content .code-hover-contents, .mac:lang(zh-Hant) .zetavg-spacegray-input-vscode-themes-spacegray-input-light-json .monaco-hover-content .code-hover-contents, .mac:lang(zh-Hant) .zetavg-spacegray-input-vscode-themes-spacegray-input-light-lt-json .monaco-hover-content .code-hover-contents, .mac:lang(zh-Hant) .zetavg-spacegray-input-vscode-themes-spacegray-input .monaco-hover-content .code-hover-contents {
+    font-family: "Input Mono Narrow", -apple-system, BlinkMacSystemFont, PingFang TC, sans-serif ;
+  }
+
+.mac:lang(ja) .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-json .monaco-hover-content .code-hover-contents, .mac:lang(ja) .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-lt-json .monaco-hover-content .code-hover-contents, .mac:lang(ja) .zetavg-spacegray-input-vscode-themes-spacegray-input-light-json .monaco-hover-content .code-hover-contents, .mac:lang(ja) .zetavg-spacegray-input-vscode-themes-spacegray-input-light-lt-json .monaco-hover-content .code-hover-contents, .mac:lang(ja) .zetavg-spacegray-input-vscode-themes-spacegray-input .monaco-hover-content .code-hover-contents {
+    font-family: "Input Mono Narrow", -apple-system, BlinkMacSystemFont, Hiragino Kaku Gothic Pro, sans-serif ;
+  }
+
+.mac:lang(ko) .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-json .monaco-hover-content .code-hover-contents, .mac:lang(ko) .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-lt-json .monaco-hover-content .code-hover-contents, .mac:lang(ko) .zetavg-spacegray-input-vscode-themes-spacegray-input-light-json .monaco-hover-content .code-hover-contents, .mac:lang(ko) .zetavg-spacegray-input-vscode-themes-spacegray-input-light-lt-json .monaco-hover-content .code-hover-contents, .mac:lang(ko) .zetavg-spacegray-input-vscode-themes-spacegray-input .monaco-hover-content .code-hover-contents {
+    font-family: "Input Mono Narrow", -apple-system, BlinkMacSystemFont, Nanum Gothic, Apple SD Gothic Neo, AppleGothic, sans-serif ;
+  }
+
+.windows .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-json .monaco-hover-content .code-hover-contents, .windows .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-lt-json .monaco-hover-content .code-hover-contents, .windows .zetavg-spacegray-input-vscode-themes-spacegray-input-light-json .monaco-hover-content .code-hover-contents, .windows .zetavg-spacegray-input-vscode-themes-spacegray-input-light-lt-json .monaco-hover-content .code-hover-contents, .windows .zetavg-spacegray-input-vscode-themes-spacegray-input .monaco-hover-content .code-hover-contents {
+    font-family: "Input Mono Narrow", Segoe WPC, Segoe UI, sans-serif ;
+  }
+
+.windows:lang(zh-Hans) .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-json .monaco-hover-content .code-hover-contents, .windows:lang(zh-Hans) .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-lt-json .monaco-hover-content .code-hover-contents, .windows:lang(zh-Hans) .zetavg-spacegray-input-vscode-themes-spacegray-input-light-json .monaco-hover-content .code-hover-contents, .windows:lang(zh-Hans) .zetavg-spacegray-input-vscode-themes-spacegray-input-light-lt-json .monaco-hover-content .code-hover-contents, .windows:lang(zh-Hans) .zetavg-spacegray-input-vscode-themes-spacegray-input .monaco-hover-content .code-hover-contents {
+    font-family: "Input Mono Narrow", Segoe WPC, Segoe UI, Microsoft YaHei, sans-serif ;
+  }
+
+.windows:lang(zh-Hant) .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-json .monaco-hover-content .code-hover-contents, .windows:lang(zh-Hant) .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-lt-json .monaco-hover-content .code-hover-contents, .windows:lang(zh-Hant) .zetavg-spacegray-input-vscode-themes-spacegray-input-light-json .monaco-hover-content .code-hover-contents, .windows:lang(zh-Hant) .zetavg-spacegray-input-vscode-themes-spacegray-input-light-lt-json .monaco-hover-content .code-hover-contents, .windows:lang(zh-Hant) .zetavg-spacegray-input-vscode-themes-spacegray-input .monaco-hover-content .code-hover-contents {
+    font-family: "Input Mono Narrow", Segoe WPC, Segoe UI, Microsoft Jhenghei, sans-serif ;
+  }
+
+.windows:lang(ja) .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-json .monaco-hover-content .code-hover-contents, .windows:lang(ja) .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-lt-json .monaco-hover-content .code-hover-contents, .windows:lang(ja) .zetavg-spacegray-input-vscode-themes-spacegray-input-light-json .monaco-hover-content .code-hover-contents, .windows:lang(ja) .zetavg-spacegray-input-vscode-themes-spacegray-input-light-lt-json .monaco-hover-content .code-hover-contents, .windows:lang(ja) .zetavg-spacegray-input-vscode-themes-spacegray-input .monaco-hover-content .code-hover-contents {
+    font-family: "Input Mono Narrow", Segoe WPC, Segoe UI, Yu Gothic UI, Meiryo UI, sans-serif ;
+  }
+
+.windows:lang(ko) .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-json .monaco-hover-content .code-hover-contents, .windows:lang(ko) .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-lt-json .monaco-hover-content .code-hover-contents, .windows:lang(ko) .zetavg-spacegray-input-vscode-themes-spacegray-input-light-json .monaco-hover-content .code-hover-contents, .windows:lang(ko) .zetavg-spacegray-input-vscode-themes-spacegray-input-light-lt-json .monaco-hover-content .code-hover-contents, .windows:lang(ko) .zetavg-spacegray-input-vscode-themes-spacegray-input .monaco-hover-content .code-hover-contents {
+    font-family: "Input Mono Narrow", Segoe WPC, Segoe UI, Malgun Gothic, Dotom, sans-serif ;
+  }
+
+.linux .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-json .monaco-hover-content .code-hover-contents, .linux .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-lt-json .monaco-hover-content .code-hover-contents, .linux .zetavg-spacegray-input-vscode-themes-spacegray-input-light-json .monaco-hover-content .code-hover-contents, .linux .zetavg-spacegray-input-vscode-themes-spacegray-input-light-lt-json .monaco-hover-content .code-hover-contents, .linux .zetavg-spacegray-input-vscode-themes-spacegray-input .monaco-hover-content .code-hover-contents {
+    font-family: "Input Mono Narrow", system-ui, Ubuntu, Droid Sans, sans-serif ;
+  }
+
+.linux:lang(zh-Hans) .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-json .monaco-hover-content .code-hover-contents, .linux:lang(zh-Hans) .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-lt-json .monaco-hover-content .code-hover-contents, .linux:lang(zh-Hans) .zetavg-spacegray-input-vscode-themes-spacegray-input-light-json .monaco-hover-content .code-hover-contents, .linux:lang(zh-Hans) .zetavg-spacegray-input-vscode-themes-spacegray-input-light-lt-json .monaco-hover-content .code-hover-contents, .linux:lang(zh-Hans) .zetavg-spacegray-input-vscode-themes-spacegray-input .monaco-hover-content .code-hover-contents {
+    font-family: "Input Mono Narrow", system-ui, Ubuntu, Droid Sans, Source Han Sans SC, Source Han Sans CN, Source Han Sans, sans-serif ;
+  }
+
+.linux:lang(zh-Hant) .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-json .monaco-hover-content .code-hover-contents, .linux:lang(zh-Hant) .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-lt-json .monaco-hover-content .code-hover-contents, .linux:lang(zh-Hant) .zetavg-spacegray-input-vscode-themes-spacegray-input-light-json .monaco-hover-content .code-hover-contents, .linux:lang(zh-Hant) .zetavg-spacegray-input-vscode-themes-spacegray-input-light-lt-json .monaco-hover-content .code-hover-contents, .linux:lang(zh-Hant) .zetavg-spacegray-input-vscode-themes-spacegray-input .monaco-hover-content .code-hover-contents {
+    font-family: "Input Mono Narrow", system-ui, Ubuntu, Droid Sans, Source Han Sans TC, Source Han Sans TW, Source Han Sans, sans-serif ;
+  }
+
+.linux:lang(ja) .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-json .monaco-hover-content .code-hover-contents, .linux:lang(ja) .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-lt-json .monaco-hover-content .code-hover-contents, .linux:lang(ja) .zetavg-spacegray-input-vscode-themes-spacegray-input-light-json .monaco-hover-content .code-hover-contents, .linux:lang(ja) .zetavg-spacegray-input-vscode-themes-spacegray-input-light-lt-json .monaco-hover-content .code-hover-contents, .linux:lang(ja) .zetavg-spacegray-input-vscode-themes-spacegray-input .monaco-hover-content .code-hover-contents {
+    font-family: "Input Mono Narrow", system-ui, Ubuntu, Droid Sans, Source Han Sans J, Source Han Sans JP, Source Han Sans, sans-serif ;
+  }
+
+.linux:lang(ko) .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-json .monaco-hover-content .code-hover-contents, .linux:lang(ko) .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-lt-json .monaco-hover-content .code-hover-contents, .linux:lang(ko) .zetavg-spacegray-input-vscode-themes-spacegray-input-light-json .monaco-hover-content .code-hover-contents, .linux:lang(ko) .zetavg-spacegray-input-vscode-themes-spacegray-input-light-lt-json .monaco-hover-content .code-hover-contents, .linux:lang(ko) .zetavg-spacegray-input-vscode-themes-spacegray-input .monaco-hover-content .code-hover-contents {
     font-family: "Input Mono Narrow", system-ui, Ubuntu, Droid Sans, Source Han Sans K, Source Han Sans JR, Source Han Sans, UnDotum, FBaekmuk Gulim, sans-serif ;
   }
 
-.zetavg-spacegray-input-vscode-themes-spacegray-input-dark-json .monaco-hover-content, .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-lt-json .monaco-hover-content, .zetavg-spacegray-input-vscode-themes-spacegray-input-light-json .monaco-hover-content, .zetavg-spacegray-input-vscode-themes-spacegray-input-light-lt-json .monaco-hover-content, .zetavg-spacegray-input-vscode-themes-spacegray-input .monaco-hover-content {
-    font-weight: 300;
+.zetavg-spacegray-input-vscode-themes-spacegray-input-dark-json .monaco-hover-content .code-hover-contents, .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-lt-json .monaco-hover-content .code-hover-contents, .zetavg-spacegray-input-vscode-themes-spacegray-input-light-json .monaco-hover-content .code-hover-contents, .zetavg-spacegray-input-vscode-themes-spacegray-input-light-lt-json .monaco-hover-content .code-hover-contents, .zetavg-spacegray-input-vscode-themes-spacegray-input .monaco-hover-content .code-hover-contents {
+      font-weight: 300;
 }
 
 .mac .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-json .part.statusbar, .mac .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-lt-json .part.statusbar, .mac .zetavg-spacegray-input-vscode-themes-spacegray-input-light-json .part.statusbar, .mac .zetavg-spacegray-input-vscode-themes-spacegray-input-light-lt-json .part.statusbar, .mac .zetavg-spacegray-input-vscode-themes-spacegray-input .part.statusbar {
