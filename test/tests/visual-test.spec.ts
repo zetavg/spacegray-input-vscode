@@ -46,7 +46,12 @@ async function getElectronApp(): Promise<{
     });
   });
 
-  await page.waitForTimeout(1000);
+  await page.waitForTimeout(process.env.CI ? 2000 : 1000);
+  // To ensure a stable CSS injection, we wait for the titlebar to be visible.
+  await page
+    .locator('.part.titlebar .window-title')
+    .waitFor({ state: 'visible' });
+  await page.waitForTimeout(process.env.CI ? 2000 : 1000);
 
   // Inject theme CSS
   await page.evaluate((css: string) => {
