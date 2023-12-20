@@ -71,12 +71,16 @@ test.afterAll(async () => {
   }
 });
 
-test('test', async () => {
+test('start app', async () => {
   const { electronAppWindow: page } = await getElectronApp();
   page.setViewportSize({ width: 1024, height: 768 });
 
   await page.locator('.tabs-and-actions-container .tab:first-child').click();
   await page.screenshot({ path: `./screenshots/initial.png` });
+});
+
+test('test', async () => {
+  const { electronAppWindow: page } = await getElectronApp();
 
   await page.locator('.part.titlebar .window-title .search-label').click();
   await page.screenshot({ path: `./screenshots/first-quick-input-opened.png` });
