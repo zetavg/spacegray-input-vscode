@@ -49,8 +49,8 @@ jobs:
         git checkout ${{ github.event.inputs.vscode_revision }}
         cd ..
         # Checkout a branch if vscode_revision is not main
-        if [ "${{ github.event.inputs.vscode_revision }}" != "main" ]; then
-          git checkout -b "$(git branch --show-current)/vscode-${{ github.event.inputs.vscode_revision }}"
+        if [ -n "${{ github.event.inputs.vscode_revision }}" ] && [ "${{ github.event.inputs.vscode_revision }}" != "main" ]; then
+          git checkout -b "$(git branch --show-current)-with-vscode-${{ github.event.inputs.vscode_revision }}"
         fi
     - name: Get VSCode Version
       id: get-vscode-commit-version
