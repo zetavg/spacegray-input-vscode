@@ -75,10 +75,12 @@ jobs:
         cd vscode
         echo "commit_hash=$(git rev-parse HEAD)" >> $GITHUB_OUTPUT
       shell: bash
+    - name: Patch VSCode
+      run: npm run patch-vscode
     - name: Cache Built VSCode
       uses: actions/cache@v3
       env:
-        cache-name: built-vscode
+        cache-name: built-patched-vscode
       with:
         path: |
           test/vscode/out
@@ -107,8 +109,10 @@ jobs:
       run: |
         cd vscode
         ./scripts/code-cli.sh --install-extension ../../spacegray-input-vscode.vsix
-    - name: Set VSCode Settings
-      run: mkdir -p ~/Library/Application\ Support/code-oss-dev/User && cp -f ./vscode-settings.json ~/Library/Application\ Support/code-oss-dev/User/settings.json
+    - name: Install Other Extensions
+      run: |
+        cd vscode
+        ./scripts/code-cli.sh --install-extension Orta.vscode-jest
     - name: Run Visual Tests
       run: npm test -- tests/visual-test.spec.ts
       # uses: nick-fields/retry@v2

@@ -4,6 +4,7 @@
   "description": "",
   "private": true,
   "scripts": {
+    "patch-vscode": "node patch-vscode.js",
     "test": "playwright test"
   },
   "author": "",

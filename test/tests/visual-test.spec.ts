@@ -7,8 +7,12 @@ import fs from 'fs';
 import path from 'path';
 
 const vscodeExecutablePath = path.join(__dirname, '../vscode/scripts/code.sh');
+const vscodeSettingsPath = path.join(__dirname, '../vscode-settings.json');
+const vscodeSettings = fs.readFileSync(vscodeSettingsPath, 'utf8');
 const themeCssPath = path.join(__dirname, '../../themes/css/main.css');
 const themeCss = fs.readFileSync(themeCssPath, 'utf8');
+
+const vscodeUserDataDir = '/tmp/vscode-test-spacegray-input';
 
 const sampleProjectPath = path.join(__dirname, '../sample-project');
 
@@ -24,9 +28,19 @@ async function getElectronApp(): Promise<{
       electronAppWindow: openedElectronAppWindow,
     };
 
+  fs.rmSync(vscodeUserDataDir, { recursive: true, force: true });
+  fs.mkdirSync(vscodeUserDataDir, { recursive: true });
+  fs.mkdirSync(`${vscodeUserDataDir}/User`, { recursive: true });
+  fs.writeFileSync(`${vscodeUserDataDir}/User/settings.json`, vscodeSettings, {
+    encoding: 'utf8',
+  });
+
   const electronApp = await electron.launch({
     executablePath: vscodeExecutablePath,
-    args: [sampleProjectPath],
+    args: [
+      '--user-data-dir=/tmp/vscode-test-spacegray-input',
+      sampleProjectPath,
+    ],
     timeout: 30000,
   });
 
@@ -62,7 +76,7 @@ async function getElectronApp(): Promise<{
     document.head.appendChild(style);
   }, themeCss);
 
-  // Set viewport size, we use "* 2" with VSCode settings of window.zoomLevel as 4 to take screenshots at 2x.
+  // Set window size, we use "* 2" with VSCode settings of window.zoomLevel as 4 to take screenshots at 2x.
   page.setViewportSize({ width: 1280 * 2, height: 800 * 2 });
 
   openedElectronApp = electronApp;
@@ -167,6 +181,9 @@ test.beforeEach(async () => {
 test('Startup', async () => {
   const { electronAppWindow: page } = await getElectronApp();
   await page.screenshot({ path: `./detailed-screenshots/initial.png` });
+
+  // On CI, wait 20 seconds for the startup messages to disappear.
+  await page.waitForTimeout(process.env.CI ? 20000 : 10);
 });
 
 test('All Editors Closed', async () => {
