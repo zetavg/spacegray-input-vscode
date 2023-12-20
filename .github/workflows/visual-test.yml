@@ -102,8 +102,14 @@ jobs:
       #   command: cd test && npm test
     - name: Upload Screenshots to Percy
       run: |
+        # Scale down the screenshots to 75% of the original size to avoid the 2000px width limit of Percy
+        mkdir -p screenshots-for-percy
+        for img in "screenshots"/*.png; do
+          filename=$(basename "$img")
+          convert "$img" -resize 75% "screenshots-for-percy/$filename"
+        done
         npm install -g @percy/cli
-        PERCY_TOKEN=${{ vars.PERCY_TOKEN }} percy upload screenshots/
+        PERCY_TOKEN=${{ vars.PERCY_TOKEN }} percy upload screenshots-for-percy/
     - uses: actions/upload-artifact@v3
       if: always()
       with:
