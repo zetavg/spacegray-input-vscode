@@ -1,6 +1,6 @@
 import { ElectronApplication, Page } from '@playwright/test';
 
-import { test, expect } from '@playwright/test';
+import { test } from '@playwright/test';
 import { _electron as electron } from 'playwright';
 
 import fs from 'fs';
@@ -102,8 +102,7 @@ async function takeScreenshot(page: Page, name: string) {
 
 test('Startup', async () => {
   const { electronAppWindow: page } = await getElectronApp();
-
-  // await page.screenshot({ path: `./screenshots/initial.png` });
+  await page.screenshot({ path: `./detailed-screenshots/initial.png` });
 });
 
 test('All Editors Closed', async () => {

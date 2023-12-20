@@ -1,4 +1,4 @@
-name: Playwright Tests
+name: Visual Test
 on:
   push:
     branches: [ main, master ]
@@ -6,9 +6,10 @@ on:
     branches: [ main, master ]
   workflow_dispatch:
     inputs:
-      notes:
-        description: 'Notes'
+      vscode_revision:
+        description: 'The VSCode revision to test against'
         type: string
+        default: 'main'
         required: false
 jobs:
   test:
@@ -40,6 +41,16 @@ jobs:
       run: npm ci
     - name: Clone VSCode
       run: git clone --depth 10 https://github.com/microsoft/vscode.git vscode
+    - name: Checkout VSCode Revision
+      run: |
+        cd vscode
+        git fetch --depth 10 origin ${{ github.event.inputs.vscode_revision }}
+        git checkout ${{ github.event.inputs.vscode_revision }}
+        cd ..
+        # Checkout a branch if vscode_revision is not main
+        if [ "${{ github.event.inputs.vscode_revision }}" != "main" ]; then
+          git checkout -b "$(git branch --show-current)/vscode-${{ github.event.inputs.vscode_revision }}"
+        fi
     - name: Get VSCode Version
       id: get-vscode-commit-version
       run: |
@@ -80,8 +91,8 @@ jobs:
         ./scripts/code-cli.sh --install-extension ../../spacegray-input-vscode.vsix
     - name: Set VSCode Settings
       run: mkdir -p ~/Library/Application\ Support/code-oss-dev/User && cp -f ./vscode-settings.json ~/Library/Application\ Support/code-oss-dev/User/settings.json
-    - name: Run Tests
-      run: npm test
+    - name: Run Visual Tests
+      run: npm test -- tests/visual-test.spec.ts
       # uses: nick-fields/retry@v2
       # with:
       #   max_attempts: 5
@@ -97,7 +108,13 @@ jobs:
       with:
         name: screenshots
         path: test/screenshots/
-        retention-days: 30
+        retention-days: 90
+    - uses: actions/upload-artifact@v3
+      if: always()
+      with:
+        name: detailed-screenshots
+        path: test/detailed-screenshots/
+        retention-days: 90
     - uses: actions/upload-artifact@v3
       if: always()
       with:
