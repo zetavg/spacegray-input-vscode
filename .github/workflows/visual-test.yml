@@ -35,10 +35,6 @@ jobs:
         mkdir -p /Library/Fonts
         # Note that copying fonts to ~/Library/Fonts/ will not work
         cp -r ~/Input-Font/Input_Fonts /Library/Fonts/
-    - name: Run "npm install" in Sample Project
-      run: |
-        cd sample-project
-        npm install
     - name: Package the Extension
       run: |
         cd ..
@@ -86,7 +82,7 @@ jobs:
           test/vscode/out
           test/vscode/extensions
           test/vscode/.build
-        key: ${{ runner.os }}-${{ env.cache-name }}-${{ steps.get-vscode-commit-version.outputs.commit_hash }}
+        key: ${{ runner.os }}-${{ env.cache-name }}-${{ steps.get-vscode-commit-version.outputs.commit_hash }}-p-${{ hashFiles('test/patch-vscode.js') }}}
     - name: Cache node_modules
       uses: actions/cache@v3
       env:
@@ -94,7 +90,7 @@ jobs:
       with:
         path: |
           **/node_modules
-        key: ${{ runner.os }}-${{ env.cache-name }}-vscode-${{ hashFiles('test/vscode/yarn.lock') }}
+        key: ${{ runner.os }}-${{ env.cache-name }}-with-vscode-${{ hashFiles('test/vscode/yarn.lock') }}
         restore-keys: |
           ${{ runner.os }}-${{ env.cache-name }}-
     - name: Build VSCode
@@ -113,6 +109,10 @@ jobs:
       run: |
         cd vscode
         ./scripts/code-cli.sh --install-extension Orta.vscode-jest
+    - name: Run "npm install" in Sample Project
+      run: |
+        cd sample-project
+        npm install
     - name: Run Visual Tests
       run: npm test -- tests/visual-test.spec.ts
       # uses: nick-fields/retry@v2
