@@ -51,7 +51,8 @@ async function getElectronApp(): Promise<{
   await page
     .locator('.part.titlebar .window-title')
     .waitFor({ state: 'visible' });
-  await page.waitForTimeout(process.env.CI ? 2000 : 1000);
+  // Wait for something like "activating extension" to end.
+  await page.waitForTimeout(process.env.CI ? 8000 : 2000);
 
   // Inject theme CSS
   await page.evaluate((css: string) => {
@@ -67,7 +68,7 @@ async function getElectronApp(): Promise<{
   openedElectronApp = electronApp;
   openedElectronAppWindow = page;
 
-  // await new Promise(resolve => setTimeout(resolve, 3000));
+  await page.waitForTimeout(process.env.CI ? 2000 : 1000);
 
   return { electronApp, electronAppWindow: page };
 }
@@ -81,21 +82,58 @@ test.afterAll(async () => {
 });
 
 async function vscodeCommand(page: Page, command: string) {
-  await page.waitForTimeout(process.env.CI ? 500 : 200);
-  await page.locator('.part.titlebar .window-title .search-label').click();
-  await page
-    .locator('.quick-input-widget .quick-input-and-message input')
-    .fill(`> ${command}`);
-  await page.waitForTimeout(process.env.CI ? 500 : 200);
-  await page
-    .locator('.quick-input-list-row')
-    // .filter({ hasText: command })
-    .locator(
-      `xpath=.//text()[normalize-space(.)='${command}']/ancestor::div[contains(@class, 'quick-input-list-row')]`,
-    )
-    .first()
-    .press('Enter');
-  await page.waitForTimeout(process.env.CI ? 2000 : 800);
+  try {
+    await page.waitForTimeout(process.env.CI ? 500 : 200);
+    await page.locator('.part.titlebar .window-title .search-label').click();
+    await page
+      .locator('.quick-input-widget .quick-input-and-message input')
+      .fill(`> ${command}`);
+    await page.waitForTimeout(process.env.CI ? 500 : 200);
+    await page
+      .locator('.quick-input-list-row')
+      // .filter({ hasText: command })
+      .locator(
+        `xpath=.//text()[normalize-space(.)='${command}']/ancestor::div[contains(@class, 'quick-input-list-row')]`,
+      )
+      .first()
+      .press('Enter');
+    await page.waitForTimeout(process.env.CI ? 2000 : 800);
+  } catch (e) {
+    if (e instanceof Error) {
+      e.message = `Error while executing command "${command}": ${e.message}`;
+    }
+
+    throw e;
+  }
+}
+
+async function openProjectFile(page: Page, fileName: string) {
+  try {
+    await page.waitForTimeout(process.env.CI ? 500 : 200);
+    await page.locator('.part.titlebar .window-title .search-label').click();
+    await page
+      .locator('.quick-input-widget .quick-input-and-message input')
+      .fill(`${fileName}`);
+    await page.waitForTimeout(process.env.CI ? 500 : 200);
+    await page
+      .locator('.quick-input-list-row')
+      .filter({ hasText: fileName })
+      .first()
+      .press('Enter');
+    await page.waitForTimeout(process.env.CI ? 200 : 100);
+    await vscodeCommand(page, 'File: Focus on Files Explorer');
+    await page.waitForTimeout(process.env.CI ? 200 : 100);
+    await vscodeCommand(page, 'Collapse Folders in Explorer');
+    await page.waitForTimeout(process.env.CI ? 200 : 100);
+    await vscodeCommand(page, 'File: Reveal Active File in Explorer View');
+    await page.waitForTimeout(process.env.CI ? 2000 : 800);
+  } catch (e) {
+    if (e instanceof Error) {
+      e.message = `Error while opening file "${fileName}": ${e.message}`;
+    }
+
+    throw e;
+  }
 }
 
 async function takeScreenshot(page: Page, name: string) {
@@ -104,6 +142,17 @@ async function takeScreenshot(page: Page, name: string) {
   await page.screenshot({ path: `./screenshots/${name}.png` });
   await page.waitForTimeout(process.env.CI ? 100 : 0);
 }
+
+test.afterEach(async () => {
+  const { electronAppWindow: page } = await getElectronApp();
+  await page.waitForTimeout(process.env.CI ? 100 : 1);
+  await vscodeCommand(page, 'View: Close All Editors');
+  await page.waitForTimeout(process.env.CI ? 100 : 1);
+  await vscodeCommand(page, 'File: Focus on Files Explorer');
+  await page.waitForTimeout(process.env.CI ? 100 : 1);
+  await vscodeCommand(page, 'Collapse Folders in Explorer');
+  await page.waitForTimeout(process.env.CI ? 100 : 1);
+});
 
 test('Startup', async () => {
   const { electronAppWindow: page } = await getElectronApp();
@@ -134,6 +183,13 @@ test('User Settings JSON', async () => {
   await vscodeCommand(page, 'View: Close All Editors');
   await vscodeCommand(page, 'Open User Settings (JSON)');
   await takeScreenshot(page, 'user-settings-json');
+});
+
+test('TypeScript React File', async () => {
+  const { electronAppWindow: page } = await getElectronApp();
+  await vscodeCommand(page, 'View: Close All Editors');
+  await openProjectFile(page, 'App.tsx');
+  await takeScreenshot(page, 'typescript-react-file');
 });
 
 // test('test', async () => {
