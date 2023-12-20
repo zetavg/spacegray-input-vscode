@@ -1,5 +1,5 @@
 name: Visual Test
-run-name: ${{ format('Visual Test{0}{1}', (github.event.inputs.vscode_revision && github.event.inputs.vscode_revision != 'main') && format(' with VSCode {0}', github.event.inputs.vscode_revision) || '', github.event.action == 'workflow_dispatch' && '' || format(' - {0}', github.event.head_commit.message)) }}
+run-name: ${{ format('Visual Test{0}{1}', (github.event.inputs.vscode_revision && github.event.inputs.vscode_revision != 'main') && format(' with VSCode {0}', github.event.inputs.vscode_revision) || '', github.event_name == 'workflow_dispatch' && '' || format(' - {0}', github.event.head_commit.message)) }}
 on:
   push:
     branches: [ main, master ]
@@ -46,7 +46,10 @@ jobs:
       run: |
         cd vscode
         git fetch --depth 10 origin ${{ github.event.inputs.vscode_revision }}
-        git checkout ${{ github.event.inputs.vscode_revision }}
+        if ! git checkout ${{ github.event.inputs.vscode_revision }}; then
+          echo "Checkout failed, retrying with git checkout -b tag-${{ github.event.inputs.vscode_revision }} tags/${{ github.event.inputs.vscode_revision }} ..."
+          git checkout -b tag-${{ github.event.inputs.vscode_revision }} tags/${{ github.event.inputs.vscode_revision }}
+        fi
         cd ..
         # Checkout a branch if vscode_revision is not main
         if [ -n "${{ github.event.inputs.vscode_revision }}" ] && [ "${{ github.event.inputs.vscode_revision }}" != "main" ]; then
