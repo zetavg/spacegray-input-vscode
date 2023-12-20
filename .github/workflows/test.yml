@@ -88,6 +88,10 @@ jobs:
       #   timeout_minutes: 60
       #   retry_wait_seconds: 8
       #   command: cd test && npm test
+    - name: Upload Screenshots to Percy
+      run: |
+        npm install -g @percy/cli
+        PERCY_TOKEN=${{ vars.PERCY_TOKEN }} percy upload screenshots/
     - uses: actions/upload-artifact@v3
       if: always()
       with:
