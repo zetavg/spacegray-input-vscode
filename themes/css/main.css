@@ -2706,7 +2706,7 @@ And inject the script into /Applications/Visual Studio Code.app/Contents/Resourc
   .zetavg-spacegray-input-vscode-themes-spacegray-input .notifications-center>.notifications-center-header,
   .zetavg-spacegray-input-vscode-themes-spacegray-input .part.basepanel>.composite.title>.panel-switcher-container>.monaco-action-bar,
   .zetavg-spacegray-input-vscode-themes-spacegray-input .pane-composite-part>.title>.composite-bar-container>.composite-bar>.monaco-action-bar {
-    height: 28px;
+    height: 28px !important;
   }
 
 .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-json .part>.title>.title-label,
@@ -2724,7 +2724,7 @@ And inject the script into /Applications/Visual Studio Code.app/Contents/Resourc
   .zetavg-spacegray-input-vscode-themes-spacegray-input .part>.title>.title-label,
   .zetavg-spacegray-input-vscode-themes-spacegray-input .part.editor>.content .editor-group-container>.title>.label-container>.title-label,
   .zetavg-spacegray-input-vscode-themes-spacegray-input .part.editor>.content .editor-group-container>.title .tabs-container>.tab .tab-label {
-    line-height: 28px;
+    line-height: 28px !important;
   }
 
 .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-json .part.editor>.content .editor-group-container>.monaco-progress-container,
@@ -2741,7 +2741,7 @@ And inject the script into /Applications/Visual Studio Code.app/Contents/Resourc
   }
 
 .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-json .pane-composite-part>.title>.composite-bar-container>.composite-bar>.monaco-action-bar, .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-lt-json .pane-composite-part>.title>.composite-bar-container>.composite-bar>.monaco-action-bar, .zetavg-spacegray-input-vscode-themes-spacegray-input-light-json .pane-composite-part>.title>.composite-bar-container>.composite-bar>.monaco-action-bar, .zetavg-spacegray-input-vscode-themes-spacegray-input-light-lt-json .pane-composite-part>.title>.composite-bar-container>.composite-bar>.monaco-action-bar, .zetavg-spacegray-input-vscode-themes-spacegray-input .pane-composite-part>.title>.composite-bar-container>.composite-bar>.monaco-action-bar {
-    line-height: 32px;
+    line-height: 32px !important;
   }
 
 .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-json footer.statusbar, .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-lt-json footer.statusbar, .zetavg-spacegray-input-vscode-themes-spacegray-input-light-json footer.statusbar, .zetavg-spacegray-input-vscode-themes-spacegray-input-light-lt-json footer.statusbar, .zetavg-spacegray-input-vscode-themes-spacegray-input footer.statusbar {
@@ -3002,6 +3002,14 @@ And inject the script into /Applications/Visual Studio Code.app/Contents/Resourc
     opacity: 0.9;
   }
 
+.zetavg-spacegray-input-vscode-themes-spacegray-input-dark-json .monaco-hover-content .rendered-markdown > div:not(:only-child) .monaco-tokenized-source, .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-lt-json .monaco-hover-content .rendered-markdown > div:not(:only-child) .monaco-tokenized-source, .zetavg-spacegray-input-vscode-themes-spacegray-input-light-json .monaco-hover-content .rendered-markdown > div:not(:only-child) .monaco-tokenized-source, .zetavg-spacegray-input-vscode-themes-spacegray-input-light-lt-json .monaco-hover-content .rendered-markdown > div:not(:only-child) .monaco-tokenized-source, .zetavg-spacegray-input-vscode-themes-spacegray-input .monaco-hover-content .rendered-markdown > div:not(:only-child) .monaco-tokenized-source {
+    background-color: var(--vscode-textCodeBlock-background);
+    border-radius: 4px;
+    padding: 4px 6px;
+    font-size: 90%;
+    line-height: 1.5;
+  }
+
 /* Color only the code folding icon, not the entire line */
 
 .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-json .monaco-editor .folded-background, .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-lt-json .monaco-editor .folded-background, .zetavg-spacegray-input-vscode-themes-spacegray-input-light-json .monaco-editor .folded-background, .zetavg-spacegray-input-vscode-themes-spacegray-input-light-lt-json .monaco-editor .folded-background, .zetavg-spacegray-input-vscode-themes-spacegray-input .monaco-editor .folded-background {
@@ -3018,6 +3026,10 @@ And inject the script into /Applications/Visual Studio Code.app/Contents/Resourc
     vertical-align: middle;
     border-radius: 3px;
     margin-bottom: 3px;
+  }
+
+.zetavg-spacegray-input-vscode-themes-spacegray-input-dark-json .monaco-editor .test-message-inline-content, .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-lt-json .monaco-editor .test-message-inline-content, .zetavg-spacegray-input-vscode-themes-spacegray-input-light-json .monaco-editor .test-message-inline-content, .zetavg-spacegray-input-vscode-themes-spacegray-input-light-lt-json .monaco-editor .test-message-inline-content, .zetavg-spacegray-input-vscode-themes-spacegray-input .monaco-editor .test-message-inline-content {
+    font-style: italic;
   }
 
 /* ? */

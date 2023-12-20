@@ -68,7 +68,7 @@
   .zetavg-spacegray-input-vscode-themes-spacegray-input .notifications-center>.notifications-center-header,
   .zetavg-spacegray-input-vscode-themes-spacegray-input .part.basepanel>.composite.title>.panel-switcher-container>.monaco-action-bar,
   .zetavg-spacegray-input-vscode-themes-spacegray-input .pane-composite-part>.title>.composite-bar-container>.composite-bar>.monaco-action-bar {
-    height: 28px;
+    height: 28px !important;
   }
   .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-json .part>.title>.title-label,
   .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-json .part.editor>.content .editor-group-container>.title>.label-container>.title-label,
@@ -85,7 +85,7 @@
   .zetavg-spacegray-input-vscode-themes-spacegray-input .part>.title>.title-label,
   .zetavg-spacegray-input-vscode-themes-spacegray-input .part.editor>.content .editor-group-container>.title>.label-container>.title-label,
   .zetavg-spacegray-input-vscode-themes-spacegray-input .part.editor>.content .editor-group-container>.title .tabs-container>.tab .tab-label {
-    line-height: 28px;
+    line-height: 28px !important;
   }
   .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-json .part.editor>.content .editor-group-container>.monaco-progress-container,
   .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-json .part>.content>.monaco-progress-container,
@@ -100,7 +100,7 @@
     top: 28px !important;
   }
   .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-json .pane-composite-part>.title>.composite-bar-container>.composite-bar>.monaco-action-bar, .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-lt-json .pane-composite-part>.title>.composite-bar-container>.composite-bar>.monaco-action-bar, .zetavg-spacegray-input-vscode-themes-spacegray-input-light-json .pane-composite-part>.title>.composite-bar-container>.composite-bar>.monaco-action-bar, .zetavg-spacegray-input-vscode-themes-spacegray-input-light-lt-json .pane-composite-part>.title>.composite-bar-container>.composite-bar>.monaco-action-bar, .zetavg-spacegray-input-vscode-themes-spacegray-input .pane-composite-part>.title>.composite-bar-container>.composite-bar>.monaco-action-bar {
-    line-height: 32px;
+    line-height: 32px !important;
   }
   .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-json footer.statusbar, .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-lt-json footer.statusbar, .zetavg-spacegray-input-vscode-themes-spacegray-input-light-json footer.statusbar, .zetavg-spacegray-input-vscode-themes-spacegray-input-light-lt-json footer.statusbar, .zetavg-spacegray-input-vscode-themes-spacegray-input footer.statusbar {
     position: relative;

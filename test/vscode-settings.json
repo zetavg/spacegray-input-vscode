@@ -14,4 +14,8 @@
   "editor.fontWeight": "300",
   "editor.fontSize": 16,
   "editor.lineHeight": 1.5,
+  // Set other editor settings
+  "editor.renderLineHighlight": "gutter",
+  // For screenshots in 2x
+  "window.zoomLevel": 4,
 }

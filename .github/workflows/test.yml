@@ -22,6 +22,16 @@ jobs:
     - uses: actions/setup-node@v3
       with:
         node-version: 18
+    - name: Prepare Font
+      run: |
+        cd ~
+        mkdir -p ~/.ssh
+        echo "${{ vars.INPUT_FONT_DEPLOY_KEY }}" > ~/.ssh/input_font_deploy_key
+        chmod 600 ~/.ssh/input_font_deploy_key
+        GIT_SSH_COMMAND='ssh -i ~/.ssh/input_font_deploy_key -o IdentitiesOnly=yes' git clone --depth 1 "${{ vars.INPUT_FONT_GIT_REPO }}" Input-Font
+        mkdir -p /Library/Fonts
+        # Note that copying fonts to ~/Library/Fonts/ will not work
+        cp -r ~/Input-Font/Input_Fonts /Library/Fonts/
     - name: Package the Extension
       run: |
         cd ..
@@ -39,7 +49,7 @@ jobs:
     - name: Cache Built VSCode
       uses: actions/cache@v3
       env:
-        cache-name: vscode-out
+        cache-name: built-vscode
       with:
         path: |
           test/vscode/out
@@ -69,12 +79,24 @@ jobs:
         cd vscode
         ./scripts/code-cli.sh --install-extension ../../spacegray-input-vscode.vsix
     - name: Set VSCode Settings
-      run: mkdir -p ~/Library/Application\ Support/code-oss-dev/User/settings.json && cp -f ./vscode-settings.json ~/Library/Application\ Support/code-oss-dev/User/settings.json
+      run: mkdir -p ~/Library/Application\ Support/code-oss-dev/User && cp -f ./vscode-settings.json ~/Library/Application\ Support/code-oss-dev/User/settings.json
     - name: Run Tests
       run: npm test
+      # uses: nick-fields/retry@v2
+      # with:
+      #   max_attempts: 5
+      #   timeout_minutes: 60
+      #   retry_wait_seconds: 8
+      #   command: cd test && npm test
     - uses: actions/upload-artifact@v3
       if: always()
       with:
         name: screenshots
         path: test/screenshots/
+        retention-days: 30
+    - uses: actions/upload-artifact@v3
+      if: always()
+      with:
+        name: playwright-report
+        path: test/playwright-report/
         retention-days: 30

@@ -165,6 +165,13 @@
   .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-json .monaco-hover-content .hover-contents, .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-lt-json .monaco-hover-content .hover-contents, .zetavg-spacegray-input-vscode-themes-spacegray-input-light-json .monaco-hover-content .hover-contents, .zetavg-spacegray-input-vscode-themes-spacegray-input-light-lt-json .monaco-hover-content .hover-contents, .zetavg-spacegray-input-vscode-themes-spacegray-input .monaco-hover-content .hover-contents {
     opacity: 0.9;
   }
+  .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-json .monaco-hover-content .rendered-markdown > div:not(:only-child) .monaco-tokenized-source, .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-lt-json .monaco-hover-content .rendered-markdown > div:not(:only-child) .monaco-tokenized-source, .zetavg-spacegray-input-vscode-themes-spacegray-input-light-json .monaco-hover-content .rendered-markdown > div:not(:only-child) .monaco-tokenized-source, .zetavg-spacegray-input-vscode-themes-spacegray-input-light-lt-json .monaco-hover-content .rendered-markdown > div:not(:only-child) .monaco-tokenized-source, .zetavg-spacegray-input-vscode-themes-spacegray-input .monaco-hover-content .rendered-markdown > div:not(:only-child) .monaco-tokenized-source {
+    background-color: var(--vscode-textCodeBlock-background);
+    border-radius: 4px;
+    padding: 4px 6px;
+    font-size: 90%;
+    line-height: 1.5;
+  }
   /* Color only the code folding icon, not the entire line */
   .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-json .monaco-editor .folded-background, .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-lt-json .monaco-editor .folded-background, .zetavg-spacegray-input-vscode-themes-spacegray-input-light-json .monaco-editor .folded-background, .zetavg-spacegray-input-vscode-themes-spacegray-input-light-lt-json .monaco-editor .folded-background, .zetavg-spacegray-input-vscode-themes-spacegray-input .monaco-editor .folded-background {
     background: transparent;
@@ -179,6 +186,9 @@
     vertical-align: middle;
     border-radius: 3px;
     margin-bottom: 3px;
+  }
+  .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-json .monaco-editor .test-message-inline-content, .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-lt-json .monaco-editor .test-message-inline-content, .zetavg-spacegray-input-vscode-themes-spacegray-input-light-json .monaco-editor .test-message-inline-content, .zetavg-spacegray-input-vscode-themes-spacegray-input-light-lt-json .monaco-editor .test-message-inline-content, .zetavg-spacegray-input-vscode-themes-spacegray-input .monaco-editor .test-message-inline-content {
+    font-style: italic;
   }
   /* ? */
   .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-json .monaco-editor .dirty-diff-glyph, .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-lt-json .monaco-editor .dirty-diff-glyph, .zetavg-spacegray-input-vscode-themes-spacegray-input-light-json .monaco-editor .dirty-diff-glyph, .zetavg-spacegray-input-vscode-themes-spacegray-input-light-lt-json .monaco-editor .dirty-diff-glyph, .zetavg-spacegray-input-vscode-themes-spacegray-input .monaco-editor .dirty-diff-glyph {

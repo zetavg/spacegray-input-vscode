@@ -27,6 +27,7 @@ async function getElectronApp(): Promise<{
   const electronApp = await electron.launch({
     executablePath: vscodeExecutablePath,
     args: [sampleProjectPath],
+    timeout: 30000,
   });
 
   const page = await electronApp.firstWindow();
@@ -45,6 +46,8 @@ async function getElectronApp(): Promise<{
     });
   });
 
+  await page.waitForTimeout(1000);
+
   // Inject theme CSS
   await page.evaluate((css: string) => {
     const style = document.createElement('style');
@@ -53,7 +56,8 @@ async function getElectronApp(): Promise<{
     document.head.appendChild(style);
   }, themeCss);
 
-  await page.waitForTimeout(1000);
+  // Set viewport size, we use "* 2" with VSCode settings of window.zoomLevel as 4 to take screenshots at 2x.
+  page.setViewportSize({ width: 1280 * 2, height: 800 * 2 });
 
   openedElectronApp = electronApp;
   openedElectronAppWindow = page;
@@ -71,30 +75,76 @@ test.afterAll(async () => {
   }
 });
 
-test('start app', async () => {
-  const { electronAppWindow: page } = await getElectronApp();
-  page.setViewportSize({ width: 1024, height: 768 });
-
-  await page.locator('.tabs-and-actions-container .tab:first-child').click();
-  await page.screenshot({ path: `./screenshots/initial.png` });
-});
-
-test('test', async () => {
-  const { electronAppWindow: page } = await getElectronApp();
-
+async function vscodeCommand(page: Page, command: string) {
+  await page.waitForTimeout(process.env.CI ? 500 : 200);
   await page.locator('.part.titlebar .window-title .search-label').click();
-  await page.screenshot({ path: `./screenshots/first-quick-input-opened.png` });
-
   await page
     .locator('.quick-input-widget .quick-input-and-message input')
-    .fill('> Search: Find in Files');
-  await page.screenshot({
-    path: `./screenshots/quick-input-find-in-files.png`,
-  });
-
+    .fill(`> ${command}`);
+  await page.waitForTimeout(process.env.CI ? 500 : 200);
   await page
     .locator('.quick-input-list-row')
-    .filter({ hasText: 'Find in Files' })
+    // .filter({ hasText: command })
+    .locator(
+      `xpath=.//text()[normalize-space(.)='${command}']/ancestor::div[contains(@class, 'quick-input-list-row')]`,
+    )
+    .first()
     .press('Enter');
-  await page.screenshot({ path: `./screenshots/find-in-files.png` });
+  await page.waitForTimeout(process.env.CI ? 2000 : 800);
+}
+
+async function takeScreenshot(page: Page, name: string) {
+  await page.mouse.move(128, 16);
+  await page.waitForTimeout(process.env.CI ? 100 : 0);
+  await page.screenshot({ path: `./screenshots/${name}.png` });
+  await page.waitForTimeout(process.env.CI ? 100 : 0);
+}
+
+test('Startup', async () => {
+  const { electronAppWindow: page } = await getElectronApp();
+
+  // await page.screenshot({ path: `./screenshots/initial.png` });
 });
+
+test('All Editors Closed', async () => {
+  const { electronAppWindow: page } = await getElectronApp();
+  await vscodeCommand(page, 'View: Close All Editors');
+  await takeScreenshot(page, 'all-editors-closed');
+});
+
+test('Welcome', async () => {
+  const { electronAppWindow: page } = await getElectronApp();
+  await vscodeCommand(page, 'View: Close All Editors');
+  await vscodeCommand(page, 'Help: Welcome');
+  await page.waitForTimeout(500);
+  await vscodeCommand(page, 'Help: Welcome');
+  await page.waitForTimeout(500);
+  await takeScreenshot(page, 'welcome');
+});
+
+test('User Settings JSON', async () => {
+  const { electronAppWindow: page } = await getElectronApp();
+  await vscodeCommand(page, 'View: Close All Editors');
+  await vscodeCommand(page, 'Open User Settings (JSON)');
+  await takeScreenshot(page, 'user-settings-json');
+});
+
+// test('test', async () => {
+//   const { electronAppWindow: page } = await getElectronApp();
+
+//   await page.locator('.part.titlebar .window-title .search-label').click();
+//   await page.screenshot({ path: `./screenshots/first-quick-input-opened.png` });
+
+//   await page
+//     .locator('.quick-input-widget .quick-input-and-message input')
+//     .fill('> Search: Find in Files');
+//   await page.screenshot({
+//     path: `./screenshots/quick-input-find-in-files.png`,
+//   });
+
+//   await page
+//     .locator('.quick-input-list-row')
+//     .filter({ hasText: 'Find in Files' })
+//     .press('Enter');
+//   await page.screenshot({ path: `./screenshots/find-in-files.png` });
+// });
