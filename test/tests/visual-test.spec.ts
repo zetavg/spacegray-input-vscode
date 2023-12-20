@@ -136,14 +136,24 @@ async function openProjectFile(page: Page, fileName: string) {
   }
 }
 
-async function takeScreenshot(page: Page, name: string) {
-  await page.mouse.move(128, 16);
+async function resetFocus(page: Page) {
+  await page.mouse.click(128, 16);
+}
+
+async function takeScreenshot(
+  page: Page,
+  name: string,
+  { resetFocus: rf = true }: { resetFocus?: boolean } = {},
+) {
+  if (rf) {
+    await resetFocus(page);
+  }
   await page.waitForTimeout(process.env.CI ? 100 : 0);
   await page.screenshot({ path: `./screenshots/${name}.png` });
   await page.waitForTimeout(process.env.CI ? 100 : 0);
 }
 
-test.afterEach(async () => {
+test.beforeEach(async () => {
   const { electronAppWindow: page } = await getElectronApp();
   await page.waitForTimeout(process.env.CI ? 100 : 1);
   await vscodeCommand(page, 'View: Close All Editors');
@@ -187,9 +197,32 @@ test('User Settings JSON', async () => {
 
 test('TypeScript React File', async () => {
   const { electronAppWindow: page } = await getElectronApp();
-  await vscodeCommand(page, 'View: Close All Editors');
   await openProjectFile(page, 'App.tsx');
   await takeScreenshot(page, 'typescript-react-file');
+});
+
+test('CSS File', async () => {
+  const { electronAppWindow: page } = await getElectronApp();
+  await openProjectFile(page, 'index.css');
+  await takeScreenshot(page, 'css-file');
+
+  await resetFocus(page);
+  await page.locator('.mtk5').filter({ hasText: 'code' }).hover();
+  await page
+    .locator('.monaco-hover')
+    .filter({ hasText: '<code>' })
+    .waitFor({ state: 'visible' });
+  await page.waitForTimeout(500);
+  await takeScreenshot(page, 'css-file-hover-selector', { resetFocus: false });
+
+  await resetFocus(page);
+  await page.locator('.mtk9').filter({ hasText: 'Courier New' }).hover();
+  await page
+    .locator('.monaco-hover')
+    .filter({ hasText: 'MDN Reference' })
+    .waitFor({ state: 'visible' });
+  await page.waitForTimeout(500);
+  await takeScreenshot(page, 'css-file-hover-property', { resetFocus: false });
 });
 
 // test('test', async () => {
