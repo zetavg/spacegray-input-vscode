@@ -103,6 +103,8 @@ jobs:
     - name: Upload Screenshots to Percy
       run: |
         git branch --show-current
+        # Override the branch name since percy will use the branch name from GitHub Actions environment (see: https://github.com/percy/cli/blob/v1.27.5/packages/env/src/environment.js#L119)
+        export PERCY_BRANCH="$(git branch --show-current)"
         # Scale down the screenshots to 75% of the original size to avoid the 2000px width limit of Percy
         mkdir -p screenshots-for-percy
         for img in "screenshots"/*.png; do
