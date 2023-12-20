@@ -113,6 +113,9 @@ test('Startup', async () => {
 test('All Editors Closed', async () => {
   const { electronAppWindow: page } = await getElectronApp();
   await vscodeCommand(page, 'View: Close All Editors');
+  await page.waitForTimeout(500);
+  await vscodeCommand(page, 'View: Close All Editors');
+  await page.waitForTimeout(500);
   await takeScreenshot(page, 'all-editors-closed');
 });
 
