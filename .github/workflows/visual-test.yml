@@ -34,6 +34,10 @@ jobs:
         mkdir -p /Library/Fonts
         # Note that copying fonts to ~/Library/Fonts/ will not work
         cp -r ~/Input-Font/Input_Fonts /Library/Fonts/
+    - name: Run "npm install" in Sample Project
+      run: |
+        cd sample-project
+        npm install
     - name: Package the Extension
       run: |
         cd ..
