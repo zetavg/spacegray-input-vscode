@@ -4,7 +4,6 @@
   "security.workspace.trust.enabled": false,
   "security.workspace.trust.banner": "never",
   "security.workspace.trust.emptyWindow": false,
-  "git.openRepositoryInParentFolders": "never",
   // Set theme
   "workbench.colorTheme": "Spacegray Input Dark",
   "workbench.iconTheme": "spacegray",
@@ -17,6 +16,13 @@
   // Set other editor settings
   "editor.renderLineHighlight": "gutter",
   "editor.lightbulb.enabled": false,
+  // Settings for testing convenience
+  "git.openRepositoryInParentFolders": "always",
+  "jest.autoRun": false,
+  "jest.runMode": {
+    "type": "on-demand",
+    "deferred": true,
+  },
   // For screenshots in 2x
   "window.zoomLevel": 4,
 }

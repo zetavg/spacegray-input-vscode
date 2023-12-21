@@ -12,6 +12,8 @@
 8. Install other extensions:
 
 ```bash
+./scripts/code-cli.sh --install-extension dbaeumer.vscode-eslint
+./scripts/code-cli.sh --install-extension streetsidesoftware.code-spell-checker
 ./scripts/code-cli.sh --install-extension Orta.vscode-jest
 ```
 
