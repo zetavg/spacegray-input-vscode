@@ -114,7 +114,7 @@ jobs:
     - name: Run "npm install" in Sample Project
       run: |
         cd sample-project
-        npm install
+        npm install --force
     - name: Run Visual Tests
       run: npm test -- tests/visual-test.spec.ts
       # uses: nick-fields/retry@v2

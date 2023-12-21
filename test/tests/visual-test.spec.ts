@@ -389,16 +389,24 @@ test('Binary File', async () => {
 
 test('Find', async () => {
   const { electronAppWindow: page } = await getElectronApp();
-  await openProjectFile(page, 'index.html');
-  await page.waitForTimeout(process.env.CI ? 1000 : 500);
-  await vscodeCommand(page, 'Focus Active Editor Group');
-  await page.keyboard.press('Meta+F');
-  await page.waitForTimeout(process.env.CI ? 1000 : 500);
-  // await page.locator('.find-widget textarea').first().fill('icon');
-  await page.locator('.find-widget textarea').first().fill('root');
-  await page.locator('.find-widget .codicon-whole-word').click();
-  await page.waitForTimeout(process.env.CI ? 1000 : 500);
-  await takeScreenshot(page, 'find-in-file');
+  try {
+    await openProjectFile(page, 'index.html');
+    await page.waitForTimeout(process.env.CI ? 1000 : 500);
+    await vscodeCommand(page, 'Focus Active Editor Group');
+    await page.keyboard.press('Meta+F');
+    await page.waitForTimeout(process.env.CI ? 1000 : 500);
+    // await page.locator('.find-widget textarea').first().fill('icon');
+    await page.locator('.find-widget textarea').first().fill('root');
+    await page.locator('.find-widget .codicon-whole-word').click();
+    await page.waitForTimeout(process.env.CI ? 1000 : 500);
+    await takeScreenshot(page, 'find-in-file');
+    // eslint-disable-next-line no-useless-catch
+  } catch (e) {
+    throw e;
+  } finally {
+    await page.keyboard.press('Meta+F');
+    await page.keyboard.press('Escape');
+  }
 });
 
 test('Search', async () => {
