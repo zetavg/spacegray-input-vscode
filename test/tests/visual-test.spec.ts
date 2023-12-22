@@ -35,6 +35,18 @@ const sampleProjectAppTsxEditedContent = fs.readFileSync(
   'utf8',
 );
 
+const injectCss = `
+/* So that the working badge on source control will not bother visual testing */
+.codicon-source-control-view-icon ~ .badge {
+  display: none;
+}
+
+/* Hide Code Spell Checker loading icon */
+div#streetsidesoftware\\.code-spell-checker\\.spell\\ checker\\ status\\ id {
+  display: none;
+}
+`.trim();
+
 let openedElectronApp: ElectronApplication;
 let openedElectronAppWindow: Page;
 async function getElectronApp(): Promise<{
@@ -94,6 +106,14 @@ async function getElectronApp(): Promise<{
     style.appendChild(document.createTextNode(css));
     document.head.appendChild(style);
   }, themeCss);
+
+  // Inject some CSS that helps visual testing
+  await page.evaluate((css: string) => {
+    const style = document.createElement('style');
+    style.type = 'text/css';
+    style.appendChild(document.createTextNode(css));
+    document.head.appendChild(style);
+  }, injectCss);
 
   // Set window size, we use "* 2" with VSCode settings of window.zoomLevel as 4 to take screenshots at 2x.
   page.setViewportSize({ width: 1280 * 2, height: 800 * 2 });
