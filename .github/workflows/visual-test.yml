@@ -12,6 +12,9 @@ on:
         type: string
         default: 'main'
         required: false
+  schedule:
+    # Every Thursday
+    - cron: 0 0 * * 4
 jobs:
   run:
     name: Run Playwright Visual Tests
