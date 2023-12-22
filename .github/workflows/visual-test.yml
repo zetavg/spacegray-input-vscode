@@ -127,6 +127,7 @@ jobs:
       #   retry_wait_seconds: 8
       #   command: cd test && npm test
     - name: Upload Screenshots to Percy
+      if: always()
       run: |
         git branch --show-current
         # Override the branch name since percy will use the branch name from GitHub Actions environment (see: https://github.com/percy/cli/blob/v1.27.5/packages/env/src/environment.js#L119)
