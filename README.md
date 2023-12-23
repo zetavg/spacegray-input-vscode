@@ -1,6 +1,6 @@
 # Spacegray Input for VSCode
 
-[![Visual Studio Marketplace](https://badgen.net/vs-marketplace/v/zetavg.spacegray-input-vscode)][1]
+[![Visual Studio Marketplace](https://badgen.net/vs-marketplace/v/zetavg.spacegray-input-vscode)][1] [![This project is using Percy.io for visual regression testing.](https://percy.io/static/images/percy-badge.svg)](https://percy.io/188a0120/spacegray-input-vscode)
 
 [1]: https://marketplace.visualstudio.com/items?itemName=zetavg.spacegray-input-vscode
 
@@ -12,6 +12,14 @@ The [Spacegray](https://github.com/zetavg/spacegray) theme with the [Input](http
 
 
 ## Installation
+
+Search for "Spacegray Input" in the Visual Studio Code Marketplace and install the theme.
+
+Or install it from the command line:
+
+```bash
+code --install-extension zetavg.spacegray-input-vscode
+```
 
 ### Set Icon Themes
 
@@ -30,7 +38,7 @@ You may also want to configure VSCode to use the Input font. To do this, open th
     "editor.fontFamily": "Input Mono",
     "editor.fontWeight": "300",
     "editor.fontSize": 16.5,
-    "editor.lineHeight": 1.6,
+    "editor.lineHeight": 1.5,
     "editor.lineNumbers": "on",
     "editor.renderLineHighlight": "gutter",
     "editor.cursorBlinking": "smooth",
@@ -49,9 +57,9 @@ You may also want to configure VSCode to use the Input font. To do this, open th
 
 ### Applying CSS Styles
 
-The font and spacing adjustments of this theme rely on loading custom CSS styles into VSCode. This can be achieved by the [Custom CSS and JS Loader](https://marketplace.visualstudio.com/items?itemName=be5invis.vscode-custom-css) extension. To install it, open the Command Palette (`Ctrl+Shift+P` or `⇧⌘P`) and run the **Extensions: Install Extensions** command. Then, search for "Custom CSS and JS Loader" and install it.
+The font and spacing adjustments of this theme rely on loading custom CSS styles into VSCode. This can be achieved by the [Custom CSS and JS Loader](https://marketplace.visualstudio.com/items?itemName=be5invis.vscode-custom-css) extension.
 
-Once the extension is installed, you need to configure it to load the custom CSS styles. To do this, open the Command Palette (`Ctrl+Shift+P` or `⇧⌘P`) and run the **Preferences: Open User Settings (JSON)** command. Then, add the following settings to your `settings.json` file:
+Once Custom CSS and JS Loader is installed, you need to configure it to load the custom CSS styles from this theme. To do this, open the Command Palette (`Ctrl+Shift+P` or `⇧⌘P`) and run the **Preferences: Open User Settings (JSON)** command. Then, add the following settings to your `settings.json` file:
 
 ```json
 {
@@ -83,7 +91,7 @@ Once the extension is installed, you need to configure it to load the custom CSS
 </pre>
 </details>
 
-Finally, run the **Custom CSS and JS: Reload Custom CSS and JS** command from the Command Palette (`Ctrl+Shift+P` or `⇧⌘P`) to load the custom CSS styles and reload VSCode.
+Finally, run the **Custom CSS and JS: Reload Custom CSS and JS** command from the Command Palette (`Ctrl+Shift+P` or `⇧⌘P`) to load the custom CSS styles, and restart VSCode.
 
 > If you encounter permission errors when running the **Custom CSS and JS: Reload Custom CSS and JS** command on Linux or Mac, you may need to change the owner of the VSCode executable and its installation directory to your user account. To do this, run the following commands in the terminal:
 >
