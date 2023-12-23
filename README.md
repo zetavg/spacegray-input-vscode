@@ -1,6 +1,6 @@
 # Spacegray Input for VSCode
 
-[![Visual Studio Marketplace](https://badgen.net/vs-marketplace/v/zetavg.spacegray-input-vscode)][1] [![This project is using Percy.io for visual regression testing.](https://percy.io/static/images/percy-badge.svg)](https://percy.io/188a0120/spacegray-input-vscode)
+[![Visual Studio Marketplace](https://badgen.net/vs-marketplace/v/zetavg.spacegray-input-vscode)][1] <a href="https://percy.io/188a0120/spacegray-input-vscode" target="_blank"><img src="https://raw.githubusercontent.com/zetavg/spacegray-input-vscode/main/images/percy-badge.png" height="20" alt="This project is using Percy.io for visual regression testing."></a>
 
 [1]: https://marketplace.visualstudio.com/items?itemName=zetavg.spacegray-input-vscode
 
@@ -9,6 +9,8 @@ The [Spacegray](https://github.com/zetavg/spacegray) theme with the [Input](http
 > Note: This theme requires additional installation steps to get the full experience. See the [Installation](https://github.com/zetavg/spacegray-input-vscode?tab=readme-ov-file#installation) documentation for more details.
 
 ![](https://raw.githubusercontent.com/zetavg/spacegray-input-vscode/main/screenshots/Screenshot.png)
+
+*For more screenshots on the latest VSCode, check the latest build on [Percy](https://percy.io/188a0120/spacegray-input-vscode).*
 
 
 ## Installation
