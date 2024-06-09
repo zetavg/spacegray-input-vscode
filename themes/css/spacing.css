@@ -128,6 +128,14 @@
   .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-json .part.panel.basepanel.bottom > .content, .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-lt-json .part.panel.basepanel.bottom > .content, .zetavg-spacegray-input-vscode-themes-spacegray-input-light-json .part.panel.basepanel.bottom > .content, .zetavg-spacegray-input-vscode-themes-spacegray-input-light-lt-json .part.panel.basepanel.bottom > .content, .zetavg-spacegray-input-vscode-themes-spacegray-input .part.panel.basepanel.bottom > .content {
       overflow: hidden;
     }
+  .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-json .part.panel.basepanel.bottom .content > .panel, .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-lt-json .part.panel.basepanel.bottom .content > .panel, .zetavg-spacegray-input-vscode-themes-spacegray-input-light-json .part.panel.basepanel.bottom .content > .panel, .zetavg-spacegray-input-vscode-themes-spacegray-input-light-lt-json .part.panel.basepanel.bottom .content > .panel, .zetavg-spacegray-input-vscode-themes-spacegray-input .part.panel.basepanel.bottom .content > .panel {
+      position: absolute;
+      top: 26px;
+      left: 0;
+      right: 0;
+      bottom: -2px;
+      background: var(--vscode-panel-background);
+    }
   /* Bacause we adjust the height of the tabbar and statusbar, we need to adjust position of the Jupiter Notebook editor so it doesn't overlap with the statusbar */
   .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-json .notebookOverlay.notebook-editor, .zetavg-spacegray-input-vscode-themes-spacegray-input-dark-lt-json .notebookOverlay.notebook-editor, .zetavg-spacegray-input-vscode-themes-spacegray-input-light-json .notebookOverlay.notebook-editor, .zetavg-spacegray-input-vscode-themes-spacegray-input-light-lt-json .notebookOverlay.notebook-editor, .zetavg-spacegray-input-vscode-themes-spacegray-input .notebookOverlay.notebook-editor {
     background: transparent !important;
